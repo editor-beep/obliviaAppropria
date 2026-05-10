@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SystemMapRouteImport } from './routes/system-map'
 import { Route as SubscribeRouteImport } from './routes/subscribe'
+import { Route as StoriesRouteImport } from './routes/stories'
 import { Route as SafetyCardRouteImport } from './routes/safety-card'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
@@ -25,6 +26,11 @@ const SystemMapRoute = SystemMapRouteImport.update({
 const SubscribeRoute = SubscribeRouteImport.update({
   id: '/subscribe',
   path: '/subscribe',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StoriesRoute = StoriesRouteImport.update({
+  id: '/stories',
+  path: '/stories',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SafetyCardRoute = SafetyCardRouteImport.update({
@@ -43,9 +49,9 @@ const IndexRoute = IndexRouteImport.update({
   getParentRoute: () => rootRouteImport,
 } as any)
 const StoriesIndexRoute = StoriesIndexRouteImport.update({
-  id: '/stories/',
-  path: '/stories/',
-  getParentRoute: () => rootRouteImport,
+  id: '/',
+  path: '/',
+  getParentRoute: () => StoriesRoute,
 } as any)
 const StoriesSlugRoute = StoriesSlugRouteImport.update({
   id: '/$slug',
@@ -57,6 +63,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/safety-card': typeof SafetyCardRoute
+  '/stories': typeof StoriesRouteWithChildren
   '/subscribe': typeof SubscribeRoute
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
@@ -76,6 +83,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/safety-card': typeof SafetyCardRoute
+  '/stories': typeof StoriesRouteWithChildren
   '/subscribe': typeof SubscribeRoute
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
@@ -87,6 +95,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/safety-card'
+    | '/stories'
     | '/subscribe'
     | '/system-map'
     | '/stories/$slug'
@@ -105,6 +114,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/safety-card'
+    | '/stories'
     | '/subscribe'
     | '/system-map'
     | '/stories/$slug'
@@ -115,9 +125,9 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   SafetyCardRoute: typeof SafetyCardRoute
+  StoriesRoute: typeof StoriesRouteWithChildren
   SubscribeRoute: typeof SubscribeRoute
   SystemMapRoute: typeof SystemMapRoute
-  StoriesIndexRoute: typeof StoriesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -134,6 +144,13 @@ declare module '@tanstack/react-router' {
       path: '/subscribe'
       fullPath: '/subscribe'
       preLoaderRoute: typeof SubscribeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/stories': {
+      id: '/stories'
+      path: '/stories'
+      fullPath: '/stories'
+      preLoaderRoute: typeof StoriesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/safety-card': {
@@ -159,10 +176,10 @@ declare module '@tanstack/react-router' {
     }
     '/stories/': {
       id: '/stories/'
-      path: '/stories'
+      path: '/'
       fullPath: '/stories/'
       preLoaderRoute: typeof StoriesIndexRouteImport
-      parentRoute: typeof rootRouteImport
+      parentRoute: typeof StoriesRoute
     }
     '/stories/$slug': {
       id: '/stories/$slug'
@@ -174,13 +191,26 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface StoriesRouteChildren {
+  StoriesSlugRoute: typeof StoriesSlugRoute
+  StoriesIndexRoute: typeof StoriesIndexRoute
+}
+
+const StoriesRouteChildren: StoriesRouteChildren = {
+  StoriesSlugRoute: StoriesSlugRoute,
+  StoriesIndexRoute: StoriesIndexRoute,
+}
+
+const StoriesRouteWithChildren =
+  StoriesRoute._addFileChildren(StoriesRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   SafetyCardRoute: SafetyCardRoute,
+  StoriesRoute: StoriesRouteWithChildren,
   SubscribeRoute: SubscribeRoute,
   SystemMapRoute: SystemMapRoute,
-  StoriesIndexRoute: StoriesIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
