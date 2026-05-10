@@ -9,11 +9,17 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SystemMapRouteImport } from './routes/system-map'
 import { Route as StoriesRouteImport } from './routes/stories'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as StoriesSlugRouteImport } from './routes/stories.$slug'
 
+const SystemMapRoute = SystemMapRouteImport.update({
+  id: '/system-map',
+  path: '/system-map',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const StoriesRoute = StoriesRouteImport.update({
   id: '/stories',
   path: '/stories',
@@ -39,12 +45,14 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/stories': typeof StoriesRouteWithChildren
+  '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/stories': typeof StoriesRouteWithChildren
+  '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
 }
 export interface FileRoutesById {
@@ -52,24 +60,39 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/stories': typeof StoriesRouteWithChildren
+  '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/stories' | '/stories/$slug'
+  fullPaths: '/' | '/about' | '/stories' | '/system-map' | '/stories/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/stories' | '/stories/$slug'
-  id: '__root__' | '/' | '/about' | '/stories' | '/stories/$slug'
+  to: '/' | '/about' | '/stories' | '/system-map' | '/stories/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/stories'
+    | '/system-map'
+    | '/stories/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   StoriesRoute: typeof StoriesRouteWithChildren
+  SystemMapRoute: typeof SystemMapRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/system-map': {
+      id: '/system-map'
+      path: '/system-map'
+      fullPath: '/system-map'
+      preLoaderRoute: typeof SystemMapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/stories': {
       id: '/stories'
       path: '/stories'
@@ -116,6 +139,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   StoriesRoute: StoriesRouteWithChildren,
+  SystemMapRoute: SystemMapRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
