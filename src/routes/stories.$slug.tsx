@@ -1,20 +1,35 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { storyBySlug, nextStory, prevStory, type Story } from "@/content/stories";
-import { DocumentScrap } from "@/components/DocumentScrap";
+import { storyMetaBySlug, nextStory, prevStory } from "@/content/stories/index";
+import type { StoryMeta, StoryDocument } from "@/content/types";
+import { StoryRenderer } from "@/components/StoryRenderer";
+
+// Vite resolves this glob at build time — all story modules are bundled
+// as separate chunks and loaded on demand per slug.
+const storyModules = import.meta.glob<{ narrative: StoryDocument }>("../content/stories/*.ts", {
+  eager: false,
+});
 
 export const Route = createFileRoute("/stories/$slug")({
-  loader: ({ params }) => {
-    const story = storyBySlug(params.slug);
-    if (!story) throw notFound();
-    return { story };
+  loader: async ({ params }) => {
+    const meta = storyMetaBySlug(params.slug);
+    if (!meta) throw notFound();
+
+    const key = Object.keys(storyModules).find((k) => k.endsWith(`/${params.slug}.ts`));
+    if (!key) throw notFound();
+
+    const { narrative } = await storyModules[key]();
+    return { meta, narrative };
   },
   head: ({ loaderData }) => ({
-    meta: loaderData?.story
+    meta: loaderData?.meta
       ? [
-          { title: `${loaderData.story.title} — Privileged Eye` },
-          { name: "description", content: loaderData.story.surfaceMystery },
-          { property: "og:title", content: loaderData.story.title },
-          { property: "og:description", content: loaderData.story.surfaceMystery },
+          { title: `${loaderData.meta.title} — Privileged Eye` },
+          { name: "description", content: loaderData.meta.surfaceMystery },
+          { property: "og:title", content: loaderData.meta.title },
+          {
+            property: "og:description",
+            content: loaderData.meta.surfaceMystery,
+          },
         ]
       : [],
   }),
@@ -22,7 +37,10 @@ export const Route = createFileRoute("/stories/$slug")({
   notFoundComponent: () => (
     <div className="mx-auto max-w-2xl px-4 py-32 text-center">
       <h1 className="font-display text-4xl">No such flight</h1>
-      <Link to="/stories" className="mt-6 inline-block font-mono text-xs uppercase tracking-[0.22em] text-signal-glow">
+      <Link
+        to="/stories"
+        className="mt-6 inline-block font-mono text-xs uppercase tracking-[0.22em] text-signal-glow"
+      >
         ← Return to manifest
       </Link>
     </div>
@@ -36,9 +54,12 @@ export const Route = createFileRoute("/stories/$slug")({
 });
 
 function StoryPage() {
-  const { story } = Route.useLoaderData() as { story: Story };
-  const next = nextStory(story.slug);
-  const prev = prevStory(story.slug);
+  const { meta, narrative } = Route.useLoaderData() as {
+    meta: StoryMeta;
+    narrative: StoryDocument;
+  };
+  const next = nextStory(meta.slug);
+  const prev = prevStory(meta.slug);
 
   return (
     <article>
@@ -47,57 +68,46 @@ function StoryPage() {
         <div className="mx-auto max-w-5xl px-4 py-10">
           <div className="flex flex-wrap items-center gap-3 font-mono text-[10px] uppercase tracking-[0.22em] text-signal-glow/90">
             <span className="rounded-sm border border-signal/40 px-2 py-1">
-              {story.flightNumber}
+              {meta.flightNumber}
             </span>
-            <span>{story.origin}</span>
+            <span>{meta.origin}</span>
             <span className="text-border">→</span>
-            <span>{story.destination}</span>
+            <span>{meta.destination}</span>
             <span className="text-border">·</span>
-            <span className="text-muted-foreground">SEAT {story.number}A</span>
+            <span className="text-muted-foreground">SEAT {meta.number}A</span>
             <span className="ml-auto text-muted-foreground">
-              {story.status === "complete" ? "● COMPLETE" : story.status === "concept" ? "○ CONCEPT" : "· BOARDING SOON"}
+              {meta.status === "complete"
+                ? "● COMPLETE"
+                : meta.status === "concept"
+                  ? "○ CONCEPT"
+                  : "· BOARDING SOON"}
             </span>
           </div>
 
-          <h1 className="mt-6 font-display text-4xl leading-tight sm:text-6xl">
-            {story.title}
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            {story.surfaceMystery}
-          </p>
+          <h1 className="mt-6 font-display text-4xl leading-tight sm:text-6xl">{meta.title}</h1>
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">{meta.surfaceMystery}</p>
 
           <dl className="mt-8 grid gap-4 font-mono text-[11px] uppercase tracking-wider sm:grid-cols-2">
-            <Meta label="Location" value={story.location} />
-            <Meta label="Industry" value={story.industry} />
-            <Meta label="Cover Story" value={story.coverStory} />
-            <Meta label="Oblivia's Role" value={story.role} />
-            <Meta label="Local Center" value={story.localCenter} />
-            <Meta label="Corporate Culprit" value={story.culprit} />
+            <Meta label="Location" value={meta.location} />
+            <Meta label="Industry" value={meta.industry} />
+            <Meta label="Cover Story" value={meta.coverStory} />
+            <Meta label="Oblivia's Role" value={meta.role} />
+            <Meta label="Local Center" value={meta.localCenter} />
+            <Meta label="Corporate Culprit" value={meta.culprit} />
           </dl>
         </div>
       </header>
 
       {/* Body + marginalia */}
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-16 lg:grid-cols-[1fr_260px]">
-        <div className="story-prose mx-auto w-full max-w-2xl">
-          {story.sections.map((section, i) => (
-            <div key={i}>
-              {section.heading && <h2>{section.heading}</h2>}
-              {section.paragraphs.map((p, j) => (
-                <p key={j}>{p}</p>
-              ))}
-              {/* sprinkle a scrap after first/second section */}
-              {story.scraps && story.scraps[i] && (
-                <DocumentScrap scrap={story.scraps[i]} rotate={i % 2 === 0 ? -1.4 : 1.6} />
-              )}
-            </div>
-          ))}
-        </div>
+        <StoryRenderer doc={narrative} />
 
         <aside className="space-y-6 border-t border-border/60 pt-8 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
-          {story.keyImage && <Marginal label="Key image" body={story.keyImage} />}
-          {story.theMoment && <Marginal label="The moment" body={story.theMoment} />}
-          {story.mediaMisreading && <Marginal label="Media misreading" body={story.mediaMisreading} />}
+          {meta.keyImage && <Marginal label="Key image" body={meta.keyImage} />}
+          {meta.theMoment && <Marginal label="The moment" body={meta.theMoment} />}
+          {meta.mediaMisreading && (
+            <Marginal label="Media misreading" body={meta.mediaMisreading} />
+          )}
         </aside>
       </div>
 
@@ -113,9 +123,13 @@ function StoryPage() {
               <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
                 ← Previous flight
               </div>
-              <div className="mt-2 font-display text-xl group-hover:text-signal-glow">{prev.title}</div>
+              <div className="mt-2 font-display text-xl group-hover:text-signal-glow">
+                {prev.title}
+              </div>
             </Link>
-          ) : <div />}
+          ) : (
+            <div />
+          )}
           {next ? (
             <Link
               to="/stories/$slug"
@@ -125,7 +139,9 @@ function StoryPage() {
               <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-signal-glow">
                 Next flight · {next.flightNumber} →
               </div>
-              <div className="mt-2 font-display text-xl group-hover:text-signal-glow">{next.title}</div>
+              <div className="mt-2 font-display text-xl group-hover:text-signal-glow">
+                {next.title}
+              </div>
               <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
                 {next.origin} → {next.destination}
               </div>
@@ -148,7 +164,9 @@ function Meta({ label, value }: { label: string; value: string }) {
   return (
     <div>
       <dt className="text-signal-glow/80">{label}</dt>
-      <dd className="mt-1 font-sans text-sm normal-case tracking-normal text-foreground/90">{value}</dd>
+      <dd className="mt-1 font-sans text-sm normal-case tracking-normal text-foreground/90">
+        {value}
+      </dd>
     </div>
   );
 }
