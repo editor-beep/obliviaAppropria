@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SystemMapRouteImport } from './routes/system-map'
 import { Route as StoriesRouteImport } from './routes/stories'
+import { Route as SafetyCardRouteImport } from './routes/safety-card'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as StoriesSlugRouteImport } from './routes/stories.$slug'
@@ -23,6 +24,11 @@ const SystemMapRoute = SystemMapRouteImport.update({
 const StoriesRoute = StoriesRouteImport.update({
   id: '/stories',
   path: '/stories',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SafetyCardRoute = SafetyCardRouteImport.update({
+  id: '/safety-card',
+  path: '/safety-card',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -44,6 +50,7 @@ const StoriesSlugRoute = StoriesSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
@@ -51,6 +58,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
@@ -59,19 +67,33 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/stories' | '/system-map' | '/stories/$slug'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/safety-card'
+    | '/stories'
+    | '/system-map'
+    | '/stories/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/stories' | '/system-map' | '/stories/$slug'
+  to:
+    | '/'
+    | '/about'
+    | '/safety-card'
+    | '/stories'
+    | '/system-map'
+    | '/stories/$slug'
   id:
     | '__root__'
     | '/'
     | '/about'
+    | '/safety-card'
     | '/stories'
     | '/system-map'
     | '/stories/$slug'
@@ -80,6 +102,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  SafetyCardRoute: typeof SafetyCardRoute
   StoriesRoute: typeof StoriesRouteWithChildren
   SystemMapRoute: typeof SystemMapRoute
 }
@@ -98,6 +121,13 @@ declare module '@tanstack/react-router' {
       path: '/stories'
       fullPath: '/stories'
       preLoaderRoute: typeof StoriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/safety-card': {
+      id: '/safety-card'
+      path: '/safety-card'
+      fullPath: '/safety-card'
+      preLoaderRoute: typeof SafetyCardRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -138,6 +168,7 @@ const StoriesRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  SafetyCardRoute: SafetyCardRoute,
   StoriesRoute: StoriesRouteWithChildren,
   SystemMapRoute: SystemMapRoute,
 }
