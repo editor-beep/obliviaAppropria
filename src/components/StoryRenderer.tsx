@@ -18,7 +18,7 @@ export function StoryRenderer({ doc }: StoryRendererProps) {
         <section key={section.id} id={section.id}>
           {section.title && <h2>{section.title}</h2>}
           {section.blocks.map((block, j) => (
-            <NarrativeBlock key={j} block={block} />
+            <NarrativeBlock key={`${section.id}-${j}`} block={block} />
           ))}
           {doc.scraps?.[i] && (
             <DocumentScrap scrap={doc.scraps[i]} rotate={i % 2 === 0 ? -1.4 : 1.6} />

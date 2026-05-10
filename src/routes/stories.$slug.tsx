@@ -14,8 +14,8 @@ export const Route = createFileRoute("/stories/$slug")({
     const meta = storyMetaBySlug(params.slug);
     if (!meta) throw notFound();
 
-    const key = Object.keys(storyModules).find((k) => k.endsWith(`/${params.slug}.ts`));
-    if (!key) throw notFound();
+    const key = `../content/stories/${params.slug}.ts`;
+    if (!(key in storyModules)) throw notFound();
 
     const { narrative } = await storyModules[key]();
     return { meta, narrative };
