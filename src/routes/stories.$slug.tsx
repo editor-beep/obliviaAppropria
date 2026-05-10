@@ -36,7 +36,7 @@ export const Route = createFileRoute("/stories/$slug")({
 });
 
 function StoryPage() {
-  const { story } = Route.useLoaderData();
+  const { story } = Route.useLoaderData() as { story: Story };
   const next = nextStory(story.slug);
   const prev = prevStory(story.slug);
 
