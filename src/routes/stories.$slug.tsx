@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { storyBySlug, nextStory, prevStory } from "@/content/stories";
+import { storyBySlug, nextStory, prevStory, type Story } from "@/content/stories";
 import { DocumentScrap } from "@/components/DocumentScrap";
 
 export const Route = createFileRoute("/stories/$slug")({
