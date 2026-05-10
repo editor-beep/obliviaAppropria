@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { stories } from "@/content/stories";
 import { BoardingPass } from "@/components/BoardingPass";
 
-export const Route = createFileRoute("/stories")({
+export const Route = createFileRoute("/stories/")({
   head: () => ({
     meta: [
       { title: "Manifest — Privileged Eye" },
