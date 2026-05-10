@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SystemMapRouteImport } from './routes/system-map'
+import { Route as SubscribeRouteImport } from './routes/subscribe'
 import { Route as StoriesRouteImport } from './routes/stories'
 import { Route as SafetyCardRouteImport } from './routes/safety-card'
 import { Route as AboutRouteImport } from './routes/about'
@@ -19,6 +20,11 @@ import { Route as StoriesSlugRouteImport } from './routes/stories.$slug'
 const SystemMapRoute = SystemMapRouteImport.update({
   id: '/system-map',
   path: '/system-map',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SubscribeRoute = SubscribeRouteImport.update({
+  id: '/subscribe',
+  path: '/subscribe',
   getParentRoute: () => rootRouteImport,
 } as any)
 const StoriesRoute = StoriesRouteImport.update({
@@ -52,6 +58,7 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
+  '/subscribe': typeof SubscribeRoute
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
 }
@@ -60,6 +67,7 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
+  '/subscribe': typeof SubscribeRoute
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
 }
@@ -69,6 +77,7 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
+  '/subscribe': typeof SubscribeRoute
   '/system-map': typeof SystemMapRoute
   '/stories/$slug': typeof StoriesSlugRoute
 }
@@ -79,6 +88,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/safety-card'
     | '/stories'
+    | '/subscribe'
     | '/system-map'
     | '/stories/$slug'
   fileRoutesByTo: FileRoutesByTo
@@ -87,6 +97,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/safety-card'
     | '/stories'
+    | '/subscribe'
     | '/system-map'
     | '/stories/$slug'
   id:
@@ -95,6 +106,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/safety-card'
     | '/stories'
+    | '/subscribe'
     | '/system-map'
     | '/stories/$slug'
   fileRoutesById: FileRoutesById
@@ -104,6 +116,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   SafetyCardRoute: typeof SafetyCardRoute
   StoriesRoute: typeof StoriesRouteWithChildren
+  SubscribeRoute: typeof SubscribeRoute
   SystemMapRoute: typeof SystemMapRoute
 }
 
@@ -114,6 +127,13 @@ declare module '@tanstack/react-router' {
       path: '/system-map'
       fullPath: '/system-map'
       preLoaderRoute: typeof SystemMapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/subscribe': {
+      id: '/subscribe'
+      path: '/subscribe'
+      fullPath: '/subscribe'
+      preLoaderRoute: typeof SubscribeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/stories': {
@@ -170,6 +190,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   SafetyCardRoute: SafetyCardRoute,
   StoriesRoute: StoriesRouteWithChildren,
+  SubscribeRoute: SubscribeRoute,
   SystemMapRoute: SystemMapRoute,
 }
 export const routeTree = rootRouteImport
