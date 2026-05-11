@@ -73,8 +73,10 @@ function Index() {
                 </div>
                 <div className="border border-border/80 bg-background/85 p-4">
                   <div className="text-muted-foreground">Manifest status</div>
-                  <div className="mt-3 text-3xl text-foreground">13 flights</div>
-                  <div className="mt-2 text-muted-foreground">Structured like a route board</div>
+                  <div className="mt-3 text-3xl text-foreground">Route board</div>
+                  <div className="mt-2 text-muted-foreground">
+                    Structured like an airport departure wall
+                  </div>
                 </div>
                 <div className="border border-border/80 bg-background/85 p-4">
                   <div className="text-muted-foreground">Design note</div>

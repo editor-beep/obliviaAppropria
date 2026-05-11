@@ -37,6 +37,7 @@
   --color-paper-ink: var(--paper-ink);
 
   --font-display: "IBM Plex Sans", system-ui, sans-serif;
+  --font-editorial: "Libre Baskerville", Georgia, serif;
   --font-sans: "IBM Plex Sans", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
@@ -145,7 +146,7 @@
 
 /* Drop cap for first paragraph of stories */
 .story-prose > p:first-of-type::first-letter {
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 3.5em;
   float: left;
   line-height: 0.9;
@@ -154,7 +155,7 @@
 }
 
 .story-prose p {
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.0625rem;
   line-height: 1.75;
   margin-bottom: 1.25em;
