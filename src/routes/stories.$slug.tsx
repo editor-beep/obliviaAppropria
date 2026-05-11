@@ -1,4 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { useMemo } from "react";
 import { storyMetaBySlug, nextStory, prevStory } from "@/content/stories/index";
 import type { StoryMeta, StoryDocument } from "@/content/types";
 import { StoryRenderer } from "@/components/StoryRenderer";
@@ -8,6 +9,7 @@ import { StoryRenderer } from "@/components/StoryRenderer";
 const storyModules = import.meta.glob<{ narrative: StoryDocument }>("../content/stories/*.ts", {
   eager: false,
 });
+const CHAPTER_PATTERN = /^chapter\b/i;
 
 export const Route = createFileRoute("/stories/$slug")({
   loader: async ({ params }) => {
@@ -60,54 +62,28 @@ function StoryPage() {
   };
   const next = nextStory(meta.slug);
   const prev = prevStory(meta.slug);
+  const chapters = useMemo(() => getStoryChapters(narrative), [narrative]);
 
   return (
     <article>
-      {/* Header strip — boarding ticket */}
       <header className="border-b border-border/60 bg-seatback/40">
         <div className="mx-auto max-w-5xl px-4 py-10">
-          <div className="flex flex-wrap items-center gap-3 font-mono text-[10px] uppercase tracking-[0.22em] text-signal-glow/90">
-            <span className="rounded-sm border border-signal/40 px-2 py-1">
-              {meta.flightNumber}
-            </span>
-            <span>{meta.origin}</span>
-            <span className="text-border">→</span>
-            <span>{meta.destination}</span>
-            <span className="text-border">·</span>
-            <span className="text-muted-foreground">SEAT {meta.number}A</span>
-            <span className="ml-auto text-muted-foreground">
-              {meta.status === "complete"
-                ? "● COMPLETE"
-                : meta.status === "concept"
-                  ? "○ CONCEPT"
-                  : "· BOARDING SOON"}
-            </span>
-          </div>
-
-          <h1 className="mt-6 font-display text-4xl leading-tight sm:text-6xl">{meta.title}</h1>
+          <h1 className="font-display text-4xl leading-tight sm:text-6xl">{meta.title}</h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">{meta.surfaceMystery}</p>
 
           <dl className="mt-8 grid gap-4 font-mono text-[11px] uppercase tracking-wider sm:grid-cols-2">
             <Meta label="Location" value={meta.location} />
-            <Meta label="Industry" value={meta.industry} />
-            <Meta label="Cover Story" value={meta.coverStory} />
-            <Meta label="Oblivia's Role" value={meta.role} />
             <Meta label="Local Center" value={meta.localCenter} />
-            <Meta label="Corporate Culprit" value={meta.culprit} />
           </dl>
         </div>
       </header>
 
-      {/* Body + marginalia */}
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-16 lg:grid-cols-[1fr_260px]">
         <StoryRenderer doc={narrative} />
 
         <aside className="space-y-6 border-t border-border/60 pt-8 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
-          {meta.keyImage && <Marginal label="Key image" body={meta.keyImage} />}
+          {chapters.length > 0 && <ChapterList chapters={chapters} />}
           {meta.theMoment && <Marginal label="The moment" body={meta.theMoment} />}
-          {meta.mediaMisreading && (
-            <Marginal label="Media misreading" body={meta.mediaMisreading} />
-          )}
         </aside>
       </div>
 
@@ -171,6 +147,31 @@ function Meta({ label, value }: { label: string; value: string }) {
   );
 }
 
+function ChapterList({ chapters }: { chapters: Array<{ id: string; title: string }> }) {
+  return (
+    <div>
+      <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-signal-glow/80">
+        Chapters
+      </div>
+      <ol className="mt-3 space-y-2">
+        {chapters.map((chapter, index) => (
+          <li key={chapter.id}>
+            <a
+              href={`#${chapter.id}`}
+              className="block font-display text-base leading-relaxed text-foreground/90 hover:text-signal-glow"
+            >
+              <span className="mr-2 font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              {chapter.title}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
 function Marginal({ label, body }: { label: string; body: string }) {
   return (
     <div>
@@ -182,4 +183,27 @@ function Marginal({ label, body }: { label: string; body: string }) {
       </p>
     </div>
   );
+}
+
+function getStoryChapters(doc: StoryDocument) {
+  const { chapters, titledSections } = doc.sections.reduce(
+    (acc, section) => {
+      const title = section.title?.trim();
+      if (!title) return acc;
+
+      const entry = { id: section.id, title };
+      acc.titledSections.push(entry);
+      if (CHAPTER_PATTERN.test(title)) {
+        acc.chapters.push(entry);
+      }
+
+      return acc;
+    },
+    {
+      chapters: [] as Array<{ id: string; title: string }>,
+      titledSections: [] as Array<{ id: string; title: string }>,
+    },
+  );
+
+  return chapters.length > 0 ? chapters : titledSections;
 }
