@@ -185,17 +185,24 @@ function Marginal({ label, body }: { label: string; body: string }) {
 
 function getStoryChapters(doc: StoryDocument) {
   const chapterStartPattern = /^chapter\b/i;
-  const chapterSections = doc.sections.flatMap((section) => {
-    const title = section.title?.trim();
-    return title && chapterStartPattern.test(title) ? [{ id: section.id, title }] : [];
-  });
+  const { chapters, titledSections } = doc.sections.reduce(
+    (acc, section) => {
+      const title = section.title?.trim();
+      if (!title) return acc;
 
-  if (chapterSections.length > 0) {
-    return chapterSections;
-  }
+      const entry = { id: section.id, title };
+      acc.titledSections.push(entry);
+      if (chapterStartPattern.test(title)) {
+        acc.chapters.push(entry);
+      }
 
-  return doc.sections.flatMap((section) => {
-    const title = section.title?.trim();
-    return title ? [{ id: section.id, title }] : [];
-  });
+      return acc;
+    },
+    {
+      chapters: [] as Array<{ id: string; title: string }>,
+      titledSections: [] as Array<{ id: string; title: string }>,
+    },
+  );
+
+  return chapters.length > 0 ? chapters : titledSections;
 }
