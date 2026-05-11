@@ -267,14 +267,18 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `"I want to go where the water changes," she said, when Akinyi arrived with the kayaks.`,
+          text: `Alexandrei was not on the dock. He had left the lodge before five, on foot, with his notebook and a flask of coffee Joseph had arranged. He was walking the north shore road.`,
+        },
+        {
+          type: "quote",
+          text: `"I want to go where the water changes," Oblivia said, when Akinyi arrived with the kayaks.`,
         },
         {
           type: "paragraph",
           text: `She meant this as a spiritual proposition.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"I know where that is," Akinyi said.`,
         },
         {
@@ -291,19 +295,19 @@ export const narrative: StoryDocument = {
           text: `Oblivia paddled with surprising competence. She had done a kayaking retreat in British Columbia. She had also done one in Patagonia and one on a lake in Slovenia that a newsletter had described as "Europe's last secret," which it was not. She knew how to read water. She did not, as yet, know how to read anything else about where she was, but the water she had.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"It's the silence that's different," she said, after a while.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"The pump station runs at night," Akinyi said. "You can sometimes hear it from the south shore, depending on the wind."`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"The silence of an ecosystem in grief," Oblivia said, "has a specific texture."`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"The draw-down began in March," Akinyi said. "The alkalinity shift was measurable by April. The flamingos started leaving in the second week of May."`,
         },
         {
@@ -325,6 +329,10 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
+          text: `On the north shore road, Alexandrei was standing at the fence. He had his notebook. He had already written down the waiver number.`,
+        },
+        {
+          type: "paragraph",
           text: `Oblivia stopped paddling.`,
         },
         {
@@ -332,11 +340,11 @@ export const narrative: StoryDocument = {
           text: `She looked at the site for a long moment. Then she reached for her camera.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"This has a very extractive energy," she said.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"It is an extraction site," Akinyi said.`,
         },
         {
@@ -344,11 +352,11 @@ export const narrative: StoryDocument = {
           text: `Oblivia began shooting. She shot the fence. She shot the tanks. She shot the outflow pipe. She moved the kayak in closer, bracing it with her paddle, and shot the sign, and then shot the sign again from a slightly different angle because the light was better. She shot the settling basin. She shot the place where the mudflat had been exposed by the receding waterline. She shot a warning notice posted below the main sign that Akinyi had not previously been close enough to read clearly, and which, she noted, referenced the waiver number again along with the name of the co-signatory from the regional office.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"The wound," Oblivia said, "is always more literal than you expect."`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"Yes," Akinyi said.`,
         },
         {
@@ -374,7 +382,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `The caption read: What does a lake ask for when it can no longer ask? I went looking for the wound this morning and found it is not metaphorical. Some things are buried in plain sight. Some extractions have signs. Sitting with what I saw. 🌊 #regenerativetravel #riftvalley #sacredwater #luminancemagazine #witnessing.`,
+          text: `The caption read: What does a lake ask for when it can no longer ask? I went looking for the wound this morning and found it is not metaphorical. Some things are buried in plain sight. Some extractions have signs. Sitting with what I saw. 🌊 #ecologicaldetective #riftvalley #sacredwater #eastafrica #witnessing.`,
+        },
+        {
+          type: "paragraph",
+          text: `Alexandrei returned from the north shore road at nine-fifteen. He sat at the table nearest the kitchen, ordered coffee, and opened his notebook. He did not look at his phone for forty minutes. When he did, he saw the post. He looked at the seventeen images for a long time. He looked at the caption. He wrote one line in his notebook and closed it.`,
+        },
+        {
+          type: "casefile",
+          label: "Field notes, A. Harris — morning, day two",
+          body: `She photographed the sign. Waiver number visible, legible, geotagged. 214,000 followers. Caption: metaphorical. Photographs: not.`,
         },
         {
           type: "paragraph",
@@ -401,7 +418,7 @@ export const narrative: StoryDocument = {
           text: `She called her editor.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"The sign," she said. "Someone photographed the sign."`,
         },
         { type: "divider" },
@@ -411,18 +428,18 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `At lunch they sat near Oblivia and looked at her Instagram post.`,
+          text: `At lunch they sat near Oblivia and looked at her Instagram post. Alexandrei was at the next table, notebook open, not looking at either of them.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"The framing is quite good," Lars said, grudgingly.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"She's using a 35mm," Henrik said.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"She said it's more honest," Lars said.`,
         },
         {
@@ -430,7 +447,7 @@ export const narrative: StoryDocument = {
           text: `They were quiet for a moment.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"The pelican has good bones," Lars said. "Structurally."`,
         },
         {
@@ -438,12 +455,16 @@ export const narrative: StoryDocument = {
           text: `Henrik did not respond. He was looking at the extraction site photograph. Something about the composition — the diagonal of the fence against the flat water, the sign's blue-white geometry — was working in a way he could not immediately fault.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"She got the light," he said finally, with the expression of a man acknowledging a difficult truth.`,
         },
         {
           type: "paragraph",
           text: `Lars ordered another coffee.`,
+        },
+        {
+          type: "paragraph",
+          text: `Alexandrei wrote down the waiver number again, from memory, to make sure he had it right. He did.`,
         },
         { type: "divider" },
         {
@@ -459,11 +480,11 @@ export const narrative: StoryDocument = {
           text: `Then she went to check on Oblivia, who was burning sage on the dock and had asked not to be disturbed but who, Akinyi had learned, meant this as an invitation.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"I feel like something shifted this morning," Oblivia said, without turning around.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"Something did," Akinyi said.`,
         },
         {
@@ -479,11 +500,11 @@ export const narrative: StoryDocument = {
           text: `His cousin was quiet for a moment.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"Someone photographed the sign," Omondi said.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"Who?"`,
         },
         {
@@ -491,15 +512,15 @@ export const narrative: StoryDocument = {
           text: `He looked at Oblivia's Instagram. He read the caption. He read it again.`,
         },
         {
-          type: "paragraph",
-          text: `"An American," he said. "She's a travel writer. She thinks the lake is grieving."`,
+          type: "quote",
+          text: `"An American," he said. "She's a detective. She thinks the lake is grieving."`,
         },
         {
           type: "paragraph",
           text: `Another silence.`,
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: `"Well," his cousin said. "The alkalinity data would suggest it has reason to."`,
         },
         { type: "divider" },
@@ -517,7 +538,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `But it would appear in Luminance, beautifully photographed, and 214,000 people would read it, and some of them would feel something, and a small number of those would click through to Wanjiru's piece when it ran, and one of them would be a parliamentary aide who would mention it to the right person at the right moment in a corridor in Nairobi.`,
+          text: `Alexandrei sat across the terrace and wrote his piece. It was four paragraphs. It described the lake, the flamingos, the alkalinity shift, the extraction site, and the peculiar attentiveness of the ecological detective he had brought here, who had stood in a kayak at nine in the morning and photographed a waiver number in what she called honest warmth and what the Thames Valley planning researcher in Copenhagen had found sufficient to unravel a corporate chain across three jurisdictions. He wrote that she saw things. He wrote that what she saw and what the things were did not always coincide, and that this gap was, in its way, its own kind of evidence. He deleted the last sentence. He wrote it again. He deleted it again.`,
+        },
+        {
+          type: "casefile",
+          label: "Draft, A. Harris — The Times, filed day two",
+          body: `Detective Oblivia Appropria came to the Rift Valley to read what the land was holding. She read it as grief. The land was also holding a waiver number, a corporate chain, and fourteen months of unanswered complaints. She photographed all of it. She captioned none of it correctly. The photograph traveled anyway.`,
+        },
+        {
+          type: "paragraph",
+          text: `But it would appear in The Times, and 400,000 people would read it, and some of them would feel something, and a small number of those would click through to Wanjiru's piece when it ran, and one of them would be a parliamentary aide who would mention it to the right person at the right moment in a corridor in Nairobi.`,
         },
         {
           type: "paragraph",
