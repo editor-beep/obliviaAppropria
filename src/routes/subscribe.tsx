@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-
 export const Route = createFileRoute("/subscribe")({
   head: () => ({
     meta: [
@@ -13,11 +12,9 @@ export const Route = createFileRoute("/subscribe")({
   }),
   component: Subscribe,
 });
-
 function Subscribe() {
   const [email, setEmail] = useState("");
   const [done, setDone] = useState(false);
-
   return (
     <section className="mx-auto flex min-h-[calc(100vh-13rem)] max-w-6xl items-center px-4 py-12 sm:py-16">
       <div className="boeing-panel boeing-grid overflow-hidden">
@@ -38,7 +35,6 @@ function Subscribe() {
                 route through the hidden system each story exposes.
               </p>
             </div>
-
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               <div className="rounded-sm border border-border/60 bg-paper/60 p-4">
                 <div className="font-mono text-[11px] uppercase tracking-[0.28em] text-signal-glow">
@@ -63,7 +59,6 @@ function Subscribe() {
                 </p>
               </div>
             </div>
-
             <div className="mt-10 flex flex-wrap gap-3 font-mono text-xs uppercase tracking-[0.18em]">
               <Link
                 to="/stories"
@@ -79,7 +74,6 @@ function Subscribe() {
               </Link>
             </div>
           </div>
-
           <div className="bg-background/45 px-6 py-8 sm:px-8 sm:py-12">
             <div className="boeing-rule border-b border-border/60 pb-5">
               <div className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
@@ -89,7 +83,6 @@ function Subscribe() {
                 Reserve a seat for updates on upcoming stories and quiet manifest changes.
               </p>
             </div>
-
             {done ? (
               <div className="mt-8 space-y-5 rounded-sm border border-signal/40 bg-cabin/75 p-6">
                 <div className="font-mono text-xs uppercase tracking-[0.28em] text-signal-glow">
@@ -134,14 +127,12 @@ function Subscribe() {
                     className="w-full rounded-sm border border-border bg-seatback px-4 py-3 font-mono text-sm text-foreground placeholder:text-muted-foreground focus:border-signal focus:outline-none"
                   />
                 </div>
-
                 <button
                   type="submit"
                   className="w-full rounded-sm border border-signal/70 bg-signal/20 px-5 py-3 font-mono text-xs uppercase tracking-[0.22em] text-signal-glow transition-colors hover:bg-signal/30"
                 >
                   Reserve seat →
                 </button>
-
                 <div className="rounded-sm border border-border/60 bg-paper/65 p-4 text-sm leading-relaxed text-paper-ink">
                   <div className="font-mono text-[11px] uppercase tracking-[0.28em] text-signal-glow">
                     Cabin note
