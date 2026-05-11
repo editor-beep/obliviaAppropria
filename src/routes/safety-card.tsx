@@ -4,7 +4,7 @@ export const Route = createFileRoute("/safety-card")({
   head: () => ({
     meta: [
       { title: "Safety Card — Privileged Eye" },
-      { name: "description", content: "The safety card she never reads." },
+      { name: "description", content: "Safety Card." },
     ],
   }),
   component: SafetyCard,
@@ -74,11 +74,7 @@ function SafetyCard() {
         <div className="mb-4 font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
           Safety Card
         </div>
-        <h1 className="font-display text-4xl sm:text-5xl">The card she never reads</h1>
-        <p className="mt-3 max-w-2xl text-muted-foreground">
-          Recast as a printed Boeing-style briefing card: cobalt header, diagram grid, evacuation
-          panels, and the same bad instructions hiding in plain sight.
-        </p>
+        <h1 className="font-display text-4xl sm:text-5xl">Safety Card</h1>
       </div>
 
       <div className="mx-auto mt-8 max-w-4xl rounded-[1.5rem] border border-[#b5aea1] bg-[#ddd7cb] p-3 shadow-[0_35px_90px_-35px_rgba(0,0,0,0.85)]">
