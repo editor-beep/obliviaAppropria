@@ -51,7 +51,6 @@ export const narrative: StoryDocument = {
     },
     {
       id: "riftward",
-      title: "Riftward",
       blocks: [
         {
           type: "paragraph",
@@ -85,7 +84,6 @@ export const narrative: StoryDocument = {
     },
     {
       id: "dinner-terrace",
-      title: "Dinner",
       blocks: [
         {
           type: "paragraph",
@@ -119,7 +117,6 @@ export const narrative: StoryDocument = {
     },
     {
       id: "omondi-footpath",
-      title: "The Footpath",
       blocks: [
         {
           type: "paragraph",
@@ -201,7 +198,6 @@ export const narrative: StoryDocument = {
     },
     {
       id: "day-one",
-      title: "Day One",
       blocks: [
         {
           type: "paragraph",
