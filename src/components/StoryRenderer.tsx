@@ -70,7 +70,9 @@ function renderSection(
 
 function buildChapterGroups(doc: StoryDocument) {
   const chapterStartPattern = /^chapter\b/i;
-  const hasChapterTitles = doc.sections.some((section) => chapterStartPattern.test(section.title?.trim() ?? ""));
+  const hasChapterTitles = doc.sections.some((section) =>
+    chapterStartPattern.test(section.title?.trim() ?? ""),
+  );
   if (!hasChapterTitles) return [];
 
   const groups: Array<{
