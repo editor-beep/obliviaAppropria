@@ -230,9 +230,9 @@ export const narrative: StoryDocument = {
       title: "Chapter Two: Embodied Field Research",
       blocks: [
         {
-          type: "quote",
-          text: `We believe that the most durable conservation outcomes emerge not from opposition but from dialogue — from sitting with complexity, holding tension, and trusting the process.`,
-          attribution: "Meridian Impact Partners (Zurich), quarterly newsletter, Q2 edition",
+          type: "document",
+          label: "Meridian Impact Partners newsletter (Q2)",
+          body: `We believe that the most durable conservation outcomes emerge not from opposition but from dialogue — from sitting with complexity, holding tension, and trusting the process.`,
         },
         {
           type: "paragraph",
@@ -515,8 +515,9 @@ export const narrative: StoryDocument = {
       title: "Chapter Three: The Departure of the Witness",
       blocks: [
         {
-          type: "quote",
-          text: `From the quarterly newsletter of Meridian Impact Partners (Zurich), Q3 edition: "In light of recent developments in our East Africa portfolio, we are pausing the Rift Valley saline pilot to conduct a thorough review of our stakeholder engagement processes. We remain committed to restorative mineral stewardship and to the communities we serve."`,
+          type: "document",
+          label: "Meridian Impact Partners newsletter (Q3)",
+          body: `In light of recent developments in our East Africa portfolio, we are pausing the Rift Valley saline pilot to conduct a thorough review of our stakeholder engagement processes. We remain committed to restorative mineral stewardship and to the communities we serve.`,
         },
         {
           type: "paragraph",
