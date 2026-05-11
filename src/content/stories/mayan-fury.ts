@@ -92,7 +92,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "Uncle Monty. — Oblivia. The Fury took you. — Get Ixchel. Call the consulate. And don't post anything yet.",
+          text: "Oblivia says, \"Uncle Monty.\" Monty answers, \"Oblivia.\" She says, \"The Fury took you.\" He closes his eyes and says, \"Get Ixchel. Call the consulate. And don't post anything yet.\"",
         },
         {
           type: "paragraph",
@@ -138,7 +138,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Domingo met her at the airport with a sign that said APPROPRIA and, after forty minutes of mountain road silence, said: the crack is 2.3 meters wide; I can show you the monitoring data when we arrive.",
+          text: "Domingo met her at the airport with a sign that said APPROPRIA and, after forty minutes of mountain road silence, said, \"The crack is 2.3 meters wide. I can show you the monitoring data when we arrive.\"",
         },
         {
           type: "paragraph",
