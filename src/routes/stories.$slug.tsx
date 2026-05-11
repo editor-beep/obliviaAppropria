@@ -200,6 +200,6 @@ function getStoryChapters(doc: StoryDocument) {
     .filter((section) => section.title?.trim())
     .map((section) => ({
       id: section.id,
-      title: section.title!.trim(),
+      title: section.title?.trim() ?? "Untitled section",
     }));
 }
