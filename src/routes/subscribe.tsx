@@ -35,7 +35,7 @@ function Subscribe() {
               <p className="mt-8 max-w-2xl font-editorial text-xl leading-relaxed text-foreground/88 sm:text-2xl">
                 When the next flight opens, you should hear it before Oblivia finishes filing the
                 wrong story. Leave an address for reading updates, new departures, and the next
-                route through the system below her.
+                route through the hidden system each story exposes.
               </p>
             </div>
 
@@ -99,8 +99,8 @@ function Subscribe() {
                   {email} is on the list for the next departure.
                 </p>
                 <p className="text-sm leading-relaxed text-muted-foreground">
-                  Demo only for now — stories are already readable in the app manifest while the
-                  real mailing flow stays grounded.
+                  This confirmation is currently a local mock-up only — no email is being sent yet,
+                  and the stories are already readable in the app manifest.
                 </p>
                 <Link
                   to="/stories"
