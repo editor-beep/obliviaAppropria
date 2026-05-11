@@ -188,7 +188,7 @@ function InstructionCard({
         <span>{title}</span>
       </div>
       <div className="mt-3 rounded-[0.65rem] border border-[#dfd7ca] bg-[#f7f3eb] p-3">
-        <SafetyIcon kind={icon} />
+        <SafetyIcon kind={icon} label={title} />
       </div>
       <p className="mt-3 text-sm leading-snug text-[#4c4037]">{detail}</p>
     </div>
@@ -200,7 +200,7 @@ function NoticeCard({ title, detail, icon }: { title: string; detail: string; ic
     <div className="rounded-[0.75rem] border border-[#ddd4c5] bg-white p-3">
       <div className="flex items-center gap-3">
         <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-[0.7rem] border border-[#dfd7ca] bg-[#f7f3eb]">
-          <SafetyIcon kind={icon} compact />
+          <SafetyIcon kind={icon} label={title} compact />
         </div>
         <div>
           <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#8b7d6d]">
@@ -243,7 +243,11 @@ function EvacuationPanel({
     >
       <div className="font-mono text-[10px] uppercase tracking-[0.18em] opacity-90">{title}</div>
       <div className="mt-3 rounded-[0.8rem] bg-white/10 p-3">
-        <PlaneDiagram line={palette.line} accent={palette.accent} />
+        <PlaneDiagram
+          line={palette.line}
+          accent={palette.accent}
+          label={`${title} evacuation diagram`}
+        />
       </div>
       <p className="mt-3 text-sm leading-snug text-[#fff8ef]">{detail}</p>
     </section>
@@ -265,13 +269,21 @@ function FooterBadge({ label }: { label: string }) {
 
 type IconKind = "door" | "brace" | "bag" | "slide" | "no-smoking" | "no-camera" | "seat" | "card";
 
-function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boolean }) {
+function SafetyIcon({
+  kind,
+  label,
+  compact = false,
+}: {
+  kind: IconKind;
+  label: string;
+  compact?: boolean;
+}) {
   const stroke = compact ? 3 : 2.4;
 
   switch (kind) {
     case "door":
       return (
-        <svg viewBox="0 0 120 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 120 84" className="h-auto w-full" role="img" aria-label={label}>
           <rect
             x="10"
             y="10"
@@ -320,7 +332,7 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
       );
     case "brace":
       return (
-        <svg viewBox="0 0 120 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 120 84" className="h-auto w-full" role="img" aria-label={label}>
           <rect
             x="18"
             y="18"
@@ -363,7 +375,7 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
       );
     case "bag":
       return (
-        <svg viewBox="0 0 120 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 120 84" className="h-auto w-full" role="img" aria-label={label}>
           <rect
             x="20"
             y="24"
@@ -386,7 +398,7 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
       );
     case "slide":
       return (
-        <svg viewBox="0 0 120 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 120 84" className="h-auto w-full" role="img" aria-label={label}>
           <path
             d="M18 60 44 60 94 18"
             fill="none"
@@ -415,7 +427,7 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
       );
     case "no-smoking":
       return (
-        <svg viewBox="0 0 84 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 84 84" className="h-auto w-full" role="img" aria-label={label}>
           <circle cx="42" cy="42" r="26" fill="none" stroke="#d22f2f" strokeWidth={stroke + 2} />
           <path d="M24 60 60 24" stroke="#d22f2f" strokeWidth={stroke + 2} strokeLinecap="round" />
           <rect
@@ -446,7 +458,7 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
       );
     case "no-camera":
       return (
-        <svg viewBox="0 0 84 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 84 84" className="h-auto w-full" role="img" aria-label={label}>
           <circle cx="42" cy="42" r="26" fill="none" stroke="#d22f2f" strokeWidth={stroke + 2} />
           <path d="M24 60 60 24" stroke="#d22f2f" strokeWidth={stroke + 2} strokeLinecap="round" />
           <rect
@@ -471,7 +483,7 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
       );
     case "seat":
       return (
-        <svg viewBox="0 0 84 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 84 84" className="h-auto w-full" role="img" aria-label={label}>
           <rect
             x="20"
             y="18"
@@ -505,7 +517,7 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
       );
     case "card":
       return (
-        <svg viewBox="0 0 84 84" className="h-auto w-full" aria-hidden>
+        <svg viewBox="0 0 84 84" className="h-auto w-full" role="img" aria-label={label}>
           <rect
             x="18"
             y="16"
@@ -528,9 +540,9 @@ function SafetyIcon({ kind, compact = false }: { kind: IconKind; compact?: boole
   }
 }
 
-function PlaneDiagram({ line, accent }: { line: string; accent: string }) {
+function PlaneDiagram({ line, accent, label }: { line: string; accent: string; label: string }) {
   return (
-    <svg viewBox="0 0 320 180" className="h-auto w-full" aria-hidden>
+    <svg viewBox="0 0 320 180" className="h-auto w-full" role="img" aria-label={label}>
       <path
         d="M160 18 176 68l72 20v12l-72-6-16 58-16-58-72 6V88l72-20 16-50Z"
         fill="none"
