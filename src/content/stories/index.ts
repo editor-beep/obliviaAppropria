@@ -41,7 +41,7 @@ export const storyMetas: StoryMeta[] = [
     surfaceMystery: "TBD",
     keyImage:
       "Oblivia drinks ceremonially from a branded plastic bottle of the water being extracted beneath her feet.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "certified-forest",
