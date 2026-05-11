@@ -25,10 +25,14 @@ export function StoryRenderer({ doc }: StoryRendererProps) {
 
     requestAnimationFrame(() => {
       const trigger = document.getElementById(`chapter-trigger-${chapterId}`);
-      if (!(trigger instanceof HTMLElement)) return;
+      if (!trigger) return;
+      const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
       trigger.focus({ preventScroll: true });
-      trigger.scrollIntoView({ behavior: "smooth", block: "start" });
+      trigger.scrollIntoView({
+        behavior: prefersReducedMotion ? "auto" : "smooth",
+        block: "start",
+      });
     });
   }, []);
 
