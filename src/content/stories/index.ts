@@ -108,7 +108,7 @@ export const storyMetas: StoryMeta[] = [
       "The Ground Remembers: Grief, Ancestral Fury, and One Woman's Search for Her Uncle in the Maya Highlands",
     theMoment:
       "\u201cThe Fury has a measurement.\u201d She looks at what she wrote. For the first time, she is not sure it is enough.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "poisoned-healing",
