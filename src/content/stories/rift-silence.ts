@@ -16,6 +16,19 @@ export const narrative: StoryDocument = {
           body: `Our East Africa saline minerals portfolio continues to demonstrate that responsible extraction and ecological stewardship are not opposing values but complementary ones, united by a shared commitment to the long-term vitality of the land and its communities. We are proud to be restoring futures.`,
         },
         {
+          type: "casefile",
+          label: "Case file OBA-001 — field notes, A. Harris",
+          body: `Corporate registry extracts: Meridian Saline Ventures (East Africa) Ltd. / Luxembourg holding company / Zurich impact fund. County water memo attached. Parliamentary question filed — MP name TBC. Anomaly: flamingo departure, western shallows, May. Alkalinity shift measurable April. Draw-down began March. Oblivia arrives Thursday.`,
+        },
+        {
+          type: "paragraph",
+          text: `The case file had four pages. The first three were Alexandrei's — corporate registry extracts, a county water memo, a screenshot of the parliamentary question filed by an MP whose name Oblivia couldn't pronounce yet. The fourth page was hers. She had written: flamingos. alkalinity. the lake knows. On the flight from Dubai she had added, in different ink: what did it know before?`,
+        },
+        {
+          type: "paragraph",
+          text: `She was working.`,
+        },
+        {
           type: "paragraph",
           text: `The lake did not look wounded. This disappointed Oblivia slightly.`,
         },
@@ -25,7 +38,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `Instead the lake was large and flat and copper-colored in the afternoon light and looked, to the unpracticed eye, entirely fine. Joseph navigated the land cruiser along the new road — smooth tarmac, Chinese construction, finished fourteen months ago and already the best-maintained surface in the region — and Oblivia watched the water through the window and waited for it to speak.`,
+          text: `Instead the lake was large and flat and copper-colored in the afternoon light and looked, to the unpracticed eye, entirely fine. Joseph navigated the land cruiser along the new road — smooth tarmac, Chinese construction, finished fourteen months ago and already the best-maintained surface in the region — and Oblivia watched the water through the window and waited for it to speak. In the seat behind her, Alexandrei had his notebook open. He was writing down the road.`,
         },
         {
           type: "quote",
@@ -45,16 +58,20 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `Joseph drove.`,
+          text: `In the back seat, Alexandrei wrote down what Joseph had said about the aquifer.`,
         },
-      ],
-    },
-    {
-      id: "riftward",
-      blocks: [
         {
           type: "paragraph",
-          text: `The ecolodge was called Riftward and it was, by any reasonable measure, beautiful. It occupied a low bluff above the lake's eastern shore, its twelve bandas arranged in a careful arc that maximized the view while minimizing, the brochure noted, "our footprint on this sacred terrain." The footprint included a saltwater infinity pool, a spa offering "ancestral body treatments," a farm-to-table kitchen whose head chef had trained in Copenhagen, and a cultural program administered by Akinyi, who had a master's degree in environmental law from the University of Nairobi and had taken the position eighteen months ago because it came with accommodation and reliable internet and she was, at the time, in the middle of something.`,
+          text: `Joseph drove.`,
+        },
+        {
+          type: "document",
+          label: "County Water Office Memo (Internal)",
+          body: `Site visit notes (west shallows): salinity drift remains above baseline for a third consecutive cycle. Community fishers report flamingo absence and reduced juvenile catch in adjacent marsh channels. Recommend immediate pause on additional aquifer draw permits pending independent hydro review and public hearing.`,
+        },
+        {
+          type: "paragraph",
+          text: `The ecolodge was called Riftward and it was, by any reasonable measure, beautiful. It occupied a low bluff above the lake's eastern shore, its twelve bandas arranged in a careful arc that maximized the view while minimizing, the brochure noted, "our footprint on this sacred terrain." The footprint included a saltwater infinity pool, a spa offering ancestral body treatments, a farm-to-table kitchen whose head chef had trained in Copenhagen, and a cultural program administered by Akinyi, who had a master's degree in environmental law from the University of Nairobi and had taken the position eighteen months ago because it came with accommodation and reliable internet and she was, at the time, in the middle of something.`,
         },
         {
           type: "paragraph",
@@ -62,7 +79,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `Akinyi met Oblivia at the reception banda with the expression she had developed specifically for this category of guest: attentive, warm, precise, and closed in some interior way that guests consistently interpreted as spiritual depth. She showed Oblivia to her banda. She explained the schedule. She mentioned that the Pink Dawn Meditation Immersion had been suspended due to the flamingo situation, but that alternative sunrise programming was available.`,
+          text: `Akinyi met Oblivia at the reception banda with the expression she had developed specifically for this category of guest: attentive, warm, precise, and closed in some interior way that guests consistently interpreted as spiritual depth. She showed Oblivia to her banda. She explained the schedule. She mentioned that the Pink Dawn Meditation Immersion had been suspended due to the flamingo situation, but that alternative sunrise programming was available. She had met Alexandrei two days ago. He had asked about the county water office memo. She had told him she didn't know what he was referring to. He had thanked her and gone to find Joseph.`,
         },
         {
           type: "quote",
@@ -80,11 +97,6 @@ export const narrative: StoryDocument = {
           type: "paragraph",
           text: `Akinyi smiled patiently. The locals had explained it plainly, which only deepened the mystery.`,
         },
-      ],
-    },
-    {
-      id: "dinner-terrace",
-      blocks: [
         {
           type: "paragraph",
           text: `Dinner was served on the terrace. The menu described the grain bowl as "a love letter to the land." The teff had come from a distributor in Nairobi. The quinoa had come from Peru. The accompaniments — fermented vegetables, a smear of something labeled "heritage legume paste" — were locally sourced, which in this case meant a farm forty kilometers north that supplied three Nairobi restaurants, a Whole Foods affiliate in London, and the ecolodge, in that order of volume.`,
@@ -95,11 +107,15 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
+          text: `Alexandrei ate the grain bowl without reading the description. He had been eating at a place in town for two days. He was looking at the north shore.`,
+        },
+        {
+          type: "paragraph",
           text: `At the far end of the terrace, the two Danish photographers — Henrik and Lars, both represented by the same agency in Copenhagen, both recently nominated for a wildlife award neither of them would win — were discussing the flamingos with the focused devastation of people whose flights had been expensive.`,
         },
         {
           type: "quote",
-          text: `"It's the light," Henrik said. "Without the pink, the light is — " he gestured at the lake " — just light."`,
+          text: `"It's the light," Henrik said. "Without the pink, the light is —" he gestured at the lake "— just light."`,
         },
         {
           type: "quote",
@@ -113,18 +129,13 @@ export const narrative: StoryDocument = {
           type: "quote",
           text: `"No," Henrik said. "We could not try the pelicans."`,
         },
-      ],
-    },
-    {
-      id: "omondi-footpath",
-      blocks: [
         {
           type: "paragraph",
           text: `After dinner, Oblivia found Omondi on the public footpath that ran along the shore below the lodge's bluff. She had gone walking with her field journal and her headlamp and her intention, and he had been there, sitting on an upturned boat, eating something from a container his wife had packed, looking at the empty shallows with the expression of a man who has been right for a long time without it mattering.`,
         },
         {
           type: "paragraph",
-          text: `He was fifty-three. He had fished this lake for thirty years. He had also, in the past fourteen months, taught himself to read environmental impact assessments, cross-reference corporate registry filings across three jurisdictions, and format a formal complaint according to the regional environment office's submission guidelines, which had changed twice.`,
+          text: `He was fifty-three. He had fished this lake for thirty years. He had also, in the past fourteen months, taught himself to read environmental impact assessments, cross-reference corporate registry filings across three jurisdictions, and format a formal complaint according to the regional environment office's submission guidelines, which had changed twice. Joseph had told him an ecological detective was staying at Riftward. He had looked her up. He had decided to try.`,
         },
         {
           type: "paragraph",
@@ -140,7 +151,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `Oblivia wrote this down immediately. She would use it in the piece. She would not use Omondi's name, because she had not asked, but she would refer to him as "an elder whose family has kept vigil on these shores for generations." He was not an elder. He was younger than her. He had a smartphone and a group chat with the other complainants and a spreadsheet he'd built in Google Sheets tracking the regional director's public appearances, the last of which had been six weeks ago.`,
+          text: `Oblivia wrote this down immediately. She would use it in the case notes. She would refer to him as an elder whose family has kept vigil on these shores for generations. He was not an elder. He was younger than her. He had a smartphone and a group chat with the other complainants and a spreadsheet he'd built in Google Sheets tracking the regional director's public appearances, the last of which had been six weeks ago.`,
         },
         {
           type: "quote",
@@ -159,12 +170,16 @@ export const narrative: StoryDocument = {
           text: `Oblivia was quiet for a moment.`,
         },
         {
+          type: "paragraph",
+          text: `Alexandrei was on the path above them, in the dark, writing.`,
+        },
+        {
           type: "quote",
           text: `"The water is holding something it was never asked to hold," she said.`,
         },
         {
-          type: "quote",
-          text: `Omondi ate a piece of chapati.`,
+          type: "paragraph",
+          text: `Omondi ate a piece of chapati. He looked up at the path, where he could see the small light of Alexandrei's pen torch moving across a page.`,
         },
         {
           type: "quote",
@@ -194,18 +209,22 @@ export const narrative: StoryDocument = {
           type: "paragraph",
           text: `She left a bowl on the boat when she went back up the path. A small one, F-sharp. In the morning it was full of water and a juvenile tilapia that had apparently found it interesting. He used it to rinse the fish.`,
         },
-      ],
-    },
-    {
-      id: "day-one",
-      blocks: [
         {
           type: "paragraph",
-          text: `That night, in her field journal, Oblivia wrote for forty minutes. She wrote about tectonic memory and hydrological grief and the particular silence of an ecosystem in withdrawal. She wrote that the lake felt like a held breath. She wrote that she had met a fisherman whose sorrow was "pre-verbal, structural, older than complaint."`,
+          text: `That night, in her field journal, Oblivia wrote for forty minutes. She wrote about tectonic memory and hydrological grief and the particular silence of an ecosystem in withdrawal. She wrote that the lake felt like a held breath. She wrote that she had met a fisherman whose sorrow was "pre-verbal, structural, older than complaint." She wrote: the case is the silence. I am close.`,
         },
         {
           type: "paragraph",
-          text: `Then she opened Instagram and posted the sunset photo she'd taken from the land cruiser — golden light on flat water, the extraction site's fencing just out of frame — with the caption: Some silences ask to be witnessed, not filled. Day one at the edge of the Rift. 🌅 #regenerativetravel #sacrednature #luminancemagazine #eastafrica #slowdown.`,
+          text: `Alexandrei sat on the terrace after the kitchen closed and wrote for twenty minutes. He wrote about the aquifer draw-down, the brine levels, the alkalinity threshold, the Luxembourg holding structure, the four complaints filed and not answered, the parliamentary question, Wanjiru's piece in the Standard. He wrote: Omondi has the waiver number. Ask him tomorrow.`,
+        },
+        {
+          type: "casefile",
+          label: "Field notes, A. Harris — night, day one",
+          body: `Aquifer draw-down confirmed by Joseph (brother-in-law: Omondi, complainant x4). Brine levels shifted April, flamingos moved May. Waiver: ESV/2024/RV/114, Section 7(c). Luxembourg holding confirmed in registry. Zurich fund — advisory board TBC. Parliamentary question filed, Wanjiru tracking. Omondi has the number. Ask him tomorrow.`,
+        },
+        {
+          type: "paragraph",
+          text: `Then Oblivia opened Instagram and posted the sunset photo she'd taken from the land cruiser — golden light on flat water, the extraction site's fencing just out of frame — with the caption: Some silences ask to be witnessed, not filled. Day one at the edge of the Rift. 🌅 #ecologicaldetective #sacrednature #riftvalley #eastafrica #slowdown.`,
         },
         {
           type: "paragraph",
@@ -712,12 +731,6 @@ export const narrative: StoryDocument = {
         },
         { type: "paragraph", text: `It was, for now, enough.` },
       ],
-    },
-  ],
-  scraps: [
-    {
-      label: "COUNTY WATER OFFICE MEMO (INTERNAL)",
-      body: `Site visit notes (west shallows): salinity drift remains above baseline for a third consecutive cycle. Community fishers report flamingo absence and reduced juvenile catch in adjacent marsh channels. Recommend immediate pause on additional aquifer draw permits pending independent hydro review and public hearing.`,
     },
   ],
 };

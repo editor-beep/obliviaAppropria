@@ -5,6 +5,7 @@ export type StoryBlock =
   | { type: "heading"; text: string }
   | { type: "quote"; text: string; attribution?: string }
   | { type: "document"; label: string; body: string }
+  | { type: "casefile"; label: string; body: string }
   | { type: "image"; src: string; caption?: string }
   | { type: "divider" };
 
@@ -33,6 +34,7 @@ export type StoryMeta = {
   coverStory: string;
   culprit: string;
   role: string;
+  correspondent?: string;
   localCenter: string;
   surfaceMystery: string;
   keyImage?: string;

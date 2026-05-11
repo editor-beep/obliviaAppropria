@@ -15,8 +15,10 @@ export const storyMetas: StoryMeta[] = [
     coverStory: "Regenerative mineral stewardship",
     culprit:
       "Meridian Saline Ventures (East Africa) Ltd. / Luxembourg holding company / Zurich impact fund",
-    role: "Regenerative travel correspondent, Luminance",
-    localCenter: "Akinyi (environmental lawyer), Omondi (fisherman), Joseph (driver)",
+    role: "Detective",
+    correspondent: "Alexandrei Harris, The Times",
+    localCenter:
+      "Akinyi (environmental lawyer), Omondi (fisherman), Joseph (driver), Alexandrei Harris (The Times)",
     surfaceMystery: "The flamingos have left.",
     mediaMisreading:
       "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift",
