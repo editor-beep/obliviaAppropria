@@ -83,7 +83,7 @@ function SafetyCard() {
 
       <div className="mx-auto mt-8 max-w-4xl rounded-[1.5rem] border border-[#b5aea1] bg-[#ddd7cb] p-3 shadow-[0_35px_90px_-35px_rgba(0,0,0,0.85)]">
         <div className="overflow-hidden rounded-[1.1rem] border border-[#bcb4a6] bg-[#f6f1e6] text-[#342923]">
-          <div className="flex items-end justify-between gap-4 bg-[var(--color-signal-glow)] px-5 py-4 text-[#fff8ef]">
+          <div className="flex items-end justify-between gap-4 bg-signal-glow px-5 py-4 text-[#fff8ef]">
             <div>
               <div className="font-mono text-[10px] uppercase tracking-[0.18em] opacity-90">
                 Boeing 737-300 / 800
@@ -111,9 +111,9 @@ function SafetyCard() {
                   </div>
                   <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.18em] text-[#7d6f5f]">
                     <span>B737-300</span>
-                    <span className="h-3 w-3 rounded-full bg-[var(--color-signal-glow)]" />
+                    <span className="h-3 w-3 rounded-full bg-signal-glow" />
                     <span>B737-800</span>
-                    <span className="h-3 w-3 rounded-full bg-[#3b82f6]" />
+                    <span className="h-3 w-3 rounded-full bg-signal" />
                   </div>
                 </div>
                 <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
@@ -257,8 +257,8 @@ function EvacuationPanel({
 function FooterBadge({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-3 rounded-[0.7rem] border border-[#ddd4c5] bg-white px-3 py-2">
-      <div className="flex h-9 w-9 items-center justify-center rounded-full border-[3px] border-[var(--color-signal-glow)]">
-        <div className="h-[3px] w-6 rotate-[-35deg] bg-[var(--color-signal-glow)]" />
+      <div className="flex h-9 w-9 items-center justify-center rounded-full border-[3px] border-signal-glow">
+        <div className="h-[3px] w-6 rotate-[-35deg] bg-signal-glow" />
       </div>
       <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#5a4f46]">
         {label}
