@@ -18,7 +18,7 @@ A reading-first website for the collection. Each story has a full reading page. 
 /stories/$slug          Reading page for one story
 /system-map             Lightweight cross-reference: how stories share culprits, supply chains, characters
 /safety-card            The safety card Oblivia never reads — a real interactive card, dark joke included
-/subscribe              Substack CTA + email capture
+/subscribe              In-app updates CTA + email capture
 ```
 
 Slugs: `rift-silence`, `sacred-water`, `certified-forest`, `ocean-witness`, `mayan-fury`, `poisoned-healing`, `the-loop`, `music-tbd`, `tech-tbd`, `fashion-tbd`, `threshold-border`, `interior-angola`, `fields-central-valley`.
@@ -56,10 +56,10 @@ A persistent, slim **CabinBar** docks at the top of every page:
 - Scroll-linked plane progresses across the CabinBar route.
 - Footer of page: "Next flight →" card with the transit interstitial.
 
-For Season-One stories with full concept text (Mayan Fury, Poisoned Healing, The Loop, Rift Silence) the reading page renders the rich concept doc as structured prose. For TBD stories it shows a "Boarding soon" state with the concept skeleton and a subscribe CTA.
+For Season-One stories with full concept text (Mayan Fury, Poisoned Healing, The Loop, Rift Silence) the reading page renders the rich concept doc as structured prose. For TBD stories it shows a "Boarding soon" state with the concept skeleton and an in-app updates CTA.
 
 **About (`/about`)**
-- The thesis. The frame device explained (lightly — the reader should still discover it). Author note. Substack link.
+- The thesis. The frame device explained (lightly — the reader should still discover it). Author note. Link to the in-app manifest.
 
 **System map (`/system-map`)**
 - Static SVG/HTML diagram, no heavy graph lib. Stories as nodes positioned around a central "one system" hub. Edges labeled with the shared thread (e.g. *same impact fund*, *same conglomerate*, *labor → surveillance → carceral*).
@@ -71,7 +71,7 @@ For Season-One stories with full concept text (Mayan Fury, Poisoned Healing, The
 - Last panel: "Below you, the fields." A still illustration of fields seen from above. No CTA.
 
 **Subscribe (`/subscribe`)**
-- One-screen page, Substack embed or external link, plus a brief pitch in Libre Baskerville.
+- One-screen page for in-app reading updates, plus a brief pitch in Libre Baskerville.
 
 ## Content sourcing
 
@@ -88,7 +88,7 @@ All story metadata and concept text from the working document goes into a single
 - `DocumentScrap`
 - `SafetyCard`
 - `SystemMap`
-- `Footer` (gate info, Substack link, safety card link)
+- `Footer` (gate info, stories link, safety card link)
 
 Tokens added to `src/styles.css`: cabin background, horizon gradient, signal indigo, paper cream, document-scrap shadow, grain overlay. Fonts loaded via Google Fonts in `__root.tsx` head.
 
@@ -96,7 +96,7 @@ Tokens added to `src/styles.css`: cabin background, horizon gradient, signal ind
 
 - No CMS, no auth, no comments — content lives in the codebase.
 - No audio/video (can add later for a Music story).
-- No Substack API integration — link out only.
+- No external newsletter integration in v1.
 - TBD stories ship as "Boarding soon" placeholders with the concept skeleton; we do not invent missing plot.
 
 ## Build order
