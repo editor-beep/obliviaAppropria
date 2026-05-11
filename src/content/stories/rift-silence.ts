@@ -574,6 +574,10 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
+          text: `The Times piece had run the same morning. It was Alexandrei's — four paragraphs, precise, bylined, the waiver number in the second sentence. It described the lake, the alkalinity shift, the corporate chain, and the ecological detective who had arrived with crystal singing bowls and a 35mm camera and had photographed the sign in honest warmth at nine in the morning. It described her method sympathetically. It described her conclusions as resonant. It did not describe them as correct, which was the one place Alexandrei had not deleted what he'd written, and which Oblivia read three times on her phone without being certain what she was reading.`,
+        },
+        {
+          type: "paragraph",
           text: `Oblivia learned about the parliamentary question from Akinyi, who mentioned it at breakfast with the neutrality of someone reporting weather.`,
         },
         { type: "quote", text: `"Something is happening," Oblivia said.` },
@@ -589,7 +593,15 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
+          text: `Alexandrei was not at breakfast. He was at the press briefing.`,
+        },
+        {
+          type: "paragraph",
           text: `The regional director, at his press briefing, said that the environmental impact waiver had been issued in good faith under applicable regulations and that his office welcomed the opportunity to review the monitoring data in an open session. He said this in a way that suggested he had been advised to say it by someone who understood what was coming. He took four questions. He did not take the fifth, which was Wanjiru's, because Wanjiru was not in the room — she was on the phone with the Luxembourg holding company's press office, which had issued a statement describing the situation as "a productive moment for multi-stakeholder dialogue."`,
+        },
+        {
+          type: "paragraph",
+          text: `Alexandrei took the fifth question. The regional director answered it in the way that officials answer questions from The Times: carefully, with the particular attention paid to institutions that are understood to have memory.`,
         },
         {
           type: "paragraph",
@@ -615,6 +627,10 @@ export const narrative: StoryDocument = {
           text: `The lawyer from Kisumu said they could take as long as they liked.`,
         },
         { type: "paragraph", text: `She called the lands tribunal on the walk to her car.` },
+        {
+          type: "paragraph",
+          text: `Alexandrei was in the corridor when the mediation collapsed. He had not been in the room — the sessions were closed — but he had been there long enough that the lawyer from Kisumu recognized him on her way out and said, without stopping, the number and name of the lands tribunal case she had just opened. He wrote it down. He texted it to Wanjiru.`,
+        },
         {
           type: "paragraph",
           text: `Oblivia did not know about the mediation. She knew there were "local tensions around land," because Akinyi had mentioned it, and she had incorporated this into her understanding of the place as part of its "unresolved relational field," a phrase she had encountered in a somatics workshop in Ojai and found broadly applicable. She spent Friday on a guided walk with Akinyi through the acacia woodland above the lodge, looking at birds and asking questions that were sometimes ornithological and sometimes not.`,
@@ -651,13 +667,14 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `Oblivia read the piece on her phone at the lodge's infinity pool, her legs in the water, the lake spread below her in the afternoon light. She read it carefully. She found, in the fourth paragraph, a sentence that mentioned "international attention focused on the site following photographs posted to social media." She read this sentence twice. She felt something she would later describe, in her Luminance piece, as "the particular vertigo of realizing that witnessing has weight."`,
+          text: `Oblivia read the piece on her phone at the lodge's infinity pool, her legs in the water, the lake spread below her in the afternoon light. She read it carefully. She found, in the fourth paragraph, a sentence that mentioned "international attention focused on the site following photographs posted to social media." She read this sentence twice. She also found, in the seventh paragraph, a quote from Alexandrei's Times piece — the sentence he had not deleted, the one about the gap between what she saw and what the things were. She read that sentence three times. She felt something she would later describe, in her case notes, as "the particular vertigo of realizing that witnessing has weight."`,
         },
         { type: "paragraph", text: `She was not wrong about this.` },
         {
           type: "paragraph",
           text: `She was, as she had been throughout, wrong about the mechanism.`,
         },
+        { type: "divider" },
         {
           type: "paragraph",
           text: `On Sunday, Oblivia's last morning, she rose before dawn and went to the dock alone.`,
@@ -684,7 +701,10 @@ export const narrative: StoryDocument = {
           text: `He did not think about the flamingos. They would come back or they would not, depending on the alkalinity, and the alkalinity would recover or it would not, depending on the suspension, and all of that was in motion now and motion was what you worked with.`,
         },
         { type: "paragraph", text: `He pulled the net.` },
-        { type: "paragraph", text: `Joseph drove Oblivia to the airstrip at nine.` },
+        {
+          type: "paragraph",
+          text: `Joseph drove Oblivia and Alexandrei to the airstrip at nine. They sat in the back together. Oblivia had her field journal open. Alexandrei had his notebook closed for the first time since they'd arrived.`,
+        },
         {
           type: "paragraph",
           text: `The road was smooth, the new tarmac, and they passed the north shore and the extraction site and Oblivia looked at it through the window and said, "I keep thinking about what's underneath."`,
@@ -700,28 +720,45 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
+          text: `Alexandrei looked out the other window. He had attended the mediation. He had the lands tribunal case number. He had filed four hundred words the previous evening that Wanjiru had texted to say she was glad existed. He did not say any of this. He watched the acacia pass.`,
+        },
+        {
+          type: "paragraph",
           text: `She nodded slowly. She looked at the sign as they passed — blue and white, legible, waiver number visible from the road — and she took a photograph through the car window with her phone, though she already had better ones.`,
         },
         {
           type: "paragraph",
-          text: `At the airstrip, Joseph unloaded her bags. She had more than she'd arrived with: a woven basket she'd bought at the lodge's gift shop, a small clay vessel described in its tag as "handmade by local artisans," which had been made by a cooperative in Nairobi that supplied three ecolodges and a Heathrow duty-free concession. She shook Joseph's hand and thanked him and told him the drive had been one of the most educating experiences of the trip.`,
+          text: `At the airstrip, Joseph unloaded their bags. Oblivia had more than she'd arrived with: a woven basket she'd bought at the lodge's gift shop, a small clay vessel described in its tag as "handmade by local artisans," which had been made by a cooperative in Nairobi that supplied three ecolodges and a Heathrow duty-free concession. Alexandrei had the same bag he'd arrived with. She shook Joseph's hand and thanked him and told him the drive had been one of the most educating experiences of the trip. Alexandrei shook Joseph's hand and asked him to pass along his number to Omondi's cousin, for the open session.`,
         },
-        { type: "paragraph", text: `He said he was glad.` },
+        { type: "paragraph", text: `Joseph said he would.` },
         {
           type: "paragraph",
-          text: `She boarded the small plane. The lake was visible from the window as they climbed, flat and copper in the morning light, the western shallows still empty, the extraction site small from altitude, the acacia woodland above the lodge a dark green mass against the escarpment. She pressed her face to the window and looked until it was gone.`,
+          text: `They boarded the small plane. It had twelve seats. Oblivia took the window. Alexandrei took the aisle and opened his notebook.`,
+        },
+        {
+          type: "paragraph",
+          text: `The lake was visible from the window as they climbed, flat and copper in the morning light, the western shallows still empty, the extraction site small from altitude, the acacia woodland above the lodge a dark green mass against the escarpment. She pressed her face to the window and looked until it was gone.`,
         },
         {
           type: "paragraph",
           text: `She wrote, in her field journal: I came to witness an absence. I did not expect to be implicated in a presence.`,
         },
         {
-          type: "paragraph",
-          text: `She would use this as her closing line. Luminance would run the piece in six weeks under the title "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift." It would be beautifully photographed. It would contain one paragraph, near the end, that mentioned "questions about water management" before returning to Oblivia's experience of "sitting with not-knowing." It would win a travel writing award in a category called "Transformative Witness." Oblivia would accept it by video from her house in Connecticut, wearing linen, and would thank "the lake, and everyone who keeps vigil on its behalf."`,
+          type: "casefile",
+          label: "Field notes, A. Harris — departure",
+          body: `Lands tribunal: case number filed Friday. Open session Thursday. Hydrologist data solid per Wanjiru. Pilot suspension holding. Company lawyers looking for procedural angle — expected. Omondi's cousin has the monitoring report. Akinyi has forty-eight items on the action list. The case is not closed. It was never the kind of case that closes.`,
         },
         {
           type: "paragraph",
-          text: `Omondi would not watch the ceremony. He would be at the tribunal hearing, in a chair in a hallway, waiting to be called, eating something his wife had packed, reading a message from Wanjiru that said the company had filed for a procedural delay but that the hydrologist's data was solid and the lands tribunal had seen this before.`,
+          text: `She would use her closing line in the case notes Luminance would never see. The piece they would run, six weeks later, under the title "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift," would be beautifully photographed. It would contain one paragraph, near the end, that mentioned "questions about water management" before returning to Oblivia's experience of "sitting with not-knowing." It would win a travel writing award in a category called "Transformative Witness." Oblivia would accept it by video from her house in Connecticut, wearing linen, and would thank "the lake, and everyone who keeps vigil on its behalf."`,
+        },
+        {
+          type: "paragraph",
+          text: `Alexandrei's Times piece would be cited in the lands tribunal filing. He would not attend the ceremony.`,
+        },
+        {
+          type: "paragraph",
+          text: `Omondi would not watch the ceremony either. He would be at the tribunal hearing, in a chair in a hallway, waiting to be called, eating something his wife had packed, reading a message from Wanjiru that said the company had filed for a procedural delay but that the hydrologist's data was solid and the lands tribunal had seen this before.`,
         },
         {
           type: "paragraph",
@@ -729,6 +766,7 @@ export const narrative: StoryDocument = {
         },
         { type: "paragraph", text: `She added a forty-eighth item.` },
         { type: "paragraph", text: `She kept working.` },
+        { type: "divider" },
         {
           type: "paragraph",
           text: `Four months later, in the early dry season, a wildlife researcher monitoring the lake's western shallows from a survey boat counted eleven lesser flamingos in the northern inlet.`,
@@ -739,7 +777,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `Eleven was not thousands. It was not the pink dawn. It was eleven birds standing in shallow water in the early morning, doing what they did, unaware of the waiver number or the corporate chain or the Luminance piece or the open session or the award or any of it.`,
+          text: `Eleven was not thousands. It was not the pink dawn. It was eleven birds standing in shallow water in the early morning, doing what they did, unaware of the waiver number or the corporate chain or the case notes or the open session or the award or any of it.`,
         },
         {
           type: "paragraph",
