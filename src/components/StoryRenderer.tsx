@@ -28,11 +28,11 @@ export function StoryRenderer({ doc }: StoryRendererProps) {
       if (!trigger) return;
       const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-      trigger.focus({ preventScroll: true });
       trigger.scrollIntoView({
         behavior: prefersReducedMotion ? "auto" : "smooth",
         block: "start",
       });
+      trigger.focus({ preventScroll: true });
     });
   }, []);
 
