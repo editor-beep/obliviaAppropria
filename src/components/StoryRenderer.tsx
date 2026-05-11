@@ -1,4 +1,5 @@
 import type { StoryDocument } from "@/content/types";
+import { useCallback } from "react";
 import { NarrativeBlock } from "@/components/NarrativeBlock";
 import { DocumentScrap } from "@/components/DocumentScrap";
 import {
@@ -19,6 +20,17 @@ interface StoryRendererProps {
  */
 export function StoryRenderer({ doc }: StoryRendererProps) {
   const chapterGroups = buildChapterGroups(doc);
+  const handleChapterChange = useCallback((chapterId: string) => {
+    if (!chapterId) return;
+
+    requestAnimationFrame(() => {
+      const trigger = document.getElementById(`chapter-trigger-${chapterId}`);
+      if (!(trigger instanceof HTMLElement)) return;
+
+      trigger.focus({ preventScroll: true });
+      trigger.scrollIntoView({ block: "start" });
+    });
+  }, []);
 
   return (
     <div className="story-prose mx-auto w-full max-w-2xl">
@@ -27,11 +39,15 @@ export function StoryRenderer({ doc }: StoryRendererProps) {
           type="single"
           collapsible
           defaultValue={chapterGroups[0].id}
+          onValueChange={handleChapterChange}
           className="w-full border-y border-border/40"
         >
           {chapterGroups.map((group) => (
             <AccordionItem key={group.id} value={group.id}>
-              <AccordionTrigger className="font-display text-xl hover:no-underline">
+              <AccordionTrigger
+                id={`chapter-trigger-${group.id}`}
+                className="font-display text-xl hover:no-underline"
+              >
                 {group.title}
               </AccordionTrigger>
               <AccordionContent className="space-y-8">
