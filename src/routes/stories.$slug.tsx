@@ -1,4 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { useMemo } from "react";
 import { storyMetaBySlug, nextStory, prevStory } from "@/content/stories/index";
 import type { StoryMeta, StoryDocument } from "@/content/types";
 import { StoryRenderer } from "@/components/StoryRenderer";
@@ -8,6 +9,7 @@ import { StoryRenderer } from "@/components/StoryRenderer";
 const storyModules = import.meta.glob<{ narrative: StoryDocument }>("../content/stories/*.ts", {
   eager: false,
 });
+const CHAPTER_PATTERN = /^chapter\b/i;
 
 export const Route = createFileRoute("/stories/$slug")({
   loader: async ({ params }) => {
@@ -60,7 +62,7 @@ function StoryPage() {
   };
   const next = nextStory(meta.slug);
   const prev = prevStory(meta.slug);
-  const chapters = getStoryChapters(narrative);
+  const chapters = useMemo(() => getStoryChapters(narrative), [narrative]);
 
   return (
     <article>
@@ -184,7 +186,6 @@ function Marginal({ label, body }: { label: string; body: string }) {
 }
 
 function getStoryChapters(doc: StoryDocument) {
-  const chapterPattern = /^chapter\b/i;
   const { chapters, titledSections } = doc.sections.reduce(
     (acc, section) => {
       const title = section.title?.trim();
@@ -192,7 +193,7 @@ function getStoryChapters(doc: StoryDocument) {
 
       const entry = { id: section.id, title };
       acc.titledSections.push(entry);
-      if (chapterPattern.test(title)) {
+      if (CHAPTER_PATTERN.test(title)) {
         acc.chapters.push(entry);
       }
 
