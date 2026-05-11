@@ -28,7 +28,7 @@ export function StoryRenderer({ doc }: StoryRendererProps) {
       if (!(trigger instanceof HTMLElement)) return;
 
       trigger.focus({ preventScroll: true });
-      trigger.scrollIntoView({ block: "start" });
+      trigger.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   }, []);
 
