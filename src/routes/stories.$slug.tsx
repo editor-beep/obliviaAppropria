@@ -145,11 +145,7 @@ function Meta({ label, value }: { label: string; value: string }) {
   );
 }
 
-function ChapterList({
-  chapters,
-}: {
-  chapters: Array<{ id: string; title: string }>;
-}) {
+function ChapterList({ chapters }: { chapters: Array<{ id: string; title: string }> }) {
   return (
     <div>
       <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-signal-glow/80">
