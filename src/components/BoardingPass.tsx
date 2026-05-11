@@ -58,7 +58,7 @@ export function BoardingPass({ story }: { story: StoryMeta }) {
             </span>
           </div>
         </div>
-        <div className="flex min-w-24 flex-col items-center justify-between border-l border-dashed border-border/70 bg-[linear-gradient(180deg,oklch(0.96_0.018_245),oklch(0.9_0.03_245))] p-4 font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
+        <div className="boeing-ticket-stub flex min-w-24 flex-col items-center justify-between border-l border-dashed border-border/70 p-4 font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
           <div>SEAT</div>
           <div className="boeing-wordmark text-4xl text-signal-glow">{story.number}</div>
           <div>2A</div>

@@ -68,7 +68,7 @@ function Index() {
               <div className="grid gap-4 self-start font-mono text-[11px] uppercase tracking-[0.2em]">
                 <div className="border border-border/80 bg-background/85 p-4">
                   <div className="text-muted-foreground">Aircraft palette</div>
-                  <div className="mt-3 h-2 bg-[linear-gradient(90deg,var(--color-signal-glow),var(--color-signal),oklch(0.95_0.01_245))]" />
+                  <div className="boeing-gradient-bar mt-3 h-2" />
                   <div className="mt-3 text-lg text-signal-glow">Blue / White / Steel</div>
                 </div>
                 <div className="border border-border/80 bg-background/85 p-4">

@@ -52,6 +52,7 @@
   --signal-glow: oklch(0.43 0.17 257);
   --paper: oklch(0.995 0.002 95);
   --paper-ink: oklch(0.31 0.04 250);
+  --overlay-backdrop: oklch(0.26 0.05 248 / 0.22);
 
   --background: var(--cabin);
   --foreground: oklch(0.27 0.045 252);
@@ -124,7 +125,7 @@
   inset: 0;
   pointer-events: none;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.22;
   background-image:
     linear-gradient(oklch(0.82 0.02 245 / 0.1) 1px, transparent 1px),
     linear-gradient(90deg, oklch(0.82 0.02 245 / 0.1) 1px, transparent 1px);
@@ -201,6 +202,27 @@
     radial-gradient(circle at top right, oklch(0.83 0.08 245 / 0.22), transparent 32%),
     linear-gradient(180deg, oklch(1 0 0 / 0.45), transparent 28%),
     repeating-linear-gradient(90deg, transparent 0 78px, oklch(0.8 0.03 246 / 0.16) 78px 79px);
+}
+
+.boeing-gradient-bar {
+  background: linear-gradient(
+    90deg,
+    var(--color-signal-glow),
+    var(--color-signal),
+    oklch(0.95 0.01 245)
+  );
+}
+
+.boeing-overlay {
+  background: var(--overlay-backdrop);
+}
+
+.boeing-active-row {
+  background: linear-gradient(90deg, oklch(0.43 0.17 257 / 0.1), transparent);
+}
+
+.boeing-ticket-stub {
+  background: linear-gradient(180deg, oklch(0.96 0.018 245), oklch(0.9 0.03 245));
 }
 
 .boeing-badge {

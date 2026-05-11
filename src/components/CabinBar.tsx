@@ -106,7 +106,7 @@ function FlightLine({ progress }: { progress: number }) {
 function ManifestDrawer({ onClose, currentSlug }: { onClose: () => void; currentSlug?: string }) {
   return (
     <div className="fixed inset-0 z-50 flex" onClick={onClose}>
-      <div className="flex-1 bg-[oklch(0.26_0.05_248_/_0.22)] backdrop-blur-sm" />
+      <div className="boeing-overlay flex-1 backdrop-blur-sm" />
       <aside
         className="boeing-panel h-full w-full max-w-md overflow-y-auto border-l border-border/80 p-6 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
@@ -131,7 +131,7 @@ function ManifestDrawer({ onClose, currentSlug }: { onClose: () => void; current
                 onClick={onClose}
                 className={`flex items-baseline gap-3 border px-3 py-2.5 font-mono text-[11px] uppercase tracking-wider transition-colors ${
                   s.slug === currentSlug
-                    ? "border-signal/60 bg-[linear-gradient(90deg,oklch(0.43_0.17_257_/_0.1),transparent)] text-signal-glow"
+                    ? "boeing-active-row border-signal/60 text-signal-glow"
                     : "border-transparent hover:border-border hover:bg-background/70"
                 }`}
               >
