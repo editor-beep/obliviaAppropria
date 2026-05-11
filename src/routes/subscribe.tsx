@@ -1,5 +1,4 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useState } from "react";
 export const Route = createFileRoute("/subscribe")({
   head: () => ({
     meta: [
@@ -13,8 +12,6 @@ export const Route = createFileRoute("/subscribe")({
   component: Subscribe,
 });
 function Subscribe() {
-  const [email, setEmail] = useState("");
-  const [done, setDone] = useState(false);
   return (
     <section className="mx-auto flex min-h-[calc(100vh-13rem)] max-w-6xl items-center px-4 py-12 sm:py-16">
       <div className="boeing-panel boeing-grid overflow-hidden">
@@ -77,73 +74,52 @@ function Subscribe() {
           <div className="bg-background/45 px-6 py-8 sm:px-8 sm:py-12">
             <div className="boeing-rule border-b border-border/60 pb-5">
               <div className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
-                Boarding list
+                Subscribe & support
               </div>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                Reserve a seat for updates on upcoming stories and quiet manifest changes.
+                Read new posts on Substack, and support ongoing work on Ko-fi.
               </p>
             </div>
-            {done ? (
-              <div className="mt-8 space-y-5 rounded-sm border border-signal/40 bg-cabin/75 p-6">
-                <div className="font-mono text-xs uppercase tracking-[0.28em] text-signal-glow">
-                  Seat reserved
-                </div>
-                <p className="font-editorial text-2xl leading-relaxed text-foreground">
-                  {email} is on the list for the next departure.
-                </p>
-                <p className="text-sm leading-relaxed text-muted-foreground">
-                  This confirmation is currently a local mock-up only — no email is being sent yet,
-                  and the stories are already readable in the app manifest.
-                </p>
-                <Link
-                  to="/stories"
-                  className="inline-flex rounded-sm border border-border px-4 py-3 font-mono text-xs uppercase tracking-[0.18em] text-foreground transition-colors hover:border-signal/60 hover:text-signal-glow"
-                >
-                  Read current flights →
-                </Link>
+            <div className="mt-8 space-y-5 rounded-sm border border-signal/40 bg-cabin/75 p-6">
+              <div className="font-mono text-xs uppercase tracking-[0.28em] text-signal-glow">
+                External links
               </div>
-            ) : (
-              <form
-                onSubmit={(event) => {
-                  event.preventDefault();
-                  setDone(true);
-                }}
-                className="mt-8 space-y-5"
-              >
-                <div className="space-y-2">
-                  <label
-                    htmlFor="subscribe-email"
-                    className="font-mono text-[11px] uppercase tracking-[0.28em] text-muted-foreground"
-                  >
-                    Email address
-                  </label>
-                  <input
-                    id="subscribe-email"
-                    required
-                    type="email"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    placeholder="you@somewhere.com"
-                    className="w-full rounded-sm border border-border bg-seatback px-4 py-3 font-mono text-sm text-foreground placeholder:text-muted-foreground focus:border-signal focus:outline-none"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full rounded-sm border border-signal/70 bg-signal/20 px-5 py-3 font-mono text-xs uppercase tracking-[0.22em] text-signal-glow transition-colors hover:bg-signal/30"
+              <p className="font-editorial text-2xl leading-relaxed text-foreground">
+                Follow on Substack and support on Ko-fi.
+              </p>
+              <div className="space-y-3">
+                <a
+                  href="https://themeansofproduction.substack.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-full justify-center rounded-sm border border-signal/70 bg-signal/20 px-5 py-3 font-mono text-xs uppercase tracking-[0.22em] text-signal-glow transition-colors hover:bg-signal/30"
                 >
-                  Reserve seat →
-                </button>
-                <div className="rounded-sm border border-border/60 bg-paper/65 p-4 text-sm leading-relaxed text-paper-ink">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.28em] text-signal-glow">
-                    Cabin note
-                  </div>
-                  <p className="mt-2">
-                    This is an in-app mock boarding list for now, not a live newsletter service. If
-                    you want a story today, the manifest is already open.
-                  </p>
+                  Open Substack →
+                </a>
+                <a
+                  href="https://ko-fi.com/themeansofproduction"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-full justify-center rounded-sm border border-border bg-background/80 px-5 py-3 font-mono text-xs uppercase tracking-[0.18em] text-foreground transition-colors hover:border-signal/60 hover:text-signal-glow"
+                >
+                  Open Ko-fi →
+                </a>
+              </div>
+              <div className="rounded-sm border border-border/60 bg-paper/65 p-4 text-sm leading-relaxed text-paper-ink">
+                <div className="font-mono text-[11px] uppercase tracking-[0.28em] text-signal-glow">
+                  Cabin note
                 </div>
-              </form>
-            )}
+                <p className="mt-2">
+                  The in-app mock signup has been replaced with direct links to the live pages.
+                </p>
+              </div>
+              <Link
+                to="/stories"
+                className="inline-flex rounded-sm border border-border px-4 py-3 font-mono text-xs uppercase tracking-[0.18em] text-foreground transition-colors hover:border-signal/60 hover:text-signal-glow"
+              >
+                Read current flights →
+              </Link>
+            </div>
           </div>
         </div>
       </div>
