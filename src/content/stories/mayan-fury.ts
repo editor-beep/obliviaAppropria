@@ -64,7 +64,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Ixchel and the governance council assign Domingo, Ixchel's seventeen-year-old brother, to guide Oblivia through facts in a deliberate order. His task is pace calibration: keep her with the evidence before metaphor takes over.",
+          text: "Ixchel and the governance council assign Domingo, Ixchel's seventeen-year-old brother, to guide Oblivia through facts in a deliberate order. His task is evidence sequencing: keep her with the facts before metaphor takes over.",
         },
       ],
     },
@@ -74,7 +74,7 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "Auric Subsurface Solutions Ltd. and its Guatemalan subsidiary drove the geologic harm. The concession process, ignored objections, and captured oversight structure made the damage administratively possible.",
+          text: "Auric Subsurface Solutions Ltd. and its Guatemalan subsidiary drove the geologic harm. The concession process, the ignored objections, and the captured oversight structure made the damage administratively possible.",
         },
         {
           type: "paragraph",
@@ -134,7 +134,15 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "The earth had opened on a Tuesday, which Oblivia felt was significant, Tuesday being governed by Mars and Mars being the planet of rupture and unresolved masculine inheritance. Domingo met her at the airport with a sign that said APPROPRIA and, after forty minutes of mountain road silence, said: the crack is 2.3 meters wide; I can show you the monitoring data when we arrive. Oblivia wrote in her field journal: the Fury has a measurement. For the first time, she was not sure it was enough.",
+          text: "The earth had opened on a Tuesday, which Oblivia felt was significant, Tuesday being governed by Mars and Mars being the planet of rupture and unresolved masculine inheritance.",
+        },
+        {
+          type: "paragraph",
+          text: "Domingo met her at the airport with a sign that said APPROPRIA and, after forty minutes of mountain road silence, said: the crack is 2.3 meters wide; I can show you the monitoring data when we arrive.",
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia wrote in her field journal: the Fury has a measurement. For the first time, she was not sure it was enough.",
         },
       ],
     },
