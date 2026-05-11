@@ -31,7 +31,7 @@ function Index() {
         <Plane />
         <div className="relative mx-auto max-w-6xl px-4 pt-16 pb-24 sm:pt-24 sm:pb-32">
           <div className="boeing-panel boeing-grid overflow-hidden px-6 py-8 sm:px-10 sm:py-12">
-            <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+            <div className="grid gap-10">
               <div>
                 <div className="boeing-badge">
                   Flight deck edition · 12 stories · one system
@@ -63,26 +63,6 @@ function Index() {
                   >
                     About the collection
                   </Link>
-                </div>
-              </div>
-              <div className="grid gap-4 self-start font-mono text-[11px] uppercase tracking-[0.2em]">
-                <div className="border border-border/80 bg-background/85 p-4">
-                  <div className="text-muted-foreground">Aircraft palette</div>
-                  <div className="boeing-gradient-bar mt-3 h-2" />
-                  <div className="mt-3 text-lg text-signal-glow">Blue / White / Steel</div>
-                </div>
-                <div className="border border-border/80 bg-background/85 p-4">
-                  <div className="text-muted-foreground">Manifest status</div>
-                  <div className="mt-3 text-3xl text-foreground">Route board</div>
-                  <div className="mt-2 text-muted-foreground">
-                    Structured like an airport departure wall
-                  </div>
-                </div>
-                <div className="border border-border/80 bg-background/85 p-4">
-                  <div className="text-muted-foreground">Design note</div>
-                  <div className="mt-3 text-sm leading-6 text-foreground/80">
-                    Clean corporate surfaces, cobalt accents, and aircraft-instrument details.
-                  </div>
                 </div>
               </div>
             </div>
