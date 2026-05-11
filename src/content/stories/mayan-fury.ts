@@ -3,10 +3,6 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "title",
-      title: "Oblivia Cracks the Case of the Mayan Fury",
-      blocks: [
-        {
   "id": "chapter-one-the-fury-has-a-measurement",
   "title": "Chapter One: The Fury Has a Measurement",
   "blocks": [
@@ -946,5 +942,6 @@ export const narrative: StoryDocument = {
       "text": "She boarded anyway."
     }
   ]
-}
-]
+    }
+  ],
+};
