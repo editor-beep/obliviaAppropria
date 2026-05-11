@@ -54,7 +54,7 @@ function Subscribe() {
       )}
 
       <p className="mt-8 text-xs text-muted-foreground/70">
-        This site is fictional. Hook a real Substack here when ready.
+        This site is fictional. Stories are available directly in the in-app manifest.
       </p>
     </div>
   );
