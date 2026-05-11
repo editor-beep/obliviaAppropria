@@ -31,7 +31,7 @@ function About() {
         </p>
         <h2>Publication</h2>
         <p>
-          The stories now live inside this app, where the full manifest can be read in sequence or by destination. Season One: the international stories and the American skeleton. Season Two: structural variations — including a story from inside the culprit's perspective, with Oblivia absent entirely.
+          The stories now live inside this app, where the full manifest can be read in sequence or by destination. The collection includes Season One: the international stories and the American skeleton. Season Two adds structural variations — including a story from inside the culprit's perspective, with Oblivia absent entirely.
         </p>
       </div>
 
