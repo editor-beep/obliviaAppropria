@@ -7,24 +7,41 @@ export function Footer() {
         <div>
           <div className="mb-3 text-signal-glow">◇ Privileged Eye</div>
           <p className="font-sans text-xs normal-case tracking-normal text-muted-foreground/90">
-            A short story collection following Detective Oblivia Appropria across twelve flights, twelve cover stories, and one system she will not see.
+            A short story collection following Detective Oblivia Appropria across twelve flights,
+            twelve cover stories, and one system she will not see.
           </p>
         </div>
         <nav className="flex flex-col gap-2">
           <div className="text-foreground/80">Cabin</div>
-          <Link to="/stories" className="hover:text-signal-glow">Manifest</Link>
-          <Link to="/system-map" className="hover:text-signal-glow">System Map</Link>
-          <Link to="/safety-card" className="hover:text-signal-glow">Safety Card</Link>
-          <Link to="/about" className="hover:text-signal-glow">About</Link>
-          <Link to="/subscribe" className="hover:text-signal-glow">Subscribe</Link>
+          <Link to="/stories" className="hover:text-signal-glow">
+            Manifest
+          </Link>
+          <Link to="/system-map" className="hover:text-signal-glow">
+            System Map
+          </Link>
+          <Link to="/safety-card" className="hover:text-signal-glow">
+            Safety Card
+          </Link>
+          <Link to="/about" className="hover:text-signal-glow">
+            About
+          </Link>
+          <Link to="/subscribe" className="hover:text-signal-glow">
+            Subscribe
+          </Link>
         </nav>
         <div className="font-sans text-xs normal-case tracking-normal text-muted-foreground/80">
-          <div className="mb-2 font-mono uppercase tracking-[0.18em] text-foreground/80">Below you</div>
-          The fields, the workers, the supply chain ascending into the hold. She does not look down. She is watching the light.
+          <div className="mb-2 font-mono uppercase tracking-[0.18em] text-foreground/80">
+            Below you
+          </div>
+          The fields, the workers, the supply chain ascending into the hold. She does not look down.
+          She is watching the light.
         </div>
       </div>
       <div className="border-t border-border/40 px-4 py-4 text-center font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground/60">
-        © Luminance Editorial · for narrative purposes only
+        Copyright The Means of Production 2026 ·{" "}
+        <a href="https://www.themeansofproduction.press" className="hover:text-signal-glow">
+          themeansofproduction.press
+        </a>
       </div>
     </footer>
   );
