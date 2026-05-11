@@ -12,7 +12,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Published in Luminance as: “Worn Again: How West Africa's Most Extraordinary Market Is Reinventing What We Owe Each Other.” Loopwear's impact report calls Kantamanto “a living laboratory of circular abundance.” Abena's unsent note reads: “340 kg unsellable this week. Burning Thursday.”",
+          text: "Published in Luminance as: “Worn Again: How West Africa's Most Extraordinary Market Is Reinventing What We Owe Each Other.” Loopwear's impact report calls Kantamanto “a living laboratory of circular abundance.” Abena's unsent note reads: “340 kilograms unsellable this week. Burning Thursday.”",
         },
       ],
     },
@@ -135,7 +135,15 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "The bale arrived from Columbus on a Tuesday, ordinary except as logistics: 490 kilograms, twenty-two days in transit, one stale phrase on the manifest, one better label glimpsed through wrapping, one expensive gamble. Abena logged each item beside cooling rice and reached the same split verdict as always — instinct right, instinct wrong — as sellable percentage settled into the low twenties and disposal cost marched toward Thursday. She heard the visitor before she saw her: hesitation at junctions, camera adjustments, notebook friction, the acoustics of someone moving through a market without knowing how to move through it. “It's like opening a time capsule,” the visitor said. Abena looked at 340 kilograms of unsellable polyester and answered: “Sit down.”",
+          text: "The bale arrived from Columbus on a Tuesday, ordinary except as logistics: 490 kilograms, twenty-two days in transit, one stale phrase on the manifest, one better label glimpsed through wrapping, one expensive gamble.",
+        },
+        {
+          type: "paragraph",
+          text: "Abena logged each item beside cooling rice and reached the same split verdict as always — instinct right, instinct wrong — as sellable percentage settled into the low twenties and disposal cost marched toward Thursday.",
+        },
+        {
+          type: "paragraph",
+          text: "She heard the visitor before she saw her: hesitation at junctions, camera adjustments, notebook friction, the acoustics of someone moving through a market without knowing how to move through it. “It's like opening a time capsule,” the visitor said. Abena looked at 340 kilograms of unsellable polyester and answered: “Sit down.”",
         },
       ],
     },
