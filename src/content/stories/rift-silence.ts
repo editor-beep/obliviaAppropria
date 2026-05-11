@@ -169,7 +169,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `At eleven forty-three a.m., a urban planning researcher in Copenhagen named Søren, who had been tracking Rift Valley mineral concessions for a paper on impact investment and ecological displacement, saw the post in his feed because he followed the #riftvalley tag for professional reasons. He looked at the sign photograph. He looked at the waiver number. He opened a browser tab. He cross-referenced the number against the regional minerals registry, which was public, which almost no one looked at. He opened a second tab. He found the subsidiary registration. He found the Luxembourg holding company. He found, in the holding company's disclosed investors, the name of the Zurich impact fund.`,
+          text: `At eleven forty-three a.m., an urban planning researcher in Copenhagen named Søren, who had been tracking Rift Valley mineral concessions for a paper on impact investment and ecological displacement, saw the post in his feed because he followed the #riftvalley tag for professional reasons. He looked at the sign photograph. He looked at the waiver number. He opened a browser tab. He cross-referenced the number against the regional minerals registry, which was public, which almost no one looked at. He opened a second tab. He found the subsidiary registration. He found the Luxembourg holding company. He found, in the holding company's disclosed investors, the name of the Zurich impact fund.`,
         },
         {
           type: "paragraph",
