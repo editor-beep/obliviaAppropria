@@ -184,7 +184,7 @@ function Marginal({ label, body }: { label: string; body: string }) {
 }
 
 function getStoryChapters(doc: StoryDocument) {
-  const chapterStartPattern = /^chapter\b/i;
+  const chapterPattern = /^chapter\b/i;
   const { chapters, titledSections } = doc.sections.reduce(
     (acc, section) => {
       const title = section.title?.trim();
@@ -192,7 +192,7 @@ function getStoryChapters(doc: StoryDocument) {
 
       const entry = { id: section.id, title };
       acc.titledSections.push(entry);
-      if (chapterStartPattern.test(title)) {
+      if (chapterPattern.test(title)) {
         acc.chapters.push(entry);
       }
 
