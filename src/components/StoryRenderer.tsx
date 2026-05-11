@@ -90,15 +90,15 @@ function buildChapterGroups(doc: StoryDocument) {
 
   doc.sections.forEach((section, index) => {
     const sectionTitle = section.title?.trim() ?? "";
-    if (chapterStartPattern.test(sectionTitle)) {
+    const isChapterStart = chapterStartPattern.test(sectionTitle);
+
+    if (isChapterStart) {
       currentGroup = { id: section.id, title: sectionTitle, sections: [] };
       groups.push(currentGroup);
-    }
-
-    if (!currentGroup) {
+    } else if (!currentGroup) {
       currentGroup = {
         id: section.id,
-        title: sectionTitle || `Chapter ${groups.length + 1}`,
+        title: sectionTitle || "Prologue",
         sections: [],
       };
       groups.push(currentGroup);
