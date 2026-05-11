@@ -77,7 +77,7 @@ function Subscribe() {
                 Subscribe & support
               </div>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                Read new posts on Substack, and support ongoing work on Ko-fi.
+                Open Substack for new posts, and Ko-fi to support ongoing work.
               </p>
             </div>
             <div className="mt-8 space-y-5 rounded-sm border border-signal/40 bg-cabin/75 p-6">
@@ -110,7 +110,7 @@ function Subscribe() {
                   Cabin note
                 </div>
                 <p className="mt-2">
-                  The in-app mock signup has been replaced with direct links to the live pages.
+                  Substack is where new posts go live, and Ko-fi helps keep the project going.
                 </p>
               </div>
               <Link
