@@ -715,8 +715,8 @@ export const narrative: StoryDocument = {
   ],
   scraps: [
     {
-      label: "MERIDIAN NEWSLETTER (Q2)",
-      body: `Our East Africa saline minerals portfolio continues to demonstrate that responsible extraction and ecological stewardship are not opposing values but complementary ones, united by a shared commitment to the long-term vitality of the land and its communities. We are proud to be restoring futures.`,
+      label: "COUNTY WATER OFFICE MEMO (INTERNAL)",
+      body: `Site visit notes (west shallows): salinity drift remains above baseline for a third consecutive cycle. Community fishers report flamingo absence and reduced juvenile catch in adjacent marsh channels. Recommend immediate pause on additional aquifer draw permits pending independent hydro review and public hearing.`,
     },
   ],
 };
