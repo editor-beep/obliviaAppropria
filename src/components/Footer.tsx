@@ -38,7 +38,10 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border/40 px-4 py-4 text-center font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground/60">
-        © Luminance Editorial · for narrative purposes only
+        Copyright The Means of Production 2026 ·{" "}
+        <a href="https://www.themeansofproduction.press" className="hover:text-signal-glow">
+          themeansofproduction.press
+        </a>
       </div>
     </footer>
   );
