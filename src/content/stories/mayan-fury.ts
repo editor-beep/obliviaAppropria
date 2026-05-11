@@ -92,7 +92,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "Oblivia says, \"Uncle Monty.\" Monty answers, \"Oblivia.\" She says, \"The Fury took you.\" He closes his eyes and says, \"Get Ixchel. Call the consulate. And don't post anything yet.\"",
+          text: "Oblivia says, 'Uncle Monty.' Monty answers, 'Oblivia.' She says, 'The Fury took you.' He closes his eyes and says, 'Get Ixchel. Call the consulate. And don't post anything yet.'",
         },
         {
           type: "paragraph",
@@ -142,7 +142,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia wrote in her field journal: the Fury has a measurement. For the first time, she was not sure it was enough.",
+          text: "Oblivia wrote in her field journal: The Fury has a measurement. For the first time, she was not sure it was enough.",
         },
       ],
     },
