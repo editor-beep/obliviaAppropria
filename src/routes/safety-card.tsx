@@ -58,7 +58,7 @@ function SafetyCard() {
   );
 }
 
-function Panel({ title, pictogram, front, back }: typeof panels[number]) {
+function Panel({ title, pictogram, front, back }: (typeof panels)[number]) {
   const [flipped, setFlipped] = useState(false);
   return (
     <button
@@ -82,9 +82,7 @@ function Panel({ title, pictogram, front, back }: typeof panels[number]) {
             <span>{title}</span>
             <span>SAFETY</span>
           </div>
-          <div className="text-center text-7xl text-signal" style={{ color: "oklch(0.5 0.18 280)" }}>
-            {pictogram}
-          </div>
+          <div className="text-center text-7xl text-signal-glow">{pictogram}</div>
           <p className="font-display text-base italic leading-snug">{front}</p>
         </div>
         {/* Back */}

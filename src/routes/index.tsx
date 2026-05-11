@@ -6,7 +6,11 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Detective Oblivia Appropria — Privileged Eye" },
-      { name: "description", content: "A short story collection. Twelve flights. Twelve cover stories. One system she does not see." },
+      {
+        name: "description",
+        content:
+          "A short story collection. Twelve flights. Twelve cover stories. One system she does not see.",
+      },
     ],
   }),
   component: Index,
@@ -23,48 +27,77 @@ function Index() {
     <div className="relative">
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 cabin-window opacity-70" aria-hidden />
+        <div className="absolute inset-0 cabin-window opacity-90" aria-hidden />
         <Plane />
-        <div className="relative mx-auto max-w-5xl px-4 pt-20 pb-28 sm:pt-32 sm:pb-40">
-          <div className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
-            Now boarding · 12 stories · one system
-            <span className="cursor-blink" />
-          </div>
-          <h1 className="mt-6 font-display text-5xl leading-[1.05] sm:text-7xl md:text-8xl">
-            Detective Oblivia
-            <br />
-            <span className="italic text-signal-glow">Appropria</span>
-          </h1>
-          <div className="mt-4 font-display text-2xl italic text-muted-foreground sm:text-3xl">
-            Privileged Eye
-          </div>
-          <p className="mt-10 max-w-xl font-display text-lg leading-relaxed text-foreground/90 sm:text-xl">
-            A regenerative travel correspondent crosses twelve borders in linen and good faith. Below her, the system she will not see. The reader sees it. That is the trick.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-3 font-mono text-xs uppercase tracking-[0.18em]">
-            <Link
-              to="/stories"
-              className="rounded-sm border border-signal/70 bg-signal/15 px-5 py-3 text-signal-glow hover:bg-signal/25"
-            >
-              Open the manifest →
-            </Link>
-            <Link
-              to="/about"
-              className="rounded-sm border border-border px-5 py-3 hover:border-signal/60"
-            >
-              About the collection
-            </Link>
+        <div className="relative mx-auto max-w-6xl px-4 pt-16 pb-24 sm:pt-24 sm:pb-32">
+          <div className="boeing-panel boeing-grid overflow-hidden px-6 py-8 sm:px-10 sm:py-12">
+            <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+              <div>
+                <div className="boeing-badge">
+                  Flight deck edition · 12 stories · one system
+                  <span className="cursor-blink" />
+                </div>
+                <h1 className="mt-8 max-w-4xl text-5xl leading-[0.95] text-foreground sm:text-7xl md:text-8xl">
+                  Detective Oblivia
+                  <br />
+                  <span className="boeing-wordmark text-signal-glow">Appropria</span>
+                </h1>
+                <div className="mt-4 font-mono text-sm uppercase tracking-[0.3em] text-muted-foreground sm:text-base">
+                  Privileged Eye
+                </div>
+                <p className="mt-10 max-w-2xl text-lg leading-relaxed text-foreground/88 sm:text-xl">
+                  A regenerative travel correspondent crosses twelve borders in linen and good
+                  faith. Below her, the system she will not see. The reader sees it. That is the
+                  trick.
+                </p>
+                <div className="mt-10 flex flex-wrap gap-3 font-mono text-xs uppercase tracking-[0.18em]">
+                  <Link
+                    to="/stories"
+                    className="border border-signal/70 bg-signal px-5 py-3 text-primary-foreground transition-colors hover:bg-signal-glow"
+                  >
+                    Open the manifest →
+                  </Link>
+                  <Link
+                    to="/about"
+                    className="border border-border bg-background/80 px-5 py-3 text-foreground transition-colors hover:border-signal/60 hover:text-signal-glow"
+                  >
+                    About the collection
+                  </Link>
+                </div>
+              </div>
+              <div className="grid gap-4 self-start font-mono text-[11px] uppercase tracking-[0.2em]">
+                <div className="border border-border/80 bg-background/85 p-4">
+                  <div className="text-muted-foreground">Aircraft palette</div>
+                  <div className="mt-3 h-2 bg-[linear-gradient(90deg,var(--color-signal-glow),var(--color-signal),oklch(0.95_0.01_245))]" />
+                  <div className="mt-3 text-lg text-signal-glow">Blue / White / Steel</div>
+                </div>
+                <div className="border border-border/80 bg-background/85 p-4">
+                  <div className="text-muted-foreground">Manifest status</div>
+                  <div className="mt-3 text-3xl text-foreground">13 flights</div>
+                  <div className="mt-2 text-muted-foreground">Structured like a route board</div>
+                </div>
+                <div className="border border-border/80 bg-background/85 p-4">
+                  <div className="text-muted-foreground">Design note</div>
+                  <div className="mt-3 text-sm leading-6 text-foreground/80">
+                    Clean corporate surfaces, cobalt accents, and aircraft-instrument details.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Featured */}
       <section className="mx-auto max-w-7xl px-4 py-20">
-        <div className="mb-8 flex items-baseline justify-between border-b border-border/60 pb-4">
+        <div className="boeing-rule mb-8 flex items-baseline justify-between border-b border-border/60 pb-4">
           <h2 className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
             Featured Departures
           </h2>
-          <Link to="/stories" className="font-mono text-xs uppercase tracking-[0.18em] text-muted-foreground hover:text-signal-glow">
+          <Link
+            to="/stories"
+            className="font-mono text-xs uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-signal-glow"
+          >
             All 13 →
           </Link>
         </div>
@@ -77,23 +110,26 @@ function Index() {
 
       {/* Pull quote */}
       <section className="mx-auto max-w-4xl px-4 py-24 text-center">
-        <p className="font-display text-3xl italic leading-snug text-foreground/95 sm:text-4xl md:text-5xl">
+        <p className="border-y border-border/70 py-10 text-3xl leading-snug text-foreground/95 sm:text-4xl md:text-5xl">
           &ldquo;The book describes a single system from twelve different angles.
           <br />
-          <span className="text-signal-glow">Oblivia travels the surface. The reader assembles the underneath.&rdquo;</span>
+          <span className="text-signal-glow">
+            Oblivia travels the surface. The reader assembles the underneath.&rdquo;
+          </span>
         </p>
       </section>
 
       {/* Frame teaser */}
       <section className="mx-auto max-w-5xl px-4 py-20">
-        <div className="grid gap-8 rounded-md border border-border/60 bg-seatback/60 p-10 md:grid-cols-2">
+        <div className="boeing-panel grid gap-8 p-10 md:grid-cols-2">
           <div>
             <div className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
               Frame Device
             </div>
-            <h3 className="mt-3 font-display text-3xl">The Boeing</h3>
-            <p className="mt-4 text-muted-foreground">
-              Oblivia is in transit between every story. The safety card she never reads. The fields below she never sees. Accumulates across the collection. Pays off in the final image.
+            <h3 className="mt-3 text-3xl text-foreground">The Boeing</h3>
+            <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
+              Oblivia is in transit between every story. The safety card she never reads. The fields
+              below she never sees. Accumulates across the collection. Pays off in the final image.
             </p>
             <Link
               to="/safety-card"
@@ -102,19 +138,49 @@ function Index() {
               The safety card she never reads →
             </Link>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-sm border border-border/40 cabin-window">
+          <div className="relative aspect-[4/3] overflow-hidden border border-border/50 cabin-window">
             <svg viewBox="0 0 400 300" className="h-full w-full">
               <defs>
                 <radialGradient id="g" cx="0.5" cy="0.4">
-                  <stop offset="0%" stopColor="oklch(0.4 0.18 280)" />
-                  <stop offset="100%" stopColor="oklch(0.13 0.04 280)" />
+                  <stop offset="0%" stopColor="oklch(0.99 0.005 245)" />
+                  <stop offset="65%" stopColor="oklch(0.78 0.1 245)" />
+                  <stop offset="100%" stopColor="oklch(0.42 0.16 255)" />
                 </radialGradient>
               </defs>
               <ellipse cx="200" cy="150" rx="140" ry="110" fill="url(#g)" />
-              <line x1="60" y1="240" x2="340" y2="240" stroke="oklch(0.4 0.05 80 / 0.4)" strokeWidth="0.5" />
-              <line x1="60" y1="250" x2="340" y2="250" stroke="oklch(0.4 0.05 80 / 0.3)" strokeWidth="0.5" />
-              <line x1="60" y1="260" x2="340" y2="260" stroke="oklch(0.4 0.05 80 / 0.2)" strokeWidth="0.5" />
-              <text x="200" y="290" fontSize="9" textAnchor="middle" fill="var(--color-muted-foreground)" fontFamily="var(--font-mono)" letterSpacing="2">
+              <line
+                x1="60"
+                y1="240"
+                x2="340"
+                y2="240"
+                stroke="oklch(0.42 0.09 250 / 0.35)"
+                strokeWidth="0.5"
+              />
+              <line
+                x1="60"
+                y1="250"
+                x2="340"
+                y2="250"
+                stroke="oklch(0.42 0.09 250 / 0.25)"
+                strokeWidth="0.5"
+              />
+              <line
+                x1="60"
+                y1="260"
+                x2="340"
+                y2="260"
+                stroke="oklch(0.42 0.09 250 / 0.16)"
+                strokeWidth="0.5"
+              />
+              <text
+                x="200"
+                y="290"
+                fontSize="9"
+                textAnchor="middle"
+                fill="var(--color-muted-foreground)"
+                fontFamily="var(--font-mono)"
+                letterSpacing="2"
+              >
                 BELOW: THE FIELDS
               </text>
             </svg>
@@ -129,11 +195,22 @@ function Plane() {
   return (
     <svg
       viewBox="0 0 1200 300"
-      className="absolute inset-x-0 top-1/3 z-0 h-32 w-full opacity-40"
+      className="absolute inset-x-0 top-1/3 z-0 h-32 w-full opacity-55"
       aria-hidden
     >
-      <line x1="0" y1="150" x2="1200" y2="150" stroke="var(--color-signal)" strokeWidth="0.4" strokeDasharray="3 9" opacity="0.4" />
-      <text x="600" y="146" fontSize="18" textAnchor="middle" fill="var(--color-signal-glow)">✈</text>
+      <line
+        x1="0"
+        y1="150"
+        x2="1200"
+        y2="150"
+        stroke="var(--color-signal)"
+        strokeWidth="0.4"
+        strokeDasharray="3 9"
+        opacity="0.45"
+      />
+      <text x="600" y="146" fontSize="18" textAnchor="middle" fill="var(--color-signal-glow)">
+        ✈
+      </text>
     </svg>
   );
 }
