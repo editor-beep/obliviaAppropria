@@ -728,7 +728,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `At the airstrip, Joseph unloaded their bags. Oblivia had more than she'd arrived with: a woven basket she'd bought at the lodge's gift shop, a small clay vessel described in its tag as "handmade by local artisans," which had been made by a cooperative in Nairobi that supplied three ecolodges and a Heathrow duty-free concession. Alexandrei had the same bag he'd arrived with. She shook Joseph's hand and thanked him and told him the drive had been one of the most educating experiences of the trip. Alexandrei shook Joseph's hand and asked him to pass along his number to Omondi's cousin, for the open session.`,
+          text: `At the airstrip, Joseph unloaded their bags. Oblivia had more than she'd arrived with: a woven basket she'd bought at the lodge's gift shop, a small clay vessel described in its tag as "handmade by local artisans," which had been made by a cooperative in Nairobi that supplied three ecolodges and a Heathrow duty-free concession. Alexandrei had the same bag he'd arrived with. She shook Joseph's hand and thanked him and told him the drive had been one of the most grounding experiences of the trip. Alexandrei shook Joseph's hand and asked him to pass along his number to Omondi's cousin, for the open session.`,
         },
         { type: "paragraph", text: `Joseph said he would.` },
         {
