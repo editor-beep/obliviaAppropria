@@ -1,5 +1,34 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { stories, connections } from "@/content/stories";
+import type { StoryMeta } from "@/content/types";
+
+const STATUS_STYLE: Record<
+  StoryMeta["status"],
+  { fill: string; stroke: string; strokeDasharray?: string; numberFill: string; labelFill: string; opacity: number }
+> = {
+  complete: {
+    fill: "var(--color-signal)",
+    stroke: "var(--color-signal-glow)",
+    numberFill: "var(--color-background)",
+    labelFill: "var(--color-foreground)",
+    opacity: 1,
+  },
+  concept: {
+    fill: "var(--color-cabin)",
+    stroke: "var(--color-signal)",
+    numberFill: "var(--color-signal-glow)",
+    labelFill: "var(--color-foreground)",
+    opacity: 0.8,
+  },
+  tbd: {
+    fill: "var(--color-seatback)",
+    stroke: "var(--color-border)",
+    strokeDasharray: "3 2",
+    numberFill: "var(--color-muted-foreground)",
+    labelFill: "var(--color-muted-foreground)",
+    opacity: 0.45,
+  },
+};
 
 export const Route = createFileRoute("/system-map")({
   head: () => ({
@@ -83,14 +112,20 @@ function SystemMap() {
             const labelX = p.x + Math.cos(ang) * 28;
             const labelY = p.y + Math.sin(ang) * 28;
             const anchor = labelX > cx + 10 ? "start" : labelX < cx - 10 ? "end" : "middle";
+            const st = STATUS_STYLE[s.status];
             return (
               <Link key={s.slug} to="/stories/$slug" params={{ slug: s.slug }}>
-                <g className="cursor-pointer">
-                  <circle cx={p.x} cy={p.y} r="14" fill="var(--color-cabin)" stroke="var(--color-signal-glow)" />
-                  <text x={p.x} y={p.y + 4} fontSize="11" textAnchor="middle" fill="var(--color-signal-glow)" fontFamily="var(--font-mono)">
+                <g className="cursor-pointer" opacity={st.opacity}>
+                  <circle
+                    cx={p.x} cy={p.y} r="14"
+                    fill={st.fill}
+                    stroke={st.stroke}
+                    strokeDasharray={st.strokeDasharray}
+                  />
+                  <text x={p.x} y={p.y + 4} fontSize="11" textAnchor="middle" fill={st.numberFill} fontFamily="var(--font-mono)">
                     {s.number}
                   </text>
-                  <text x={labelX} y={labelY + 3} fontSize="11" textAnchor={anchor} fill="var(--color-foreground)" fontFamily="var(--font-sans)">
+                  <text x={labelX} y={labelY + 3} fontSize="11" textAnchor={anchor} fill={st.labelFill} fontFamily="var(--font-sans)">
                     {s.shortTitle}
                   </text>
                 </g>
@@ -98,6 +133,21 @@ function SystemMap() {
             );
           })}
         </svg>
+      </div>
+
+      <div className="mx-auto mt-6 flex flex-wrap gap-6 max-w-3xl font-mono text-[10px] uppercase tracking-[0.22em]">
+        <div className="flex items-center gap-2">
+          <div className="h-3 w-3 rounded-full bg-signal" />
+          <span className="text-signal-glow">Complete</span>
+        </div>
+        <div className="flex items-center gap-2 opacity-80">
+          <div className="h-3 w-3 rounded-full bg-cabin border border-signal" />
+          <span className="text-muted-foreground">Concept</span>
+        </div>
+        <div className="flex items-center gap-2 opacity-45">
+          <div className="h-3 w-3 rounded-full bg-seatback border border-border border-dashed" />
+          <span className="text-muted-foreground">Boarding soon</span>
+        </div>
       </div>
 
       <div className="mx-auto mt-10 max-w-2xl space-y-2 font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
