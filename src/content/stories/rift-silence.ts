@@ -8,7 +8,7 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "heading",
-          text: "The Silence Beneath the Silence of the Rift",
+          text: "Oblivia Cracks the Case of the Missing Flamingos",
         },
         {
           type: "document",

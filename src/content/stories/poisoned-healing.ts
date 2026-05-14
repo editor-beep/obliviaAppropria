@@ -6,8 +6,12 @@ export const narrative: StoryDocument = {
       id: "the-integration",
       blocks: [
         {
+          type: "heading",
+          text: "Oblivia Cracks the Case of the Poisoned Healing",
+        },
+        {
           type: "paragraph",
-          text: "The retreat calls it the integration experience. It is in the FAQ. The FAQ was updated four months ago. Tama noticed when it changed.",
+          text: "The private investigator is undercover as a wellness correspondent. She has a theory. The sickness is an ancestral transmission — Māori land memory expressing itself through the bodies of visitors who are finally open enough to receive it. This is also what the retreat calls it. The retreat calls it the integration experience. It is in the FAQ. The FAQ was updated four months ago. Tama noticed when it changed.",
         },
         {
           type: "paragraph",
