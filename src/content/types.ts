@@ -73,5 +73,4 @@ export type ReadingState = {
   completedSections: string[];
   /** Keys are "slug#scrap-label" */
   discoveredScraps: string[];
-  notesUnlocked: string[];
 };

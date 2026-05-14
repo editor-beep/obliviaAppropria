@@ -167,7 +167,7 @@ export const storyMetas: StoryMeta[] = [
       "Loopwear reposts Oblivia\u2019s profile of Madison. Goes quiet for eleven days after the second piece. Posts a sunset.",
     theMoment:
       "Madison sits very still for a long time when Oblivia tells her. That stillness is the most honest thing in the story.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "music-tbd",
