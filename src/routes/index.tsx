@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A short story collection. Twelve flights. Twelve cover stories. One system she does not see.",
+          "A short story collection. Thirteen investigations. Two correspondents. One system seen most clearly from underneath.",
       },
     ],
   }),
@@ -34,7 +34,7 @@ function Index() {
             <div className="grid gap-10">
               <div>
                 <div className="boeing-badge">
-                  Flight deck edition · 12 stories · one system
+                  Flight deck edition · 13 stories · one system
                   <span className="cursor-blink" />
                 </div>
                 <h1 className="mt-8 max-w-4xl text-5xl leading-[0.95] text-foreground sm:text-7xl md:text-8xl">
@@ -45,11 +45,22 @@ function Index() {
                 <div className="mt-4 font-mono text-sm uppercase tracking-[0.3em] text-muted-foreground sm:text-base">
                   Privileged Eye
                 </div>
-                <p className="mt-10 max-w-2xl text-lg leading-relaxed text-foreground/88 sm:text-xl">
-                  A regenerative travel correspondent crosses twelve borders in linen and good
-                  faith. Below her, the system she will not see. The reader sees it. That is the
-                  trick.
-                </p>
+                <div className="mt-10 max-w-2xl space-y-4 text-lg leading-relaxed text-foreground/88 sm:text-xl">
+                  <p>
+                    Detective Oblivia Appropria crosses borders in linen and good faith. She
+                    arrives at retreats, summits, ecolodges, and listening walks. She solves the
+                    case. She is the case.
+                  </p>
+                  <p>
+                    Alexandrei Harris, environmental correspondent for The Times, recommends each
+                    investigation and files alongside her. His pieces run. They are wrong in the
+                    way she is wrong, which is a specific and well-documented way.
+                  </p>
+                  <p className="text-foreground/60">
+                    Below them both: one system, described from thirteen angles by thirteen
+                    communities who have been there longer.
+                  </p>
+                </div>
                 <div className="mt-10 flex flex-wrap gap-3 font-mono text-xs uppercase tracking-[0.18em]">
                   <Link
                     to="/stories"
@@ -93,11 +104,9 @@ function Index() {
       {/* Pull quote */}
       <section className="mx-auto max-w-4xl px-4 py-24 text-center">
         <p className="border-y border-border/70 py-10 text-3xl leading-snug text-foreground/95 sm:text-4xl md:text-5xl">
-          &ldquo;The book describes a single system from twelve different angles.
+          She solves the case.
           <br />
-          <span className="text-signal-glow">
-            Oblivia travels the surface. The reader assembles the underneath.&rdquo;
-          </span>
+          <span className="text-signal-glow">She is the case.</span>
         </p>
       </section>
 
