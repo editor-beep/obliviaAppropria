@@ -29,7 +29,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She had read the welcome packet on the flight from Accra, Accra to Miami to San Pedro Sula and then a land transfer east toward the ruins and then north, forty minutes on a road that improved and worsened in alternating stretches that tracked, she had noted, the presence and absence of recent infrastructure investment. The welcome packet was twelve pages on heavy cream stock with a photograph of the Copán ruins on the cover, which was either culturally resonant or adjacent to something uncomfortable and she had written, in her field journal somewhere over the Caribbean: ruins on the cover. The retreat is not at the ruins. Check distance.",
+          text: "She had read the welcome packet on the flight from Accra, Accra to Miami to San Pedro Sula and then a land transfer east toward the ruins and then north, forty minutes on a road whose surface she found herself reading as a kind of text: the smooth sections affectless and corporate, the rougher passages producing a deceleration she experienced as almost intentional. The body recalled to awareness. She had written in her field journal somewhere north of the ruins: the road is a kind of argument. Below it, in different handwriting: infrastructure investment gap. 40km to retreat. The welcome packet was twelve pages on heavy cream stock with a photograph of the Copán ruins on the cover, and she had written, in her field journal somewhere over the Caribbean: ruins as provenance, or ruins as default scenic currency. Doing a lot of work either way. The retreat is not at the ruins. Check distance.",
         },
         {
           type: "paragraph",
@@ -37,7 +37,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia photographed the roots and the flagstones from three angles. The photographs were going to be beautiful. She did not post them.",
+          text: "She photographed the roots and the displaced flagstones from three angles. She wrote in her field journal: roots as site practice — the infrastructure of duration. The decision not to restore: a kind of institutional candor. The photographs were going to be beautiful. She did not post them. They needed context.",
         },
         {
           type: "divider",
@@ -52,7 +52,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia wrote: Don Aurelio. Harvest protocol. She did not write a question mark. She filed a check-in to her editor at Luminance: Sebastián is the real thing. Sound is real. Story is there. Needs the forest.",
+          text: "Oblivia wrote: Don Aurelio. Harvest protocol. She liked the phrase. It sounded like a performance instruction. She did not write a question mark. She filed a check-in to her editor at Luminance: Sebastián is the real thing. Sound is real. Story is there. Needs the forest.",
         },
         {
           type: "paragraph",
@@ -60,11 +60,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The grove was beautiful in the late afternoon. The trees were large and the light came through in columns and two of the retreat guests touched the bark as if completing a circuit.",
+          text: "The grove was beautiful in the late afternoon. The trees were large and the light came through in columns and two of the retreat guests touched the bark as if completing a circuit — which was exactly the kind of encounter the retreat had been designed to produce, she noted, and which did not make it less affecting.",
         },
         {
           type: "paragraph",
-          text: "Oblivia touched the bark too. She noticed, at the grove's edge, a cleared area — twenty meters wide, raw soil, root stumps not yet overgrown — that was visible through the trees in the direction away from the retreat. She turned to ask Sebastián about it and he was already speaking to one of the guests about the relationship between rosewood resonance and theta brainwave states, and she noted the cleared area in her field journal and moved on.",
+          text: "She touched the bark too. She wrote in her field journal: access to duration. Old growth as institutional memory. She noticed, at the grove's edge, a cleared area — twenty meters wide, raw soil, root stumps not yet overgrown — that was visible through the trees in the direction away from the retreat. She turned to ask Sebastián about it and he was already speaking to one of the guests about the relationship between rosewood resonance and theta brainwave states, and she noted the cleared area in her field journal and moved on.",
         },
         {
           type: "paragraph",
@@ -80,7 +80,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia wrote the name in her field journal. She looked at the forest, dark beyond the courtyard lights. She thought about the cleared area at the grove's edge, twenty meters of raw soil and root stumps, visible through the trees in the direction away from the retreat.",
+          text: "Oblivia wrote the name in her field journal. She looked at the forest, dark beyond the courtyard lights. There was something in the way the staff member had said it — the forest at night, a fall, a young man — that almost fit the retreat's conceptual landscape: the wildness that exceeded the design, the risk that made the location legible. She noticed herself reading it that way and stopped.",
+        },
+        {
+          type: "paragraph",
+          text: "She thought about the cleared area at the grove's edge, twenty meters of raw soil and root stumps, visible through the trees in the direction away from the retreat.",
         },
         {
           type: "paragraph",
@@ -103,7 +107,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Don Aurelio Mejía's workshop was not on the retreat itinerary. It was in a village forty minutes north, down a road that was not on the map Sebastián had provided, in a long low building whose corrugated roof had been weighted with stones at the corners and whose open front wall looked out on a patio where three incomplete marimba frames stood on sawhorses in various stages of assembly. The wood shavings on the floor were old and new mixed together, which was the smell of a place that had been doing the same work for a long time.",
+          text: "Don Aurelio Mejía's workshop was not on the retreat itinerary. It was in a village forty minutes north, down a road that was not on the map Sebastián had provided, in a long low building whose corrugated roof had been weighted with stones at the corners and whose open front wall looked out on a patio where three incomplete marimba frames stood on sawhorses in various stages of assembly — which looked, from the road, like an installation, a study in interrupted process. But Don Aurelio was already sanding when she arrived, and the sound refused that reading. The wood shavings on the floor were old and new mixed together, which was the smell of a place that had been doing the same work for a long time.",
         },
         {
           type: "paragraph",
@@ -492,7 +496,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She closed the journal. Below the terminal windows, the mountains moved into the distance and the reserve was already invisible at this altitude, already folded back into the green that the satellite images showed as continuous and which was not, which was missing forty-seven groves' worth of trees that Marco had measured and Don Aurelio had read and Elena had documented and Carmen had named, and which would take seventeen to twenty-two years each to grow back, if they were left to, which depended on things that were not yet resolved.",
+          text: "She closed the journal. Below the terminal windows, the mountains moved into the distance. She had an impulse to photograph the light on the cloud cover — there was a compositional quality to the scale of the thing, the problem made legible as abstraction from altitude — and then she put her phone face down on the tray table. The reserve was already invisible at this altitude, already folded back into the green that the satellite images showed as continuous and which was not, which was missing forty-seven groves' worth of trees that Marco had measured and Don Aurelio had read and Elena had documented and Carmen had named, and which would take seventeen to twenty-two years each to grow back, if they were left to, which depended on things that were not yet resolved.",
         },
       ],
     },
