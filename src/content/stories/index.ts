@@ -156,15 +156,15 @@ export const storyMetas: StoryMeta[] = [
       "Circularity initiative / premium curated artisan-grade apparel / B Corp certification / 2% resilience fund",
     culprit:
       "Loopwear (NYC, $17M Series A) and GiveForward (Columbus sorting nonprofit) — cross-owned through the same impact fund. C-grade bales shipped as artisan-grade. Resilience fund disbursed through a Loopwear-controlled foundation with no Kantamanto representation.",
-    role: "Luminance correspondent profiling Loopwear\u2019s community partnership",
+    role: "Private investigator / engaged by Loopwear, Inc.",
     localCenter:
       "Abena (kosekyeame / head porter, thirties, twelve years at Kantamanto, three years of bale data) and Kofi (investigative journalist, six weeks of sourcing, no international outlet will run it)",
     surfaceMystery:
-      "A GiveForward internal logistics memo packed into a bale by mistake — detailing actual grading criteria and the Loopwear sign-off on C-grade offshore shipments — is in Abena\u2019s possession.",
+      "A confidential GiveForward logistics memo has gone missing into a Kantamanto bale. Loopwear needs to know who has it.",
     keyImage:
       "Oblivia photographs the dead pile without honest warmth — the first flat documentary image she has taken in the collection.",
     mediaMisreading:
-      "Loopwear reposts Oblivia\u2019s profile of Madison. Goes quiet for eleven days after the second piece. Posts a sunset.",
+      "Loopwear thanks Oblivia in writing at 9:47 a.m. The investigation publishes at 11:15 a.m. the same day. They go quiet for eleven days. Post a sunset.",
     theMoment:
       "Madison sits very still for a long time when Oblivia tells her. That stillness is the most honest thing in the story.",
     status: "complete",
