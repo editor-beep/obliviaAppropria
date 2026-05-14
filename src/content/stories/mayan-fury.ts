@@ -37,7 +37,7 @@ export const narrative: StoryDocument = {
     },
     {
       "type": "paragraph",
-      "text": "The missing persons file had been opened on Wednesday morning. It was, the consular officer told Oblivia on the phone, the first one this quarter that had generated repeated American consular calls within forty-eight hours. Oblivia had made four of those calls. Alexandrei had made one, to a different number, and had spoken to someone who knew what a concession transition was."
+      "text": "The missing persons file had been opened on Wednesday morning. It was, the consular officer told Oblivia on the phone, the first one this quarter that had generated repeated American consular calls within forty-eight hours. Oblivia had made four of those calls. She had also, before boarding in New York, taken a call from Threshold Journeys' client relations director, who explained that their insurance required documentation of active search efforts by a licensed investigator. She charged them her standard rate. Alexandrei had made one, to a different number, and had spoken to someone who knew what a concession transition was."
     },
     {
       "type": "document",

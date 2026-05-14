@@ -16,6 +16,11 @@ export const narrative: StoryDocument = {
           body: `Our East Africa saline minerals portfolio continues to demonstrate that responsible extraction and ecological stewardship are not opposing values but complementary ones, united by a shared commitment to the long-term vitality of the land and its communities. We are proud to be restoring futures.`,
         },
         {
+          type: "document",
+          label: "Meridian Impact Partners — engagement letter",
+          body: `As discussed, we would welcome your documentation of the Rift Valley site in advance of our Q3 investor materials. We are seeking photography and observational notes that capture the ecological character of the lake and the lodge's relationship with its surroundings. Five days at Riftward have been arranged. We would ask that you keep this arrangement discreet — independent documentation carries more weight with institutional ESG reviewers, and we find it is better received when it does not appear to have been commissioned.`,
+        },
+        {
           type: "casefile",
           label: "Case file OBA-001 — field notes, A. Harris",
           body: `Corporate registry extracts: Meridian Saline Ventures (East Africa) Ltd. / Luxembourg holding company / Zurich impact fund. County water memo attached. Parliamentary question filed — MP name TBC. Anomaly: flamingo departure, western shallows, May. Alkalinity shift measurable April. Draw-down began March. Oblivia arrives Thursday.`,
@@ -750,7 +755,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `She would use her closing line in the case notes Luminance would never see. The piece they would run, six weeks later, under the title "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift," would be beautifully photographed. It would contain one paragraph, near the end, that mentioned "questions about water management" before returning to Oblivia's experience of "sitting with not-knowing." It would win a travel writing award in a category called "Transformative Witness." Oblivia would accept it by video from her house in Connecticut, wearing linen, and would thank "the lake, and everyone who keeps vigil on its behalf."`,
+          text: `The piece Luminance ran, six weeks later, under the title "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift," was Alexandrei's — her photographs, his words. It contained one paragraph, near the end, that mentioned "questions about water management" before returning to what Oblivia had told him she saw. Her photographs won a documentary photography award in a category called "Transformative Witness." She accepted it by video from her house in Connecticut, wearing linen, and thanked "the lake, and everyone who keeps vigil on its behalf."`,
         },
         {
           type: "paragraph",
