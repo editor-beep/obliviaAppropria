@@ -29,7 +29,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She had read the welcome packet on the flight from Accra, Accra to Miami to San Pedro Sula and then a land transfer east toward the ruins and then north, forty minutes on a road whose surface she found herself reading as a kind of text: the smooth sections affectless and corporate, the rougher passages producing a deceleration she experienced as almost intentional. The body recalled to awareness. She had written in her field journal somewhere north of the ruins: the road is a kind of argument. Below it, in different handwriting: infrastructure investment gap. 40km to retreat. The welcome packet was twelve pages on heavy cream stock with a photograph of the Copán ruins on the cover, and she had written, in her field journal somewhere over the Caribbean: ruins as provenance, or ruins as default scenic currency. Doing a lot of work either way. The retreat is not at the ruins. Check distance.",
+          text: "She had read the welcome packet on the flight from Accra, Accra to Miami to San Pedro Sula and then a land transfer east toward the ruins and then north, forty minutes on a road whose surface she found herself reading as a kind of text: the smooth sections affectless and corporate, the rougher passages producing a deceleration she experienced as almost intentional. The body recalled to awareness. She had noted in her field journal: infrastructure investment gap. 40km. The welcome packet was twelve pages on heavy cream stock with a photograph of the Copán ruins on the cover, which was either culturally resonant or doing something adjacent to that, and she had written, in her field journal somewhere over the Caribbean: ruins on the cover. The retreat is not at the ruins. Check distance.",
         },
         {
           type: "paragraph",
@@ -37,7 +37,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She photographed the roots and the displaced flagstones from three angles. She wrote in her field journal: roots as site practice — the infrastructure of duration. The decision not to restore: a kind of institutional candor. The photographs were going to be beautiful. She did not post them. They needed context.",
+          text: "She photographed the roots and the displaced flagstones from three angles. The photographs were going to be beautiful. She did not post them. They needed the piece around them.",
         },
         {
           type: "divider",
@@ -64,7 +64,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She touched the bark too. She wrote in her field journal: access to duration. Old growth as institutional memory. She noticed, at the grove's edge, a cleared area — twenty meters wide, raw soil, root stumps not yet overgrown — that was visible through the trees in the direction away from the retreat. She turned to ask Sebastián about it and he was already speaking to one of the guests about the relationship between rosewood resonance and theta brainwave states, and she noted the cleared area in her field journal and moved on.",
+          text: "She touched the bark too. She noticed, at the grove's edge, a cleared area — twenty meters wide, raw soil, root stumps not yet overgrown — that was visible through the trees in the direction away from the retreat. She turned to ask Sebastián about it and he was already speaking to one of the guests about the relationship between rosewood resonance and theta brainwave states, and she noted the cleared area in her field journal and moved on.",
         },
         {
           type: "paragraph",
