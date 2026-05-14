@@ -73,6 +73,7 @@ export const entities: Entity[] = [
       "certified-forest",
       "poisoned-healing",
       "the-loop",
+      "the-rosewood",
       "threshold-border",
       "interior-angola",
     ],
@@ -100,6 +101,30 @@ export const entities: Entity[] = [
     description:
       "Environmental lawyer at the Rift Valley. Has the documents. Oblivia's photograph unknowingly adds a new exhibit to her filing.",
     stories: ["rift-silence"],
+  },
+  {
+    id: "resonance-root",
+    name: "Resonance & Root",
+    category: "corporation",
+    description:
+      "Austin, TX music wellness company operating Casa del Ritmo retreat, Copán region, Honduras. Partnership with Harwood & Fox provided cultural cover for fraudulent CITES rosewood sourcing documentation.",
+    stories: ["the-rosewood"],
+  },
+  {
+    id: "harwood-fox",
+    name: "Harwood & Fox Acoustic Instruments",
+    category: "corporation",
+    description:
+      "Portland, OR premium guitar brand. Sourced Honduran rosewood fretboards via the Comunidad Resonante de Copán, a shell organization whose registered agent was the Harwood & Fox law firm.",
+    stories: ["the-rosewood"],
+  },
+  {
+    id: "comunidad-resonante-copan",
+    name: "Comunidad Resonante de Copán",
+    category: "ngo",
+    description:
+      "Incorporated 11 months before its first CITES export permit. Four members, two Austin addresses. Certifying signatory: a valley citrus operator with no forestry background. Registered agent: Harwood & Fox Legal Partners LLC.",
+    stories: ["the-rosewood"],
   },
 ];
 

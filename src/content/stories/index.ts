@@ -170,22 +170,31 @@ export const storyMetas: StoryMeta[] = [
     status: "complete",
   },
   {
-    slug: "music-tbd",
+    slug: "the-rosewood",
     flightNumber: "OBA-008",
     number: "08",
     group: "international",
-    title: "Music \u2014 Untitled",
-    shortTitle: "Music",
+    title: "Oblivia Cracks the Case of the Rosewood",
+    shortTitle: "The Rosewood",
     origin: "ACC",
-    destination: "KIN",
-    location: "Jamaica, Mali, or Colombia (TBD)",
-    industry: "Music / intellectual property / cultural extraction",
-    coverStory: "Collaboration / cultural exchange / artist development",
-    culprit: "TBD \u2014 who owns the copyright",
-    role: "Private investigator (cover: cultural witness / music healing retreat attendee)",
-    localCenter: "TBD",
-    surfaceMystery: "TBD",
-    status: "tbd",
+    destination: "TGU",
+    location: "Cop\u00e1n region, Honduras",
+    industry: "Music / endangered timber / CITES fraud / cultural cover",
+    coverStory: "Ancestral marimba healing / ethical instrument sourcing / cultural preservation",
+    culprit:
+      "Resonance & Root (Austin, TX) / Harwood & Fox Acoustic Instruments (Portland, OR) / Comunidad Resonante de Cop\u00e1n (incorporated six months ago) / Meridian Impact Partners (Luxembourg)",
+    role: "Private investigator (cover: Luminance correspondent profiling retreat founder)",
+    localCenter:
+      "Don Aurelio Mej\u00eda (master marimba maker, seventies, 50 years of grain records) and Elena V\u00e1squez (community forest monitor, thirties, Marco Ord\u00f3\u00f1ez's supervisor)",
+    surfaceMystery:
+      "Marco Ord\u00f3\u00f1ez, park guard, 31, found dead in the forest three weeks ago. Officially: fell at night. Don Aurelio knew him. Don Aurelio knows he was not afraid of the forest.",
+    keyImage:
+      "Don Aurelio looks at a marimba key from the retreat without touching it. The retreat's founder is filming Oblivia's face for Instagram. 'That tree was alive eight months ago.'",
+    mediaMisreading:
+      "Finding Your Rhythm: How This Honduran Music Retreat Is Healing Visitors While Saving Ancient Traditions",
+    theMoment:
+      "Don Aurelio reads the grain. He is quiet for a long time. Then: 'Marco measured this grove.'",
+    status: "complete",
   },
   {
     slug: "tech-tbd",
@@ -194,7 +203,7 @@ export const storyMetas: StoryMeta[] = [
     group: "international",
     title: "Tech / Connectivity \u2014 Untitled",
     shortTitle: "Tech",
-    origin: "KIN",
+    origin: "TGU",
     destination: "DKR",
     location: "Southeast Asia or West Africa (TBD)",
     industry: "Tech colonialism",
@@ -310,6 +319,7 @@ export const connections: Connection[] = [
     label: "wellness as narrative cover for extraction",
   },
   { from: "mayan-fury", to: "the-loop", label: "Ixchel's contact files Tama's footage" },
+  { from: "the-rosewood", to: "the-loop", label: "Meridian Impact Partners" },
 ];
 
 export function storyMetaBySlug(slug: string): StoryMeta | undefined {
