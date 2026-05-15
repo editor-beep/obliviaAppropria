@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A short story collection. Thirteen investigations. Two correspondents. One system seen most clearly from underneath.",
+          "A short story collection. Thirteen investigations. Two investigators. One system seen most clearly from underneath.",
       },
     ],
   }),
@@ -52,7 +52,7 @@ function Index() {
                     case. She is the case.
                   </p>
                   <p>
-                    Alexandrei Harris, environmental correspondent for The Times, recommends each
+                    Alexandrei Harris, environmental researcher writing for The Times, recommends each
                     investigation and files alongside her. His pieces run. They are wrong in the
                     way she is wrong, which is a specific and well-documented way.
                   </p>

@@ -11,7 +11,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Concept stage. The private investigator is undercover as a regenerative travel correspondent. She has determined that the ancestral ocean custodianship of the Pacific peoples will crack the case open. The loop is closed in the press release. On the beach the loop is a line, and the line points back across the Pacific.",
+          text: "Concept stage. The private investigator is undercover as a regenerative travel researcher. She has determined that the ancestral ocean custodianship of the Pacific peoples will crack the case open. The loop is closed in the press release. On the beach the loop is a line, and the line points back across the Pacific.",
         },
       ],
     },

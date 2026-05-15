@@ -36,7 +36,7 @@ function About() {
           will not be the one to pay.
         </p>
         <p>
-          Alexandrei Harris, environmental correspondent for The Times, files alongside her. His
+          Alexandrei Harris, environmental researcher writing for The Times, files alongside her. His
           pieces run in the paper. They are believed. He is the formal record of what she saw, which
           means he is the formal record of what she missed. The two of them together constitute a
           system of knowing that feels thorough precisely because it is closed.
