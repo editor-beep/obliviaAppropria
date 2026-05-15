@@ -64,6 +64,14 @@ function Subscribe() {
               >
                 Read current flights →
               </Link>
+              <a
+                href="https://www.themeansofproduction.press"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex rounded-sm border border-border px-4 py-3 font-mono text-xs uppercase tracking-[0.18em] text-foreground transition-colors hover:border-signal/60 hover:text-signal-glow"
+              >
+                Visit the press →
+              </a>
             </div>
           </div>
         </div>
