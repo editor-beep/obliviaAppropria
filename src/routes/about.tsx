@@ -32,11 +32,11 @@ function About() {
         <p>
           The collection is not a satire of bad intentions. Oblivia means well. That is the point.
           Meaning well, arriving with credentials, having the right contacts and the correct
-          politics — none of it changes what the eye takes and what it leaves. The thirteen stories
-          follow her into thirteen sites of environmental harm: a dam negotiation, a corporate
-          listening session, a rewilding scheme, a grief walk. In each, she solves the case. In
-          each, the solution is hers, which means it is not quite right, which means it costs
-          something she will not be the one to pay.
+          politics — none of it changes what the eye takes and what it leaves. Each story follows
+          her into a site of environmental harm: a dam negotiation, a corporate listening session,
+          a rewilding scheme, a grief walk. In each, she solves the case. In each, the solution
+          is hers, which means it is not quite right, which means it costs something she will not
+          be the one to pay.
         </p>
         <p>
           Alexandrei Harris, environmental researcher writing for The Times, files alongside her.
@@ -45,7 +45,7 @@ function About() {
           constitute a system of knowing that feels thorough precisely because it is closed.
         </p>
         <p>
-          Below that system: thirteen communities who have been there longer. Each story is told
+          Below that system: the communities who have been there longer. Each story is told
           twice — once through Oblivia's investigation, once through the angle she couldn't hold.
           The collection asks what gets built on the gap between them.
         </p>

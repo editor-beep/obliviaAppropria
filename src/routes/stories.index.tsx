@@ -6,7 +6,7 @@ export const Route = createFileRoute("/stories/")({
   head: () => ({
     meta: [
       { title: "Manifest — Privileged Eye" },
-      { name: "description", content: "All thirteen flights in the collection." },
+      { name: "description", content: "All flights in the collection." },
     ],
   }),
   component: StoriesIndex,
@@ -27,8 +27,8 @@ function StoriesIndex() {
         Choose a seat.
       </p>
 
-      <Section title="International Departures" subtitle="Stories 01 — 10" items={intl} />
-      <Section title="Domestic Connections" subtitle="The American skeleton · A — C" items={dom} />
+      <Section title="International Departures" subtitle="Stories 01 — 11" items={intl} />
+      <Section title="Domestic Connections" subtitle="The American skeleton · A — F" items={dom} />
     </div>
   );
 }

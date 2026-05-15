@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A short story collection. Thirteen investigations. Two investigators. One system seen most clearly from underneath.",
+          "A short story collection. Two investigators. One system seen most clearly from underneath.",
       },
     ],
   }),
@@ -34,7 +34,7 @@ function Index() {
             <div className="grid gap-10">
               <div>
                 <div className="boeing-badge">
-                  Flight deck edition · 13 stories · one system
+                  Flight deck edition · one system
                   <span className="cursor-blink" />
                 </div>
                 <h1 className="mt-8 max-w-4xl text-5xl leading-[0.95] text-foreground sm:text-7xl md:text-8xl">
@@ -57,8 +57,8 @@ function Index() {
                     the way she is wrong, which is a specific and well-documented way.
                   </p>
                   <p className="text-foreground/60">
-                    Below them both: one system, described from thirteen angles by thirteen
-                    communities who have been there longer.
+                    Below them both: one system, described from many angles by the communities
+                    who have been there longer.
                   </p>
                 </div>
                 <div className="mt-10 flex flex-wrap gap-3 font-mono text-xs uppercase tracking-[0.18em]">
@@ -91,7 +91,7 @@ function Index() {
             to="/stories"
             className="font-mono text-xs uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-signal-glow"
           >
-            All 13 →
+            All departures →
           </Link>
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
