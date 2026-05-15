@@ -13,6 +13,7 @@ import { Route as SystemMapRouteImport } from './routes/system-map'
 import { Route as SubscribeRouteImport } from './routes/subscribe'
 import { Route as StoriesRouteImport } from './routes/stories'
 import { Route as SafetyCardRouteImport } from './routes/safety-card'
+import { Route as PassportRouteImport } from './routes/passport'
 import { Route as GreenRouteImport } from './routes/green'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
@@ -37,6 +38,11 @@ const StoriesRoute = StoriesRouteImport.update({
 const SafetyCardRoute = SafetyCardRouteImport.update({
   id: '/safety-card',
   path: '/safety-card',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PassportRoute = PassportRouteImport.update({
+  id: '/passport',
+  path: '/passport',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GreenRoute = GreenRouteImport.update({
@@ -69,6 +75,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/green': typeof GreenRoute
+  '/passport': typeof PassportRoute
   '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
   '/subscribe': typeof SubscribeRoute
@@ -80,6 +87,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/green': typeof GreenRoute
+  '/passport': typeof PassportRoute
   '/safety-card': typeof SafetyCardRoute
   '/subscribe': typeof SubscribeRoute
   '/system-map': typeof SystemMapRoute
@@ -91,6 +99,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/green': typeof GreenRoute
+  '/passport': typeof PassportRoute
   '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
   '/subscribe': typeof SubscribeRoute
@@ -104,6 +113,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/green'
+    | '/passport'
     | '/safety-card'
     | '/stories'
     | '/subscribe'
@@ -115,6 +125,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/green'
+    | '/passport'
     | '/safety-card'
     | '/subscribe'
     | '/system-map'
@@ -125,6 +136,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/green'
+    | '/passport'
     | '/safety-card'
     | '/stories'
     | '/subscribe'
@@ -137,6 +149,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   GreenRoute: typeof GreenRoute
+  PassportRoute: typeof PassportRoute
   SafetyCardRoute: typeof SafetyCardRoute
   StoriesRoute: typeof StoriesRouteWithChildren
   SubscribeRoute: typeof SubscribeRoute
@@ -171,6 +184,13 @@ declare module '@tanstack/react-router' {
       path: '/safety-card'
       fullPath: '/safety-card'
       preLoaderRoute: typeof SafetyCardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/passport': {
+      id: '/passport'
+      path: '/passport'
+      fullPath: '/passport'
+      preLoaderRoute: typeof PassportRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/green': {
@@ -228,6 +248,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   GreenRoute: GreenRoute,
+  PassportRoute: PassportRoute,
   SafetyCardRoute: SafetyCardRoute,
   StoriesRoute: StoriesRouteWithChildren,
   SubscribeRoute: SubscribeRoute,
