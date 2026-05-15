@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import type { StoryDocument } from "@/content/types";
 import { NarrativeBlock } from "@/components/NarrativeBlock";
 import { DocumentScrap } from "@/components/DocumentScrap";
@@ -22,6 +22,21 @@ interface StoryRendererProps {
  */
 export function StoryRenderer({ doc, slug }: StoryRendererProps) {
   const chapterGroups = buildChapterGroups(doc);
+  const handleChapterChange = useCallback((chapterId: string) => {
+    if (!chapterId) return;
+
+    requestAnimationFrame(() => {
+      const trigger = document.getElementById(`chapter-trigger-${chapterId}`);
+      if (!trigger) return;
+      const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      trigger.scrollIntoView({
+        behavior: prefersReducedMotion ? "auto" : "smooth",
+        block: "start",
+      });
+      trigger.focus({ preventScroll: true });
+    });
+  }, []);
   const { markSectionComplete, discoverScrap } = useReadingState();
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -49,11 +64,15 @@ export function StoryRenderer({ doc, slug }: StoryRendererProps) {
           type="single"
           collapsible
           defaultValue={chapterGroups[0].id}
+          onValueChange={handleChapterChange}
           className="w-full border-y border-border/40"
         >
           {chapterGroups.map((group) => (
             <AccordionItem key={group.id} value={group.id}>
-              <AccordionTrigger className="font-display text-xl hover:no-underline">
+              <AccordionTrigger
+                id={`chapter-trigger-${group.id}`}
+                className="font-display text-xl hover:no-underline"
+              >
                 {group.title}
               </AccordionTrigger>
               <AccordionContent className="space-y-8">
