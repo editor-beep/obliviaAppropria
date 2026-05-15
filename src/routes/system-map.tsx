@@ -41,7 +41,7 @@ export const Route = createFileRoute("/system-map")({
   head: () => ({
     meta: [
       { title: "System Map — Privileged Eye" },
-      { name: "description", content: "How twelve stories describe a single system." },
+      { name: "description", content: "How every story describes a single system." },
     ],
   }),
   component: SystemMap,
@@ -49,11 +49,11 @@ export const Route = createFileRoute("/system-map")({
 
 function SystemMap() {
   // Lay out stories in a circle
-  const W = 900,
-    H = 900,
+  const W = 1100,
+    H = 1100,
     cx = W / 2,
     cy = H / 2,
-    R = 360;
+    R = 440;
   const positions = new Map<string, { x: number; y: number }>();
   stories.forEach((s, i) => {
     const a = (i / stories.length) * Math.PI * 2 - Math.PI / 2;
@@ -65,7 +65,7 @@ function SystemMap() {
       <div className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
         System Map
       </div>
-      <h1 className="mt-3 font-display text-5xl">One system. Twelve angles.</h1>
+      <h1 className="mt-3 font-display text-5xl">One system. Every angle.</h1>
       <p className="mt-4 max-w-2xl text-muted-foreground">
         Oblivia travels the surface. The reader assembles the underneath. Hover a node to read the
         story.
@@ -164,8 +164,8 @@ function SystemMap() {
           {stories.map((s) => {
             const p = positions.get(s.slug)!;
             const ang = Math.atan2(p.y - cy, p.x - cx);
-            const labelX = p.x + Math.cos(ang) * 28;
-            const labelY = p.y + Math.sin(ang) * 28;
+            const labelX = p.x + Math.cos(ang) * 32;
+            const labelY = p.y + Math.sin(ang) * 32;
             const anchor = labelX > cx + 10 ? "start" : labelX < cx - 10 ? "end" : "middle";
             const st = STATUS_STYLE[s.status];
             return (
