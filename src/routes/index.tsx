@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A short story collection. Thirteen investigations. Two correspondents. One system seen most clearly from underneath.",
+          "A short story collection. Thirteen investigations. Two investigators. One system seen most clearly from underneath.",
       },
     ],
   }),
@@ -47,14 +47,14 @@ function Index() {
                 </div>
                 <div className="mt-10 max-w-2xl space-y-4 text-lg leading-relaxed text-foreground/88 sm:text-xl">
                   <p>
-                    Detective Oblivia Appropria crosses borders in linen and good faith. She
-                    arrives at retreats, summits, ecolodges, and listening walks. She solves the
-                    case. She is the case.
+                    Detective Oblivia Appropria crosses borders in linen and good faith. She arrives
+                    at retreats, summits, ecolodges, and listening walks. She solves the case. She
+                    is the case.
                   </p>
                   <p>
-                    Alexandrei Harris, environmental correspondent for The Times, recommends each
-                    investigation and files alongside her. His pieces run. They are wrong in the
-                    way she is wrong, which is a specific and well-documented way.
+                    Alexandrei Harris, environmental researcher writing for The Times, recommends
+                    each investigation and files alongside her. His pieces run. They are wrong in
+                    the way she is wrong, which is a specific and well-documented way.
                   </p>
                   <p className="text-foreground/60">
                     Below them both: one system, described from thirteen angles by thirteen
@@ -109,7 +109,6 @@ function Index() {
           <span className="text-signal-glow">She is the case.</span>
         </p>
       </section>
-
     </div>
   );
 }
