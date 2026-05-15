@@ -25,7 +25,7 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "Four months of air-quality logs. A group chat with Mere, two cousins, and a Canadian environmental journalist Ixchel introduced him to. Footage of Oblivia, in the pool, reading a number she does not know she knows. Timestamp. Platform. Light.",
+          text: "Four months of air-quality logs. A group chat with Mere, two cousins, and a Canadian environmental researcher Ixchel introduced him to. Footage of Oblivia, in the pool, reading a number she does not know she knows. Timestamp. Platform. Light.",
         },
       ],
     },

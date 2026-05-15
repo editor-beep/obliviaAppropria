@@ -63,22 +63,6 @@ export const entities: Entity[] = [
     stories: ["threshold-border"],
   },
   {
-    id: "luminance",
-    name: "Luminance",
-    category: "initiative",
-    description:
-      "The magazine / platform for which Oblivia Appropria works as a regenerative travel correspondent. Publishes her dispatches across the collection.",
-    stories: [
-      "rift-silence",
-      "certified-forest",
-      "poisoned-healing",
-      "the-loop",
-      "the-rosewood",
-      "threshold-border",
-      "interior-angola",
-    ],
-  },
-  {
     id: "montgomery-appropria",
     name: "Montgomery Reginald Appropria",
     category: "person",

@@ -53,8 +53,8 @@ function About() {
           The author
         </div>
         <p className="mt-4 text-foreground/70 leading-relaxed">
-          <em>Privileged Eye</em> is a work of fiction. Any resemblance to specific journalists,
-          correspondents, or investigations is a structural coincidence, which is a different thing
+          <em>Privileged Eye</em> is a work of fiction. Any resemblance to specific investigators,
+          witnesses, or investigations is a structural coincidence, which is a different thing
           from an accidental one.
         </p>
       </div>

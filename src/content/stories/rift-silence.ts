@@ -404,7 +404,7 @@ export const narrative: StoryDocument = {
         { type: "divider" },
         {
           type: "paragraph",
-          text: `Six weeks later, Luminance Magazine ran a ten-page spread titled: "The Woman Who Heard the Water: A Journey Into Collective Grief at the Edge of the Rift." It featured seventeen high-contrast, 'honest warmth' photos of chain-link fences and rusted pipes.`,
+          text: `Six weeks later, a magazine ran a ten-page spread titled: "The Woman Who Heard the Water: A Journey Into Collective Grief at the Edge of the Rift." It featured seventeen high-contrast, 'honest warmth' photos of chain-link fences and rusted pipes.`,
         },
         {
           type: "paragraph",
