@@ -16,6 +16,9 @@ export function Footer() {
           <Link to="/stories" className="transition-colors hover:text-signal-glow">
             Manifest
           </Link>
+          <Link to="/passport" className="transition-colors hover:text-signal-glow">
+            Passport
+          </Link>
           <Link to="/system-map" className="transition-colors hover:text-signal-glow">
             System Map
           </Link>
