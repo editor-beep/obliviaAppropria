@@ -88,7 +88,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She filed a check-in to her editor at Luminance: Madison is the real thing. Story is there. Needs the market day.",
+          text: "She filed a check-in to her editor: Madison is the real thing. Story is there. Needs the market day.",
         },
         {
           type: "paragraph",
@@ -181,7 +181,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Journalist. The Accra Tribune. He has six weeks of sourcing — ownership documents, Columbus shipping records, the impact fund cross-registration. He has the story. He doesn't have an international outlet. They say it's too complicated.\"",
+          text: "\"Researcher. The Accra Tribune. He has six weeks of sourcing — ownership documents, Columbus shipping records, the impact fund cross-registration. He has the story. He doesn't have an international outlet. They say it's too complicated.\"",
           attribution: "Abena",
         },
         {
@@ -217,7 +217,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She did not tag Loopwear. She did not use the hashtags from the briefing document. She filed the photograph to Luminance as a working note and attached Abena's spreadsheet as a source document.",
+          text: "She did not tag Loopwear. She did not use the hashtags from the briefing document. She filed the photograph as a working note and attached Abena's spreadsheet as a source document.",
         },
         {
           type: "paragraph",
@@ -240,7 +240,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Kofi Mensah had the sourcing depth and the structural case and the problem that every journalist in West Africa working on a story that implicates Western impact capital eventually encounters: the international outlets that could give it weight said the story was too complicated, the angle wasn't right, the reader needed more context, could he come back with a simpler thread.",
+          text: "Kofi Mensah had the sourcing depth and the structural case and the problem that every investigator in West Africa working on a story that implicates Western impact capital eventually encounters: the international outlets that could give it weight said the story was too complicated, the angle wasn't right, the reader needed more context, could he come back with a simpler thread.",
         },
         {
           type: "paragraph",
@@ -261,7 +261,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I write for Luminance,\" she said.",
+          text: "\"I can place this internationally,\" she said.",
         },
         {
           type: "paragraph",
@@ -269,7 +269,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Luminance ran a story last year about Madison's supply chain innovation. They called her a circular economy pioneer.\"",
+          text: "\"There was a piece last year about Madison's supply chain innovation. Called her a circular economy pioneer.\"",
           attribution: "Kofi",
         },
         {
@@ -278,7 +278,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Luminance will run it?\"",
+          text: "\"You can get it placed?\"",
           attribution: "Kofi",
         },
         {
@@ -425,7 +425,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The Luminance profile published first. It was already in layout and Oblivia's editor had held it four days, which was four days longer than the production schedule allowed, and after the joint investigation was confirmed it was released rather than spiked because spiking it would have raised questions the magazine was not prepared to answer about what it had known and when. The profile was careful and warm and accurate about Madison as a person and inaccurate about the supply chain in the specific way that Oblivia's pieces were inaccurate, which was the way of someone looking at the surface of a system with genuine warmth and filing what she saw.",
+          text: "The profile published first. It was already in layout and Oblivia's editor had held it four days, which was four days longer than the production schedule allowed, and after the joint investigation was confirmed it was released rather than spiked because spiking it would have raised questions about what had been known and when. The profile was careful and warm and accurate about Madison as a person and inaccurate about the supply chain in the specific way that Oblivia's pieces were inaccurate, which was the way of someone looking at the surface of a system with genuine warmth and filing what she saw.",
         },
         {
           type: "paragraph",

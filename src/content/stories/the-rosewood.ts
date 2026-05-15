@@ -52,7 +52,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia wrote: Don Aurelio. Harvest protocol. She did not write a question mark. She filed a check-in to her editor at Luminance: Sebastián is the real thing. Sound is real. Story is there. Needs the forest.",
+          text: "Oblivia wrote: Don Aurelio. Harvest protocol. She did not write a question mark. She filed a check-in to her editor: Sebastián is the real thing. Sound is real. Story is there. Needs the forest.",
         },
         {
           type: "paragraph",
@@ -115,7 +115,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "He did not stop sanding when she introduced herself. He listened to her explanation of the profile — Luminance, the retreat, the cultural context — and then he looked up and said:",
+          text: "He did not stop sanding when she introduced herself. He listened to her explanation of the profile — the retreat, the cultural context — and then he looked up and said:",
         },
         {
           type: "quote",
@@ -275,7 +275,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Elena Vásquez had Marco's GPS data on a drive she kept in a waterproof case in her truck. She had been keeping it there for three weeks, since the morning they found him, waiting for a prosecutor who would take it or a journalist who could use it. She had contacted the environment ministry. She had contacted a reporter at a paper in San Pedro Sula who said the story was interesting but he would need more time. She had contacted a legal NGO in Tegucigalpa that had said they were tracking the CITES angle and would be in touch.",
+          text: "Elena Vásquez had Marco's GPS data on a drive she kept in a waterproof case in her truck. She had been keeping it there for three weeks, since the morning they found him, waiting for a prosecutor who would take it or an investigator who could use it. She had contacted the environment ministry. She had contacted a writer at a paper in San Pedro Sula who said the story was interesting but he would need more time. She had contacted a legal NGO in Tegucigalpa that had said they were tracking the CITES angle and would be in touch.",
         },
         {
           type: "paragraph",
@@ -325,7 +325,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She called her editor at Luminance that afternoon from the cab of Elena's truck.",
+          text: "She called her editor that afternoon from the cab of Elena's truck.",
         },
         {
           type: "quote",
@@ -411,11 +411,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The joint investigation published with a Honduran journalist named Carmen Reyes, who wrote for a regional paper in Tegucigalpa and had been tracking illegal rosewood extraction in the Copán reserve for seven months without an international partner. She had Sebastián's permission to include his name; he had issued a statement the morning before publication that was careful and specific and accepted that the retreat had been used as cultural cover for a sourcing operation he had believed was legitimate. It was not a sufficient statement. It was the most honest thing the story produced.",
+          text: "The joint investigation published with a Honduran investigator named Carmen Reyes, who wrote for a regional paper in Tegucigalpa and had been tracking illegal rosewood extraction in the Copán reserve for seven months without an international partner. She had Sebastián's permission to include his name; he had issued a statement the morning before publication that was careful and specific and accepted that the retreat had been used as cultural cover for a sourcing operation he had believed was legitimate. It was not a sufficient statement. It was the most honest thing the story produced.",
         },
         {
           type: "paragraph",
-          text: "Luminance held the profile and then killed it. Oblivia and Carmen published the investigation through Carmen's paper, which was picked up by two environmental news outlets and then by the Guardian's environment desk. Oblivia filed the Luminance profile separately, six weeks later, revised, with a correction section and Carmen's byline added. Luminance's editor ran it with a note that said: this story was updated after new sourcing information came to light.",
+          text: "The profile was held and then killed. Oblivia and Carmen published the investigation through Carmen's paper, which was picked up by two environmental news outlets and then by the Guardian's environment desk. Oblivia filed the profile separately, six weeks later, revised, with a correction section and Carmen's byline added. Her editor ran it with a note that said: this story was updated after new sourcing information came to light.",
         },
         {
           type: "paragraph",
@@ -439,7 +439,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The media misreading published the day after the investigation. A travel wellness site had used a photograph Oblivia had taken of Don Aurelio at his workbench — filed to Luminance as a working note, credited in a caption the travel site had removed — to illustrate a piece whose headline read: Finding Your Rhythm: How This Honduran Music Retreat Is Healing Visitors While Saving Ancient Traditions. The piece had been written before the investigation published and had not been updated. It described the Comunidad Resonante de Copán as a model for indigenous community-led sustainable forestry. It used Don Aurelio's image without his consent or knowledge.",
+          text: "The media misreading published the day after the investigation. A travel wellness site had used a photograph Oblivia had taken of Don Aurelio at his workbench — filed as a working note, credited in a caption the travel site had removed — to illustrate a piece whose headline read: Finding Your Rhythm: How This Honduran Music Retreat Is Healing Visitors While Saving Ancient Traditions. The piece had been written before the investigation published and had not been updated. It described the Comunidad Resonante de Copán as a model for indigenous community-led sustainable forestry. It used Don Aurelio's image without his consent or knowledge.",
         },
         {
           type: "paragraph",

@@ -373,7 +373,7 @@ export const narrative: StoryDocument = {
     },
     {
       "type": "paragraph",
-      "text": "He had been a journalist for fourteen years. He had seen capture structures before. This one was not elegant — it was the capture structure of a mid-sized extractive company operating in a jurisdiction where the regulatory transition had created a window and someone had known the window was there. The elegance was not in the structure. The elegance was in Monty."
+      "text": "He had been an investigator for fourteen years. He had seen capture structures before. This one was not elegant — it was the capture structure of a mid-sized extractive company operating in a jurisdiction where the regulatory transition had created a window and someone had known the window was there. The elegance was not in the structure. The elegance was in Monty."
     },
     {
       "type": "casefile",
@@ -618,7 +618,7 @@ export const narrative: StoryDocument = {
     },
     {
       "type": "quote",
-      "text": "\"Is there a journalist up there?\" Monty said."
+      "text": "\"Is there press up there?\" Monty said."
     },
     {
       "type": "quote",
@@ -799,11 +799,11 @@ export const narrative: StoryDocument = {
     },
     {
       "type": "paragraph",
-      "text": "Domingo saw the caption from the guesthouse terrace and read it twice. It was accurate. It was also four paragraphs in the body of the piece that ran six days later in Luminance framed as cosmology — the Fury as ancestral reckoning, the crack as the land's memory made literal, Monty's fall as a convergence of the personal and the tectonic. The caption and the piece were both hers. They were not the same document."
+      "text": "Domingo saw the caption from the guesthouse terrace and read it twice. It was accurate. It was also four paragraphs in the body of the piece that ran six days later, framed as cosmology — the Fury as ancestral reckoning, the crack as the land's memory made literal, Monty's fall as a convergence of the personal and the tectonic. The caption and the piece were both hers. They were not the same document."
     },
     {
       "type": "paragraph",
-      "text": "Domingo's fact-check corrections arrived in a Luminance assistant's inbox and were acknowledged with thanks and not incorporated."
+      "text": "Domingo's fact-check corrections arrived in an editorial assistant's inbox and were acknowledged with thanks and not incorporated."
     },
     {
       "type": "paragraph",

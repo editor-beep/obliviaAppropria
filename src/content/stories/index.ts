@@ -15,14 +15,15 @@ export const storyMetas: StoryMeta[] = [
     coverStory: "Regenerative mineral stewardship",
     culprit:
       "Meridian Saline Ventures (East Africa) Ltd. / Luxembourg holding company / Zurich impact fund",
-    role: "Private investigator (cover: ecological detective / Luminance correspondent)",
+    role: "Private investigator (cover: ecological detective)",
     correspondent: "Alexandrei Harris, The Times",
     localCenter:
       "Akinyi (environmental lawyer), Omondi (fisherman), Joseph (driver), Alexandrei Harris (The Times)",
     surfaceMystery: "The flamingos have left.",
     mediaMisreading:
       "The Woman Who Heard the Water: A Journey Into Collective Grief at the Edge of the Rift",
-    keyImage: "Oblivia livestreams the leaking gasket to 400,000 followers. Henderson screams. The Zurich board is watching.",
+    keyImage:
+      "Oblivia livestreams the leaking gasket to 400,000 followers. Henderson screams. The Zurich board is watching.",
     status: "complete",
   },
   {
@@ -38,7 +39,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Beverage extraction / water privatization / plastic",
     coverStory: "Sacred water immersion retreat / ancient glacial memory",
     culprit: "Multinational beverage company extracting indigenous aquifer",
-    role: "Private investigator (cover: spiritual pilgrim / wellness correspondent)",
+    role: "Private investigator (cover: spiritual pilgrim / wellness researcher)",
     localCenter: "Community fighting a land tribunal case, third year (TBD)",
     surfaceMystery: "TBD",
     keyImage:
@@ -58,7 +59,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Palm oil",
     coverStory: "Sustainable certified / deforestation-free / biodiversity offsets",
     culprit: "Palm oil company whose certification body board member is their own representative",
-    role: "Private investigator (cover: conservation witness / Luminance correspondent)",
+    role: "Private investigator (cover: conservation witness)",
     localCenter:
       "Former plantation worker turned orangutan trek guide — understands the certification system better than anyone at the Roundtable.",
     surfaceMystery: "TBD",
@@ -79,7 +80,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Plastic / beverage / waste colonialism",
     coverStory: "Ocean cleanup / circular economy / closing the loop",
     culprit: "Multinational manufacturer funding the nonprofit counting its own bottles on beaches",
-    role: "Private investigator (cover: ocean plastic witness / regenerative travel correspondent)",
+    role: "Private investigator (cover: ocean plastic witness / regenerative travel researcher)",
     localCenter:
       "Community receiving Western recycling exports; understands the supply chain with exhausting precision (TBD)",
     surfaceMystery: "TBD",
@@ -122,8 +123,7 @@ export const storyMetas: StoryMeta[] = [
     origin: "GUA",
     destination: "ROT",
     location: "Rotorua, Aotearoa New Zealand — Te Waiora Ancestral Spa",
-    industry:
-      "Pulp and paper / industrial pollution / wellness cover story / geothermal tourism",
+    industry: "Pulp and paper / industrial pollution / wellness cover story / geothermal tourism",
     coverStory:
       "Molecular Ascension / ancestral indigo wisdom / ‘the Earth bleeding indigo for a high-vibration human’",
     culprit:
@@ -157,9 +157,9 @@ export const storyMetas: StoryMeta[] = [
       "Circularity initiative / premium curated artisan-grade apparel / B Corp certification / 2% resilience fund",
     culprit:
       "Loopwear (NYC, $17M Series A) and GiveForward (Columbus sorting nonprofit) — cross-owned through the same impact fund. C-grade bales shipped as artisan-grade. Resilience fund disbursed through a Loopwear-controlled foundation with no Kantamanto representation.",
-    role: "Private investigator (cover: Luminance correspondent profiling Loopwear)",
+    role: "Private investigator (cover: profiling Loopwear)",
     localCenter:
-      "Abena (kosekyeame / head porter, thirties, twelve years at Kantamanto, three years of bale data) and Kofi (investigative journalist, six weeks of sourcing, no international outlet will run it)",
+      "Abena (kosekyeame / head porter, thirties, twelve years at Kantamanto, three years of bale data) and Kofi (investigative researcher, six weeks of sourcing, no international outlet will run it)",
     surfaceMystery:
       "A GiveForward internal logistics memo packed into a bale by mistake — detailing actual grading criteria and the Loopwear sign-off on C-grade offshore shipments — is in Abena\u2019s possession.",
     keyImage:
@@ -184,7 +184,7 @@ export const storyMetas: StoryMeta[] = [
     coverStory: "Ancestral marimba healing / ethical instrument sourcing / cultural preservation",
     culprit:
       "Resonance & Root (Austin, TX) / Harwood & Fox Acoustic Instruments (Portland, OR) / Comunidad Resonante de Cop\u00e1n (incorporated six months ago) / Meridian Impact Partners (Luxembourg)",
-    role: "Private investigator (cover: Luminance correspondent profiling retreat founder)",
+    role: "Private investigator (cover: profiling retreat founder)",
     localCenter:
       "Don Aurelio Mej\u00eda (master marimba maker, seventies, 50 years of grain records) and Elena V\u00e1squez (community forest monitor, thirties, Marco Ord\u00f3\u00f1ez's supervisor)",
     surfaceMystery:
@@ -212,9 +212,9 @@ export const storyMetas: StoryMeta[] = [
       "Digital skills pipeline / responsible AI workforce development / closing the global talent gap",
     culprit:
       "Aperture AI (San Francisco) / Soleil Digital Services SARL (Dakar subsidiary) / Meridian Impact Partners (Luxembourg) \u2014 content moderation at ~$2.40/hour classified as 'AI trainer' roles, workers exposed to graphic violence and CSAM with inadequate mental health support, NDAs preventing disclosure, World Bank digital skills grant fraudulently reclassifying the work",
-    role: "Private investigator (cover: Luminance correspondent profiling Aperture's Africa expansion)",
+    role: "Private investigator (cover: profiling Aperture's Africa expansion)",
     localCenter:
-      "Fatou (former Aperture moderator, mid-thirties, runs informal peer support network; has the notebook) and Ibrahima (labor journalist, Le Quotidien, six weeks of sourcing; three international outlets declined the story)",
+      "Fatou (former Aperture moderator, mid-thirties, runs informal peer support network; has the notebook) and Ibrahima (labor investigator, Le Quotidien, six weeks of sourcing; three international outlets declined the story)",
     surfaceMystery:
       "Aminata Diallo, 27, Soleil Digital Services content reviewer, found dead at the base of a footbridge in the HLM district fourteen days ago. Officially: a fall, at night. The night before, she sent Fatou a message that read: I have something. Come Sunday.",
     keyImage:
@@ -256,7 +256,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Surveillance tech / humanitarian industrial complex",
     coverStory: "Data-driven dignified crisis response / case management optimization",
     culprit: "Palantir, via NGO contract",
-    role: "Private investigator (cover: humanitarian innovation correspondent, Luminance)",
+    role: "Private investigator (cover: humanitarian innovation analyst)",
     localCenter:
       "Legal aid workers, food distributors \u2014 doing what they have been doing for years",
     surfaceMystery: "TBD",
@@ -277,7 +277,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Private prison / carceral wellness / rehabilitation industrial complex",
     coverStory: "Healing-centered institution / restorative justice / faith-based rehabilitation",
     culprit: "TBD \u2014 venture-backed prison wellness startup / private corrections contract",
-    role: "Private investigator (cover: restorative justice correspondent, Luminance)",
+    role: "Private investigator (cover: restorative justice researcher)",
     localCenter:
       "Incarcerated lifer \u2014 legal scholar, teaches others, uses outside witnesses as a resource carefully and deliberately.",
     surfaceMystery: "TBD",
