@@ -257,6 +257,33 @@ export const storyMetas: StoryMeta[] = [
     status: "concept",
   },
   {
+    slug: "salt-crust-protocol",
+    flightNumber: "OBA-011",
+    number: "11",
+    group: "international",
+    title: "Oblivia Cracks the Case of the Salt-Crust Protocol",
+    shortTitle: "The Salt-Crust Protocol",
+    origin: "KTM",
+    destination: "LPB",
+    location: "Salar de Uyuni, Bolivia — high-altitude luxury glamping retreat",
+    industry: "Water rights / lithium-brine extraction / environmental permit fraud",
+    coverStory: "Crystalline transcendence / the salt flat as traumatized mirror / digital karma",
+    culprit:
+      "Neo-Flux Logistics (Netherlands) — Dutch-owned green-tech conglomerate using the wellness retreat as a regulatory front to bypass local environmental water-usage laws via illegal brine diversion, misclassified in permits as 'geothermal breath-work site management'",
+    role: "Private investigator (cover: crystalline consciousness witness / grief cartographer)",
+    localCenter:
+      "Doña Carmen Mamani (Colchani irrigation cooperative chair) and Felipe Quispe (regional water authority hydro-engineer, twenty-two years, eight months of extraction data)",
+    surfaceMystery:
+      "The retreat's Chief Mindfulness Architect, known only as Zephyr, has vanished from a sealed geodesic dome. Left behind: a puddle of hyper-oxygenated water and a single, vibrating tuning fork.",
+    keyImage:
+      "Oblivia hangs her silk scarf on the master override lever. The illegal brine diversion shuts off. Rotterdam's servers alert Dutch authorities to a catastrophic pressure loss. The water council arrives with police. Zephyr is sitting on the ledger.",
+    mediaMisreading:
+      "The New Yorker: The Quiet Witness: How One Woman's Radical Presence Exposed the Dehydration of the Global South",
+    theMoment:
+      "They were looking for data, poor souls, while she was looking for the frequency of the disappearance.",
+    status: "concept",
+  },
+  {
     slug: "threshold-border",
     flightNumber: "OBA-A",
     number: "A",
@@ -356,6 +383,32 @@ export const storyMetas: StoryMeta[] = [
     status: "concept",
   },
   {
+    slug: "frequency-falling",
+    flightNumber: "OBA-E",
+    number: "E",
+    group: "domestic",
+    title: "Oblivia Cracks the Case of the Frequency of Falling",
+    shortTitle: "The Frequency of Falling",
+    origin: "BIS",
+    destination: "PHX",
+    location: "Sedona, Arizona — the Aether-Cloud",
+    industry: "Wellness tourism / aerospace rare-earth mineral exploration / illegal seismic testing",
+    coverStory:
+      "'The Earth's diaphragm releasing centuries of suppressed creative trauma' / vortex resonance / sonic alignment",
+    culprit:
+      "Orbital-Lithos Corp — a venture-backed aerospace firm using the Aether-Cloud wellness sanctuary as acoustic cover for illegal sub-sonic seismic testing beneath the red rocks, prospecting for rare-earth mineral deposits",
+    role: "Private investigator (cover: vortex alignment witness / somatic resonance researcher)",
+    localCenter:
+      "Yavapai County Sheriff's office and local geologists / environmental coalition using the FAA investigation to seize the seismic data and prove violations of the Red Rock Secret Mountain Wilderness Act",
+    surfaceMystery:
+      "The 'Vortex Oracle' — a former hedge fund manager turned breathwork guru named Solstice — has vanished from a levitating meditation pod four hundred feet above Boynton Canyon, leaving behind a half-eaten artisanal date and frantic notes about 'the coming roar of the celestial dragon.'",
+    keyImage:
+      "Oblivia hugs a piece of heavy machinery she believes is 'a tuning fork for the Great Spirit.' Her $4,000 designer handbag leans against a high-frequency emergency shut-off switch. The resulting silence is so profound it triggers an FAA transponder alert.",
+    mediaMisreading:
+      "The Atlantic: 'The Stillness at the Center: How Oblivia Appropria Used Radical Silence to Defeat the Noise of Industry.'",
+    status: "concept",
+  },
+  {
     slug: "photonic-purge",
     flightNumber: "OBA-F",
     number: "F",
@@ -408,6 +461,8 @@ export const connections: Connection[] = [
   { from: "the-rosewood", to: "the-loop", label: "Meridian Impact Partners" },
   { from: "the-rosewood", to: "tech-tbd", label: "Meridian Impact Partners" },
   { from: "fields-central-valley", to: "gilded-conduit", label: "the land the pipeline crosses" },
+  { from: "salt-crust-protocol", to: "interior-angola", label: "the water the wellness sold" },
+  { from: "sacred-water", to: "salt-crust-protocol", label: "lithium, second movement" },
 ];
 
 export function storyMetaBySlug(slug: string): StoryMeta | undefined {
