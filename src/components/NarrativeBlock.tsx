@@ -17,8 +17,10 @@ export function NarrativeBlock({ block }: { block: StoryBlock }) {
         </blockquote>
       );
 
-    case "document":
-    case "casefile": {
+    case "casefile":
+      return null;
+
+    case "document": {
       const { label, body } = block;
       return <DocumentScrap scrap={{ label, body }} />;
     }
