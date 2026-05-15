@@ -355,6 +355,33 @@ export const storyMetas: StoryMeta[] = [
       '"Infrastructure is just the skeleton of our collective desire, Alexandrei. If the oil is leaking, it\'s only because the Earth has something it can no longer contain. I am not here to find the body in the pipe; I am here to find the music in the pressure."',
     status: "concept",
   },
+  {
+    slug: "photonic-purge",
+    flightNumber: "OBA-F",
+    number: "F",
+    group: "domestic",
+    title: "Oblivia Cracks the Case of the Photonic Purge",
+    shortTitle: "The Photonic Purge",
+    origin: "BIS",
+    destination: "OGG",
+    location: "Lahaina, Maui, Hawaii — the Aegis-Oasis tech-commune",
+    industry:
+      "Directed-energy weapons / indigenous land dispossession / tech-commune land grab",
+    coverStory:
+      "'Photonic fire' / Madam Pele's digital avatar / 'decolonizing energy' / subterranean portal for ancestral alignment",
+    culprit:
+      "Apex-Stratum Logistics (directed-energy weapons contractor) — operating under shell company 'Kupuna-Forward Eco-Ventures' in tandem with a venture-capital land trust",
+    role: "Private investigator (cover: eco-spiritual commune researcher / photonic resonance witness)",
+    localCenter:
+      "Kai (site foreman, six-generation farming family), local indigenous tech-activists, Hawaiian sovereignty activists, and utility whistleblowers",
+    surfaceMystery:
+      "A historic cultural center — the last native-owned land on a coveted coastal block — is incinerated in what witnesses describe as 'a blue pillar of light descending from a clear sky.' The kupuna who refused every buyout has vanished, leaving a perfectly circular patch of vitrified glass where his heirloom taro patch stood.",
+    keyImage:
+      "Oblivia's $4,000 Italian silk cape snags a cooling fan rack inside the restricted drone-hangar. As she yanks it free, she disconnects the satellite-linked C2 server. The encrypted target logs dump into a public weather-monitoring server.",
+    mediaMisreading:
+      "Prestige Journal: 'The Lightning Catcher: How Oblivia Appropria Channeled the Wrath of Maui to Protect the Soil.'",
+    status: "concept",
+  },
 ];
 
 export const connections: Connection[] = [
