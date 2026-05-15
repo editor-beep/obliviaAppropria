@@ -134,7 +134,7 @@ function SafetyCard() {
             <div className="grid gap-4 md:grid-cols-2">
               <EvacuationPanel
                 title="Land evacuation"
-                tone="green"
+                tone="amber"
                 detail="If the local center is running the investigation, move away from the aircraft and let the guide manage your pace of understanding."
               />
               <EvacuationPanel
@@ -216,13 +216,13 @@ function EvacuationPanel({
 }: {
   title: string;
   detail: string;
-  tone: "green" | "blue";
+  tone: "amber" | "blue";
 }) {
   const palette =
-    tone === "green"
+    tone === "amber"
       ? {
-          panel: "bg-[#49ad72]",
-          border: "border-[#2f8d57]",
+          panel: "bg-[#b8793a]",
+          border: "border-[#96612e]",
           line: "#fff6e9",
           accent: "#f7d046",
         }
