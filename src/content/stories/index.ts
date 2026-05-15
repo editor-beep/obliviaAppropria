@@ -31,8 +31,8 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-002",
     number: "02",
     group: "international",
-    title: "Oblivia Cracks the Case of the Curdling Terroir",
-    shortTitle: "The Curdling Terroir",
+    title: "Oblivia Cracks the Case of Sacred Water",
+    shortTitle: "Sacred Water",
     origin: "NBO",
     destination: "CPT",
     location: "Stellenbosch, South Africa",
@@ -58,16 +58,19 @@ export const storyMetas: StoryMeta[] = [
     shortTitle: "The Certified Forest",
     origin: "MEX",
     destination: "BPN",
-    location: "Borneo or Sumatra, Indonesia",
-    industry: "Palm oil",
-    coverStory: "Sustainable certified / deforestation-free / biodiversity offsets",
-    culprit: "Palm oil company whose certification body board member is their own representative",
+    location: "Borneo / Amazon (TBD)",
+    industry: "Old-growth timber / carbon credit fraud / NGO laundering",
+    coverStory:
+      "Restoration Credits / Carbon-Neutral certification / biodiversity offsets (The Green Shield NGO)",
+    culprit:
+      "Global Timber Corp (parent) / The Green Shield (front NGO) — selling Restoration Credits while logging the same old-growth plot at night; GPS-spoofing devices used to mask activity",
     role: "Private investigator (cover: conservation witness)",
     localCenter:
-      "Former plantation worker turned orangutan trek guide — understands the certification system better than anyone at the Roundtable.",
-    surfaceMystery: "TBD",
+      "Local park ranger (vanished after finding GPS-spoofing devices planted in the protected zone)",
+    surfaceMystery:
+      "A local park ranger has vanished after discovering GPS-spoofing devices in the protected forest. The Green Shield's Restoration Credits are selling briskly. The chainsaws are audible from camp.",
     keyImage:
-      "Oblivia at an ecolodge whose kitchen uses certified sustainable palm oil; forest clearing visible from the infinity pool.",
+      "Oblivia's 'High-Aura' drone, scanning for 'the heat of tree-consciousness,' captures instead the infrared outlines of night loggers and the serial numbers on the GPS-spoofing devices.",
     status: "concept",
   },
   {
@@ -80,13 +83,14 @@ export const storyMetas: StoryMeta[] = [
     origin: "BPN",
     destination: "MNL",
     location: "The Philippines",
-    industry: "Plastic / beverage / waste colonialism",
-    coverStory: "Ocean cleanup / circular economy / closing the loop",
-    culprit: "Multinational manufacturer funding the nonprofit counting its own bottles on beaches",
-    role: "Private investigator (cover: ocean plastic witness / regenerative travel researcher)",
-    localCenter:
-      "Community receiving Western recycling exports; understands the supply chain with exhausting precision (TBD)",
-    surfaceMystery: "TBD",
+    industry: "Deep-sea mining / maritime observer murder / ocean extraction",
+    coverStory: "Ocean consciousness research / the sea 'withdrawing its consent to be seen'",
+    culprit:
+      "Oceanic Mining Ltd — conducting deep-sea dredging operations; a maritime observer assigned to monitor the operation has been murdered",
+    role: "Private investigator (cover: ocean consciousness witness / regenerative travel researcher)",
+    localCenter: "Maritime observer community and local fishers tracking the disappearance (TBD)",
+    surfaceMystery:
+      "A maritime observer assigned to monitor Oceanic Mining Ltd's deep-sea dredging operations has been murdered. The ocean, Oblivia insists, is 'withdrawing its consent to be seen.'",
     status: "concept",
   },
   {
@@ -130,7 +134,7 @@ export const storyMetas: StoryMeta[] = [
     coverStory:
       "Molecular Ascension / ancestral indigo wisdom / ‘the Earth bleeding indigo for a high-vibration human’",
     culprit:
-      "Whakatane Pulp & Paper Mill (catastrophic dye-vat failure; three weeks of industrial indigo-6 and concentrated sulfuric acid in groundwater) / Spa management (kickback agreement with Mill’s PR firm to call the effluent ‘Ancestral Tears’ and retain insurance)",
+      "Whakatane Pulp & Paper Mill (catastrophic dye-vat failure; three weeks of industrial indigo-6 and concentrated sulfuric acid in groundwater) / Spa management (kickback agreement with Mill’s PR firm to call the effluent ‘Ancestral Tears’ and retain insurance) / Ministry of Tourism (covered up the homicide to protect regional visitor revenue)",
     role: "Patron-Detective (self-funded; no assignment; soul ‘felt a tug from the Pacific’; 500k followers on own platforms)",
     correspondent: "Alexandrei Harris",
     localCenter:
@@ -154,17 +158,17 @@ export const storyMetas: StoryMeta[] = [
     shortTitle: "The Loop",
     origin: "ROT",
     destination: "ACC",
-    location: "Kantamanto Market, Accra, Ghana",
-    industry: "Fast fashion / circular economy fraud / charitable donation as waste export",
+    location: "Accra, Ghana",
+    industry: "Labor trafficking / gig economy exploitation / app-based predatory recruitment",
     coverStory:
-      "Circularity initiative / premium curated artisan-grade apparel / B Corp certification / 2% resilience fund",
+      "'Sacred geometry of movement' / Seamless Life optimization / bodies becoming light",
     culprit:
-      "Loopwear (NYC, $17M Series A) and GiveForward (Columbus sorting nonprofit) — cross-owned through the same impact fund. C-grade bales shipped as artisan-grade. Resilience fund disbursed through a Loopwear-controlled foundation with no Kantamanto representation.",
-    role: "Private investigator (cover: profiling Loopwear)",
+      "Consolidated Logistics — running a predatory labor-trafficking ring disguised as a 'Seamless Life' productivity and work-placement app",
+    role: "Private investigator (cover: profiling Seamless Life initiative)",
     localCenter:
       "Abena (kosekyeame / head porter, thirties, twelve years at Kantamanto, three years of bale data) and Kofi (investigative researcher, six weeks of sourcing, no international outlet will run it)",
     surfaceMystery:
-      "A GiveForward internal logistics memo packed into a bale by mistake — detailing actual grading criteria and the Loopwear sign-off on C-grade offshore shipments — is in Abena\u2019s possession.",
+      "Workers recruited through the Seamless Life app have been disappearing into a logistics network with no legal employment records. Consolidated Logistics calls it 'frictionless placement.' Oblivia calls it 'a sacred geometry of movement where bodies become light.'",
     keyImage:
       "Oblivia photographs the dead pile without honest warmth — the first flat documentary image she has taken in the collection.",
     mediaMisreading:
@@ -233,18 +237,24 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-010",
     number: "10",
     group: "international",
-    title: "Fashion \u2014 Untitled",
-    shortTitle: "Fashion",
+    title: "Oblivia Cracks the Case of the Saffron Mask",
+    shortTitle: "The Saffron Mask",
     origin: "DKR",
-    destination: "DAC",
-    location: "Bangladesh, Ethiopia, or Portugal (TBD)",
-    industry: "Fashion / slow fashion rebrand",
-    coverStory: "Slow fashion / ethical sourcing / artisan labor",
-    culprit: "TBD",
-    role: "Private investigator (cover: TBD)",
-    localCenter: "TBD",
-    surfaceMystery: "TBD",
-    status: "tbd",
+    destination: "KTM",
+    location: "Kathmandu, Nepal",
+    industry: "Cultural heritage theft / pharmaceutical crime / NGO fraud",
+    coverStory:
+      "'The Gilded Silence' — the Buddha chose to walk into the void; the comatose monk is a 'Guru of the Pause'",
+    culprit:
+      "The Global Heritage Trust — stole a 12th-century gilded Buddha to use as collateral for high-interest loans; employed a pharmaceutical neurotoxin to put the head monk into a coma",
+    role: "Private investigator (cover: spiritual heritage witness / vibrational field researcher)",
+    localCenter:
+      "Head monk (pharmaceutical-induced coma — Oblivia treats him as a 'Guru of the Pause') / monastery staff and local Buddhist scholars",
+    surfaceMystery:
+      "A 12th-century gilded Buddha has vanished from its pedestal. The head monk who reported the theft is in an unexplained coma. The Global Heritage Trust's restoration team was on-site the week before.",
+    keyImage:
+      "Oblivia insists on a 'Vibrational Scan' of the empty pedestal; her Leica captures the microscopic diamond-wire saw marks — a tool unique to the Heritage Trust's restoration kit.",
+    status: "concept",
   },
   {
     slug: "threshold-border",
@@ -256,15 +266,18 @@ export const storyMetas: StoryMeta[] = [
     origin: "DAC",
     destination: "MFE",
     location: "Rio Grande Valley, Texas",
-    industry: "Surveillance tech / humanitarian industrial complex",
-    coverStory: "Data-driven dignified crisis response / case management optimization",
-    culprit: "Palantir, via NGO contract",
+    industry: "Weapons testing / border surveillance / migrant exploitation",
+    coverStory:
+      "'Vibrational deterrence' / the border as a spiritual liminal filter / dignified non-lethal crisis response",
+    culprit:
+      "Border-Sec Tech — covertly tested a lethal 'Non-Lethal' sonic weapon on migrants at the border",
     role: "Private investigator (cover: humanitarian innovation analyst)",
     localCenter:
       "Legal aid workers, food distributors \u2014 doing what they have been doing for years",
-    surfaceMystery: "TBD",
+    surfaceMystery:
+      "Migrants at a crossing point are suffering unexplained hemorrhaging and neurological damage. Border-Sec Tech is on-site conducting what their contract calls 'acoustic deterrence trials.'",
     keyImage:
-      "Oblivia finds the surveillance dashboard beautiful. She describes it as \u2018a map of human longing.\u2019 It is a deportation routing system.",
+      "Oblivia finds the sonic emitter array beautiful. She describes it as \u2018a tuning fork for the soul\u2019s migration.\u2019 It is a prototype weapons system.",
     status: "concept",
   },
   {
@@ -276,17 +289,18 @@ export const storyMetas: StoryMeta[] = [
     shortTitle: "The Interior",
     origin: "MFE",
     destination: "BTR",
-    location: "Louisiana State Penitentiary, Angola",
-    industry: "Private prison / carceral wellness / rehabilitation industrial complex",
-    coverStory: "Healing-centered institution / restorative justice / faith-based rehabilitation",
-    culprit: "TBD \u2014 venture-backed prison wellness startup / private corrections contract",
-    role: "Private investigator (cover: restorative justice researcher)",
-    localCenter:
-      "Incarcerated lifer \u2014 legal scholar, teaches others, uses outside witnesses as a resource carefully and deliberately.",
-    surfaceMystery: "TBD",
+    location: "Small interior town — water rights contested (TBD)",
+    industry: "Private equity / water rights acquisition / community displacement",
+    coverStory:
+      "'State of Hydro-Stillness' / water as soul-restructuring medium / venture-backed community transformation",
+    culprit:
+      "Venture-Capital Spirits — purchased the entire town's water rights under a 'community wellness restructuring' initiative, leaving residents without legal access to their own water supply",
+    role: "Private investigator (cover: wellness community researcher)",
+    localCenter: "Town residents whose water access has been sold out from under them (TBD)",
+    surfaceMystery:
+      "An entire town's water rights have been acquired by Venture-Capital Spirits. The taps still run — for now. Oblivia believes the town has achieved a 'State of Hydro-Stillness.' The residents know they have been bought.",
     keyImage:
-      "Oblivia at the rodeo. The gift shop. The warden\u2019s TED talk playing on a monitor in the lobby.",
-    mediaMisreading: "The Grace Inside: How One Louisiana Prison Found Its Humanity",
+      "Oblivia holds a glass of the town's water up to the light. She calls it 'the liquid architecture of surrender.' A resident holds up a notice of rate increase.",
     status: "concept",
   },
   {
@@ -299,15 +313,46 @@ export const storyMetas: StoryMeta[] = [
     origin: "BTR",
     destination: "FAT",
     location: "Central Valley, California",
-    industry: "Agricultural labor / ethical sourcing / regenerative farming rebrand",
+    industry:
+      "Agricultural labor / pesticide poisoning / ethical sourcing rebrand / corporate cover-up",
     coverStory: "Ethical sourcing initiative / farm to table / regenerative agriculture",
-    culprit: "Food brand whose parent company is the reason the labor conditions exist",
+    culprit:
+      "Agro-Global Corp — applied unlisted, acutely toxic pesticides to fields with workers present; officially attributed the resulting illness and deaths to 'heat exhaustion'",
     role: "Private investigator (cover: embedded with ethical sourcing initiative)",
     localCenter: "Workers who have been here longer than the initiative has existed.",
-    surfaceMystery: "TBD",
+    surfaceMystery:
+      "Pickers are falling ill across multiple fields. The official explanation is heat exhaustion. The pattern is wrong for heat. Agro-Global's pesticide application logs have a three-week gap.",
     keyImage: "The grain bowl at Riftward. The heritage legume paste. It came from here.",
     theMoment:
       "Oblivia boards a Boeing in California. Field journal open. Below her, the fields, the workers, the supply chain ascending into the hold. She does not look down. She is watching the light.",
+    status: "concept",
+  },
+  {
+    slug: "gilded-conduit",
+    flightNumber: "OBA-D",
+    number: "D",
+    group: "domestic",
+    title: "Oblivia Cracks the Case of the Gilded Conduit",
+    shortTitle: "The Gilded Conduit",
+    origin: "FAT",
+    destination: "BIS",
+    location: "The Dakota Plains / Standing Rock Corridor",
+    industry:
+      "Oil pipeline / state-sanctioned extraction / private security homicide / whistleblower suppression",
+    coverStory:
+      "'The Pulse of the Great Mother' / pipeline as earth meridian / 'Black Honey' somatic release of ancient carbon wisdom",
+    culprit:
+      "North-Star Midstream Corp, in collusion with the Department of Energy — suppressed a structural failure report beneath a tribal burial ground; deployed a Thermal-Vibration pulse to collapse a tunnel section, burying whistleblower engineer Elias alive; officially listed as 'AWOL'",
+    role: "Private investigator (cover: earth-frequency researcher / sonic cartographer)",
+    correspondent: "Alexandrei Harris",
+    localCenter:
+      "Tribal community living above the compromised burial ground; pipeline safety engineers who reviewed the suppressed report",
+    surfaceMystery:
+      "Indigenous engineer Elias has been listed as 'AWOL' after reporting a structural failure in the pipeline beneath a tribal burial ground. Crude oil is leaking into the groundwater. North-Star calls it a 'minor seismic anomaly.' Oblivia believes the earth is offering its 'Black Honey.'",
+    keyImage:
+      "Oblivia lowers a gold-plated hydrophone into a maintenance hatch she calls a 'Chakra Point.' The 96kHz recording — processed by Alexandrei — captures the rhythmic mechanical failure of a North-Star pressure valve and the muffled, rhythmic SOS signal Elias tapped on the pipe before his oxygen failed.",
+    theMoment:
+      '"Infrastructure is just the skeleton of our collective desire, Alexandrei. If the oil is leaking, it\'s only because the Earth has something it can no longer contain. I am not here to find the body in the pipe; I am here to find the music in the pressure."',
     status: "concept",
   },
 ];
@@ -335,6 +380,7 @@ export const connections: Connection[] = [
   { from: "mayan-fury", to: "the-loop", label: "Ixchel's contact files Tama's footage" },
   { from: "the-rosewood", to: "the-loop", label: "Meridian Impact Partners" },
   { from: "the-rosewood", to: "tech-tbd", label: "Meridian Impact Partners" },
+  { from: "fields-central-valley", to: "gilded-conduit", label: "the land the pipeline crosses" },
 ];
 
 export function storyMetaBySlug(slug: string): StoryMeta | undefined {

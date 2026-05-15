@@ -11,7 +11,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Concept stage. The private investigator is undercover as a restorative justice researcher. She has a working theory that the ancestral healing traditions of West African spiritual practice, carried in the bloodlines of the incarcerated, are doing the real therapeutic work here — and that this is the key to the case. The chapel is renovated. The cell block is not. The TED talk loops in the lobby.",
+          text: "Concept stage. The private investigator is undercover as a wellness community researcher. She has concluded that the town has achieved a 'State of Hydro-Stillness' — a voluntary collective surrender to the liquid architecture of the self. Venture-Capital Spirits, she writes, has 'gifted the town its own reflection.' She photographs a glass of tap water held up to the window and posts it without comment. It gets fourteen thousand likes.",
+        },
+        {
+          type: "paragraph",
+          text: "The residents know what happened. Venture-Capital Spirits acquired the municipal water rights through a holding structure that classified the transaction as a 'community wellness restructuring initiative,' qualifying it for a state economic development subsidy. The town's access to its own water is now metered, priced, and controlled by a private equity vehicle with no local representation on its board. Alexandrei has the acquisition documents. Oblivia has a theory about hydration as spiritual practice.",
         },
       ],
     },
