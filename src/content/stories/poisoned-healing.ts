@@ -21,11 +21,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "This is what Oblivia wrote in her field journal as the helicopter banked over the steaming vents of the Bay of Plenty. Below, the pools of Te Waiora sat like a cluster of bruised sapphires against the volcanic steam. She had arrived on her own terms — private charter, a crate of alkalized water, and a heart \"open to the Blue.\"",
+          text: 'This is what Oblivia wrote in her field journal as the helicopter banked over the steaming vents of the Bay of Plenty. Below, the pools of Te Waiora sat like a cluster of bruised sapphires against the volcanic steam. She had arrived on her own terms — private charter, a crate of alkalized water, and a heart "open to the Blue."',
         },
         {
           type: "paragraph",
-          text: "She did not notice the silver-gray plumes of the Whakatane Pulp Mill three kilometers upstream, nor the way the forest canopy seemed to curl away from the river's edge in a gesture of botanical retreat. To the unpracticed eye, the mill was a blemish; to Oblivia, it was a \"monument to the industrial ego\" that the blue water was gracefully absorbing.",
+          text: 'She did not notice the silver-gray plumes of the Whakatane Pulp Mill three kilometers upstream, nor the way the forest canopy seemed to curl away from the river\'s edge in a gesture of botanical retreat. To the unpracticed eye, the mill was a blemish; to Oblivia, it was a "monument to the industrial ego" that the blue water was gracefully absorbing.',
         },
         {
           type: "paragraph",
@@ -33,7 +33,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The pH of the pools has dropped to 3.2,\" he said, not looking up. \"The local police haven't sent divers in because the H₂S levels are high enough to kill a man in four breaths. Frost is at the bottom of a vat of acid, Oblivia.\"",
+          text: '"The pH of the pools has dropped to 3.2," he said, not looking up. "The local police haven\'t sent divers in because the H₂S levels are high enough to kill a man in four breaths. Frost is at the bottom of a vat of acid, Oblivia."',
         },
         {
           type: "quote",
@@ -49,7 +49,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Gary is a vessel, Alexandrei. He doesn't know why he says what he says. But the water knows. The water is holding Finnian in a blue hug from the beginning of time.\"",
+          text: '"Gary is a vessel, Alexandrei. He doesn\'t know why he says what he says. But the water knows. The water is holding Finnian in a blue hug from the beginning of time."',
         },
         {
           type: "paragraph",
@@ -57,15 +57,15 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I need to commune with the Indigo,\" she whispered, raising her Leica.",
+          text: '"I need to commune with the Indigo," she whispered, raising her Leica.',
         },
         {
           type: "quote",
-          text: "\"You need to put on a respirator,\" Alexandrei said, holding out a mask. \"The 'Indigo' is currently off-gassing enough sulfur to peel the paint off a Land Cruiser.\"",
+          text: '"You need to put on a respirator," Alexandrei said, holding out a mask. "The \'Indigo\' is currently off-gassing enough sulfur to peel the paint off a Land Cruiser."',
         },
         {
           type: "paragraph",
-          text: "Oblivia waved the mask away. She took a deep, theatrical breath of the toxic air and felt a \"divine light-headedness\" — the first stage of H₂S poisoning.",
+          text: 'Oblivia waved the mask away. She took a deep, theatrical breath of the toxic air and felt a "divine light-headedness" — the first stage of H₂S poisoning.',
         },
         {
           type: "paragraph",
@@ -73,7 +73,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"It's not a warning,\" she whispered. \"It's an invitation.\"",
+          text: '"It\'s not a warning," she whispered. "It\'s an invitation."',
         },
         {
           type: "casefile",

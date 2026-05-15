@@ -22,7 +22,8 @@ export const storyMetas: StoryMeta[] = [
     surfaceMystery: "The flamingos have left.",
     mediaMisreading:
       "The Woman Who Heard the Water: A Journey Into Collective Grief at the Edge of the Rift",
-    keyImage: "Oblivia livestreams the leaking gasket to 400,000 followers. Henderson screams. The Zurich board is watching.",
+    keyImage:
+      "Oblivia livestreams the leaking gasket to 400,000 followers. Henderson screams. The Zurich board is watching.",
     status: "complete",
   },
   {
@@ -122,8 +123,7 @@ export const storyMetas: StoryMeta[] = [
     origin: "GUA",
     destination: "ROT",
     location: "Rotorua, Aotearoa New Zealand — Te Waiora Ancestral Spa",
-    industry:
-      "Pulp and paper / industrial pollution / wellness cover story / geothermal tourism",
+    industry: "Pulp and paper / industrial pollution / wellness cover story / geothermal tourism",
     coverStory:
       "Molecular Ascension / ancestral indigo wisdom / ‘the Earth bleeding indigo for a high-vibration human’",
     culprit:

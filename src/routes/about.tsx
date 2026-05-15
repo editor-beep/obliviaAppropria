@@ -4,7 +4,10 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — Privileged Eye" },
-      { name: "description", content: "About Detective Oblivia Appropria and Alexandrei Harris: Privileged Eye." },
+      {
+        name: "description",
+        content: "About Detective Oblivia Appropria and Alexandrei Harris: Privileged Eye.",
+      },
     ],
   }),
   component: About,
@@ -31,15 +34,15 @@ function About() {
           Meaning well, arriving with credentials, having the right contacts and the correct
           politics — none of it changes what the eye takes and what it leaves. The thirteen stories
           follow her into thirteen sites of environmental harm: a dam negotiation, a corporate
-          listening session, a rewilding scheme, a grief walk. In each, she solves the case. In each,
-          the solution is hers, which means it is not quite right, which means it costs something she
-          will not be the one to pay.
+          listening session, a rewilding scheme, a grief walk. In each, she solves the case. In
+          each, the solution is hers, which means it is not quite right, which means it costs
+          something she will not be the one to pay.
         </p>
         <p>
-          Alexandrei Harris, environmental researcher writing for The Times, files alongside her. His
-          pieces run in the paper. They are believed. He is the formal record of what she saw, which
-          means he is the formal record of what she missed. The two of them together constitute a
-          system of knowing that feels thorough precisely because it is closed.
+          Alexandrei Harris, environmental researcher writing for The Times, files alongside her.
+          His pieces run in the paper. They are believed. He is the formal record of what she saw,
+          which means he is the formal record of what she missed. The two of them together
+          constitute a system of knowing that feels thorough precisely because it is closed.
         </p>
         <p>
           Below that system: thirteen communities who have been there longer. Each story is told
@@ -54,8 +57,8 @@ function About() {
         </div>
         <p className="mt-4 text-foreground/70 leading-relaxed">
           <em>Privileged Eye</em> is a work of fiction. Any resemblance to specific investigators,
-          witnesses, or investigations is a structural coincidence, which is a different thing
-          from an accidental one.
+          witnesses, or investigations is a structural coincidence, which is a different thing from
+          an accidental one.
         </p>
       </div>
 
