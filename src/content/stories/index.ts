@@ -66,12 +66,14 @@ export const storyMetas: StoryMeta[] = [
       "Global Timber Corp (parent) / The Green Shield (front NGO) — selling Restoration Credits while logging the same old-growth plot at night; GPS-spoofing devices used to mask activity",
     role: "Private investigator (cover: conservation witness)",
     localCenter:
-      "Local park ranger (vanished after finding GPS-spoofing devices planted in the protected zone)",
+      "Sulastri Widiasari (ranger, 11 years service, 8 months of satellite thermal anomaly documentation) and Ahmad Rifai (ranger, detained by logging crew, documented 12 additional device coordinates from memory)",
     surfaceMystery:
       "A local park ranger has vanished after discovering GPS-spoofing devices in the protected forest. The Green Shield's Restoration Credits are selling briskly. The chainsaws are audible from camp.",
     keyImage:
       "Oblivia's 'High-Aura' drone, scanning for 'the heat of tree-consciousness,' captures instead the infrared outlines of night loggers and the serial numbers on the GPS-spoofing devices.",
-    status: "concept",
+    mediaMisreading:
+      "Nature runs a piece on 'intuitive drone sensing' as a new conservation methodology, crediting Oblivia's 'bio-energetic thermal' approach — Sulastri's eight months of documentation appears in the ninth paragraph.",
+    status: "complete",
   },
   {
     slug: "ocean-witness",
