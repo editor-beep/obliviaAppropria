@@ -34,7 +34,7 @@ function Index() {
             <div className="grid gap-10">
               <div>
                 <div className="boeing-badge">
-                  Flight deck edition · one system
+                  A short story collection · flight deck edition
                   <span className="cursor-blink" />
                 </div>
                 <h1 className="mt-8 max-w-4xl text-5xl leading-[0.95] text-foreground sm:text-7xl md:text-8xl">
@@ -81,8 +81,76 @@ function Index() {
         </div>
       </section>
 
+      {/* Navigation orientation */}
+      <section className="mx-auto max-w-6xl px-4 py-16">
+        <div className="mb-8 border-b border-border/60 pb-4">
+          <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-muted-foreground">
+            Three ways to read
+          </p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-3">
+          <Link
+            to="/stories"
+            className="boeing-panel group flex flex-col gap-4 p-6 transition-colors hover:border-signal/50"
+          >
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-signal-glow">
+              01 · Manifest
+            </div>
+            <div>
+              <h3 className="mb-2 text-base font-medium text-foreground">Flight Manifest</h3>
+              <p className="text-sm leading-relaxed text-foreground/55">
+                The complete list of investigations, each printed as a boarding pass. Where Oblivia
+                went, what she was authorized to find, and what the communities below her saw instead.
+              </p>
+            </div>
+            <span className="mt-auto font-mono text-xs uppercase tracking-[0.18em] text-signal/70 transition-colors group-hover:text-signal-glow">
+              Open →
+            </span>
+          </Link>
+
+          <Link
+            to="/passport"
+            className="boeing-panel group flex flex-col gap-4 p-6 transition-colors hover:border-signal/50"
+          >
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-signal-glow">
+              02 · Passport
+            </div>
+            <div>
+              <h3 className="mb-2 text-base font-medium text-foreground">Travel Document</h3>
+              <p className="text-sm leading-relaxed text-foreground/55">
+                Oblivia's official passport — every investigation stamped by country, city, and
+                stated purpose. A record of everywhere she has been institutionally certain.
+              </p>
+            </div>
+            <span className="mt-auto font-mono text-xs uppercase tracking-[0.18em] text-signal/70 transition-colors group-hover:text-signal-glow">
+              Inspect →
+            </span>
+          </Link>
+
+          <Link
+            to="/system-map"
+            className="boeing-panel group flex flex-col gap-4 p-6 transition-colors hover:border-signal/50"
+          >
+            <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-signal-glow">
+              03 · System Map
+            </div>
+            <div>
+              <h3 className="mb-2 text-base font-medium text-foreground">One System</h3>
+              <p className="text-sm leading-relaxed text-foreground/55">
+                Oblivia travels the surface. The reader assembles the underneath. This map shows
+                how the investigations connect — shared entities, recurring methods, the same
+                extraction at different latitudes.
+              </p>
+            </div>
+            <span className="mt-auto font-mono text-xs uppercase tracking-[0.18em] text-signal/70 transition-colors group-hover:text-signal-glow">
+              View →
+            </span>
+          </Link>
+        </div>
+      </section>
+
       {/* Featured */}
-      <section className="mx-auto max-w-7xl px-4 py-20">
+      <section className="mx-auto max-w-7xl px-4 py-12 pb-20">
         <div className="boeing-rule mb-8 flex items-baseline justify-between border-b border-border/60 pb-4">
           <h2 className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow">
             Featured Departures
