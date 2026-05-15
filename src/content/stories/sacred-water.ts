@@ -29,7 +29,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"It's the lithium, Ms. Appropria,\" Pieter said, wiping grease from a wrench onto his overalls. \"The runoff from the battery plant upstream has breached the aquifer. The vines are absorbing it. That's why the Chenin Blanc tastes like a galvanised nail. It's not a frequency; it's a neurotoxin.\"",
+          text: "\"It's the lithium, Ms. Appropria,\" Pieter said, wiping grease from a wrench onto his overalls. \"The runoff from the battery plant upstream has breached the aquifer. The vines are absorbing it. That's why the Chenin Blanc tastes like a galvanized nail. It's not a frequency; it's a neurotoxin.\"",
         },
         {
           type: "paragraph",
@@ -197,7 +197,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She posted the final photo: a blurry, honest warmth shot of the silvered North Block, the black SUVs in the background looking like shadow-sentinels of the old world.",
+          text: "She posted the final photo: a blurry, warm-toned shot of the silvered North Block, the black SUVs in the background looking like shadow-sentinels of the old world.",
         },
         {
           type: "document",
