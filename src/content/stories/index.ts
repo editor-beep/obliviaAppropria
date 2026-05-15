@@ -117,28 +117,29 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-006",
     number: "06",
     group: "international",
-    title: "Oblivia Cracks the Case of the Poisoned Healing",
-    shortTitle: "The Poisoned Healing",
+    title: "Oblivia Cracks the Case of the Weeping Sulfur",
+    shortTitle: "The Weeping Sulfur",
     origin: "GUA",
     destination: "ROT",
-    location: "Rotorua, Aotearoa New Zealand",
+    location: "Rotorua, Aotearoa New Zealand — Te Waiora Ancestral Spa",
     industry:
-      "Geothermal energy extraction / wellness industrial complex / green-energy cover story",
+      "Pulp and paper / industrial pollution / wellness cover story / geothermal tourism",
     coverStory:
-      "100% Pure / geothermal wellness / tikanga-inspired healing / the integration experience",
+      "Molecular Ascension / ancestral indigo wisdom / ‘the Earth bleeding indigo for a high-vibration human’",
     culprit:
-      "Geothermal extraction company whose New Zealand subsidiary certified the retreat's non-functioning filtration system. Hydrogen sulfide and ethylene at 340% above advisory threshold in thermal pool three.",
-    role: "Private investigator (cover: Luminance correspondent profiling retreat founder Serena)",
+      "Whakatane Pulp & Paper Mill (catastrophic dye-vat failure; three weeks of industrial indigo-6 and concentrated sulfuric acid in groundwater) / Spa management (kickback agreement with Mill’s PR firm to call the effluent ‘Ancestral Tears’ and retain insurance)",
+    role: "Patron-Detective (self-funded; no assignment; soul ‘felt a tug from the Pacific’; 500k followers on own platforms)",
+    correspondent: "Alexandrei Harris",
     localCenter:
-      "Mere (elder, seventies, nine years in Waitangi Tribunal process) and Tama (her grandson, late twenties, monitoring gas seepage with a consumer air-quality monitor for four months)",
+      "Gary (‘Water-Guardian’, seasonal contractor, degree in recreational tourism, kickback agreement with the Mill’s PR firm)",
     surfaceMystery:
-      "Retreat guests are getting sick — headaches at the same hour, sweetness at the back of the throat, dreams too specific to dismiss. Three guests report the same dream: a woman standing in steam, reading from a document, her back turned.",
+      "Extreme-wellness influencer Finnian Frost has ‘vanished into the blue’ during a midnight immersion at Te Waiora. His GoPro mount is still bobbing in the iridescent scum. pH of the pools: 3.2. H₂S levels: lethal in four breaths. Divers won’t go in.",
     keyImage:
-      "Oblivia, soaking in thermal pool three, inhales the gas and begins to recite the Waitangi Tribunal claim number in front of six wellness tourists and Serena's ring light.",
+      "Oblivia photographs the ‘No Swimming: Toxic Gas’ sign so that ‘Toxic’ is obscured by a beautiful plume of blue steam. 12,000 likes before Alexandrei finishes testing the water.",
     mediaMisreading:
-      "Serena\u2019s podcast episode about Oblivia\u2019s \u2018transmission\u2019 publishes before the gas story breaks. It becomes the retreat\u2019s most downloaded episode.",
+      "Some disappearances are just appearances in another dimension. Standing at the edge of the Indigo Weep in Aotearoa. Finnian, I hear you. 🇳🇿 #MolecularAscension #IndigoEvent #Rotorua #EcologicalDetective #BlueSorrow",
     theMoment:
-      "Mere watches the footage once. Is quiet. Then says: \u2018She got the number right.\u2019",
+      "The ‘Blue Sorrow’ is a $2.4 million industrial spill. The post has 12,000 likes. Alexandrei is still testing the water.",
     status: "concept",
   },
   {
