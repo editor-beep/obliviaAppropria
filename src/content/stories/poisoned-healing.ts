@@ -91,5 +91,90 @@ export const narrative: StoryDocument = {
         },
       ],
     },
+    {
+      id: "chapter-two-the-geometry-of-absence",
+      title: "Chapter Two: The Geometry of Absence",
+      blocks: [
+        {
+          type: "document",
+          label: "Te Waiora Ancestral Spa — Internal Staff Memo (Urgent)",
+          body: "All staff are reminded that the 'Indigo Event' is a sacred geological occurrence. Under no circumstances are technical terms like 'pulp effluent,' 'dye-vat leak,' or 'respiratory failure' to be used in front of guests. If a guest asks about the smell, refer to it as 'the purging of the earth's internal shadows.'",
+        },
+        {
+          type: "paragraph",
+          text: "Day two arrived with a brittle alpine stillness. Oblivia sat in \"Postural Solidarity\" beside the pool while Alexandrei tracked an unnatural indigo vortex near the north wall and called it what it was: a plumbing surge, not a tectonic mystery.",
+        },
+        {
+          type: "paragraph",
+          text: "She photographed a dead tui stained electric blue and called it a molecular tribute. He called it sulfur-induced cardiac arrest and used a telescopic pole to recover Finnian's GoPro from the oily surface.",
+        },
+        {
+          type: "quote",
+          text: "\"The energy is 48 volts and coming from the Mill's auxiliary pump,\" Alexandrei muttered, as Gary the 'Water-Guardian' warned them not to \"interrogate\" ancestral artifacts.",
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia sampled the bubbling 'Sacred Spring' with her fingertip and declared it \"the beginning of an idea.\" Alexandrei identified sulfuric acid and Blue-6 dye and told her to stop drinking the evidence.",
+        },
+        {
+          type: "paragraph",
+          text: "When she launched her Cine-Soul drone, the spa resolved into a neon-blue vein running directly to the Whakatane cooling ponds. Her language was reconciliation. His heat map showed a superheated discharge point from a concealed overflow pipe.",
+        },
+        {
+          type: "paragraph",
+          text: "A pale shape appeared in the pool's center vortex. Oblivia called it an indigo cocoon. Alexandrei zoomed and saw Finnian's branded base layer pinned against the filtration grate by illegal effluent pressure.",
+        },
+        {
+          type: "casefile",
+          label: "Field Notes, A. Harris — Day Two",
+          body: "GoPro footage recovered. Final thirty seconds show Frost recognizing H₂S exposure; loss of consciousness occurred before submersion. Drone footage confirms concealed overflow infrastructure linked to the Mill. Gary is currently calling the Mill legal team. Subject is drafting a post titled 'The Blue Cocoon.' I am calling Maritime Authority and the Coroner.",
+        },
+        {
+          type: "document",
+          label: "Posted to 500k followers — @obliviaappropria",
+          body: "The Earth does not take; it transforms. Finnian has found the center of the Indigo. We are all just water waiting to be dyed. 🇳🇿 #TheBlueCocoon #MolecularRebirth #Rotorua #EcologicalDetective #WitnessingTheShift",
+        },
+      ],
+    },
+    {
+      id: "chapter-three-the-alchemical-audit",
+      title: "Chapter Three: The Alchemical Audit",
+      blocks: [
+        {
+          type: "document",
+          label: "Whakatane Pulp & Paper — Crisis Management Transcript (Leaked)",
+          body: "Director: How did an American socialite find the overflow vent?\nPR Lead: She didn't. She found a 'luminous energy umbilical.'\nDirector: But the drone footage is 4K. It shows the serial number on the bypass valve.\nPR Lead: Her caption says the valve is a 'chakra of the machine.' But the Maritime Authority is already at the gate.",
+        },
+        {
+          type: "paragraph",
+          text: "As Maritime Authority trucks entered the lot, Oblivia performed a bell-clearing ceremony for the blue tui while investigators tagged lethal H₂S readings and converted the spa into an industrial crime scene.",
+        },
+        {
+          type: "paragraph",
+          text: "The audit was material, not mystical: 5,000 liters per hour of indigo effluent diverted into the thermal system to dodge hazardous-waste shutdown costs. Gary was arrested and began describing the kickback structure from the back of a cruiser.",
+        },
+        {
+          type: "paragraph",
+          text: "Divers in chemical suits entered what Oblivia called the blue void. They recovered Finnian with a winch: a body permanently dyed indigo, lungs failed from toxic vent inhalation before water impact.",
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia posted an image carousel, reframing the illegal valve as a 'chakra' and the poisoning as poetry. The post went viral. The evidence did too.",
+        },
+        {
+          type: "paragraph",
+          text: "Six months later the Mill was closed after a $14 million fine driven by Alexandrei's data. Te Waiora was demolished and the land returned to local iwi for restoration.",
+        },
+        {
+          type: "casefile",
+          label: "Field Notes, A. Harris — Final Disposition",
+          body: "Inquest complete. Finnian Frost death ruling: industrial homicide. Gary convicted for reckless endangerment and sentenced to three years. Mill insolvent. Subject is being courted for a speaking tour on 'Spiritual Forensics.' I have declined all outreach. Next departure tomorrow: report of 'Golden Rain' over a lithium mine. Packing heavy-metal detox kits and two respirators.",
+        },
+        {
+          type: "paragraph",
+          text: "CASE CLOSED (SUBJECTIVE) / RESOLVED (MATERIAL).",
+        },
+      ],
+    },
   ],
 };
