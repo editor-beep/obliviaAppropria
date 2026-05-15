@@ -21,8 +21,8 @@ export const storyMetas: StoryMeta[] = [
       "Akinyi (environmental lawyer), Omondi (fisherman), Joseph (driver), Alexandrei Harris (The Times)",
     surfaceMystery: "The flamingos have left.",
     mediaMisreading:
-      "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift",
-    keyImage: "Oblivia photographs the waiver number at golden hour.",
+      "The Woman Who Heard the Water: A Journey Into Collective Grief at the Edge of the Rift",
+    keyImage: "Oblivia livestreams the leaking gasket to 400,000 followers. Henderson screams. The Zurich board is watching.",
     status: "complete",
   },
   {
