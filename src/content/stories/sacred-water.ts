@@ -21,7 +21,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia stood in the center of the North Block, her bare feet pressing into the soil with a deliberateness that the head viticulturist, Pieter, found exhausting to watch. She was wearing a \"Terroir-Neutral\" silk wrap and holding a crystal pendulum that was currently swinging in erratic, frantic circles.",
+          text: 'Oblivia stood in the center of the North Block, her bare feet pressing into the soil with a deliberateness that the head viticulturist, Pieter, found exhausting to watch. She was wearing a "Terroir-Neutral" silk wrap and holding a crystal pendulum that was currently swinging in erratic, frantic circles.',
         },
         {
           type: "quote",
@@ -41,7 +41,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She did not notice the silver-slicked puddles near the irrigation pipes, nor the way the farm workers wore respirators when they moved through the North Block. To her, the respirators were \"masks of silence,\" part of a local ritual she hadn't yet decoded.",
+          text: 'She did not notice the silver-slicked puddles near the irrigation pipes, nor the way the farm workers wore respirators when they moved through the North Block. To her, the respirators were "masks of silence," part of a local ritual she hadn\'t yet decoded.',
         },
         {
           type: "paragraph",
@@ -49,27 +49,27 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The soil conductivity in this quadrant is 600% above the baseline,\" Alexandrei said, not looking up from his screen. \"And Soren the Seeker's last GPS ping was right here, forty-eight hours ago. There's a depression in the mud over there that's exactly the size of a six-foot-tall man with a yoga habit.\"",
+          text: '"The soil conductivity in this quadrant is 600% above the baseline," Alexandrei said, not looking up from his screen. "And Soren the Seeker\'s last GPS ping was right here, forty-eight hours ago. There\'s a depression in the mud over there that\'s exactly the size of a six-foot-tall man with a yoga habit."',
         },
         {
           type: "quote",
-          text: "\"He's transitioning, Alexandrei,\" Oblivia said, raising her 35mm Leica to capture the way the silvered vine leaves caught the light. \"He's becoming the silver tongue of the Simonsberg.\"",
+          text: '"He\'s transitioning, Alexandrei," Oblivia said, raising her 35mm Leica to capture the way the silvered vine leaves caught the light. "He\'s becoming the silver tongue of the Simonsberg."',
         },
         {
           type: "quote",
-          text: "\"He's becoming a liability for the insurance company,\" Alexandrei corrected.",
+          text: '"He\'s becoming a liability for the insurance company," Alexandrei corrected.',
         },
         {
           type: "paragraph",
-          text: "He looked at the vines. To Oblivia, they were \"ethereal totems.\" To Alexandrei, they were evidence of a $50 million environmental crime. He watched as Oblivia knelt in the toxic mud, her hands reaching for the \"vibration.\"",
+          text: 'He looked at the vines. To Oblivia, they were "ethereal totems." To Alexandrei, they were evidence of a $50 million environmental crime. He watched as Oblivia knelt in the toxic mud, her hands reaching for the "vibration."',
         },
         {
           type: "quote",
-          text: "\"I can feel his warmth,\" she whispered, touching the ground where Soren had likely collapsed.",
+          text: '"I can feel his warmth," she whispered, touching the ground where Soren had likely collapsed.',
         },
         {
           type: "quote",
-          text: "\"That's the exothermic reaction from the lithium-waste oxidation,\" Alexandrei said, writing in his notebook. \"Subject is currently petting an industrial spill. Administering heavy-metal detox protocol at dinner.\"",
+          text: '"That\'s the exothermic reaction from the lithium-waste oxidation," Alexandrei said, writing in his notebook. "Subject is currently petting an industrial spill. Administering heavy-metal detox protocol at dinner."',
         },
         {
           type: "paragraph",
@@ -82,7 +82,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The \"song\" was actually the sound of the Simonsberg's primary water source dying, but the post was destined for 30,000 likes before the first hazmat truck reached the estate gates.",
+          text: 'The "song" was actually the sound of the Simonsberg\'s primary water source dying, but the post was destined for 30,000 likes before the first hazmat truck reached the estate gates.',
         },
       ],
     },
@@ -97,15 +97,15 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "By the second afternoon, the \"Resonant Vine\" had reached what Oblivia called \"The Great Hum.\" The smell in the air—a biting, ozonic scent that made the back of the throat itch—was, in her view, the scent of the Earth's nervous system finally sparking into life.",
+          text: 'By the second afternoon, the "Resonant Vine" had reached what Oblivia called "The Great Hum." The smell in the air—a biting, ozonic scent that made the back of the throat itch—was, in her view, the scent of the Earth\'s nervous system finally sparking into life.',
         },
         {
           type: "quote",
-          text: "\"Do you feel the electricity of the ancestors, Alexandrei?\" she asked, her voice airy and distant. She was sitting in a shallow trench in the North Block, the toxic gray mud coating her white linen trousers.",
+          text: '"Do you feel the electricity of the ancestors, Alexandrei?" she asked, her voice airy and distant. She was sitting in a shallow trench in the North Block, the toxic gray mud coating her white linen trousers.',
         },
         {
           type: "quote",
-          text: "\"I feel a 400-micro-siemens spike in the topsoil,\" Alexandrei said, standing at the edge of the trench with a digital multimeter. \"And your Apple Watch is currently smoking. I'd suggest standing up before the 'ancestors' give you a localized electrical burn.\"",
+          text: '"I feel a 400-micro-siemens spike in the topsoil," Alexandrei said, standing at the edge of the trench with a digital multimeter. "And your Apple Watch is currently smoking. I\'d suggest standing up before the \'ancestors\' give you a localized electrical burn."',
         },
         {
           type: "paragraph",
@@ -117,7 +117,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"He's certainly that,\" Alexandrei muttered.",
+          text: '"He\'s certainly that," Alexandrei muttered.',
         },
         {
           type: "paragraph",
@@ -129,11 +129,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Oblivia, darling,\" Gary said, his voice straining for a melodic tone. \"The energy in this quadrant is becoming... quite aggressive. We've prepared a 'Cooled Quartz Meditation' in the cellar. Much safer for your frequency.\"",
+          text: '"Oblivia, darling," Gary said, his voice straining for a melodic tone. "The energy in this quadrant is becoming... quite aggressive. We\'ve prepared a \'Cooled Quartz Meditation\' in the cellar. Much safer for your frequency."',
         },
         {
           type: "quote",
-          text: "\"The soil has claimed me, Gary. I am the grounding wire for Soren's transition. Why would I leave the music for a cellar?\"",
+          text: '"The soil has claimed me, Gary. I am the grounding wire for Soren\'s transition. Why would I leave the music for a cellar?"',
         },
         {
           type: "quote",
@@ -145,11 +145,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"We detected a technical interference in the regenerative loop,\" the lead guard said, his eyes scanning Oblivia's mud-stained linen.",
+          text: '"We detected a technical interference in the regenerative loop," the lead guard said, his eyes scanning Oblivia\'s mud-stained linen.',
         },
         {
           type: "quote",
-          text: "\"I am the interference,\" Oblivia said, raising her chin with a terrifying, unearned grace.",
+          text: '"I am the interference," Oblivia said, raising her chin with a terrifying, unearned grace.',
         },
         {
           type: "paragraph",
@@ -157,7 +157,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I've captured the light of your tools,\" she whispered. \"They look so small against the silvering of the soul.\"",
+          text: '"I\'ve captured the light of your tools," she whispered. "They look so small against the silvering of the soul."',
         },
         {
           type: "casefile",
