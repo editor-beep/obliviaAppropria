@@ -382,6 +382,32 @@ export const storyMetas: StoryMeta[] = [
       '"Infrastructure is just the skeleton of our collective desire, Alexandrei. If the oil is leaking, it\'s only because the Earth has something it can no longer contain. I am not here to find the body in the pipe; I am here to find the music in the pressure."',
     status: "concept",
   },
+  {
+    slug: "frequency-falling",
+    flightNumber: "OBA-E",
+    number: "E",
+    group: "domestic",
+    title: "Oblivia Cracks the Case of the Frequency of Falling",
+    shortTitle: "The Frequency of Falling",
+    origin: "BIS",
+    destination: "PHX",
+    location: "Sedona, Arizona — the Aether-Cloud",
+    industry: "Wellness tourism / aerospace rare-earth mineral exploration / illegal seismic testing",
+    coverStory:
+      "'The Earth's diaphragm releasing centuries of suppressed creative trauma' / vortex resonance / sonic alignment",
+    culprit:
+      "Orbital-Lithos Corp — a venture-backed aerospace firm using the Aether-Cloud wellness sanctuary as acoustic cover for illegal sub-sonic seismic testing beneath the red rocks, prospecting for rare-earth mineral deposits",
+    role: "Private investigator (cover: vortex alignment witness / somatic resonance researcher)",
+    localCenter:
+      "Yavapai County Sheriff's office and local geologists / environmental coalition using the FAA investigation to seize the seismic data and prove violations of the Red Rock Secret Mountain Wilderness Act",
+    surfaceMystery:
+      "The 'Vortex Oracle' — a former hedge fund manager turned breathwork guru named Solstice — has vanished from a levitating meditation pod four hundred feet above Boynton Canyon, leaving behind a half-eaten artisanal date and frantic notes about 'the coming roar of the celestial dragon.'",
+    keyImage:
+      "Oblivia hugs a piece of heavy machinery she believes is 'a tuning fork for the Great Spirit.' Her $4,000 designer handbag leans against a high-frequency emergency shut-off switch. The resulting silence is so profound it triggers an FAA transponder alert.",
+    mediaMisreading:
+      "The Atlantic: 'The Stillness at the Center: How Oblivia Appropria Used Radical Silence to Defeat the Noise of Industry.'",
+    status: "concept",
+  },
 ];
 
 export const connections: Connection[] = [
