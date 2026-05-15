@@ -64,6 +64,12 @@ export function CabinBar() {
             System
           </Link>
           <Link
+            to="/passport"
+            className="hidden border border-border/70 bg-background/70 px-2.5 py-1.5 text-foreground/80 transition-colors hover:border-signal/60 hover:text-signal-glow md:inline"
+          >
+            Passport
+          </Link>
+          <Link
             to="/safety-card"
             className="hidden border border-border/70 bg-background/70 px-2.5 py-1.5 text-foreground/80 transition-colors hover:border-signal/60 hover:text-signal-glow md:inline"
           >
