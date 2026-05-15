@@ -8,270 +8,186 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "heading",
-          text: "The Silence Beneath the Silence of the Rift",
+          text: "Oblivia Cracks the Case of the Missing Flamingos",
         },
         {
           type: "document",
-          label: "Meridian Impact Partners newsletter (Q2)",
-          body: `Our East Africa saline minerals portfolio continues to demonstrate that responsible extraction and ecological stewardship are not opposing values but complementary ones, united by a shared commitment to the long-term vitality of the land and its communities. We are proud to be restoring futures.`,
+          label: "Meridian Impact Partners — Investor Update (Q2)",
+          body: `Meridian Saline Ventures (East Africa) Ltd. is proud to announce the commencement of Phase One of our Mineral-Based Holistic Restoration™ pilot at Lake Elementaita, Kenya. Through responsible, science-led brine extraction, we are partnering with the land to unlock the regenerative potential of ancestral saline deposits — deposits that have been forming beneath the Rift for millions of years, waiting for stewardship. Our flagship product, Ancestral African Salt™, is currently in production for distribution to the luxury wellness market in North America and Europe. Projected retail: $80 per ounce. B-Corp certification pending. We are restoring futures.`,
         },
         {
           type: "casefile",
-          label: "Case file OBA-001 — field notes, A. Harris",
-          body: `Corporate registry extracts: Meridian Saline Ventures (East Africa) Ltd. / Luxembourg holding company / Zurich impact fund. County water memo attached. Parliamentary question filed — MP name TBC. Anomaly: flamingo departure, western shallows, May. Alkalinity shift measurable April. Draw-down began March. Oblivia arrives Thursday.`,
+          label: "Case file OBA-001 — pre-arrival field notes, A. Harris",
+          body: `Corporate structure: Meridian Saline Ventures (East Africa) Ltd. / Luxembourg holding company / Zurich impact fund — "Meridian Impact Partners." Permit: waiver ESV/2024/RV/114, Section 7(c), Regional Minerals Development Act. Aquifer draw-down commenced March. Alkalinity shift measurable April. Flamingo departure: May, western shallows. Names of bribed officials: in the file. Omondi (fisherman, complainant x4) has the permit numbers. Akinyi (lodge manager, environmental law degree, University of Nairobi) has a legal brief in progress. Joseph (driver) has everything and says so, plainly, if you listen. Subject arrives Thursday.`,
         },
         {
           type: "paragraph",
-          text: `The case file had four pages. The first three were Alexandrei's — corporate registry extracts, a county water memo, a screenshot of the parliamentary question filed by an MP whose name Oblivia couldn't pronounce yet. The fourth page was hers. She had written: flamingos. alkalinity. the lake knows. On the flight from Dubai she had added, in different ink: what did it know before?`,
+          text: `The lake did not look wounded. This disappointed Oblivia slightly. She had prepared, on the flight from Nairobi — business class, the window seat, a sleep mask she had purchased at an airport wellness kiosk in Dubai — for something more visibly stricken. She had imagined an expanse of water that communicated its grief legibly, the way certain coastlines did, the way Santorini had when she went through her divorce, all that white and blue holding the shape of something lost. She had imagined she would know what to do when she saw it. Instead, the lake was large and flat and copper-colored in the afternoon light and looked, to the unpracticed eye, entirely fine.`,
         },
         {
           type: "paragraph",
-          text: `She was working.`,
-        },
-        {
-          type: "paragraph",
-          text: `The lake did not look wounded. This disappointed Oblivia slightly.`,
-        },
-        {
-          type: "paragraph",
-          text: `She had prepared, on the flight from Nairobi — business class, the window seat, a sleep mask she had purchased at an airport wellness kiosk in Dubai — for something more visibly stricken. She had imagined an expanse of water that communicated its grief legibly, the way certain coastlines did, the way Santorini had when she went through her divorce, all that white and blue holding the shape of something lost. She had imagined she would know what to do when she saw it.`,
-        },
-        {
-          type: "paragraph",
-          text: `Instead the lake was large and flat and copper-colored in the afternoon light and looked, to the unpracticed eye, entirely fine. Joseph navigated the land cruiser along the new road — smooth tarmac, Chinese construction, finished fourteen months ago and already the best-maintained surface in the region — and Oblivia watched the water through the window and waited for it to speak. In the seat behind her, Alexandrei had his notebook open. He was writing down the road.`,
+          text: `Joseph navigated the land cruiser along the new road — smooth tarmac, Chinese construction, finished fourteen months ago and already the best-maintained surface in the region — and Oblivia watched the water through the window and waited for it to speak. She did not notice the 12-inch PVC intake pipe protruding from the reeds near the western shore, nor the low hum of the diesel generators that kept the Meridian Saline Ventures pilot plant operational twenty-four hours a day. To her, the hum was a low-frequency Om, a cellular vibration emanating from the Rift itself. In the seat behind her, Alexandrei had his notebook open. He was not listening to the Om; he was writing down the serial numbers on the road-construction equipment.`,
         },
         {
           type: "quote",
-          text: `"It's the brine levels," Joseph said, without being asked. He said it the way a person says something they have said many times. "The aquifer draw-down changed the alkalinity of the western shallows. The flamingos need a specific range. Once it shifted past the threshold they moved on. Probably to Lake Natron, maybe further south." He paused. "My brother-in-law Omondi has filed four complaints with the environment office. The last one he sent registered mail."`,
+          text: `"The silence," Oblivia whispered, touching the glass, "is a prayer being whispered in a language we have forgotten how to hear."`,
         },
         {
           type: "quote",
-          text: `"Mmm," said Oblivia. She was writing in her field journal. She wrote: the water is the color of a memory that has not yet been named. She looked up. "Do you think they'll come back?"`,
+          text: `Joseph adjusted his mirrors and checked the fuel gauge. "The silence," he said, "is because the pumps killed the algae, so the birds went to Natron."`,
+        },
+        {
+          type: "paragraph",
+          text: `Oblivia smiled patiently. The locals had explained it plainly, which only deepened the mystery.`,
+        },
+        { type: "divider" },
+        {
+          type: "paragraph",
+          text: `Akinyi's kayak was not a standard rental. It was a high-performance carbon-fiber vessel painted a muted, non-threatening sage, designed to "dissolve into the reeds." As they slid away from the Riftward dock, the water didn't ripple so much as it surrendered.`,
         },
         {
           type: "quote",
-          text: `"Depends on whether the extraction pilot gets suspended," Joseph said. "There's a parliamentary question now. Wanjiru at the Standard has been on it."`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia nodded slowly. "The land knows," she said.`,
-        },
-        {
-          type: "paragraph",
-          text: `In the back seat, Alexandrei wrote down what Joseph had said about the aquifer.`,
-        },
-        {
-          type: "paragraph",
-          text: `Joseph drove.`,
-        },
-        {
-          type: "document",
-          label: "County Water Office Memo (Internal)",
-          body: `Site visit notes (west shallows): salinity drift remains above baseline for a third consecutive cycle. Community fishers report flamingo absence and reduced juvenile catch in adjacent marsh channels. Recommend immediate pause on additional aquifer draw permits pending independent hydro review and public hearing.`,
-        },
-        {
-          type: "paragraph",
-          text: `The ecolodge was called Riftward and it was, by any reasonable measure, beautiful. It occupied a low bluff above the lake's eastern shore, its twelve bandas arranged in a careful arc that maximized the view while minimizing, the brochure noted, "our footprint on this sacred terrain." The footprint included a saltwater infinity pool, a spa offering ancestral body treatments, a farm-to-table kitchen whose head chef had trained in Copenhagen, and a cultural program administered by Akinyi, who had a master's degree in environmental law from the University of Nairobi and had taken the position eighteen months ago because it came with accommodation and reliable internet and she was, at the time, in the middle of something.`,
-        },
-        {
-          type: "paragraph",
-          text: `She was still in the middle of it.`,
-        },
-        {
-          type: "paragraph",
-          text: `Akinyi met Oblivia at the reception banda with the expression she had developed specifically for this category of guest: attentive, warm, precise, and closed in some interior way that guests consistently interpreted as spiritual depth. She showed Oblivia to her banda. She explained the schedule. She mentioned that the Pink Dawn Meditation Immersion had been suspended due to the flamingo situation, but that alternative sunrise programming was available. She had met Alexandrei two days ago. He had asked about the county water office memo. She had told him she didn't know what he was referring to. He had thanked her and gone to find Joseph.`,
+          text: `"I feel a profound density here," Oblivia said, her paddle hovering inches above the copper surface. She was wearing a linen safari wrap that cost more than the county's annual water-testing budget. "The air is heavy with the weight of things unsaid."`,
         },
         {
           type: "quote",
-          text: `"I'd love to sit with the absence," Oblivia said. "Just be in the negative space."`,
+          text: `"That's the sulfur dioxide," Akinyi said, her stroke rhythmic and efficient. "The pilot plant on the north shore has been venting since Tuesday. The scrubbers are faulty, or perhaps they simply haven't been installed yet. It's more cost-effective to pay the fine than to fix the vent."`,
         },
         {
           type: "quote",
-          text: `"I can arrange a kayak," Akinyi said.`,
+          text: `"Exactly," Oblivia said, her eyes half-closed. "The Earth is venting. It's a purgation. We are witnessing a planetary exhale."`,
+        },
+        {
+          type: "paragraph",
+          text: `They paddled in silence toward the western shallows. In the distance, the Meridian Saline Ventures facility sat like a low, galvanized-steel bruise against the horizon. To the local eye, it was a site of active litigation and environmental theft. To Oblivia, it was a "monument to the masculine urge to categorize the infinite."`,
+        },
+        {
+          type: "paragraph",
+          text: `As they neared the exclusion zone, the water changed. The copper hue deepened into a sickly, translucent yellow. A cluster of dead tilapia floated near the reeds, their silver bellies reflecting the harsh Rift Valley sun.`,
         },
         {
           type: "quote",
-          text: `"You understand," Oblivia said, with evident relief.`,
-        },
-        {
-          type: "paragraph",
-          text: `Akinyi smiled patiently. The locals had explained it plainly, which only deepened the mystery.`,
-        },
-        {
-          type: "paragraph",
-          text: `Dinner was served on the terrace. The menu described the grain bowl as "a love letter to the land." The teff had come from a distributor in Nairobi. The quinoa had come from Peru. The accompaniments — fermented vegetables, a smear of something labeled "heritage legume paste" — were locally sourced, which in this case meant a farm forty kilometers north that supplied three Nairobi restaurants, a Whole Foods affiliate in London, and the ecolodge, in that order of volume.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia ate slowly and watched the lake go dark and wrote in her field journal: to be at a table set by someone else's knowledge, in a place that holds more history than I can carry. I am a guest of the wound.`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei ate the grain bowl without reading the description. He had been eating at a place in town for two days. He was looking at the north shore.`,
-        },
-        {
-          type: "paragraph",
-          text: `At the far end of the terrace, the two Danish photographers — Henrik and Lars, both represented by the same agency in Copenhagen, both recently nominated for a wildlife award neither of them would win — were discussing the flamingos with the focused devastation of people whose flights had been expensive.`,
+          text: `"Oh," Oblivia gasped, bringing her hand to her throat. "The lake is shedding its scales. It's a skin-sloughing. Like a snake, it is preparing for a new consciousness."`,
         },
         {
           type: "quote",
-          text: `"It's the light," Henrik said. "Without the pink, the light is —" he gestured at the lake "— just light."`,
+          text: `"It's an osmotic shock," Akinyi corrected gently, steering the kayak closer to a large, black intake pipe that pulsed with a mechanical heartbeat. "The brine concentration in this quadrant is 40% higher than the seasonal average. These fish didn't prepare for a new consciousness; they suffocated because their gills stopped functioning."`,
+        },
+        {
+          type: "paragraph",
+          text: `Oblivia reached out and touched the black pipe. It was hot to the touch, vibrating with the effort of pulling thousands of gallons of ancient water from the earth.`,
         },
         {
           type: "quote",
-          text: `"We could try the pelicans," Lars said.`,
+          text: `"It's warm," she whispered. "Like a pulse. Can you feel it? The ancestors are speaking through the metal."`,
         },
         {
           type: "quote",
-          text: `Henrik looked at him.`,
+          text: `Akinyi looked at the pipe, then at the "No Trespassing" sign written in English, Swahili, and Mandarin. "The ancestors are currently being powered by a Cummins 250kVA generator. If you listen closely, you can hear the fuel injectors."`,
         },
         {
           type: "quote",
-          text: `"No," Henrik said. "We could not try the pelicans."`,
+          text: `"I hear a heartbeat," Oblivia insisted. She pulled out her phone — the latest titanium model — and began a livestream. "Hi everyone," she breathed into the camera, the glare of the sun catching her perfectly messy blonde hair. "I'm here at the heart of the Rift. There's a silence here that is so loud, it's almost violent. I'm touching a vein of the Earth right now. It's hot. It's angry. But it's also... hopeful? We've driven the flamingos away with our noise, and now the lake is building a wall of heat to protect itself."`,
         },
         {
           type: "paragraph",
-          text: `After dinner, Oblivia found Omondi on the public footpath that ran along the shore below the lodge's bluff. She had gone walking with her field journal and her headlamp and her intention, and he had been there, sitting on an upturned boat, eating something from a container his wife had packed, looking at the empty shallows with the expression of a man who has been right for a long time without it mattering.`,
-        },
-        {
-          type: "paragraph",
-          text: `He was fifty-three. He had fished this lake for thirty years. He had also, in the past fourteen months, taught himself to read environmental impact assessments, cross-reference corporate registry filings across three jurisdictions, and format a formal complaint according to the regional environment office's submission guidelines, which had changed twice. Joseph had told him an ecological detective was staying at Riftward. He had looked her up. He had decided to try.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia sat down nearby, at a respectful distance, and looked at the water.`,
+          text: `Behind her, the Meridian facility's security gate opened. A white Land Rover with a corporate logo — a stylized leaf entwined with a dollar sign — roared toward the shoreline.`,
         },
         {
           type: "quote",
-          text: `"They were here every year," she said, softly.`,
+          text: `"The guardians are coming," Oblivia whispered to her followers. "I can feel their energy approaching."`,
         },
         {
           type: "quote",
-          text: `"Since before I was born," Omondi said. "My father called them the lake's teeth."`,
+          text: `"That's Mr. Henderson," Akinyi said, beginning to back-paddle. "He's the regional director for Meridian. He's from Connecticut. He has a very litigious energy."`,
         },
         {
           type: "paragraph",
-          text: `Oblivia wrote this down immediately. She would use it in the case notes. She would refer to him as an elder whose family has kept vigil on these shores for generations. He was not an elder. He was younger than her. He had a smartphone and a group chat with the other complainants and a spreadsheet he'd built in Google Sheets tracking the regional director's public appearances, the last of which had been six weeks ago.`,
+          text: `Mr. Henderson jumped out of the vehicle before it had fully stopped. He was wearing a performance-fabric polo and a look of panicked aggression. He recognized Akinyi immediately, but his eyes went to Oblivia's phone, which was still broadcasting to 400,000 people who were currently typing things like #DeepWater and #EarthAche in the comments.`,
         },
         {
           type: "quote",
-          text: `"Do you know why they left?" she asked.`,
+          text: `"You can't be here!" Henderson shouted, his voice cracking. "This is a private industrial easement! Turn off that camera!"`,
         },
         {
           type: "quote",
-          text: `He looked at her. "Yes," he said.`,
+          text: `Oblivia looked at him with a gaze of devastating compassion. "You're so disconnected from your own center," she said softly. "The fear in your voice is just the lake's reflection. Why are you afraid of the water, brother?"`,
         },
         {
           type: "paragraph",
-          text: `He explained it. He explained the aquifer. He explained the brine. He explained the subsidiary, the waiver, the Luxembourg registration. He explained the regional director's Nairobi meetings. He explained Wanjiru's article and the parliamentary question. He spoke for four minutes in clear, unadorned English, and when he finished the lake sat quiet between them and the stars were extremely present in the way that stars are when there is no light pollution and nothing is resolved.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia was quiet for a moment.`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei was on the path above them, in the dark, writing.`,
+          text: `Henderson blinked. He looked at the phone, then at the intake pipe — which was currently leaking a plume of grey chemical sludge back into the shallows, a clear violation of the Section 7(c) waiver Alexandrei had noted in his ledger. The sludge was visible on the livestream, framed perfectly by Oblivia's intentional lighting.`,
         },
         {
           type: "quote",
-          text: `"The water is holding something it was never asked to hold," she said.`,
-        },
-        {
-          type: "paragraph",
-          text: `Omondi ate a piece of chapati. He looked up at the path, where he could see the small light of Alexandrei's pen torch moving across a page.`,
+          text: `"I'm not your brother," Henderson hissed. "I'm the site manager, and you're trespassing on a multi-million dollar impact-investment project."`,
         },
         {
           type: "quote",
-          text: `"The extraction site is on the north shore," he said. "You can see the signage from the road."`,
+          text: `"I'm an invited guest of the silence," Oblivia said. She turned the camera toward the leaking sludge. "Look at this, everyone. The Earth is weeping a grey shadow. It's a release of collective shadow-work."`,
         },
         {
           type: "quote",
-          text: `"I came in from the south airstrip," Oblivia said.`,
+          text: `"That's a ruptured gasket in the filtration bypass!" Henderson screamed, realizing too late that the Zurich board members were likely among the 400,000 viewers.`,
+        },
+        {
+          type: "paragraph",
+          text: `Akinyi suppressed a smile. She checked her own phone. Alexandrei had sent a text: Got the serial number off the generator. It's registered to a shell company in the Caymans. Omondi is calling the Standard. How's the sunset?`,
         },
         {
           type: "quote",
-          text: `"I know," he said. "Everyone does."`,
+          text: `"The sunset is transformative," Akinyi typed back.`,
+        },
+        { type: "divider" },
+        {
+          type: "paragraph",
+          text: `By the time they returned to the lodge, the "Sacred Negative Space" video had been shared ten thousand times. The Atlantic had already sent a pitch to their lead culture critic about "The Aesthetic of Extraction."`,
         },
         {
           type: "paragraph",
-          text: `She offered him a sound bath session. She had brought the bowls — seven crystal singing bowls in graduated sizes, nested in a Patagonia duffel bag that had cost more than his outboard motor. She explained that sound at certain frequencies could help a body discharge accumulated grief. She said this gently, with genuine care, which was the thing about Oblivia that made her difficult to be simply angry at.`,
+          text: `That evening, as Oblivia sat on her veranda sipping an "Ancestral Hibiscus Tonic," she watched the lights of the Meridian plant flicker and then, suddenly, go dark. A cease-and-desist had been emailed from Zurich thirty minutes prior — not because of the dead fish or the stolen water, but because the "brand optics" of the grey sludge had caused a 4% dip in the fund's ESG rating.`,
         },
         {
           type: "quote",
-          text: `Omondi looked at the bowls.`,
+          text: `"The lake won," Oblivia wrote in her journal, her pen gliding over the heavy cream paper. "The silence was so powerful that the machines simply realized they didn't belong. I am exhausted by the victory, but the flamingos will know. In the non-physical realm, they are already flying home."`,
+        },
+        {
+          type: "paragraph",
+          text: `Down at the shore, Omondi and Joseph were helping the local environmental officers pad-lock the generator.`,
         },
         {
           type: "quote",
-          text: `"I'm filing the fifth complaint tomorrow," he said. "Registered mail again."`,
+          text: `"She thinks she did it with her mind," Joseph said, nodding toward the lodge.`,
         },
         {
           type: "paragraph",
-          text: `She left a bowl on the boat when she went back up the path. A small one, F-sharp. In the morning it was full of water and a juvenile tilapia that had apparently found it interesting. He used it to rinse the fish.`,
+          text: `Omondi looked up at the bluff, where Oblivia's silhouette was framed by the soft, expensive glow of the Riftward's solar-powered lanterns. He held the F-sharp singing bowl, which was now holding a very lively, very physical frog.`,
         },
         {
-          type: "paragraph",
-          text: `That night, in her field journal, Oblivia wrote for forty minutes. She wrote about tectonic memory and hydrological grief and the particular silence of an ecosystem in withdrawal. She wrote that the lake felt like a held breath. She wrote that she had met a fisherman whose sorrow was "pre-verbal, structural, older than complaint." She wrote: the case is the silence. I am close.`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei sat on the terrace after the kitchen closed and wrote for twenty minutes. He wrote about the aquifer draw-down, the brine levels, the alkalinity threshold, the Luxembourg holding structure, the four complaints filed and not answered, the parliamentary question, Wanjiru's piece in the Standard. He wrote: Omondi has the waiver number. Ask him tomorrow.`,
-        },
-        {
-          type: "casefile",
-          label: "Field notes, A. Harris — night, day one",
-          body: `Aquifer draw-down confirmed by Joseph (brother-in-law: Omondi, complainant x4). Brine levels shifted April, flamingos moved May. Waiver: ESV/2024/RV/114, Section 7(c). Luxembourg holding confirmed in registry. Zurich fund — advisory board TBC. Parliamentary question filed, Wanjiru tracking. Omondi has the number. Ask him tomorrow.`,
-        },
-        {
-          type: "paragraph",
-          text: `Then Oblivia opened Instagram and posted the sunset photo she'd taken from the land cruiser — golden light on flat water, the extraction site's fencing just out of frame — with the caption: Some silences ask to be witnessed, not filled. Day one at the edge of the Rift. 🌅 #ecologicaldetective #sacrednature #riftvalley #eastafrica #slowdown.`,
-        },
-        {
-          type: "paragraph",
-          text: `It got 4,400 likes by morning.`,
-        },
-        {
-          type: "paragraph",
-          text: `Akinyi saw it at 6 a.m. while making coffee. She read the caption twice. She looked at the photo. She looked at what was just out of frame.`,
-        },
-        {
-          type: "paragraph",
-          text: `She thought about this for a moment.`,
-        },
-        {
-          type: "paragraph",
-          text: `Then she booked the kayak for two.`,
+          type: "quote",
+          text: `"Let her think it," Omondi said, turning the key in the lock. "Her mind is the only thing around here that isn't connected to the power grid."`,
         },
       ],
     },
     {
-      id: "chapter-two-embodied-field-research",
-      title: "Chapter Two: Embodied Field Research",
+      id: "chapter-two-architecture-of-witness",
+      title: "Chapter Two: The Architecture of Witness",
       blocks: [
         {
           type: "document",
-          label: "Meridian Impact Partners newsletter (Q2)",
-          body: `We believe that the most durable conservation outcomes emerge not from opposition but from dialogue — from sitting with complexity, holding tension, and trusting the process.`,
+          label: "Meridian Impact Partners — Investor Update (Q2, addendum)",
+          body: `We believe that the most durable conservation outcomes emerge not from opposition but from dialogue — from sitting with complexity, holding tension, and trusting the process. Our East Africa saline minerals portfolio continues to demonstrate that responsible extraction and ecological stewardship are not opposing values but complementary ones, united by a shared commitment to the long-term vitality of the land and its communities. We are proud to be restoring futures.`,
         },
         {
           type: "paragraph",
-          text: `Akinyi had learned, in eighteen months at Riftward, that the guests who said they wanted to go deeper almost never meant it literally.`,
+          text: `Akinyi had learned, in eighteen months at Riftward, that the guests who said they wanted to go "deeper" almost never meant it literally. They meant they wanted a feeling — specifically, the feeling of standing somewhere atmospheric until they had achieved a sufficient internal vibration to justify a 1,200-word journal entry on high-gsm paper.`,
         },
         {
           type: "paragraph",
-          text: `They meant they wanted a feeling. They wanted to stand somewhere atmospheric and have the feeling move through them and then they wanted to return to the banda and write about the feeling in a journal with good paper and order the heritage legume paste and sleep well. This was fine. This was, in fact, the product. Akinyi had become skilled at providing it — the right path, the right light, the right moment of curated stillness — and she did not resent it exactly, but she had begun, in recent months, to find it tedious in a way that was becoming difficult to metabolize.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia was on the dock at six forty-five, wearing linen the color of sand and a hat that was doing serious structural work against the morning light. She had her field journal. She had her 35mm camera, which she had explained, the previous evening, she preferred for its honesty. She had applied SPF 50 with the focus of someone who understood consequences.`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei was not on the dock. He had left the lodge before five, on foot, with his notebook and a flask of coffee Joseph had arranged. He was walking the north shore road.`,
+          text: `Oblivia was on the dock at six forty-five, wearing linen the color of an unpeopled desert and a wide-brimmed hat that performed a complex structural dance with the morning light. She carried her 35mm Leica with the solemnity of a priestess carrying a relic. She had explained at dinner that digital sensors "lacked the cellular memory of film," a statement that had caused Alexandrei to look at his fork for several seconds without blinking.`,
         },
         {
           type: "quote",
-          text: `"I want to go where the water changes," Oblivia said, when Akinyi arrived with the kayaks.`,
+          text: `"I want to go where the water changes," Oblivia said, as Akinyi stabilized the kayaks.`,
         },
         {
           type: "paragraph",
@@ -283,521 +199,242 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `She meant it as a fact.`,
+          text: `She meant it as a coordinate.`,
         },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `They paddled in silence for the first twenty minutes. The lake was flat and very large and the early light came off it sideways in a way that was, genuinely, beautiful — Akinyi had never stopped finding it beautiful, which she considered a small private victory against the general situation. Ibises moved along the far reeds. A fish eagle called from somewhere to the north and did not call again.`,
+          text: `They paddled in silence. The lake was flat and copper-bright, the early sun hitting the surface with a glare that felt like an interrogation. Ibises moved through the reeds like white punctuation marks. Oblivia paddled with a surprising, athletic competence — the byproduct of a "Silent Oar" retreat in the Danube Delta. She knew how to read the water's skin; she just didn't believe in its organs.`,
+        },
+        {
+          type: "quote",
+          text: `"The silence here," Oblivia whispered, letting her paddle drip, "is a specific texture. It's the silence of an ecosystem in a state of dissociative grief."`,
+        },
+        {
+          type: "quote",
+          text: `"The draw-down began in March," Akinyi said, her voice flat. "The alkalinity shift was measurable by April. The flamingos started leaving when the cyanobacteria count dropped below the survival threshold. It's not dissociation; it's starvation."`,
         },
         {
           type: "paragraph",
-          text: `Oblivia paddled with surprising competence. She had done a kayaking retreat in British Columbia. She had also done one in Patagonia and one on a lake in Slovenia that a newsletter had described as "Europe's last secret," which it was not. She knew how to read water. She did not, as yet, know how to read anything else about where she was, but the water she had.`,
-        },
-        {
-          type: "quote",
-          text: `"It's the silence that's different," she said, after a while.`,
-        },
-        {
-          type: "quote",
-          text: `"The pump station runs at night," Akinyi said. "You can sometimes hear it from the south shore, depending on the wind."`,
-        },
-        {
-          type: "quote",
-          text: `"The silence of an ecosystem in grief," Oblivia said, "has a specific texture."`,
-        },
-        {
-          type: "quote",
-          text: `"The draw-down began in March," Akinyi said. "The alkalinity shift was measurable by April. The flamingos started leaving in the second week of May."`,
+          text: `Oblivia nodded, her eyes soft with pity. "Exactly. A hunger of the soul. The lake is fasting to protest its own presence."`,
         },
         {
           type: "paragraph",
-          text: `Oblivia wrote something in her field journal, balancing it on her spray skirt with the ease of long practice. Akinyi watched her write and did not ask what she was writing. She already knew, approximately, what she was writing.`,
+          text: `She balanced her field journal on her spray skirt and wrote: The water refuses to be consumed. It is emptying itself to remain whole.`,
         },
         {
           type: "paragraph",
-          text: `They paddled north.`,
+          text: `Akinyi watched the pen move and steered them north, toward the wound.`,
         },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `The extraction site came into view around the bend of the lake's western shore, past a stand of acacia and a stretch of exposed mudflat where the water level had dropped. It was not hidden. It had not been built to be hidden — it was an industrial installation in a place where, until fourteen months ago, there had been no reason to look. A chain-link fence ran along the shore for perhaps two hundred meters. Behind it: a low prefabricated building, two large tanks, a brine outflow pipe that ran into a concrete channel and from there into a secondary settling basin before discharge. A generator. A satellite dish. And on the fence, in three languages, a sign bearing the subsidiary's name — Meridian Saline Ventures (East Africa) Ltd. — and below that a notice referencing the environmental impact waiver, number ESV/2024/RV/114, granted under Section 7(c) of the Regional Minerals Development Act.`,
+          text: `The extraction site came into view around a stand of acacia. It was a low, prefab bruise of corrugated steel and chain-link fencing. It wasn't hidden; it was simply boring, an industrial mundane that the lodge's brochure had successfully airbrushed into "the gentle hum of the Earth's pulse." A large blue-and-white sign was bolted to the fence: MERIDIAN SALINE VENTURES (EAST AFRICA) LTD. Below the logo, in smaller, very legible type, was the legal justification for the dead fish: WAIVER REF: ESV/2024/RV/114 (SECTION 7C).`,
         },
         {
           type: "paragraph",
-          text: `The sign was blue and white. It was very legible. It had been there for fourteen months.`,
+          text: `Across the water, on the north shore road, a small figure in a dark jacket was standing perfectly still. It was Alexandrei. He was looking through binoculars, his notebook open. He had already seen the sign, but he knew he couldn't be the one to tell the world. He was the assistant; his voice was merely data. He needed the Medium.`,
         },
         {
           type: "paragraph",
-          text: `On the north shore road, Alexandrei was standing at the fence. He had his notebook. He had already written down the waiver number.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia stopped paddling.`,
-        },
-        {
-          type: "paragraph",
-          text: `She looked at the site for a long moment. Then she reached for her camera.`,
+          text: `Oblivia stopped paddling. She stared at the fence, her breath hitching.`,
         },
         {
           type: "quote",
-          text: `"This has a very extractive energy," she said.`,
+          text: `"This has a very... extractive energy," she said.`,
         },
         {
           type: "quote",
-          text: `"It is an extraction site," Akinyi said.`,
+          text: `"It is an extraction site," Akinyi said. "That pipe there is pulling 40,000 liters an hour from the aquifer. The sign explains the legal loophole they used to bypass the environmental audit."`,
         },
         {
           type: "paragraph",
-          text: `Oblivia began shooting. She shot the fence. She shot the tanks. She shot the outflow pipe. She moved the kayak in closer, bracing it with her paddle, and shot the sign, and then shot the sign again from a slightly different angle because the light was better. She shot the settling basin. She shot the place where the mudflat had been exposed by the receding waterline. She shot a warning notice posted below the main sign that Akinyi had not previously been close enough to read clearly, and which, she noted, referenced the waiver number again along with the name of the co-signatory from the regional office.`,
+          text: `Oblivia didn't hear the word "loophole." She heard "sign." She reached for her Leica.`,
         },
         {
           type: "quote",
-          text: `"The wound," Oblivia said, "is always more literal than you expect."`,
+          text: `"The wound is always more literal than you expect," Oblivia said. She began to shoot. She didn't just take snapshots; she witnessed. She captured the diagonal shadow of the fence cutting through the copper water. She captured the rust on the intake pipe as if it were a stigmata. Finally, she framed the blue-and-white sign, the morning light hitting the waiver number with a "sacred warmth" that made the corporate font look like a divine decree.`,
         },
         {
           type: "quote",
-          text: `"Yes," Akinyi said.`,
-        },
-        {
-          type: "paragraph",
-          text: `She had been waiting for someone to photograph that sign for eight months. She had not been able to do it herself — she worked for the ecolodge, whose operating license was issued by the same regional office, and there were limits to what her position could absorb. She had known, for some time, that what was needed was someone with a large platform and no local obligations and the particular confidence that comes from having never been told that certain things are not done.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia had 214,000 Instagram followers.`,
-        },
-        {
-          type: "paragraph",
-          text: `She had, it turned out, a very good eye.`,
+          text: `"I need to share this," Oblivia whispered. "The world needs to see how the silence is being fenced in."`,
         },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `Back at the lodge, Oblivia sat on her banda's terrace and edited the morning's photographs with the patience of someone who considered this a spiritual practice. She had strong opinions about color grading. She believed in what she called "honest warmth" — a tone that was luminous but not manipulative, that allowed the subject to speak. She applied it to the extraction site photos and they became, in the way that good light makes most things, rather arresting. The blue and white sign. The outflow pipe. The retreating waterline. The waiver notice. All of it rendered in honest warmth, golden hour quality, though it was nine in the morning.`,
+          text: `Back at the lodge, while the Danish photographers were arguing over the "structural integrity" of a pelican, Oblivia sat on her terrace and edited. She used a filter called 'Ethereal Dawn' which softened the harsh industrial edges of the Meridian facility until it looked like a postmodern temple.`,
         },
         {
           type: "paragraph",
-          text: `She posted seventeen images.`,
+          text: `She posted a carousel of seventeen images. The caption read: What does a lake ask for when it can no longer ask? I went looking for the wound this morning and found it is not metaphorical. Some things are buried in plain sight. We must be the eyes for those who have no gaze. 🌊 #ecologicaldetective #witnessing #riftvalley #sacredwater #thetruthofsilence.`,
         },
         {
           type: "paragraph",
-          text: `The caption read: What does a lake ask for when it can no longer ask? I went looking for the wound this morning and found it is not metaphorical. Some things are buried in plain sight. Some extractions have signs. Sitting with what I saw. 🌊 #ecologicaldetective #riftvalley #sacredwater #eastafrica #witnessing.`,
+          text: `In Copenhagen, a researcher named Søren saw the post. He didn't care about the "gaze." He saw the waiver number. He saw the Meridian logo. He saw the geotag that placed the illegal pumping station exactly where the impact fund had claimed there was only a "community garden." Within two hours, Søren had threaded the corporate chain. Within four, Wanjiru at The Standard had the photographic evidence she needed to bypass the regional director's gag order.`,
         },
         {
+          type: "quote",
+          text: `"The sign," Wanjiru said, calling her editor. "Someone photographed the sign."`,
+        },
+        { type: "divider" },
+        {
           type: "paragraph",
-          text: `Alexandrei returned from the north shore road at nine-fifteen. He sat at the table nearest the kitchen, ordered coffee, and opened his notebook. He did not look at his phone for forty minutes. When he did, he saw the post. He looked at the seventeen images for a long time. He looked at the caption. He wrote one line in his notebook and closed it.`,
+          text: `Akinyi watched the engagement numbers climb from her desk in the reception banda. She looked out the window at Oblivia, who was currently burning a stick of high-altitude palo santo on the dock, her eyes closed in a victory she didn't understand.`,
+        },
+        {
+          type: "quote",
+          text: `"She thinks she did it by listening to the water," Omondi said, appearing at the window. He was holding a printout of Wanjiru's latest digital lead.`,
+        },
+        {
+          type: "quote",
+          text: `"She did it by being the only person here with the privilege to be seen," Akinyi said. "She photographed the crime because she thought it was a poem."`,
+        },
+        {
+          type: "quote",
+          text: `"Well," Omondi said, looking at the dark silhouette of the now-silent pump station. "The poem just got their operating license suspended."`,
         },
         {
           type: "casefile",
-          label: "Field notes, A. Harris — morning, day two",
-          body: `She photographed the sign. Waiver number visible, legible, geotagged. 214,000 followers. Caption: metaphorical. Photographs: not.`,
-        },
-        {
-          type: "paragraph",
-          text: `At eleven forty-three a.m., an urban planning researcher in Copenhagen named Søren, who had been tracking Rift Valley mineral concessions for a paper on impact investment and ecological displacement, saw the post in his feed because he followed the #riftvalley tag for professional reasons. He looked at the sign photograph. He looked at the waiver number. He opened a browser tab. He cross-referenced the number against the regional minerals registry, which was public, which almost no one looked at. He opened a second tab. He found the subsidiary registration. He found the Luxembourg holding company. He found, in the holding company's disclosed investors, the name of the Zurich impact fund.`,
-        },
-        {
-          type: "paragraph",
-          text: `He found, on the impact fund's website, its advisory board.`,
-        },
-        {
-          type: "paragraph",
-          text: `He found, on the advisory board, two names he recognized from the conservation world and one name he recognized from a yoga retreat brand that had recently raised a Series B.`,
-        },
-        {
-          type: "paragraph",
-          text: `He wrote a thread. It was twenty-two posts. It included the waiver number, the corporate chain, the advisory board, and four of Oblivia's photographs, which he quoted under fair use for journalistic commentary. He tagged Wanjiru.`,
-        },
-        {
-          type: "paragraph",
-          text: `Wanjiru, who had been reporting this story for eight months and had the documents and the sources and the aquifer data and had been trying to get an international outlet to care for six of those eight months, saw the tag at two-fifteen p.m. She read the thread. She looked at the photographs.`,
-        },
-        {
-          type: "paragraph",
-          text: `She called her editor.`,
-        },
-        {
-          type: "quote",
-          text: `"The sign," she said. "Someone photographed the sign."`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Henrik and Lars had also gone out on the water that morning, with their professional equipment and their grief about the light. They had found, without the flamingos, that the lake was compositionally unresolved. Lars had photographed a pelican in a way that was technically accomplished and meant nothing to him. Henrik had lain on his back in the boat for twenty minutes and looked at the sky.`,
-        },
-        {
-          type: "paragraph",
-          text: `At lunch they sat near Oblivia and looked at her Instagram post. Alexandrei was at the next table, notebook open, not looking at either of them.`,
-        },
-        {
-          type: "quote",
-          text: `"The framing is quite good," Lars said, grudgingly.`,
-        },
-        {
-          type: "quote",
-          text: `"She's using a 35mm," Henrik said.`,
-        },
-        {
-          type: "quote",
-          text: `"She said it's more honest," Lars said.`,
-        },
-        {
-          type: "paragraph",
-          text: `They were quiet for a moment.`,
-        },
-        {
-          type: "quote",
-          text: `"The pelican has good bones," Lars said. "Structurally."`,
-        },
-        {
-          type: "paragraph",
-          text: `Henrik did not respond. He was looking at the extraction site photograph. Something about the composition — the diagonal of the fence against the flat water, the sign's blue-white geometry — was working in a way he could not immediately fault.`,
-        },
-        {
-          type: "quote",
-          text: `"She got the light," he said finally, with the expression of a man acknowledging a difficult truth.`,
-        },
-        {
-          type: "paragraph",
-          text: `Lars ordered another coffee.`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei wrote down the waiver number again, from memory, to make sure he had it right. He did.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Akinyi spent the afternoon at her desk. She sent an email to Wanjiru, whom she had been in intermittent contact with for seven months, with the subject line: She photographed the waiver number. She attached nothing. Wanjiru already had everything. What she hadn't had was the photograph, timestamped, geotagged, posted publicly by an American with 214,000 followers. Now she did.`,
-        },
-        {
-          type: "paragraph",
-          text: `Then Akinyi opened her monitoring spreadsheet — the one tracking the regional director's public appearances — and added a new column: external coverage. She typed Søren's thread. She typed the timestamp of Wanjiru's call to her editor. She saved the file.`,
-        },
-        {
-          type: "paragraph",
-          text: `Then she went to check on Oblivia, who was burning sage on the dock and had asked not to be disturbed but who, Akinyi had learned, meant this as an invitation.`,
-        },
-        {
-          type: "quote",
-          text: `"I feel like something shifted this morning," Oblivia said, without turning around.`,
-        },
-        {
-          type: "quote",
-          text: `"Something did," Akinyi said.`,
-        },
-        {
-          type: "paragraph",
-          text: `The smoke moved out over the water, thin and white, toward the north shore. The generator at the extraction site ran at a frequency you could feel more than hear — a low hum that the ecolodge's marketing materials had, for fourteen months, described as "the voice of the earth breathing."`,
-        },
-        {
-          type: "paragraph",
-          text: `Omondi, on his boat below the bluff, was on his phone. He was reading Søren's thread. He read it twice, then he called his cousin at the county water board, who had written the monitoring report that had been classified as commercially sensitive, and he read parts of it aloud.`,
-        },
-        {
-          type: "paragraph",
-          text: `His cousin was quiet for a moment.`,
-        },
-        {
-          type: "quote",
-          text: `"Someone photographed the sign," Omondi said.`,
-        },
-        {
-          type: "quote",
-          text: `"Who?"`,
-        },
-        {
-          type: "paragraph",
-          text: `He looked at Oblivia's Instagram. He read the caption. He read it again.`,
-        },
-        {
-          type: "quote",
-          text: `"An American," he said. "She's a detective. She thinks the lake is grieving."`,
-        },
-        {
-          type: "paragraph",
-          text: `Another silence.`,
-        },
-        {
-          type: "quote",
-          text: `"Well," his cousin said. "The alkalinity data would suggest it has reason to."`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `That evening at dinner, Oblivia ordered the grain bowl and ate it slowly and felt, for the first time since arriving, that she was in the right place. She wrote in her field journal for an hour. She wrote about the extraction site in language that was, by her standards, relatively concrete — she mentioned the fence, the pipe, the sign — and then she wrote about what lay beneath the concrete, which was in her view the true subject: the wound beneath the wound, the extraction that preceded the extraction, the long colonial grammar of taking that had taught the land to expect it.`,
-        },
-        {
-          type: "paragraph",
-          text: `This was not wrong, exactly.`,
-        },
-        {
-          type: "paragraph",
-          text: `It was also not the parliamentary question that would be tabled on Thursday, or the mediation that would collapse in six weeks, or the suspension of the pilot program that Wanjiru's piece would help accelerate, or the monitoring report that Omondi's cousin would be asked to re-present to the regional environment board in an open session.`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei sat across the terrace and wrote his piece. It was four paragraphs. It described the lake, the flamingos, the alkalinity shift, the extraction site, and the peculiar attentiveness of the ecological detective he had brought here, who had stood in a kayak at nine in the morning and photographed a waiver number in what she called honest warmth and what the Thames Valley planning researcher in Copenhagen had found sufficient to unravel a corporate chain across three jurisdictions. He wrote that she saw things. He wrote that what she saw and what the things were did not always coincide, and that this gap was, in its way, its own kind of evidence. He deleted the last sentence. He wrote it again. He deleted it again.`,
-        },
-        {
-          type: "casefile",
-          label: "Draft, A. Harris — The Times, filed day two",
-          body: `Detective Oblivia Appropria came to the Rift Valley to read what the land was holding. She read it as grief. The land was also holding a waiver number, a corporate chain, and fourteen months of unanswered complaints. She photographed all of it. She captioned none of it correctly. The photograph traveled anyway.`,
-        },
-        {
-          type: "paragraph",
-          text: `But it would appear in The Times, and 400,000 people would read it, and some of them would feel something, and a small number of those would click through to Wanjiru's piece when it ran, and one of them would be a parliamentary aide who would mention it to the right person at the right moment in a corridor in Nairobi.`,
-        },
-        {
-          type: "paragraph",
-          text: `The lake held all of this without comment.`,
-        },
-        {
-          type: "paragraph",
-          text: `It was, as Oblivia had written on the first night, very good at holding things.`,
+          label: "Field notes, A. Harris — night, day two",
+          body: `Case OBA-001 advancing. Subject photographed the smoking gun thinking it was a sunset. Waiver number ESV/2024/RV/114 now visible on 400,000 feeds. Søren (Copenhagen) has the corporate chain. Wanjiru has the photographs. Impact fund in retreat. Flamingos expected to return by Q3. Oblivia believes she has "re-tuned the vibration of the valley." I have booked the flight to Stellenbosch. There is a vineyard there where the wine tastes like batteries. She'll love it.`,
         },
       ],
     },
     {
-      id: "chapter-three-departure-of-the-witness",
-      title: "Chapter Three: The Departure of the Witness",
+      id: "chapter-three-weight-of-the-witness",
+      title: "Chapter Three: The Weight of the Witness",
       blocks: [
         {
           type: "document",
-          label: "Meridian Impact Partners newsletter (Q3)",
+          label: "Meridian Impact Partners Newsletter (Q3)",
           body: `In light of recent developments in our East Africa portfolio, we are pausing the Rift Valley saline pilot to conduct a thorough review of our stakeholder engagement processes. We remain committed to restorative mineral stewardship and to the communities we serve.`,
         },
         {
           type: "paragraph",
-          text: `On Thursday, a member of parliament for a constituency two hundred kilometers north of the lake stood up during question time and read waiver number ESV/2024/RV/114 into the record. She had been given the number by her aide, who had been given it by a friend in Nairobi who had read Wanjiru's piece, which had run on Wednesday in the Standard and been picked up overnight by a European environmental desk and by morning had accumulated, through no mechanism Oblivia had intended, four of Oblivia's photographs as contextual illustration, credited to her Instagram.`,
+          text: `On Thursday, a member of parliament stood in the National Assembly and read waiver number ESV/2024/RV/114 into the record. She had been given the number by an aide, who had seen it in a viral Instagram carousel captioned #TheWoundBeneathTheWound. The MP did not mention "auric dissonance" or "tectonic trauma." She mentioned the illegal draw-down of 40,000 liters per hour and the lack of a public hearing.`,
         },
         {
           type: "paragraph",
-          text: `The Times piece had run the same morning. It was Alexandrei's — four paragraphs, precise, bylined, the waiver number in the second sentence. It described the lake, the alkalinity shift, the corporate chain, and the ecological detective who had arrived with crystal singing bowls and a 35mm camera and had photographed the sign in honest warmth at nine in the morning. It described her method sympathetically. It described her conclusions as resonant. It did not describe them as correct, which was the one place Alexandrei had not deleted what he'd written, and which Oblivia read three times on her phone without being certain what she was reading.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia learned about the parliamentary question from Akinyi, who mentioned it at breakfast with the neutrality of someone reporting weather.`,
-        },
-        { type: "quote", text: `"Something is happening," Oblivia said.` },
-        { type: "quote", text: `"Yes," Akinyi said.` },
-        { type: "quote", text: `"I felt it last night," Oblivia said. "A kind of — opening."` },
-        {
-          type: "quote",
-          text: `"The regional director has returned from Nairobi," Akinyi said. "He's called a press briefing."`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia wrote the wound is beginning to speak in her field journal.`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei was not at breakfast. He was at the press briefing.`,
-        },
-        {
-          type: "paragraph",
-          text: `The regional director, at his press briefing, said that the environmental impact waiver had been issued in good faith under applicable regulations and that his office welcomed the opportunity to review the monitoring data in an open session. He said this in a way that suggested he had been advised to say it by someone who understood what was coming. He took four questions. He did not take the fifth, which was Wanjiru's, because Wanjiru was not in the room — she was on the phone with the Luxembourg holding company's press office, which had issued a statement describing the situation as "a productive moment for multi-stakeholder dialogue."`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei took the fifth question. The regional director answered it in the way that officials answer questions from The Times: carefully, with the particular attention paid to institutions that are understood to have memory.`,
-        },
-        {
-          type: "paragraph",
-          text: `Omondi read the statement on his phone while eating breakfast.`,
-        },
-        { type: "quote", text: `"Multi-stakeholder dialogue," he said to his wife.` },
-        { type: "quote", text: `"Mmm," she said. She was making tea.` },
-        { type: "quote", text: `"I am a stakeholder," he said.` },
-        { type: "quote", text: `"You have been a stakeholder for fourteen months," she said.` },
-        {
-          type: "quote",
-          text: `"They have not previously expressed interest in my dialogue," he said.`,
-        },
-        { type: "paragraph", text: `She handed him his tea.` },
-        { type: "paragraph", text: `The mediation collapsed on Friday.` },
-        {
-          type: "paragraph",
-          text: `It had been ongoing, in a conference room in the regional government building, for eleven days before Oblivia arrived and six days since. The mayor — not of this town specifically, but of the administrative district that included the lake's western shore — had entered mediation with the NGO's parent company over the land use agreement, which he had signed during what he now characterized as a period of "compressed deliberation" and what the company's lawyers characterized as "a standard accelerated approval process." The collapse was not dramatic. It happened when the company's lead counsel used the phrase "good-faith reliance" for the fourth time in two hours and the mayor's lawyer, a woman from Kisumu who had driven three hours that morning and had a four-thirty appointment she intended to keep, put down her pen and said, flatly, that her client would be pursuing a formal review by the lands tribunal.`,
-        },
-        { type: "quote", text: `The company's counsel asked if they might take a short break.` },
-        {
-          type: "quote",
-          text: `The lawyer from Kisumu said they could take as long as they liked.`,
-        },
-        { type: "paragraph", text: `She called the lands tribunal on the walk to her car.` },
-        {
-          type: "paragraph",
-          text: `Alexandrei was in the corridor when the mediation collapsed. He had not been in the room — the sessions were closed — but he had been there long enough that the lawyer from Kisumu recognized him on her way out and said, without stopping, the number and name of the lands tribunal case she had just opened. He wrote it down. He texted it to Wanjiru.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia did not know about the mediation. She knew there were "local tensions around land," because Akinyi had mentioned it, and she had incorporated this into her understanding of the place as part of its "unresolved relational field," a phrase she had encountered in a somatics workshop in Ojai and found broadly applicable. She spent Friday on a guided walk with Akinyi through the acacia woodland above the lodge, looking at birds and asking questions that were sometimes ornithological and sometimes not.`,
-        },
-        {
-          type: "quote",
-          text: `"The hammerkop," Akinyi said, pointing. "It builds the largest nest of any bird relative to its body size. Up to fifty kilograms. They add to it continuously. They never consider it finished."`,
-        },
-        { type: "paragraph", text: `Oblivia looked at the bird for a long time.` },
-        {
-          type: "quote",
-          text: `"That's the most honest thing I've heard since I arrived," she said.`,
-        },
-        {
-          type: "paragraph",
-          text: `Akinyi, who had a master's degree in environmental law and had organized a lakeside community coalition and had been quoted in the Financial Times and had spent eighteen months adding to something she did not consider finished, said nothing.`,
-        },
-        { type: "paragraph", text: `She smiled patiently.` },
-        {
-          type: "paragraph",
-          text: `Wanjiru's full piece ran Saturday morning. It was four thousand words.`,
-        },
-        {
-          type: "paragraph",
-          text: `It had the waiver number, the corporate chain, the Luxembourg registration, the Zurich fund, the advisory board, the aquifer data presented by a geologist at the University of Nairobi, four interviews including Omondi and the county water board hydrologist and the mayor's lawyer and a conservation biologist who had been studying the lake's alkalinity for six years and had been trying to get anyone to return her emails for two. It had a photograph of the empty shallows, shot by Wanjiru herself, a flat documentary image with no filter and no honest warmth and no caption beyond the date and location.`,
-        },
-        {
-          type: "paragraph",
-          text: `It was, in the view of the people it concerned, the correct photograph.`,
-        },
-        {
-          type: "paragraph",
-          text: `It was shared, by the end of the day, fourteen thousand times. The Zurich fund's advisory board member who founded the yoga retreat brand deleted three Instagram posts without comment. The Luxembourg holding company's press office issued a second statement. Søren in Copenhagen updated his thread and was briefly on a podcast.`,
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia read the piece on her phone at the lodge's infinity pool, her legs in the water, the lake spread below her in the afternoon light. She read it carefully. She found, in the fourth paragraph, a sentence that mentioned "international attention focused on the site following photographs posted to social media." She read this sentence twice. She also found, in the seventh paragraph, a quote from Alexandrei's Times piece — the sentence he had not deleted, the one about the gap between what she saw and what the things were. She read that sentence three times. She felt something she would later describe, in her case notes, as "the particular vertigo of realizing that witnessing has weight."`,
-        },
-        { type: "paragraph", text: `She was not wrong about this.` },
-        {
-          type: "paragraph",
-          text: `She was, as she had been throughout, wrong about the mechanism.`,
+          text: `The Times piece had run that morning. It was Alexandrei's — precise, bylined, and devastating. He described the corporate shell game with the clinical detachment of an autopsy, but he ended with a description of the "Ecological Detective" who had photographed the smoking gun while looking for a poem. He called her "an accidental aperture."`,
         },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `On Sunday, Oblivia's last morning, she rose before dawn and went to the dock alone.`,
-        },
-        {
-          type: "paragraph",
-          text: `She had not arranged a kayak. She sat at the end of the dock with her field journal and her legs hanging over the water and she watched the light come up over the eastern escarpment in the particular way it came up here — slowly, then all at once, a quality of light that genuinely could not be prepared for — and she felt, with complete sincerity, that she had been changed.`,
-        },
-        {
-          type: "paragraph",
-          text: `She wrote for an hour. She wrote about the lake and the flamingos and the fisherman whose sorrow she had called pre-verbal. She wrote about the extraction site and "the wound drawn in chain-link and concrete." She wrote about Akinyi, whom she described as possessing "a quality of presence that made the place legible in ways I am still decoding." She wrote about what she was taking home, which was not, she understood, the place itself, but something the place had given her — a recalibration, a new frequency, a willingness to sit with what could not be resolved.`,
-        },
-        {
-          type: "paragraph",
-          text: `Below the bluff, Omondi was already on the water. He was checking his nets. He was also, on his phone, reading a message from his cousin, who had been officially invited to re-present the monitoring report to the regional environment board in an open session the following Thursday. The message contained three sentences and one emoji, a small flame.`,
-        },
-        { type: "paragraph", text: `Omondi put the phone in his pocket and pulled the net.` },
-        {
-          type: "paragraph",
-          text: `It was a reasonable morning. Not a good one yet — good would take months, and would depend on the tribunal and the open session and whether the pilot suspension held and whether the company's lawyers found a procedural angle, which they were already looking for. But reasonable. The water was the color it was supposed to be, approximately. One ibis. A heron, further out. The hum of the generator from the north shore, which would, if things proceeded as Wanjiru and the coalition and the lawyer from Kisumu and Akinyi's eighteen months of patient infrastructure intended, be gone by the dry season.`,
-        },
-        {
-          type: "paragraph",
-          text: `He did not think about the flamingos. They would come back or they would not, depending on the alkalinity, and the alkalinity would recover or it would not, depending on the suspension, and all of that was in motion now and motion was what you worked with.`,
-        },
-        { type: "paragraph", text: `He pulled the net.` },
-        {
-          type: "paragraph",
-          text: `Joseph drove Oblivia and Alexandrei to the airstrip at nine. They sat in the back together. Oblivia had her field journal open. Alexandrei had his notebook closed for the first time since they'd arrived.`,
-        },
-        {
-          type: "paragraph",
-          text: `The road was smooth, the new tarmac, and they passed the north shore and the extraction site and Oblivia looked at it through the window and said, "I keep thinking about what's underneath."`,
+          text: `Oblivia learned of the parliamentary intervention from Akinyi at breakfast.`,
         },
         {
           type: "quote",
-          text: `"The aquifer is approximately forty meters down," Joseph said. "The draw-down has been measured at about three meters over the pilot period. The county hydrologist presented the data last week."`,
+          text: `"Something is shifting," Oblivia said, staring into her hibiscus tea. "The lake is exhaling. I felt a profound opening at 3:00 AM."`,
         },
-        { type: "quote", text: `"The grief beneath the grief," Oblivia said.` },
         {
           type: "quote",
-          text: `"There's an open session on Thursday," Joseph said. "The monitoring report is being re-presented."`,
+          text: `"The Regional Director has been summoned to Nairobi," Akinyi said, checking her tablet. "The Lands Tribunal has issued an interim injunction. The pumps were turned off at midnight."`,
         },
         {
           type: "paragraph",
-          text: `Alexandrei looked out the other window. He had attended the mediation. He had the lands tribunal case number. He had filed four hundred words the previous evening that Wanjiru had texted to say she was glad existed. He did not say any of this. He watched the acacia pass.`,
+          text: `Oblivia wrote The silence is reclaiming its throne in her journal. She looked at Akinyi with wet, luminous eyes.`,
+        },
+        {
+          type: "quote",
+          text: `"We did it, didn't we? We sat with the pain until it became a bridge."`,
+        },
+        {
+          type: "quote",
+          text: `Akinyi, who had spent eighteen months documenting flow rates and secretly emailing Wanjiru at The Standard, smiled patiently. "The bridge was built of paper, Oblivia. Waiver forms, registry extracts, and your geotagged metadata. But yes. The pumps are off."`,
+        },
+        { type: "divider" },
+        {
+          type: "paragraph",
+          text: `Alexandrei was not at breakfast. He was at the extraction site, watching the local police pad-lock the generator. He was talking to Omondi, who was standing on the mudflat, looking at the intake pipe.`,
+        },
+        {
+          type: "quote",
+          text: `"The American," Omondi said, "she is leaving today?"`,
+        },
+        {
+          type: "quote",
+          text: `"The 10:00 AM bush plane," Alexandrei said.`,
+        },
+        {
+          type: "quote",
+          text: `"Tell her," Omondi said, looking at the water, which was already beginning to lose its bruised copper tint, "tell her I used her crystal bowl to bail out my boat this morning. It has a very clear tone."`,
+        },
+        {
+          type: "quote",
+          text: `"I'll tell her it was a 'functional resonance,'" Alexandrei replied.`,
+        },
+        { type: "divider" },
+        {
+          type: "paragraph",
+          text: `At 9:00 AM, Joseph drove them to the airstrip. The road was smooth — Chinese tarmac, Meridian-funded, a legacy of the extraction that would outlast the company. As they passed the now-silent facility, Oblivia pressed her face to the window.`,
+        },
+        {
+          type: "quote",
+          text: `"I keep thinking about the grief beneath the grief," she whispered.`,
+        },
+        {
+          type: "quote",
+          text: `"The aquifer is approximately forty meters down," Joseph said. "The draw-down was three meters. The grief is currently being litigated in Nairobi."`,
+        },
+        {
+          type: "quote",
+          text: `"A legalistic shadow-play," Oblivia sighed. "But the land knows who spoke for it."`,
         },
         {
           type: "paragraph",
-          text: `She nodded slowly. She looked at the sign as they passed — blue and white, legible, waiver number visible from the road — and she took a photograph through the car window with her phone, though she already had better ones.`,
+          text: `At the airstrip, Joseph unloaded her bags — her Patagonia duffels, her nested singing bowls, and a new woven basket she'd bought at the lodge gift shop. She shook Joseph's hand, telling him the drive had been a "grounding ceremony." She gave him a tip that could pay for a semester of his daughter's university.`,
         },
         {
           type: "paragraph",
-          text: `At the airstrip, Joseph unloaded their bags. Oblivia had more than she'd arrived with: a woven basket she'd bought at the lodge's gift shop, a small clay vessel described in its tag as "handmade by local artisans," which had been made by a cooperative in Nairobi that supplied three ecolodges and a Heathrow duty-free concession. Alexandrei had the same bag he'd arrived with. She shook Joseph's hand and thanked him and told him the drive had been one of the most educating experiences of the trip. Alexandrei shook Joseph's hand and asked him to pass along his number to Omondi's cousin, for the open session.`,
-        },
-        { type: "paragraph", text: `Joseph said he would.` },
-        {
-          type: "paragraph",
-          text: `They boarded the small plane. It had twelve seats. Oblivia took the window. Alexandrei took the aisle and opened his notebook.`,
+          text: `Joseph thanked her. He didn't tell her he was the secretary of the community coalition she hadn't realized existed.`,
         },
         {
           type: "paragraph",
-          text: `The lake was visible from the window as they climbed, flat and copper in the morning light, the western shallows still empty, the extraction site small from altitude, the acacia woodland above the lodge a dark green mass against the escarpment. She pressed her face to the window and looked until it was gone.`,
+          text: `The small plane climbed over the Rift. Oblivia watched the lake shrink into a shimmering copper coin. She pulled out her Leica and took one last photo of the empty shallows.`,
         },
         {
-          type: "paragraph",
-          text: `She wrote, in her field journal: I came to witness an absence. I did not expect to be implicated in a presence.`,
+          type: "quote",
+          text: `"I came to witness an absence," she wrote in her final field note. "I did not expect to be implicated in a presence."`,
         },
         {
           type: "casefile",
           label: "Field notes, A. Harris — departure",
-          body: `Lands tribunal: case number filed Friday. Open session Thursday. Hydrologist data solid per Wanjiru. Pilot suspension holding. Company lawyers looking for procedural angle — expected. Omondi's cousin has the monitoring report. Akinyi has forty-eight items on the action list. The case is not closed. It was never the kind of case that closes.`,
+          body: `Injunction granted. Meridian stocks down 4%. Wanjiru has the lead for the Sunday feature. Subject believes she has performed a "planetary recalibration." I have reminded her that our next destination is Stellenbosch. She is currently researching the "metaphysical properties of lithium." God help the South Africans.`,
         },
-        {
-          type: "paragraph",
-          text: `She would use her closing line in the case notes Luminance would never see. The piece they would run, six weeks later, under the title "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift," would be beautifully photographed. It would contain one paragraph, near the end, that mentioned "questions about water management" before returning to Oblivia's experience of "sitting with not-knowing." It would win a travel writing award in a category called "Transformative Witness." Oblivia would accept it by video from her house in Connecticut, wearing linen, and would thank "the lake, and everyone who keeps vigil on its behalf."`,
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei's Times piece would be cited in the lands tribunal filing. He would not attend the ceremony.`,
-        },
-        {
-          type: "paragraph",
-          text: `Omondi would not watch the ceremony either. He would be at the tribunal hearing, in a chair in a hallway, waiting to be called, eating something his wife had packed, reading a message from Wanjiru that said the company had filed for a procedural delay but that the hydrologist's data was solid and the lands tribunal had seen this before.`,
-        },
-        {
-          type: "paragraph",
-          text: `Akinyi would watch a clip of the ceremony later, on her phone, at her desk, between emails. She would watch Oblivia say the lake, and everyone who keeps vigil on its behalf. She would watch this once. Then she would close the tab and open the coalition's shared document, which had forty-seven items on its action list, of which eleven were complete and thirty-six were in progress and none were finished, because none of them were the kind of thing that finished.`,
-        },
-        { type: "paragraph", text: `She added a forty-eighth item.` },
-        { type: "paragraph", text: `She kept working.` },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `Four months later, in the early dry season, a wildlife researcher monitoring the lake's western shallows from a survey boat counted eleven lesser flamingos in the northern inlet.`,
+          text: `Six weeks later, Luminance Magazine ran a ten-page spread titled: "The Woman Who Heard the Water: A Journey Into Collective Grief at the Edge of the Rift." It featured seventeen high-contrast, 'honest warmth' photos of chain-link fences and rusted pipes.`,
         },
         {
           type: "paragraph",
-          text: `The alkalinity had begun, slowly, to recover. The pilot program remained suspended pending the tribunal's findings. The outflow pipe had been sealed under an interim order.`,
+          text: `Oblivia accepted a "Transformative Witness" award via Zoom from her home in Connecticut. She wore white linen and spoke of "the sacred duty of the guest."`,
         },
         {
           type: "paragraph",
-          text: `Eleven was not thousands. It was not the pink dawn. It was eleven birds standing in shallow water in the early morning, doing what they did, unaware of the waiver number or the corporate chain or the case notes or the open session or the award or any of it.`,
+          text: `In Kenya, Akinyi watched the clip on her phone while sitting in a community hall. She was surrounded by thirty fishers, two hydrologists, and a lawyer from Kisumu. They were discussing the forty-eight items on their action list for the recovery phase.`,
         },
         {
           type: "paragraph",
-          text: `The researcher noted them in her log. Date, time, coordinates, count.`,
+          text: `Akinyi watched Oblivia say, "the lake, and everyone who keeps vigil on its behalf."`,
         },
         {
           type: "paragraph",
-          text: `She took a photograph. A flat documentary image, no filter, the birds small and pink against the grey-white water, the acacia escarpment behind them, the morning light the way it was.`,
+          text: `Akinyi closed the tab. She didn't feel the need to be thanked by a ghost. She opened the alkalinity spreadsheet and added a new row.`,
         },
-        { type: "paragraph", text: `She sent it to Wanjiru.` },
-        { type: "paragraph", text: `Wanjiru forwarded it to Omondi.` },
-        { type: "paragraph", text: `Omondi showed it to his wife.` },
-        { type: "paragraph", text: `She looked at it for a moment.` },
-        { type: "quote", text: `"Eleven," she said.` },
-        { type: "quote", text: `"Eleven," he said.` },
+        { type: "divider" },
         {
           type: "paragraph",
-          text: `She handed back his phone and went inside.`,
+          text: `Four months later, Omondi's cousin sent a photo to the group chat. It was a grainy, non-aesthetic, digital shot of eleven flamingos standing in the northern inlet. They were small, pink, and messy.`,
         },
-        { type: "paragraph", text: `It was, for now, enough.` },
+        {
+          type: "paragraph",
+          text: `There was no caption. There was no hashtag.`,
+        },
+        {
+          type: "paragraph",
+          text: `It was enough.`,
+        },
       ],
     },
   ],

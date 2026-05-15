@@ -6,7 +6,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-001",
     number: "01",
     group: "international",
-    title: "The Silence Beneath the Silence of the Rift",
+    title: "Oblivia Cracks the Case of the Missing Flamingos",
     shortTitle: "The Silence Beneath",
     origin: "JFK",
     destination: "NBO",
@@ -15,14 +15,14 @@ export const storyMetas: StoryMeta[] = [
     coverStory: "Regenerative mineral stewardship",
     culprit:
       "Meridian Saline Ventures (East Africa) Ltd. / Luxembourg holding company / Zurich impact fund",
-    role: "Detective",
+    role: "Private investigator (cover: ecological detective / Luminance correspondent)",
     correspondent: "Alexandrei Harris, The Times",
     localCenter:
       "Akinyi (environmental lawyer), Omondi (fisherman), Joseph (driver), Alexandrei Harris (The Times)",
     surfaceMystery: "The flamingos have left.",
     mediaMisreading:
-      "What the Flamingos Left Behind: A Journey Into Collective Grief at the Edge of the Rift",
-    keyImage: "Oblivia photographs the waiver number at golden hour.",
+      "The Woman Who Heard the Water: A Journey Into Collective Grief at the Edge of the Rift",
+    keyImage: "Oblivia livestreams the leaking gasket to 400,000 followers. Henderson screams. The Zurich board is watching.",
     status: "complete",
   },
   {
@@ -30,7 +30,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-002",
     number: "02",
     group: "international",
-    title: "The Sacred Water / The Stolen Water",
+    title: "Oblivia Cracks the Case of the Sacred Water",
     shortTitle: "The Sacred Water",
     origin: "NBO",
     destination: "MEX",
@@ -38,7 +38,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Beverage extraction / water privatization / plastic",
     coverStory: "Sacred water immersion retreat / ancient glacial memory",
     culprit: "Multinational beverage company extracting indigenous aquifer",
-    role: "Wellness correspondent / spiritual pilgrim",
+    role: "Private investigator (cover: spiritual pilgrim / wellness correspondent)",
     localCenter: "Community fighting a land tribunal case, third year (TBD)",
     surfaceMystery: "TBD",
     keyImage:
@@ -50,7 +50,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-003",
     number: "03",
     group: "international",
-    title: "The Certified Forest / The Burning Forest",
+    title: "Oblivia Cracks the Case of the Certified Forest",
     shortTitle: "The Certified Forest",
     origin: "MEX",
     destination: "BPN",
@@ -58,7 +58,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Palm oil",
     coverStory: "Sustainable certified / deforestation-free / biodiversity offsets",
     culprit: "Palm oil company whose certification body board member is their own representative",
-    role: "Conservation witness / Luminance correspondent",
+    role: "Private investigator (cover: conservation witness / Luminance correspondent)",
     localCenter:
       "Former plantation worker turned orangutan trek guide — understands the certification system better than anyone at the Roundtable.",
     surfaceMystery: "TBD",
@@ -71,7 +71,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-004",
     number: "04",
     group: "international",
-    title: "The Ocean Witness / The Plastic Circuit",
+    title: "Oblivia Cracks the Case of the Ocean Witness",
     shortTitle: "The Ocean Witness",
     origin: "BPN",
     destination: "MNL",
@@ -79,7 +79,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Plastic / beverage / waste colonialism",
     coverStory: "Ocean cleanup / circular economy / closing the loop",
     culprit: "Multinational manufacturer funding the nonprofit counting its own bottles on beaches",
-    role: "Ocean plastic witness / regenerative travel correspondent",
+    role: "Private investigator (cover: ocean plastic witness / regenerative travel correspondent)",
     localCenter:
       "Community receiving Western recycling exports; understands the supply chain with exhausting precision (TBD)",
     surfaceMystery: "TBD",
@@ -99,7 +99,7 @@ export const storyMetas: StoryMeta[] = [
     coverStory: "Telluric sensitivity / ancestral earth fury / sacred land cosmology",
     culprit:
       "Auric Subsurface Solutions Ltd. (Calgary) / Soluciones del Subsuelo Aurora S.A. / Narrative Resource Group LLC (Belize)",
-    role: "Niece / accidental investigator / Luminance correspondent",
+    role: "Private investigator / niece",
     localCenter:
       "Ixchel (community geologist, 31), Domingo (her brother, 17, guide, $180/day, saving for university)",
     surfaceMystery:
@@ -117,28 +117,29 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-006",
     number: "06",
     group: "international",
-    title: "The Poisoned Healing",
-    shortTitle: "The Poisoned Healing",
+    title: "Oblivia Cracks the Case of the Weeping Sulfur",
+    shortTitle: "The Weeping Sulfur",
     origin: "GUA",
     destination: "ROT",
-    location: "Rotorua, Aotearoa New Zealand",
+    location: "Rotorua, Aotearoa New Zealand — Te Waiora Ancestral Spa",
     industry:
-      "Geothermal energy extraction / wellness industrial complex / green-energy cover story",
+      "Pulp and paper / industrial pollution / wellness cover story / geothermal tourism",
     coverStory:
-      "100% Pure / geothermal wellness / tikanga-inspired healing / the integration experience",
+      "Molecular Ascension / ancestral indigo wisdom / ‘the Earth bleeding indigo for a high-vibration human’",
     culprit:
-      "Geothermal extraction company whose New Zealand subsidiary certified the retreat's non-functioning filtration system. Hydrogen sulfide and ethylene at 340% above advisory threshold in thermal pool three.",
-    role: "Luminance correspondent profiling retreat founder Serena for \u2018Rooted: One Woman\u2019s Quest to Build a Healing Space at the Edge of the World\u2019",
+      "Whakatane Pulp & Paper Mill (catastrophic dye-vat failure; three weeks of industrial indigo-6 and concentrated sulfuric acid in groundwater) / Spa management (kickback agreement with Mill’s PR firm to call the effluent ‘Ancestral Tears’ and retain insurance)",
+    role: "Patron-Detective (self-funded; no assignment; soul ‘felt a tug from the Pacific’; 500k followers on own platforms)",
+    correspondent: "Alexandrei Harris",
     localCenter:
-      "Mere (elder, seventies, nine years in Waitangi Tribunal process) and Tama (her grandson, late twenties, monitoring gas seepage with a consumer air-quality monitor for four months)",
+      "Gary (‘Water-Guardian’, seasonal contractor, degree in recreational tourism, kickback agreement with the Mill’s PR firm)",
     surfaceMystery:
-      "Retreat guests are getting sick — headaches at the same hour, sweetness at the back of the throat, dreams too specific to dismiss. Three guests report the same dream: a woman standing in steam, reading from a document, her back turned.",
+      "Extreme-wellness influencer Finnian Frost has ‘vanished into the blue’ during a midnight immersion at Te Waiora. His GoPro mount is still bobbing in the iridescent scum. pH of the pools: 3.2. H₂S levels: lethal in four breaths. Divers won’t go in.",
     keyImage:
-      "Oblivia, soaking in thermal pool three, inhales the gas and begins to recite the Waitangi Tribunal claim number in front of six wellness tourists and Serena's ring light.",
+      "Oblivia photographs the ‘No Swimming: Toxic Gas’ sign so that ‘Toxic’ is obscured by a beautiful plume of blue steam. 12,000 likes before Alexandrei finishes testing the water.",
     mediaMisreading:
-      "Serena\u2019s podcast episode about Oblivia\u2019s \u2018transmission\u2019 publishes before the gas story breaks. It becomes the retreat\u2019s most downloaded episode.",
+      "Some disappearances are just appearances in another dimension. Standing at the edge of the Indigo Weep in Aotearoa. Finnian, I hear you. 🇳🇿 #MolecularAscension #IndigoEvent #Rotorua #EcologicalDetective #BlueSorrow",
     theMoment:
-      "Mere watches the footage once. Is quiet. Then says: \u2018She got the number right.\u2019",
+      "The ‘Blue Sorrow’ is a $2.4 million industrial spill. The post has 12,000 likes. Alexandrei is still testing the water.",
     status: "concept",
   },
   {
@@ -146,7 +147,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-007",
     number: "07",
     group: "international",
-    title: "The Loop",
+    title: "Oblivia Cracks the Case of the Loop",
     shortTitle: "The Loop",
     origin: "ROT",
     destination: "ACC",
@@ -156,7 +157,7 @@ export const storyMetas: StoryMeta[] = [
       "Circularity initiative / premium curated artisan-grade apparel / B Corp certification / 2% resilience fund",
     culprit:
       "Loopwear (NYC, $17M Series A) and GiveForward (Columbus sorting nonprofit) — cross-owned through the same impact fund. C-grade bales shipped as artisan-grade. Resilience fund disbursed through a Loopwear-controlled foundation with no Kantamanto representation.",
-    role: "Luminance correspondent profiling Loopwear\u2019s community partnership",
+    role: "Private investigator (cover: Luminance correspondent profiling Loopwear)",
     localCenter:
       "Abena (kosekyeame / head porter, thirties, twelve years at Kantamanto, three years of bale data) and Kofi (investigative journalist, six weeks of sourcing, no international outlet will run it)",
     surfaceMystery:
@@ -167,43 +168,62 @@ export const storyMetas: StoryMeta[] = [
       "Loopwear reposts Oblivia\u2019s profile of Madison. Goes quiet for eleven days after the second piece. Posts a sunset.",
     theMoment:
       "Madison sits very still for a long time when Oblivia tells her. That stillness is the most honest thing in the story.",
-    status: "concept",
+    status: "complete",
   },
   {
-    slug: "music-tbd",
+    slug: "the-rosewood",
     flightNumber: "OBA-008",
     number: "08",
     group: "international",
-    title: "Music \u2014 Untitled",
-    shortTitle: "Music",
+    title: "Oblivia Cracks the Case of the Rosewood",
+    shortTitle: "The Rosewood",
     origin: "ACC",
-    destination: "KIN",
-    location: "Jamaica, Mali, or Colombia (TBD)",
-    industry: "Music / intellectual property / cultural extraction",
-    coverStory: "Collaboration / cultural exchange / artist development",
-    culprit: "TBD \u2014 who owns the copyright",
-    role: "Cultural witness, possibly attending a music healing retreat",
-    localCenter: "TBD",
-    surfaceMystery: "TBD",
-    status: "tbd",
+    destination: "TGU",
+    location: "Cop\u00e1n region, Honduras",
+    industry: "Music / endangered timber / CITES fraud / cultural cover",
+    coverStory: "Ancestral marimba healing / ethical instrument sourcing / cultural preservation",
+    culprit:
+      "Resonance & Root (Austin, TX) / Harwood & Fox Acoustic Instruments (Portland, OR) / Comunidad Resonante de Cop\u00e1n (incorporated six months ago) / Meridian Impact Partners (Luxembourg)",
+    role: "Private investigator (cover: Luminance correspondent profiling retreat founder)",
+    localCenter:
+      "Don Aurelio Mej\u00eda (master marimba maker, seventies, 50 years of grain records) and Elena V\u00e1squez (community forest monitor, thirties, Marco Ord\u00f3\u00f1ez's supervisor)",
+    surfaceMystery:
+      "Marco Ord\u00f3\u00f1ez, park guard, 31, found dead in the forest three weeks ago. Officially: fell at night. Don Aurelio knew him. Don Aurelio knows he was not afraid of the forest.",
+    keyImage:
+      "Don Aurelio looks at a marimba key from the retreat without touching it. The retreat's founder is filming Oblivia's face for Instagram. 'That tree was alive eight months ago.'",
+    mediaMisreading:
+      "Finding Your Rhythm: How This Honduran Music Retreat Is Healing Visitors While Saving Ancient Traditions",
+    theMoment:
+      "Don Aurelio reads the grain. He is quiet for a long time. Then: 'Marco measured this grove.'",
+    status: "complete",
   },
   {
     slug: "tech-tbd",
     flightNumber: "OBA-009",
     number: "09",
     group: "international",
-    title: "Tech / Connectivity \u2014 Untitled",
-    shortTitle: "Tech",
-    origin: "KIN",
+    title: "Oblivia Cracks the Case of the Digital Skills Pipeline",
+    shortTitle: "The Pipeline",
+    origin: "TGU",
     destination: "DKR",
-    location: "Southeast Asia or West Africa (TBD)",
-    industry: "Tech colonialism",
-    coverStory: "Connectivity as liberation / digital inclusion",
-    culprit: "TBD",
-    role: "TBD",
-    localCenter: "TBD",
-    surfaceMystery: "TBD",
-    status: "tbd",
+    location: "Dakar, Senegal \u2014 HLM district and Plateau tech hub",
+    industry: "AI / content moderation / impact-washed labor extraction",
+    coverStory:
+      "Digital skills pipeline / responsible AI workforce development / closing the global talent gap",
+    culprit:
+      "Aperture AI (San Francisco) / Soleil Digital Services SARL (Dakar subsidiary) / Meridian Impact Partners (Luxembourg) \u2014 content moderation at ~$2.40/hour classified as 'AI trainer' roles, workers exposed to graphic violence and CSAM with inadequate mental health support, NDAs preventing disclosure, World Bank digital skills grant fraudulently reclassifying the work",
+    role: "Private investigator (cover: Luminance correspondent profiling Aperture's Africa expansion)",
+    localCenter:
+      "Fatou (former Aperture moderator, mid-thirties, runs informal peer support network; has the notebook) and Ibrahima (labor journalist, Le Quotidien, six weeks of sourcing; three international outlets declined the story)",
+    surfaceMystery:
+      "Aminata Diallo, 27, Soleil Digital Services content reviewer, found dead at the base of a footbridge in the HLM district fourteen days ago. Officially: a fall, at night. The night before, she sent Fatou a message that read: I have something. Come Sunday.",
+    keyImage:
+      "Oblivia completes the Aperture 'responsible AI' orientation \u2014 ninety minutes of slides about closing the global talent gap \u2014 while forty workers review flagged content behind unmarked doors three floors below in the same building. She is given a branded tote bag on the way out.",
+    mediaMisreading:
+      "The Future Is African: How One AI Company Is Building a Continent's Digital Workforce \u2014 and What It Means for the Global Economy",
+    theMoment:
+      "Fatou shows Oblivia not the internal memo but Aminata's handwritten notes about what the memo said. 'She didn't take it home. She knew they would check. She memorized it.'",
+    status: "concept",
   },
   {
     slug: "fashion-tbd",
@@ -218,7 +238,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Fashion / slow fashion rebrand",
     coverStory: "Slow fashion / ethical sourcing / artisan labor",
     culprit: "TBD",
-    role: "TBD",
+    role: "Private investigator (cover: TBD)",
     localCenter: "TBD",
     surfaceMystery: "TBD",
     status: "tbd",
@@ -228,7 +248,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-A",
     number: "A",
     group: "domestic",
-    title: "The Threshold",
+    title: "Oblivia Cracks the Case of the Threshold",
     shortTitle: "The Threshold",
     origin: "DAC",
     destination: "MFE",
@@ -236,7 +256,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Surveillance tech / humanitarian industrial complex",
     coverStory: "Data-driven dignified crisis response / case management optimization",
     culprit: "Palantir, via NGO contract",
-    role: "Humanitarian innovation correspondent, Luminance",
+    role: "Private investigator (cover: humanitarian innovation correspondent, Luminance)",
     localCenter:
       "Legal aid workers, food distributors \u2014 doing what they have been doing for years",
     surfaceMystery: "TBD",
@@ -249,7 +269,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-B",
     number: "B",
     group: "domestic",
-    title: "The Interior",
+    title: "Oblivia Cracks the Case of the Interior",
     shortTitle: "The Interior",
     origin: "MFE",
     destination: "BTR",
@@ -257,7 +277,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Private prison / carceral wellness / rehabilitation industrial complex",
     coverStory: "Healing-centered institution / restorative justice / faith-based rehabilitation",
     culprit: "TBD \u2014 venture-backed prison wellness startup / private corrections contract",
-    role: "Restorative justice correspondent, Luminance",
+    role: "Private investigator (cover: restorative justice correspondent, Luminance)",
     localCenter:
       "Incarcerated lifer \u2014 legal scholar, teaches others, uses outside witnesses as a resource carefully and deliberately.",
     surfaceMystery: "TBD",
@@ -271,7 +291,7 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-C",
     number: "C",
     group: "domestic",
-    title: "The Fields",
+    title: "Oblivia Cracks the Case of the Fields",
     shortTitle: "The Fields",
     origin: "BTR",
     destination: "FAT",
@@ -279,7 +299,7 @@ export const storyMetas: StoryMeta[] = [
     industry: "Agricultural labor / ethical sourcing / regenerative farming rebrand",
     coverStory: "Ethical sourcing initiative / farm to table / regenerative agriculture",
     culprit: "Food brand whose parent company is the reason the labor conditions exist",
-    role: "Embedded with the ethical sourcing initiative",
+    role: "Private investigator (cover: embedded with ethical sourcing initiative)",
     localCenter: "Workers who have been here longer than the initiative has existed.",
     surfaceMystery: "TBD",
     keyImage: "The grain bowl at Riftward. The heritage legume paste. It came from here.",
@@ -310,6 +330,8 @@ export const connections: Connection[] = [
     label: "wellness as narrative cover for extraction",
   },
   { from: "mayan-fury", to: "the-loop", label: "Ixchel's contact files Tama's footage" },
+  { from: "the-rosewood", to: "the-loop", label: "Meridian Impact Partners" },
+  { from: "the-rosewood", to: "tech-tbd", label: "Meridian Impact Partners" },
 ];
 
 export function storyMetaBySlug(slug: string): StoryMeta | undefined {

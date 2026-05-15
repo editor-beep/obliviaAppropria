@@ -79,11 +79,13 @@ function StoryPage() {
       </header>
 
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-16 lg:grid-cols-[1fr_260px]">
-        <StoryRenderer doc={narrative} />
+        <StoryRenderer doc={narrative} slug={meta.slug} />
 
         <aside className="space-y-6 border-t border-border/60 pt-8 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
           {chapters.length > 0 && <ChapterList chapters={chapters} />}
           {meta.theMoment && <Marginal label="The moment" body={meta.theMoment} />}
+          {meta.keyImage && <Marginal label="The image" body={meta.keyImage} />}
+          {meta.mediaMisreading && <Marginal label="The misreading" body={meta.mediaMisreading} />}
         </aside>
       </div>
 

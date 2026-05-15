@@ -6,7 +6,6 @@ const STORAGE_KEY = "oba-reading-state";
 const EMPTY_STATE: ReadingState = {
   completedSections: [],
   discoveredScraps: [],
-  notesUnlocked: [],
 };
 
 function loadState(): ReadingState {
@@ -21,15 +20,10 @@ function loadState(): ReadingState {
 }
 
 /**
- * Persistent reading-state hook. Tracks completed sections, discovered scraps,
- * and unlocked notes across sessions via localStorage.
+ * Persistent reading-state hook. Tracks completed sections and discovered scraps
+ * across sessions via localStorage.
  *
- * Section keys use the format "slug#section-id", enabling deep-linking and
- * cross-story unlock mechanics. Scraps and notes use the same namespaced format.
- *
- * Usage:
- *   const { state, markSectionComplete, discoverScrap, unlockNote, isSectionComplete } =
- *     useReadingState();
+ * Keys use the format "slug#section-id" / "slug#scrap-label".
  */
 export function useReadingState() {
   const [state, setState] = useState<ReadingState>(loadState);
@@ -60,14 +54,6 @@ export function useReadingState() {
     );
   }, []);
 
-  const unlockNote = useCallback((noteId: string) => {
-    setState((prev) =>
-      prev.notesUnlocked.includes(noteId)
-        ? prev
-        : { ...prev, notesUnlocked: [...prev.notesUnlocked, noteId] },
-    );
-  }, []);
-
   const isSectionComplete = useCallback(
     (storySlug: string, sectionId: string) =>
       state.completedSections.includes(`${storySlug}#${sectionId}`),
@@ -86,7 +72,6 @@ export function useReadingState() {
     state,
     markSectionComplete,
     discoverScrap,
-    unlockNote,
     isSectionComplete,
     isScrapDiscovered,
     reset,
