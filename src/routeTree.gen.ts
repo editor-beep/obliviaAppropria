@@ -13,6 +13,7 @@ import { Route as SystemMapRouteImport } from './routes/system-map'
 import { Route as SubscribeRouteImport } from './routes/subscribe'
 import { Route as StoriesRouteImport } from './routes/stories'
 import { Route as SafetyCardRouteImport } from './routes/safety-card'
+import { Route as GreenRouteImport } from './routes/green'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as StoriesIndexRouteImport } from './routes/stories.index'
@@ -36,6 +37,11 @@ const StoriesRoute = StoriesRouteImport.update({
 const SafetyCardRoute = SafetyCardRouteImport.update({
   id: '/safety-card',
   path: '/safety-card',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GreenRoute = GreenRouteImport.update({
+  id: '/green',
+  path: '/green',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -62,6 +68,7 @@ const StoriesSlugRoute = StoriesSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/green': typeof GreenRoute
   '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
   '/subscribe': typeof SubscribeRoute
@@ -72,6 +79,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/green': typeof GreenRoute
   '/safety-card': typeof SafetyCardRoute
   '/subscribe': typeof SubscribeRoute
   '/system-map': typeof SystemMapRoute
@@ -82,6 +90,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/green': typeof GreenRoute
   '/safety-card': typeof SafetyCardRoute
   '/stories': typeof StoriesRouteWithChildren
   '/subscribe': typeof SubscribeRoute
@@ -94,6 +103,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/green'
     | '/safety-card'
     | '/stories'
     | '/subscribe'
@@ -104,6 +114,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/green'
     | '/safety-card'
     | '/subscribe'
     | '/system-map'
@@ -113,6 +124,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/green'
     | '/safety-card'
     | '/stories'
     | '/subscribe'
@@ -124,6 +136,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  GreenRoute: typeof GreenRoute
   SafetyCardRoute: typeof SafetyCardRoute
   StoriesRoute: typeof StoriesRouteWithChildren
   SubscribeRoute: typeof SubscribeRoute
@@ -158,6 +171,13 @@ declare module '@tanstack/react-router' {
       path: '/safety-card'
       fullPath: '/safety-card'
       preLoaderRoute: typeof SafetyCardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/green': {
+      id: '/green'
+      path: '/green'
+      fullPath: '/green'
+      preLoaderRoute: typeof GreenRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -207,6 +227,7 @@ const StoriesRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  GreenRoute: GreenRoute,
   SafetyCardRoute: SafetyCardRoute,
   StoriesRoute: StoriesRouteWithChildren,
   SubscribeRoute: SubscribeRoute,
