@@ -201,18 +201,28 @@ export const storyMetas: StoryMeta[] = [
     flightNumber: "OBA-009",
     number: "09",
     group: "international",
-    title: "Tech / Connectivity \u2014 Untitled",
-    shortTitle: "Tech",
+    title: "Oblivia Cracks the Case of the Digital Skills Pipeline",
+    shortTitle: "The Pipeline",
     origin: "TGU",
     destination: "DKR",
-    location: "Southeast Asia or West Africa (TBD)",
-    industry: "Tech colonialism",
-    coverStory: "Connectivity as liberation / digital inclusion",
-    culprit: "TBD",
-    role: "Private investigator (cover: TBD)",
-    localCenter: "TBD",
-    surfaceMystery: "TBD",
-    status: "tbd",
+    location: "Dakar, Senegal \u2014 HLM district and Plateau tech hub",
+    industry: "AI / content moderation / impact-washed labor extraction",
+    coverStory:
+      "Digital skills pipeline / responsible AI workforce development / closing the global talent gap",
+    culprit:
+      "Aperture AI (San Francisco) / Soleil Digital Services SARL (Dakar subsidiary) / Meridian Impact Partners (Luxembourg) \u2014 content moderation at ~$2.40/hour classified as 'AI trainer' roles, workers exposed to graphic violence and CSAM with inadequate mental health support, NDAs preventing disclosure, World Bank digital skills grant fraudulently reclassifying the work",
+    role: "Private investigator (cover: Luminance correspondent profiling Aperture's Africa expansion)",
+    localCenter:
+      "Fatou (former Aperture moderator, mid-thirties, runs informal peer support network; has the notebook) and Ibrahima (labor journalist, Le Quotidien, six weeks of sourcing; three international outlets declined the story)",
+    surfaceMystery:
+      "Aminata Diallo, 27, Soleil Digital Services content reviewer, found dead at the base of a footbridge in the HLM district fourteen days ago. Officially: a fall, at night. The night before, she sent Fatou a message that read: I have something. Come Sunday.",
+    keyImage:
+      "Oblivia completes the Aperture 'responsible AI' orientation \u2014 ninety minutes of slides about closing the global talent gap \u2014 while forty workers review flagged content behind unmarked doors three floors below in the same building. She is given a branded tote bag on the way out.",
+    mediaMisreading:
+      "The Future Is African: How One AI Company Is Building a Continent's Digital Workforce \u2014 and What It Means for the Global Economy",
+    theMoment:
+      "Fatou shows Oblivia not the internal memo but Aminata's handwritten notes about what the memo said. 'She didn't take it home. She knew they would check. She memorized it.'",
+    status: "concept",
   },
   {
     slug: "fashion-tbd",
@@ -320,6 +330,7 @@ export const connections: Connection[] = [
   },
   { from: "mayan-fury", to: "the-loop", label: "Ixchel's contact files Tama's footage" },
   { from: "the-rosewood", to: "the-loop", label: "Meridian Impact Partners" },
+  { from: "the-rosewood", to: "tech-tbd", label: "Meridian Impact Partners" },
 ];
 
 export function storyMetaBySlug(slug: string): StoryMeta | undefined {
