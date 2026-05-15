@@ -22,6 +22,9 @@ export function Footer() {
           <Link to="/safety-card" className="transition-colors hover:text-signal-glow">
             Safety Card
           </Link>
+          <Link to="/green" className="transition-colors hover:text-signal-glow">
+            The Green
+          </Link>
           <Link to="/about" className="transition-colors hover:text-signal-glow">
             About
           </Link>
