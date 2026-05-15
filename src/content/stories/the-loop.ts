@@ -25,7 +25,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She heard the visitor before she saw her: hesitation at junctions, camera adjustments, notebook friction, the acoustics of someone moving through a market without knowing how to move through it. \"It's like opening a time capsule,\" the visitor said. Abena looked at 340 kilograms of unsellable polyester and answered: \"Sit down.\"",
+          text: 'She heard the visitor before she saw her: hesitation at junctions, camera adjustments, notebook friction, the acoustics of someone moving through a market without knowing how to move through it. "It\'s like opening a time capsule," the visitor said. Abena looked at 340 kilograms of unsellable polyester and answered: "Sit down."',
         },
         {
           type: "paragraph",
@@ -44,7 +44,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia had read \"circular abundance\" on the plane and written in her field journal: abundance is doing a lot of work here. At the rooftop, watching Madison explain the resilience fund with a specificity and care that suggested genuine investment, she crossed it out.",
+          text: 'Oblivia had read "circular abundance" on the plane and written in her field journal: abundance is doing a lot of work here. At the rooftop, watching Madison explain the resilience fund with a specificity and care that suggested genuine investment, she crossed it out.',
         },
         {
           type: "paragraph",
@@ -52,7 +52,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Abena is the one who really taught me to see the market.\"",
+          text: '"Abena is the one who really taught me to see the market."',
           attribution: "Madison",
         },
         {
@@ -150,7 +150,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Read this.\"",
+          text: '"Read this."',
           attribution: "Abena",
         },
         {
@@ -163,17 +163,17 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"How long have you had this?\"",
+          text: '"How long have you had this?"',
           attribution: "Oblivia",
         },
         {
           type: "quote",
-          text: "\"Three weeks. I sent it to Kofi.\"",
+          text: '"Three weeks. I sent it to Kofi."',
           attribution: "Abena",
         },
         {
           type: "quote",
-          text: "\"Who is Kofi?\"",
+          text: '"Who is Kofi?"',
         },
         {
           type: "paragraph",
@@ -190,7 +190,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Take me to the dead pile,\" she said.",
+          text: '"Take me to the dead pile," she said.',
         },
         {
           type: "divider",
@@ -225,7 +225,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Hold it,\" Oblivia said.",
+          text: '"Hold it," Oblivia said.',
         },
         {
           type: "paragraph",
@@ -252,7 +252,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I need an international byline,\" he said, at the coffee house on Oxford Street where they met at seven in the morning. \"Or a platform that can carry the ownership structure. Without one, it stays in the Tribune and Loopwear issues a statement and the story cycles and nothing in the supply chain changes.\"",
+          text: '"I need an international byline," he said, at the coffee house on Oxford Street where they met at seven in the morning. "Or a platform that can carry the ownership structure. Without one, it stays in the Tribune and Loopwear issues a statement and the story cycles and nothing in the supply chain changes."',
           attribution: "Kofi",
         },
         {
@@ -261,7 +261,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I can place this internationally,\" she said.",
+          text: '"I can place this internationally," she said.',
         },
         {
           type: "paragraph",
@@ -269,21 +269,21 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"There was a piece last year about Madison's supply chain innovation. Called her a circular economy pioneer.\"",
+          text: '"There was a piece last year about Madison\'s supply chain innovation. Called her a circular economy pioneer."',
           attribution: "Kofi",
         },
         {
           type: "quote",
-          text: "\"Yes,\" she said. \"We publish the correction alongside the investigation. My name and yours. You carry the ownership structure. I have the market access and the images.\"",
+          text: '"Yes," she said. "We publish the correction alongside the investigation. My name and yours. You carry the ownership structure. I have the market access and the images."',
         },
         {
           type: "quote",
-          text: "\"You can get it placed?\"",
+          text: '"You can get it placed?"',
           attribution: "Kofi",
         },
         {
           type: "quote",
-          text: "\"They'll run it because the alternative is running only the profile and having the investigation run somewhere else the same week.\"",
+          text: '"They\'ll run it because the alternative is running only the profile and having the investigation run somewhere else the same week."',
         },
         {
           type: "paragraph",
@@ -291,12 +291,12 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Before we finalize — have you talked to Madison?\"",
+          text: '"Before we finalize — have you talked to Madison?"',
           attribution: "Kofi",
         },
         {
           type: "quote",
-          text: "\"Not yet.\"",
+          text: '"Not yet."',
         },
         {
           type: "quote",
@@ -309,7 +309,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I'll call her today,\" she said.",
+          text: '"I\'ll call her today," she said.',
         },
       ],
     },
@@ -356,21 +356,21 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I didn't know about the cross-registration,\" she said.",
+          text: '"I didn\'t know about the cross-registration," she said.',
           attribution: "Madison",
         },
         {
           type: "quote",
-          text: "\"I know,\" Oblivia said.",
+          text: '"I know," Oblivia said.',
         },
         {
           type: "quote",
-          text: "\"The resilience fund —\"",
+          text: '"The resilience fund —"',
           attribution: "Madison",
         },
         {
           type: "quote",
-          text: "\"The board,\" Oblivia said, quietly.",
+          text: '"The board," Oblivia said, quietly.',
         },
         {
           type: "paragraph",
@@ -378,12 +378,12 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Did Abena know?\"",
+          text: '"Did Abena know?"',
           attribution: "Madison",
         },
         {
           type: "quote",
-          text: "\"She's been logging the bale grades for three years,\" Oblivia said.",
+          text: '"She\'s been logging the bale grades for three years," Oblivia said.',
         },
         {
           type: "paragraph",
@@ -391,16 +391,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The fourth Accra trip,\" she said. \"I asked her how the partnership was going. She said: 'You need to open a bale yourself.' I thought she was being poetic.\"",
+          text: '"The fourth Accra trip," she said. "I asked her how the partnership was going. She said: \'You need to open a bale yourself.\' I thought she was being poetic."',
           attribution: "Madison",
         },
         {
           type: "quote",
-          text: "\"She meant a specific bale,\" Oblivia said.",
+          text: '"She meant a specific bale," Oblivia said.',
         },
         {
           type: "quote",
-          text: "\"Yes,\" Madison said.",
+          text: '"Yes," Madison said.',
         },
         {
           type: "paragraph",
@@ -408,16 +408,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"What happens now?\"",
+          text: '"What happens now?"',
           attribution: "Madison",
         },
         {
           type: "quote",
-          text: "\"We publish. Kofi Mensah at the Accra Tribune and I, jointly. The ownership structure, the shipping records, the memo. Your response on record if you want to give one.\"",
+          text: '"We publish. Kofi Mensah at the Accra Tribune and I, jointly. The ownership structure, the shipping records, the memo. Your response on record if you want to give one."',
         },
         {
           type: "quote",
-          text: "\"Give me twenty-four hours. Not to stop it. To look at the fund documents myself. And to call Abena.\"",
+          text: '"Give me twenty-four hours. Not to stop it. To look at the fund documents myself. And to call Abena."',
           attribution: "Madison",
         },
         {
@@ -445,7 +445,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The manifest says hand-selected. My log says what arrived. Both documents exist. Only one of them describes the market.\"",
+          text: '"The manifest says hand-selected. My log says what arrived. Both documents exist. Only one of them describes the market."',
           attribution: "Abena Asante, kosekyeame, Kantamanto Market",
         },
         {
@@ -488,12 +488,12 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"It's not enough,\" Madison said.",
+          text: '"It\'s not enough," Madison said.',
           attribution: "Madison",
         },
         {
           type: "quote",
-          text: "\"No,\" Oblivia said.",
+          text: '"No," Oblivia said.',
         },
         {
           type: "quote",
@@ -502,11 +502,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The belief was real,\" Oblivia said. \"The infrastructure was someone else's first. That's the case.\"",
+          text: '"The belief was real," Oblivia said. "The infrastructure was someone else\'s first. That\'s the case."',
         },
         {
           type: "quote",
-          text: "\"Are you going to keep reporting?\"",
+          text: '"Are you going to keep reporting?"',
           attribution: "Madison",
         },
         {
@@ -515,11 +515,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I'm going to keep reporting,\" she said. \"I'm not sure that's the same thing as getting it right.\"",
+          text: '"I\'m going to keep reporting," she said. "I\'m not sure that\'s the same thing as getting it right."',
         },
         {
           type: "quote",
-          text: "\"No,\" Madison said. \"But it's a start.\"",
+          text: '"No," Madison said. "But it\'s a start."',
           attribution: "Madison",
         },
         {
@@ -555,11 +555,11 @@ export const narrative: StoryDocument = {
   scraps: [
     {
       label: "MANIFEST LANGUAGE — GIVEFORWARD COLUMBUS",
-      body: "\"premium curated secondhand apparel, artisan-grade, hand-selected for quality.\"\n\nContainer weight: 490kg. Origin: Columbus, OH. Transit: 22 days.",
+      body: '"premium curated secondhand apparel, artisan-grade, hand-selected for quality."\n\nContainer weight: 490kg. Origin: Columbus, OH. Transit: 22 days.',
     },
     {
       label: "INTERNAL MEMO — GIVEFORWARD",
-      body: "Container: Columbus to Kantamanto\nInternal grade: C-grade offshore allocation confirmed\nCover note: \"Columbus is sending the C-grade offshore again. Loopwear signed off.\"",
+      body: 'Container: Columbus to Kantamanto\nInternal grade: C-grade offshore allocation confirmed\nCover note: "Columbus is sending the C-grade offshore again. Loopwear signed off."',
     },
     {
       label: "UNSENT NOTE — ABENA",

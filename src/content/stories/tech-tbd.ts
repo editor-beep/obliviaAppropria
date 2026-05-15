@@ -43,7 +43,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"She didn't take it home. She knew they would check. She memorized it.\"",
+          text: '"She didn\'t take it home. She knew they would check. She memorized it."',
         },
       ],
     },

@@ -48,7 +48,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "\"Don Aurelio,\" he said, when she asked. \"He's been making marimbas in the valley for fifty years. The instruments here are his. The sourcing partnership — the rosewood — all of that runs through his community. He designed the harvest protocol himself.\"",
+          text: '"Don Aurelio," he said, when she asked. "He\'s been making marimbas in the valley for fifty years. The instruments here are his. The sourcing partnership — the rosewood — all of that runs through his community. He designed the harvest protocol himself."',
         },
         {
           type: "paragraph",
@@ -76,7 +76,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Marco,\" he said. \"Marco Ordóñez. He was young. It was a tragedy.\"",
+          text: '"Marco," he said. "Marco Ordóñez. He was young. It was a tragedy."',
         },
         {
           type: "paragraph",
@@ -119,21 +119,21 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"You came from the retreat.\"",
+          text: '"You came from the retreat."',
           attribution: "Don Aurelio",
         },
         {
           type: "quote",
-          text: "\"Yes,\" she said.",
+          text: '"Yes," she said.',
         },
         {
           type: "quote",
-          text: "\"You saw the instruments.\"",
+          text: '"You saw the instruments."',
           attribution: "Don Aurelio",
         },
         {
           type: "quote",
-          text: "\"Yes. They're extraordinary.\"",
+          text: '"Yes. They\'re extraordinary."',
         },
         {
           type: "paragraph",
@@ -141,7 +141,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I made those instruments,\" he said. \"I am glad they are extraordinary. I did not make the keys.\"",
+          text: '"I made those instruments," he said. "I am glad they are extraordinary. I did not make the keys."',
           attribution: "Don Aurelio",
         },
         {
@@ -165,7 +165,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"This tree was forty years old when it was cut. Probably on the eastern slope, where the soil is deeper. The dry season that year was long — you can see it in the compression of the fourth ring here. It was cut during my grandfather's time and it was already cured for twenty years before I used it.\" He set it aside. \"That is a key.\"",
+          text: '"This tree was forty years old when it was cut. Probably on the eastern slope, where the soil is deeper. The dry season that year was long — you can see it in the compression of the fourth ring here. It was cut during my grandfather\'s time and it was already cured for twenty years before I used it." He set it aside. "That is a key."',
           attribution: "Don Aurelio",
         },
         {
@@ -182,7 +182,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"That tree was alive eight months ago,\" Don Aurelio said.",
+          text: '"That tree was alive eight months ago," Don Aurelio said.',
           attribution: "Don Aurelio",
         },
         {
@@ -191,11 +191,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The CITES permit —\" she started.",
+          text: '"The CITES permit —" she started.',
         },
         {
           type: "quote",
-          text: "\"The Comunidad Resonante de Copán was incorporated eleven months ago,\" he said. \"I know every community organization in this valley. I have known some of them for fifty years. This one I did not know until a man from Portland came to ask me to build frames for an order he said would be certified by the community. I asked which community. He said the Comunidad Resonante.\" He paused. \"I looked them up. The registered agent is a law firm in Portland.\"",
+          text: '"The Comunidad Resonante de Copán was incorporated eleven months ago," he said. "I know every community organization in this valley. I have known some of them for fifty years. This one I did not know until a man from Portland came to ask me to build frames for an order he said would be certified by the community. I asked which community. He said the Comunidad Resonante." He paused. "I looked them up. The registered agent is a law firm in Portland."',
           attribution: "Don Aurelio",
         },
         {
@@ -215,16 +215,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Marco Ordóñez came to see me four months before he died,\" Don Aurelio said, without her asking. \"He was a park guard. He had been finding fresh stumps in the reserve — cuts that did not correspond to any permit he had been given notice of. He was logging the locations with GPS. He asked me whether I could confirm the species from photographs.\" He turned a page. \"I could. I did. I have the photographs.\"",
+          text: '"Marco Ordóñez came to see me four months before he died," Don Aurelio said, without her asking. "He was a park guard. He had been finding fresh stumps in the reserve — cuts that did not correspond to any permit he had been given notice of. He was logging the locations with GPS. He asked me whether I could confirm the species from photographs." He turned a page. "I could. I did. I have the photographs."',
           attribution: "Don Aurelio",
         },
         {
           type: "quote",
-          text: "\"He was afraid?\" she asked.",
+          text: '"He was afraid?" she asked.',
         },
         {
           type: "quote",
-          text: "\"He was careful,\" Don Aurelio said. \"Marco was not afraid of the forest. He had worked in it for six years. He knew every path in the reserve. The path where he was found — he had walked it in the dark a hundred times.\"",
+          text: '"He was careful," Don Aurelio said. "Marco was not afraid of the forest. He had worked in it for six years. He knew every path in the reserve. The path where he was found — he had walked it in the dark a hundred times."',
           attribution: "Don Aurelio",
         },
         {
@@ -233,7 +233,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"He told me he had found someone in the forest who should not have been there. He did not say who. He said he had taken a photograph.\"",
+          text: '"He told me he had found someone in the forest who should not have been there. He did not say who. He said he had taken a photograph."',
           attribution: "Don Aurelio",
         },
         {
@@ -242,7 +242,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "She said: \"He told me you would help.\"",
+          text: 'She said: "He told me you would help."',
         },
         {
           type: "paragraph",
@@ -250,7 +250,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"He did not tell me about you,\" he said. \"He told Elena. Elena Vásquez, his supervisor. She has his GPS data. She has been waiting to know who to give it to.\"",
+          text: '"He did not tell me about you," he said. "He told Elena. Elena Vásquez, his supervisor. She has his GPS data. She has been waiting to know who to give it to."',
           attribution: "Don Aurelio",
         },
         {
@@ -259,7 +259,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Marco measured this grove,\" he said.",
+          text: '"Marco measured this grove," he said.',
           attribution: "Don Aurelio",
         },
       ],
@@ -287,16 +287,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Forty-seven GPS points across eight months,\" she said. \"Fresh cuts — stumps still bleeding at eleven of them when Marco found them. He cross-referenced the coordinates against the CITES permit. The permit covers a designated grove on the west side of the reserve. Thirty-one of the forty-seven points are outside the permitted area by more than three kilometers.\"",
+          text: '"Forty-seven GPS points across eight months," she said. "Fresh cuts — stumps still bleeding at eleven of them when Marco found them. He cross-referenced the coordinates against the CITES permit. The permit covers a designated grove on the west side of the reserve. Thirty-one of the forty-seven points are outside the permitted area by more than three kilometers."',
           attribution: "Elena",
         },
         {
           type: "quote",
-          text: "\"The permit certifies community-managed harvest,\" Oblivia said.",
+          text: '"The permit certifies community-managed harvest," Oblivia said.',
         },
         {
           type: "quote",
-          text: "\"The Comunidad Resonante de Copán has four members. I looked at the incorporation documents. Two of them are listed at addresses in Austin, Texas. One is a Houston attorney. One is a valley resident — Rodrigo Fuentes — who manages a small citrus operation and has no background in forestry or community governance. The certifying signature on the CITES permit is his.\"",
+          text: '"The Comunidad Resonante de Copán has four members. I looked at the incorporation documents. Two of them are listed at addresses in Austin, Texas. One is a Houston attorney. One is a valley resident — Rodrigo Fuentes — who manages a small citrus operation and has no background in forestry or community governance. The certifying signature on the CITES permit is his."',
           attribution: "Elena",
         },
         {
@@ -305,11 +305,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The registered agent on the permit — Harwood & Fox Legal Partners LLC —\"",
+          text: '"The registered agent on the permit — Harwood & Fox Legal Partners LLC —"',
         },
         {
           type: "quote",
-          text: "\"Is the same firm that serves as outside counsel for Harwood & Fox Acoustic Instruments. Yes.\" Elena looked at her steadily. \"Marco found this two months before he died. He submitted a report to the forest administration. It was received. There is no record of it being acted on.\"",
+          text: '"Is the same firm that serves as outside counsel for Harwood & Fox Acoustic Instruments. Yes." Elena looked at her steadily. "Marco found this two months before he died. He submitted a report to the forest administration. It was received. There is no record of it being acted on."',
           attribution: "Elena",
         },
         {
@@ -329,7 +329,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Hold the profile,\" she said.",
+          text: '"Hold the profile," she said.',
         },
         {
           type: "paragraph",
@@ -337,7 +337,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"I have GPS data, a fraudulent CITES permit, a two-month-dead park guard, and a Luxembourg impact fund that appeared in the Kantamanto story. Hold the profile or I take both pieces somewhere else.\"",
+          text: '"I have GPS data, a fraudulent CITES permit, a two-month-dead park guard, and a Luxembourg impact fund that appeared in the Kantamanto story. Hold the profile or I take both pieces somewhere else."',
         },
         {
           type: "paragraph",
@@ -360,7 +360,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The sourcing partner for the keys — the Comunidad Resonante —\" she said.",
+          text: '"The sourcing partner for the keys — the Comunidad Resonante —" she said.',
         },
         {
           type: "paragraph",
@@ -368,16 +368,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Harwood & Fox manages that relationship,\" he said. \"They brought the community to me. The certification was their process. I asked about it — they sent me the permit, the documentation. It looked right.\"",
+          text: '"Harwood & Fox manages that relationship," he said. "They brought the community to me. The certification was their process. I asked about it — they sent me the permit, the documentation. It looked right."',
           attribution: "Sebastián",
         },
         {
           type: "quote",
-          text: "\"Did you meet anyone from the Comunidad Resonante?\"",
+          text: '"Did you meet anyone from the Comunidad Resonante?"',
         },
         {
           type: "quote",
-          text: "\"One person. Rodrigo. He came to the retreat twice.\" He paused. \"He didn't know the instrument. He knew the business structure very well.\"",
+          text: '"One person. Rodrigo. He came to the retreat twice." He paused. "He didn\'t know the instrument. He knew the business structure very well."',
           attribution: "Sebastián",
         },
         {
@@ -386,12 +386,12 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Is there a problem with the sourcing?\" he asked.",
+          text: '"Is there a problem with the sourcing?" he asked.',
           attribution: "Sebastián",
         },
         {
           type: "quote",
-          text: "\"The Comunidad Resonante de Copán was incorporated eleven months ago. Its registered agent is the Harwood & Fox law firm. Two of its four members live in Austin. The CITES permit it issued covers a designated grove. Forty-seven GPS points document recent cuts outside that grove by more than three kilometers.\" She looked at him. \"There is a problem with the sourcing.\"",
+          text: '"The Comunidad Resonante de Copán was incorporated eleven months ago. Its registered agent is the Harwood & Fox law firm. Two of its four members live in Austin. The CITES permit it issued covers a designated grove. Forty-seven GPS points document recent cuts outside that grove by more than three kilometers." She looked at him. "There is a problem with the sourcing."',
         },
         {
           type: "paragraph",
@@ -399,12 +399,12 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The sound is still real,\" he said, finally, and she understood that he did not mean it as a defense.",
+          text: '"The sound is still real," he said, finally, and she understood that he did not mean it as a defense.',
           attribution: "Sebastián",
         },
         {
           type: "quote",
-          text: "\"Yes,\" she said. \"But the keys are not.\"",
+          text: '"Yes," she said. "But the keys are not."',
         },
         {
           type: "divider",
@@ -431,7 +431,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The grain of the wood tells you what the tree experienced. These keys experienced being cut eight months ago without the time to become what they were supposed to be.\"",
+          text: '"The grain of the wood tells you what the tree experienced. These keys experienced being cut eight months ago without the time to become what they were supposed to be."',
           attribution: "Don Aurelio Mejía, master marimba maker, Copán region",
         },
         {
@@ -451,16 +451,16 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"Send me the link,\" he said. \"I will have my granddaughter make them take it down.\"",
+          text: '"Send me the link," he said. "I will have my granddaughter make them take it down."',
           attribution: "Don Aurelio",
         },
         {
           type: "quote",
-          text: "\"I'm sorry,\" she said. \"The photograph was filed as a working note. I didn't anticipate —\"",
+          text: '"I\'m sorry," she said. "The photograph was filed as a working note. I didn\'t anticipate —"',
         },
         {
           type: "quote",
-          text: "\"You didn't anticipate they would use my face to sell the thing you just proved was fraudulent,\" he said. \"No. That is a particular kind of imagination. They have it. We learn to expect it.\"",
+          text: '"You didn\'t anticipate they would use my face to sell the thing you just proved was fraudulent," he said. "No. That is a particular kind of imagination. They have it. We learn to expect it."',
           attribution: "Don Aurelio",
         },
         {

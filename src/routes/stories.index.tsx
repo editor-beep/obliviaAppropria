@@ -23,7 +23,8 @@ function StoriesIndex() {
       </div>
       <h1 className="mt-3 font-display text-5xl sm:text-6xl">All departures</h1>
       <p className="mt-4 max-w-2xl text-muted-foreground">
-        Each story is a flight. Each cover story is a destination Oblivia thinks she has arrived at. Choose a seat.
+        Each story is a flight. Each cover story is a destination Oblivia thinks she has arrived at.
+        Choose a seat.
       </p>
 
       <Section title="International Departures" subtitle="Stories 01 — 10" items={intl} />

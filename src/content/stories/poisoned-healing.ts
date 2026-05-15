@@ -102,7 +102,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Day two arrived with a brittle alpine stillness. Oblivia sat in \"Postural Solidarity\" beside the pool while Alexandrei tracked an unnatural indigo vortex near the north wall and called it what it was: a plumbing surge, not a tectonic mystery.",
+          text: 'Day two arrived with a brittle alpine stillness. Oblivia sat in "Postural Solidarity" beside the pool while Alexandrei tracked an unnatural indigo vortex near the north wall and called it what it was: a plumbing surge, not a tectonic mystery.',
         },
         {
           type: "paragraph",
@@ -110,7 +110,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: "\"The energy is 48 volts and coming from the Mill's auxiliary pump,\" Alexandrei muttered, as Gary the 'Water-Guardian' warned them not to \"interrogate\" ancestral artifacts.",
+          text: '"The energy is 48 volts and coming from the Mill\'s auxiliary pump," Alexandrei muttered, as Gary the \'Water-Guardian\' warned them not to "interrogate" ancestral artifacts.',
         },
         {
           type: "paragraph",

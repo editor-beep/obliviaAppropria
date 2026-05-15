@@ -75,9 +75,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Detective Oblivia Appropria — Privileged Eye" },
-      { name: "description", content: "A short story collection. Twelve flights. Twelve cover stories. One system she does not see." },
+      {
+        name: "description",
+        content:
+          "A short story collection. Twelve flights. Twelve cover stories. One system she does not see.",
+      },
       { property: "og:title", content: "Detective Oblivia Appropria — Privileged Eye" },
-      { property: "og:description", content: "Twelve flights. Twelve cover stories. One system she does not see." },
+      {
+        property: "og:description",
+        content: "Twelve flights. Twelve cover stories. One system she does not see.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

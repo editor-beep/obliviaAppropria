@@ -4,7 +4,14 @@ import type { StoryMeta } from "@/content/types";
 
 const STATUS_STYLE: Record<
   StoryMeta["status"],
-  { fill: string; stroke: string; strokeDasharray?: string; numberFill: string; labelFill: string; opacity: number }
+  {
+    fill: string;
+    stroke: string;
+    strokeDasharray?: string;
+    numberFill: string;
+    labelFill: string;
+    opacity: number;
+  }
 > = {
   complete: {
     fill: "var(--color-signal)",
@@ -42,7 +49,11 @@ export const Route = createFileRoute("/system-map")({
 
 function SystemMap() {
   // Lay out stories in a circle
-  const W = 900, H = 900, cx = W / 2, cy = H / 2, R = 360;
+  const W = 900,
+    H = 900,
+    cx = W / 2,
+    cy = H / 2,
+    R = 360;
   const positions = new Map<string, { x: number; y: number }>();
   stories.forEach((s, i) => {
     const a = (i / stories.length) * Math.PI * 2 - Math.PI / 2;
@@ -56,20 +67,58 @@ function SystemMap() {
       </div>
       <h1 className="mt-3 font-display text-5xl">One system. Twelve angles.</h1>
       <p className="mt-4 max-w-2xl text-muted-foreground">
-        Oblivia travels the surface. The reader assembles the underneath. Hover a node to read the story.
+        Oblivia travels the surface. The reader assembles the underneath. Hover a node to read the
+        story.
       </p>
 
       <div className="mt-12 overflow-x-auto">
         <svg viewBox={`0 0 ${W} ${H}`} className="mx-auto block w-full max-w-3xl">
           {/* concentric rings */}
-          <circle cx={cx} cy={cy} r={R} fill="none" stroke="var(--color-border)" strokeDasharray="2 6" />
-          <circle cx={cx} cy={cy} r={R * 0.55} fill="none" stroke="var(--color-border)" strokeDasharray="2 6" opacity="0.5" />
+          <circle
+            cx={cx}
+            cy={cy}
+            r={R}
+            fill="none"
+            stroke="var(--color-border)"
+            strokeDasharray="2 6"
+          />
+          <circle
+            cx={cx}
+            cy={cy}
+            r={R * 0.55}
+            fill="none"
+            stroke="var(--color-border)"
+            strokeDasharray="2 6"
+            opacity="0.5"
+          />
           {/* hub */}
-          <circle cx={cx} cy={cy} r="80" fill="var(--color-seatback)" stroke="var(--color-signal)" />
-          <text x={cx} y={cy - 6} fontSize="14" textAnchor="middle" fill="var(--color-signal-glow)" fontFamily="var(--font-mono)" letterSpacing="3">
+          <circle
+            cx={cx}
+            cy={cy}
+            r="80"
+            fill="var(--color-seatback)"
+            stroke="var(--color-signal)"
+          />
+          <text
+            x={cx}
+            y={cy - 6}
+            fontSize="14"
+            textAnchor="middle"
+            fill="var(--color-signal-glow)"
+            fontFamily="var(--font-mono)"
+            letterSpacing="3"
+          >
             ONE SYSTEM
           </text>
-          <text x={cx} y={cy + 14} fontSize="9" textAnchor="middle" fill="var(--color-muted-foreground)" fontFamily="var(--font-mono)" letterSpacing="2">
+          <text
+            x={cx}
+            y={cy + 14}
+            fontSize="9"
+            textAnchor="middle"
+            fill="var(--color-muted-foreground)"
+            fontFamily="var(--font-mono)"
+            letterSpacing="2"
+          >
             EXTRACT · CERTIFY · ABSORB
           </text>
 
@@ -81,7 +130,10 @@ function SystemMap() {
             return (
               <g key={i}>
                 <line
-                  x1={a.x} y1={a.y} x2={b.x} y2={b.y}
+                  x1={a.x}
+                  y1={a.y}
+                  x2={b.x}
+                  y2={b.y}
                   stroke="var(--color-signal)"
                   strokeWidth="0.6"
                   opacity="0.45"
@@ -97,7 +149,10 @@ function SystemMap() {
             return (
               <line
                 key={s.slug + "-spoke"}
-                x1={cx} y1={cy} x2={p.x} y2={p.y}
+                x1={cx}
+                y1={cy}
+                x2={p.x}
+                y2={p.y}
                 stroke="var(--color-border)"
                 strokeWidth="0.4"
                 opacity="0.5"
@@ -117,15 +172,31 @@ function SystemMap() {
               <Link key={s.slug} to="/stories/$slug" params={{ slug: s.slug }}>
                 <g className="cursor-pointer" opacity={st.opacity}>
                   <circle
-                    cx={p.x} cy={p.y} r="14"
+                    cx={p.x}
+                    cy={p.y}
+                    r="14"
                     fill={st.fill}
                     stroke={st.stroke}
                     strokeDasharray={st.strokeDasharray}
                   />
-                  <text x={p.x} y={p.y + 4} fontSize="11" textAnchor="middle" fill={st.numberFill} fontFamily="var(--font-mono)">
+                  <text
+                    x={p.x}
+                    y={p.y + 4}
+                    fontSize="11"
+                    textAnchor="middle"
+                    fill={st.numberFill}
+                    fontFamily="var(--font-mono)"
+                  >
                     {s.number}
                   </text>
-                  <text x={labelX} y={labelY + 3} fontSize="11" textAnchor={anchor} fill={st.labelFill} fontFamily="var(--font-sans)">
+                  <text
+                    x={labelX}
+                    y={labelY + 3}
+                    fontSize="11"
+                    textAnchor={anchor}
+                    fill={st.labelFill}
+                    fontFamily="var(--font-sans)"
+                  >
                     {s.shortTitle}
                   </text>
                 </g>
@@ -156,12 +227,23 @@ function SystemMap() {
           const a = stories.find((s) => s.slug === c.from)!;
           const b = stories.find((s) => s.slug === c.to)!;
           return (
-            <div key={i} className="flex flex-wrap items-baseline gap-2 border-b border-border/40 py-2">
-              <Link to="/stories/$slug" params={{ slug: a.slug }} className="text-foreground/90 hover:text-signal-glow">
+            <div
+              key={i}
+              className="flex flex-wrap items-baseline gap-2 border-b border-border/40 py-2"
+            >
+              <Link
+                to="/stories/$slug"
+                params={{ slug: a.slug }}
+                className="text-foreground/90 hover:text-signal-glow"
+              >
                 {a.shortTitle}
               </Link>
               <span>↔</span>
-              <Link to="/stories/$slug" params={{ slug: b.slug }} className="text-foreground/90 hover:text-signal-glow">
+              <Link
+                to="/stories/$slug"
+                params={{ slug: b.slug }}
+                className="text-foreground/90 hover:text-signal-glow"
+              >
                 {b.shortTitle}
               </Link>
               <span className="ml-auto font-sans normal-case tracking-normal text-muted-foreground/80">
