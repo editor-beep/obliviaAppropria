@@ -16,6 +16,10 @@ export const Route = createFileRoute("/stories/$slug")({
     const meta = storyMetaBySlug(params.slug);
     if (!meta) throw notFound();
 
+    if (meta.status !== "complete") {
+      return { meta, narrative: null };
+    }
+
     const key = `../content/stories/${params.slug}.ts`;
     if (!(key in storyModules)) throw notFound();
 
@@ -58,11 +62,34 @@ export const Route = createFileRoute("/stories/$slug")({
 function StoryPage() {
   const { meta, narrative } = Route.useLoaderData() as {
     meta: StoryMeta;
-    narrative: StoryDocument;
+    narrative: StoryDocument | null;
   };
   const next = nextStory(meta.slug);
   const prev = prevStory(meta.slug);
-  const chapters = useMemo(() => getStoryChapters(narrative), [narrative]);
+  const chapters = useMemo(
+    () => (narrative ? getStoryChapters(narrative) : []),
+    [narrative],
+  );
+
+  if (meta.status !== "complete") {
+    return (
+      <div className="mx-auto max-w-2xl px-4 py-32 text-center">
+        <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-signal-glow/60">
+          {meta.flightNumber}
+        </p>
+        <h1 className="mt-4 font-display text-4xl sm:text-6xl">{meta.title}</h1>
+        <p className="mt-8 text-lg text-muted-foreground">
+          Oblivia is currently planning her itinerary.
+        </p>
+        <Link
+          to="/stories"
+          className="mt-10 inline-block font-mono text-xs uppercase tracking-[0.22em] text-signal-glow"
+        >
+          ← Return to manifest
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <article>
@@ -79,7 +106,7 @@ function StoryPage() {
       </header>
 
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-16 lg:grid-cols-[1fr_260px]">
-        <StoryRenderer doc={narrative} slug={meta.slug} />
+        <StoryRenderer doc={narrative!} slug={meta.slug} />
 
         <aside className="space-y-6 border-t border-border/60 pt-8 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
           {chapters.length > 0 && <ChapterList chapters={chapters} />}
