@@ -163,6 +163,24 @@
   color: oklch(0.34 0.03 248);
 }
 
+.story-prose blockquote {
+  margin: 0 0 1.25em;
+}
+
+.story-prose blockquote cite {
+  display: block;
+  font-style: italic;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--color-muted-foreground);
+  margin-bottom: 0.15em;
+}
+
+.story-prose blockquote p {
+  margin-bottom: 0;
+}
+
 .story-prose h2 {
   font-family: var(--font-sans);
   font-size: 0.75rem;
