@@ -283,7 +283,7 @@ export const storyMetas: StoryMeta[] = [
       "The New Yorker: The Quiet Witness: How One Woman's Radical Presence Exposed the Dehydration of the Global South",
     theMoment:
       "They were looking for data, poor souls, while she was looking for the frequency of the disappearance.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "threshold-border",

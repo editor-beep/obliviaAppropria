@@ -8,7 +8,7 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "heading",
-          text: "Concept 011: The Crystalline Transcendence",
+          text: "Oblivia Cracks the Case of the Salt-Crust Protocol",
         },
         {
           type: "casefile",
