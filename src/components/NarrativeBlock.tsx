@@ -12,8 +12,8 @@ export function NarrativeBlock({ block }: { block: StoryBlock }) {
     case "quote":
       return (
         <blockquote>
-          <p>{block.text}</p>
           {block.attribution && <cite>{block.attribution}</cite>}
+          <p>{block.text}</p>
         </blockquote>
       );
 
