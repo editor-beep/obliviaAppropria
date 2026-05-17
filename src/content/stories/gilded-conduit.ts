@@ -1,3 +1,4 @@
+```typescript
 import type { StoryDocument } from "@/content/types";
 
 export const narrative: StoryDocument = {
@@ -8,33 +9,33 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "heading",
-          text: "Concept 007: The Mineral Mourning of Segment 14",
+          text: "The Case of the Counter-Somatic Pipeline Burial",
         },
         {
           type: "paragraph",
-          text: "The plains did not look ruptured, which disappointed Oblivia slightly as the Land Cruiser crested the ridge above the Broken Bow confluence. She had prepared herself during the long flight from Minneapolis—ensconced in first class with a premium activated-charcoal eye mask—for a landscape that communicated its historical corporate violation with a legible, un-vibrated clumsiness. Instead, the North Dakota prairie lay before her as an expanse of pale, last-year's gold, the dry needlegrass moving in the early wind with a continuous, gentle animation that felt like an elegant, structural threat. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the faint, distinct stench of unrefined volatile organic compounds and boiling bitumen rising from the creek bed, and noted in her field journal that the dark, viscous sheen bubbling through the mud flats was 'the exquisite Black Honey of Gaia—a sacred mineral mourning conducted upward through the earth's secret meridian channels.' In the passenger seat behind her, Alexandrei did not check his alignment; he opened a weatherproof ledger and logged the registration numbers printed on the private security SUVs guarding the pipeline easement.",
+          text: "The plains did not look ruptured, which disappointed Oblivia slightly as her private Mercedes transport crested the clay ridge above the Broken Bow confluence. She had prepared herself during the luxury flight from Minneapolis—ensconced in first class with an organic, activated-charcoal-infused silk eye mask—for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, the North Dakota prairie lay before her as an expanse of pale, last-year's gold, the dry needlegrass moving in the early wind with a continuous, gentle animation that felt like an elegant, structural threat. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow police tape and the dark, viscous sheen bubbling through the mud flats, and noted in her field journal that the sprawling industrial crude leak was 'the exquisite Black Honey of Gaia—a sacred mineral mourning conducted upward through the earth's secret meridian channels.' In the shadow of the private security checkpoint behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the chassis serial numbers of the tactical pipeline maintenance rigs idling near the restricted easement gate.",
         },
         {
           type: "document",
-          label: "North-Star Midstream Corp — Corporate Stewardship Manifesto",
-          body: "North-Star Midstream, in an exclusive equity alliance with Meridian-Spire Holistic Ventures, is proud to announce the launch of our Lithic Resonance Initiative at Segment 14. Through mindful infrastructure harmony, we partner with the deep earth to unlock the restorative potential of ancestral mineral deposits. Our flagship aesthetic offering, Ancestral Black Honey™, utilizes subterranean organic compounds hand-harvested from our consecrated easement zones, retailing at $180 per ounce within the luxury biophilic wellness market. We are streamlining the earth's flow.",
+          label: "North-Star Midstream Corp — Retainer Agreement: Private Forensic Consultation",
+          body: "North-Star Midstream Corp (Delaware) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational disappearance of Chief Integrity Assessor Elias Whitehorse at our DPC Segment 14 sector. Ms. Appropria is authorized to conduct a complete vibrational scan of our pipeline corridor to resolve the site's current atmospheric tension and restore investor confidence before the upcoming Department of Energy audit. Fee: $50,000/week plus helicopter logistics. All findings proprietary.",
         },
         {
           type: "quote",
-          text: `"The vibration beneath our soles, Mina," Oblivia whispered, her eyes closed as she adjusted the heavy leather strap of her handmade Berlin acoustic sensors. "The pipeline is not a tool of extraction; it is a metallic throat. It is translating the deep-earth creative trauma into a low-frequency Om that registers in the sternum before the ear. Elias understood that before his somatic pilgrimage. He didn't flee his contractual obligations; he went into the interior of the machine to map the grief from the inside."`,
+          text: `"The choreography of the exit, Mina," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty automated control housing. "The integrity assessor, Elias... his choice to drop his physical envelope near this specific mudflat was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the pipeline's lesson."`,
         },
         {
           type: "quote",
-          text: `"Elias went to Cabo San Lucas on an un-listed sixty-thousand-dollar corporate retainer, Oblivia," Mina Crow said, her voice flat, grounded, and entirely un-vibrated as she adjusted the data cables on her laptop. "He was our lead third-party integrity assessor. He completed a structural report showing catastrophic thermal microcracking along six miles of the outer casing directly beneath the tribal burial ground, and North-Star suppressed it, wiped his access codes, and bought his silence with a consulting contract. He's currently sitting by a pool while forty barrels a day of unrefined crude leak into the primary municipal water intake."`,
+          text: `"Elias Whitehorse suffered fatal toxic asphyxiation and systemic chemical burns because he was sent to manually check a pressurized expansion seam that had already suffered catastrophic microcracking directly beneath the tribal burial ground, Ms. Appropria," Mina Crow said, her voice flat, cold, and entirely un-vibrated as she stood outside the security fence with a compliance folder. "Our client company in Houston reclassified this structural fracture as a 'Lithic Resonance Initiative' so they could market the leaking crude oil as a luxury mineral mud treatment while bypassing federal containment laws. He didn't clear a container; he was suffocated by the exact unrefined bitumen your company signed off on. The regional authorities closed the file as a voluntary pilgrimage because North-Star pays the regional district's private infrastructure logistics concession."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained things so plainly, which only deepened the mystery. It was a pattern she had decoded during her Prague semester—the closer a population lived to the material mechanics of engineering and infrastructure, the more they relied on the blunt prose of survival, entirely missing the exquisite, high-vibration semiotics of their own displacement.",
+          text: "Oblivia smiled patiently. The locals always explained these deaths and disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The internal bitumen suffocation is an illusion; the frequency of the pipeline alignment is the only true evidence.*",
         },
         {
           type: "casefile",
-          label: "Case File OBA-D — Pre-Arrival Forensic Summary, A. Harris",
-          body: "Target Identity: North-Star Midstream Corp / Joint Venture with Meridian-Spire LLC. Anomaly: Six-mile pressure drop anomaly logged by Department of Energy as a 'minor seismic event' during Week 18. Soil core testing on site confirms high-density benzene and heavy polymer saturation throughout the Broken Bow creek bank. Elias Whitehorse completed the definitive casing failure log, took an offshore buyout, and cleared his personal files. Tribal Council Chairman Joseph He Crow has been blocked from executing an independent environmental audit due to corporate easement litigation. Subject arrives today convinced the active oil spill is an intentional 'planetary exhale of dark abundance.' Proceeding with sub-surface acoustic sweep.",
+          label: "Case File OBA-D — Pre-Analysis Forensic Log, A. Harris",
+          body: "Target Identity: North-Star Midstream Corp / Joint Venture with Meridian-Spire LLC. The Homicide: Assessor Elias Whitehorse dead after an acute toxic event caused by suppressed outer casing failure under the burial ground watershed. Client company hidden the internal pressure-drop diagnostics and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal EPA environmental audit. Councilman Joseph He Crow has documented forty counts of illegal groundwater contamination. Subject arrives at the creek bank fully convinced the active oil spill is an intentional 'mineral mourning.' Proceeding to the utility hatch sweep.",
         },
       ],
     },
@@ -44,40 +45,40 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "By the third afternoon of her residency, the resonance camp had reached what Oblivia described to her digital following as 'The Grand Integration.' Guided by an irrepressible spiritual directive to listen to the 'unvoiced sorrow of the silt,' she descended the creek path to an un-locked county utility hatch that sat outside North-Star’s fenced easement. She carried her customized, twelve-thousand-dollar German hydrophone—a research-grade deep-water acoustic sensor that she had personally ordered with a thick, mirror-polished gold-plated casing that served no scientific function whatsoever but felt, to her touch, highly conductive to emotional frequencies.",
+          text: "By the second afternoon of her investigation, the open-plan resonance camp had reached what Oblivia described to her digital following as 'The Grand Integration.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted utility terminal. The space was a climate-controlled canyon of galvanized steel and unshielded telemetry cables, dominated by a central frequency bank that hummed intensely at a frequency she could feel in her sinuses.",
         },
         {
           type: "quote",
-          text: `"Joseph, observe the beautiful cadence of the internal pulse," Oblivia breathed, lowering the gold-plated cylinder down into the dark, oil-slicked utility riser while her phone’s camera captured the reflection of the prairie sky on the polished gold surface. "The machine is beating in an irregular, rhythmic cycle. It's a structured weeping. The ancestors are using the metal casing to tap out an ancient, pre-verbal syntax of reclamation."`,
+          text: `"Observe the beautiful cadence of the internal processing, Joseph," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the riser console. She was wearing an Italian hand-stitched silk cape—the color of a North Dakota sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
         },
         {
           type: "quote",
-          text: `"The machine is pulsing because the primary automated bypass valve is experiencing a multi-system pressure surge due to localized blockage," Joseph He Crow said, leaning over the fence with an engineering schematic provided by Mina. "That irregular percussive sound isn't an ancestral syntax, Ms. Appropria. It's the high-pressure mechanical chattering of a failing expansion seam hitting its thermal threshold. If that line cycles another three times without an emergency blowdown, the entire sub-surface manifold is going to experience a structural rupture."`,
+          text: `"The machine is running a real-time data-uplink to our corporate office in Houston, Texas, Ms. Appropria," the tribal council chairman Joseph He Crow whispered, his voice tight with an immediate, professional focus as he checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Joseph lived so close to the dry, litigious legalisms of the treaty borders that he interpreted the landscape through the coarse, patriarchal vocabulary of fluid dynamics, entirely missing the profound, non-linear love poem written across the earth's broken skin.",
+          text: "Oblivia shook her head with devastating sweetness. Joseph lived so close to the dry, administrative anxieties of his treaty ledger that he interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
         },
         {
           type: "document",
           label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Lowering our gold-plated chakra interface into the veins of the Dakota Corridor. Listen to this magnificent, rhythmic percussion echoing from the deep-earth pipeline—a perfect structural testimony to Gaia's internal processing of our industrial noise. The corporate guardians are approaching, but we are holding the line in perfect alignment. 🌾 #GildedConduit #BlackHoney #SomaticResonance #DeepListening",
+          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the mechanical divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🌾 #SomaticForensics #GildedConduit #ChakraTelemetry #TheInterface",
         },
         {
           type: "paragraph",
-          text: "Because the boutique German software running her hydrophone lacked the standard industrial data filters required for municipal utility research, Oblivia’s live stream inadvertently intercepted the un-encrypted digital telemetry logs pulsing through the pipeline's localized automated control system. For twelve uninterrupted minutes, 612,000 luxury lifestyle consumers, four regional EPA compliance offices, and a federal district court judge in Bismarck watched a high-definition, real-time scrolling display of North-Star’s suppressed internal automated error logs—complete with the phrase 'CRITICAL EXPANSION FAILURE: SEGMENT 14'—flash across her screen, framed beautifully by her intentional morning lighting.",
+          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
         },
         {
           type: "quote",
-          text: `"What time did you lower that unit?" Alexandrei asked, sprinting down the gravel access road with his laptop balanced on his forearm.`,
+          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Mina, whose laptop screen was already scrolling with an intense cascade of un-encrypted pipeline diagnostic logs.`,
         },
         {
           type: "quote",
-          text: `"At precisely three o'clock, when the shadow of the ridge aligned with the central burial mound," Oblivia said, smiling serenely.`,
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and placed a chunk of raw rose quartz directly onto the main telemetry ventilation intake.",
         },
         {
           type: "quote",
-          text: `"Brilliant. The EPA enforcement division just utilized your live telemetry broadcast as the definitive basis for a section 309 federal injunction," Alexandrei said, entering the data into his ledger. "And the pipeline's central command system has executed an automatic remote shut-down protocol to avoid an un-insured explosive blowout. You didn't hear the ancestors, Oblivia. You leaked the entire suppressed corporate crime log to the Department of Justice."`,
+          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate spreadsheets onto a public international trade archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire suppressed pipeline expansion failure and watershed contamination log to federal prosecutors."`,
         },
       ],
     },
@@ -87,43 +88,41 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "The silence that followed the pipeline’s emergency shutdown was immediate, cold, and absolute. One moment the prairie had been filled with the low-frequency, multi-million-dollar mechanical thrumming of the corporate extraction, and the next, the plains returned to a stillness so total that several lifestyle influencers at the resonance camp reportedly experienced immediate vertigo, having spent three days aligning their lower chakras with a pressurized industrial failure. The main valves were padlocked by federal marshals before North-Star’s legal team could even file for an emergency stay with the regional land tribunal in Bismarck.",
+          text: "The legal collapse of North-Star’s environmental stewardship certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, regional EPA compliance officers had parsed the public files, exposing the complete internal engineering records explicitly detailing the suppression of the structural expansion failure report to avoid immediate shut-down and remediation overhead costs. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, environmental felony fraud, and systematic public misrepresentation.",
         },
         {
           type: "paragraph",
-          text: "On her final morning at the Broken Bow airstrip, Oblivia sat within the premium, maple-paneled interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
+          text: "On her final morning at the Bismarck terminal, Oblivia sat within the premium, maple-paneled interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
         },
         {
           type: "document",
           label: "Oblivia Field Journal — The Conflux Integration",
-          body: "The plains won. The absolute density of our collective acoustic witness created an energetic block that the corporate infrastructure simply could not tolerate. The gold-plated hydrophone was drawn by a higher alignment to the exact un-locked utility hatch, listening through the industrial static until it found the one true frequency that mattered. I leave the corridor with a cleared container and a deep understanding of the earth's dark abundance.",
+          body: "The plains won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Elias's transition is now complete—he has cleared his container, and so have I. I leave North Dakota with a deep understanding of the furrow as a vibrational archive.",
         },
         {
           type: "paragraph",
-          text: "Down at the EPA regional enforcement headquarters in Denver, North-Star’s suppressed Phase-1 integrity records were formally entered into a grand jury docket, initiating a criminal inquiry into corporate groundwater contamination and intentional reporting deletion.",
-        },
-        {
-          type: "paragraph",
-          text: "At the Broken Bow mudflat road, Joseph He Crow watched the first tribal environmental monitoring team open their equipment cases to begin the three-year watershed decontamination phase. Alexandrei closed his weatherproof ledger and checked the flight manifests.",
+          text: "At the Broken Bow community office, Joseph He Crow and Mina Crow sat before a table covered in federal audit paperwork and copies of the newly mandated watershed remediation funds. Mina pointed her finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Grassland: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Dakota Corridor.'*",
         },
         {
           type: "quote",
-          text: `"She's currently pitching a multi-platform book titled 'The Conductive Conduit' to her agent," Alexandrei noted, watching Oblivia arrange her nested crystal singing bowls into the plane's luggage compartment. "She insists her gold microphone re-tuned the planet's sorrow."`,
+          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable pipeline contractor," Mina said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of confiscated bitumen pipes.`,
         },
         {
           type: "quote",
-          text: `"Let her pitch it," Joseph He Crow said, looking out over the quiet, un-pressurized grassland where the watershed would finally recover its treaty-protected purity. "She's the only person in North Dakota who can shatter a multi-million-dollar corporate infrastructure conspiracy because she wanted her followers to hear a poem. The land doesn't need her alignment, Mr. Harris, but the District Attorney needed her metadata."`,
+          text: `"Let her tune it," Joseph He Crow said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this state who can shatter a multi-million-dollar offshore infrastructure conspiracy because she wanted her followers to see a poem. The land didn't need her alignment, Mina, but the federal compliance auditors needed her metadata."`,
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "North-Star pipeline operations suspended indefinitely under federal injunction. Grand jury investigation active. Tribal access to Segment 14 corridor secured. Subject has purchased a ninety-dollar hand-woven grass basket from an airport boutique, cataloging it as a 'consecrated souvenir of the prairie’s exhale.' We are boarding the flight to Sedona. There is a luxury floating-drone wellness retreat there that has recently deployed an illegal deep-crust mineral sonar testing array that she has already described to her publisher as 'The Diaphragm of the Earth.' I am packing an extra set of high-grade earplugs and a personal dosimeter.",
+          body: "North-Star pipeline operations suspended indefinitely under federal injunction. Independent environmental audit mandated, revealing systematic reporting deletion. Elias Whitehorse's internal engineering reports formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar hand-woven grass basket from a boutique at the terminal, logging it as a 'consecrated souvenir of the prairie’s exhale.' We are boarding the flight to Sedona. She has solved the case stupidly, leaving the state fully un-vibrated and ghoulishly intact while the local collective executes the actual assets. Case closed.",
         },
         {
           type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER CRIMINAL INQUIRY (MATERIAL)",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
     },
   ],
 };
+
+```
