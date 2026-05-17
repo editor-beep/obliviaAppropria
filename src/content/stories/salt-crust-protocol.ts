@@ -24,11 +24,11 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: '"Ms. Appropria," Felipe Quispe said, setting down a worn canvas bag of pressure gauges, his blue denim overalls dusty with alkali crust. He did not look at the pendulum. "The dome was sealed from inside because the man is hiding. The water on the floor is condensate from the illegal brine circuit running twenty meters beneath us. The tuning fork vibrates because the pump frequency at this extraction rate is exactly 128 hertz. It is an industrial pipe echo, not a mystery."',
+          text: '"Ms. Appropria," Felipe Quispe said, setting down a worn canvas bag of pressure gauges, his blue denim overalls dusty with alkali crust. He did not look at the pendulum. "The dome was sealed from inside because the man is hiding. The water on the floor is condensate from the illegal brine circuit running twenty meters beneath us. The tuning fork vibrates because the pump frequency at this extraction rate is exactly 128 hertz. It is an industrial pipe echo, not a mystery. And the Colchani irrigation cooperative — which has been maintaining the channels that feed their quinoa fields through the Aymara water-sharing system for six hundred years — has had no water since March because this brine circuit is pulling the table down. Pachamama, to the Aymara, is not a metaphor. It is a living system with legal standing under the Bolivian constitution. Neo-Flux has been illegally withdrawing from a system that has legal personhood."',
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The operators always explained things so plainly, which only deepened the mystery. It was a trait she had observed during her Prague semester—the closer people lived to the material mechanics of extraction, the more they relied on the blunt prose of survival, missing the exquisite lyricism of their own displacement.",
+          text: "Oblivia smiled patiently. The operators always explained things so plainly, which only deepened the mystery. She had attended a biodynamic crystal wellness immersion in Sedona the previous spring — the kind where certified practitioners lead you to extraction sites and explain the mineral's emotional biography — and had noticed the same thing there: the technicians who came to collect the crystals were always the least attuned to their frequency, the most trapped in the blunt prose of measurement, entirely missing the exquisite lyricism of their own displacement.",
         },
         {
           type: "quote",
@@ -45,7 +45,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "document",
-          label: "Posted to 500k followers — @obliviaappropria",
+          label: "Posted to 612k followers — @obliviaappropria",
           body: "Some voids are not absences. They are arrivals in a different frequency. Zephyr, the salt flat has received you. The tuning fork is still singing the song of the sub-surface matrix. 🇧🇴 #CrystallineTranscendence #SaltFlat #UyuniWitness #EcologicalDetective #DigitalKarma",
         },
       ],

@@ -12,7 +12,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The empty alcove was magnificent, Oblivia decided, in the way that only a premium, highly expensive absence can be. She sat on an organic kapok meditation cushion provided by the Trust’s Heritage Witness forensic evaluation residency, her eyes fixed on the raw sandstone shelf where the 12th-century gilded Shakyamuni Buddha had rested for eight hundred years. On the flight from Delhi—business class, the cabin smelling faintly of recycled ozone and the expensive lemongrass mist she had applied at the lounge—she had prepared herself for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, the shrine room held only a quiet, atmospheric stillness that felt profoundly corporate. She adjusted her raw linen wrap, ignoring the heavy steel uprights of the documentation scaffolding that dominated the southern corner of the room, and noted in her field journal that the lingering scent of clarified butter lamps was 'the olfactory residue of ten thousand ancestral intentions, now liberated into a digital frequency by the statue’s non-linear departure.' In the shadow of the concrete corridor behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the serial numbers printed on the climate-controlled storage crates.",
+          text: "The empty alcove was magnificent, Oblivia decided, in the way that only a premium, highly expensive absence can be. She sat on an organic kapok meditation cushion provided by the Trust's Heritage Witness forensic evaluation residency, her eyes fixed on the raw sandstone shelf where the 12th-century gilded Shakyamuni Buddha had rested for eight hundred years. On the flight from Delhi — business class, the cabin smelling faintly of recycled ozone and the expensive lemongrass mist she had applied at the lounge — she had prepared herself for a shrine room that communicated its violation with a clumsy, un-vibrated prose. Instead, the room held only a quiet, atmospheric stillness that felt profoundly corporate. She adjusted her raw linen wrap, ignoring the heavy steel uprights of the documentation scaffolding that dominated the southern corner, and noted in her field journal that the lingering scent of clarified butter lamps was 'the olfactory residue of ten thousand ancestral intentions, now liberated into a digital frequency by the statue's non-linear departure.' In the shadow of the concrete corridor behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the serial numbers printed on the climate-controlled storage crates.",
         },
         {
           type: "document",
@@ -21,73 +21,73 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: `"The stillness of Head Monk Rinchen, Dr. Clement," Oblivia whispered, looking through her 35mm Leica at the lead restorer, who wore a pristine linen shirt and an institutional lanyard with a polished, international accessibility. "It is a beautiful, terrifying pedagogy. To enter a state of complete somatic pause the exact morning the Buddha de-materialized... he is teaching us how to hold space for the absence. It reminds me so much of the profound, post-communist interiority of Czech tram conductors I observed during my sophomore spring—the way they completely surrendered their physical agency to the winter timetables."`,
+          text: `"The stillness of Head Monk Rinchen, Dr. Clement," Oblivia said softly, looking through her Leica at the lead restorer. "It is a beautiful, terrifying pedagogy. To enter a state of complete somatic pause the exact morning the Buddha de-materialized — he is holding space for the absence. I attended a thangka painting evening at the Rubin Museum in Manhattan last winter. The artist explained that in Vajrayana tradition, certain sacred compositions leave specific areas intentionally blank — a breathing space that allows the deity to inhabit the form without being fixed by it. Head Monk Rinchen is practicing this. He is the blank space waiting for the deity's return."`,
         },
         {
           type: "quote",
-          text: `"The compound in Rinchen Dorje's blood panel is a synthetic, research-grade benzodiazepinoid paralytic, Ms. Appropria," Pema Lama said, his voice flat, cold, and entirely un-vibrated as he stood outside the shrine room door with an encrypted data envelope. "The Global Heritage Trust's documentation team reclassified this un-redacted antiquities theft as 'Preservation Without Possession' so they could transfer the physical 80-kilogram statue to a private vault in Zurich while securing an international digital archiving grant. Head Monk Rinchen didn't enter a somatic pause; someone introduced a veterinary needle into his line at three in the morning to keep him from talking, and he is currently in a coma because the chemical dosage was designed to immobilize a mammal five times his size. The police closed the inquiry because the Trust pays the regional commissioner's security budget."`,
+          text: `"The compound in Rinchen Dorje's blood panel is a synthetic, research-grade benzodiazepinoid paralytic," Pema Lama said, from outside the shrine room door with an encrypted data envelope. His voice was flat and cold. "The Global Heritage Trust's documentation team reclassified this theft as 'Preservation Without Possession' to transfer the physical 80-kilogram statue to a private vault in Zurich while securing an international digital archiving grant. Head Monk Rinchen is not holding a blank space for a deity. He is in a coma in a hospital in Kathmandu because the chemical dosage was designed to immobilize a mammal five times his size. The police closed the inquiry because the Trust pays the regional commissioner's security budget."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained these deaths and disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that goes still is simply a text that has finished its sentence. The medical telemetry is an illusion; the frequency of the digital transition is the only true evidence.*",
+          text: "Oblivia smiled patiently. The monastics always explained these disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that goes still is simply a text that has finished its sentence. The medical telemetry is an illusion; the frequency of the digital transition is the only true evidence.*",
         },
         {
           type: "casefile",
-          label: "Case File OBA-004 — Pre-Analysis Forensic Log, A. Harris",
-          body: "Target Identity: Global Heritage Trust / Swayambhu Documentation Initiative. The Crime: Head Monk Rinchen poisoned with an unlisted synthetic paralytic to mask the theft of a 12th-century gilded Buddha ($6.8M auction value). Client company suppressed the internal inventory records and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal Interpol antiquities audit. Junior monk Pema has the data files proving systematic asset-stripping. Subject arrives at the shrine room fully convinced the casualty is an intentional 'vibrational withdrawal.' Proceeding to the main terminal sweep.",
+          label: "Case File OBA-011 — Pre-Analysis Forensic Log, A. Harris",
+          body: "Target Identity: Global Heritage Trust / Swayambhu Documentation Initiative. The Crime: Head Monk Rinchen Dorje poisoned with an unlisted synthetic paralytic — he remains in a coma — to mask the theft of a 12th-century gilded Shakyamuni Buddha from the Swayambhu Annex (auction value: $6.8 million, routed through a Zurich vault via a Geneva intermediary). Client company suppressed the internal inventory records and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal Interpol antiquities audit. Junior monk Pema Lama has the data files proving systematic asset-stripping across four regional monasteries. Subject arrives at the shrine room convinced the casualty is an intentional 'vibrational withdrawal.' Proceeding.",
         },
       ],
     },
     {
-      id: "chapter-two-the-crystalline-striations",
-      title: "Chapter Two: The Crystalline Striations",
+      id: "chapter-two-the-frequency-receiver",
+      title: "Chapter Two: The Frequency Receiver",
       blocks: [
         {
           type: "paragraph",
-          text: "By the third morning of her investigation, the empty alcove had reached what Oblivia described to her digital following as 'The Grand Alignment.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted server vault. The space was a climate-controlled canyon of carbon fiber and armored fiber-optic cables, dominated by a tall data unit that hummed intensely at a frequency she could feel in her sinuses.",
+          text: "By the third morning of her investigation, Oblivia had decided that the empty alcove required a 'passive frequency witness' — a device she could leave in the shrine room while she meditated in the adjoining corridor, which would, she explained to Devi Shrestha, 'receive the room's residual vibrational imprint without the interference of active human attention.' She placed her iPhone 15 Pro Max flat on the sandstone shelf where the Buddha had stood, face-down, in a mode she called 'non-directional audio absorption.' She activated the Voice Memos application and pressed record. She then went to the corridor to perform what she described as a 'threshold meditation' in front of the closed shrine door. The meditation lasted ninety-four minutes.",
         },
         {
           type: "quote",
-          text: `"Observe the beautiful cadence of the internal processing, Dr. Clement," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the scale console. She was wearing an Italian hand-stitched silk cape—the color of a Himalayan sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
+          text: `"I need to ask you something," Devi Shrestha said, appearing from the eastern corridor with her field notebook open. She was a heritage researcher at Tribhuvan University and had been trying for three weeks to access the Trust's internal inventory records. "Are you currently recording inside the shrine room?"`,
         },
         {
           type: "quote",
-          text: `"The machine is running a real-time data-uplink to our corporate office in Zurich, Switzerland, Ms. Appropria," the university heritage researcher Devi Shrestha whispered, her voice tight with an immediate, professional focus as she checked the subnet configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+          text: `"The phone is receiving the room's residual frequency," Oblivia said, without opening her eyes. "It is a passive witness. The device is not recording; it is listening."`,
+        },
+        {
+          type: "quote",
+          text: `"Voice Memos is a recording application," Devi said. "And Dr. Clement and the Trust's Geneva intermediary have been inside the shrine room for the last forty minutes discussing the Zurich vault transfer routing. I could hear them from the corridor."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Devi lived so close to the dry, administrative anxieties of her local university ledger that she interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+          text: "Oblivia opened her eyes. She was experiencing a feeling she could not quite identify — a frequency she had not encountered before. She went to the shrine room door and retrieved her phone. Voice Memos showed a recording, ninety-two minutes long, still running. She posted it to her podcast feed at 4:12 PM as 'A Silent Presence: 90 Minutes with the Swayambhu Absence — Passive Frequency Witness Recording from the Empty Alcove.' She captioned it: 'The room remembers what it held. Listen without agenda.' The audio was crisp. Dr. Clement and the Geneva intermediary's voices were entirely clear. The Zurich vault's routing number, the name of the buyer, and the detail that the statue was 'currently packaged and awaiting Tribhuvan clearance' were all audible in minutes thirty-seven through forty-one.",
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the circular divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🇳🇵 #SomaticForensics #GildedSilence #ChakraTelemetry #TheInterface",
-        },
-        {
-          type: "paragraph",
-          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
+          label: "Podcast Episode — @obliviaappropria (612k Listeners)",
+          body: "A Silent Presence: 90 minutes with the Swayambhu Absence. Passive frequency witness recording from the empty alcove where the Shakyamuni Buddha rested for eight hundred years. The room remembers what it held. I am releasing this without edit, without curation, without interpretation. Listen without agenda. The silence speaks. 🇳🇵 #SomaticForensics #GildedSilence #SwayambhuWitness #TheAbsence",
         },
         {
           type: "quote",
-          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Pema, whose laptop screen was already scrolling with an intense cascade of un-encrypted procurement manifests.`,
+          text: `"What time did you post the recording?" Alexandrei asked, bursting through the corridor door with Pema, whose phone was already live with Interpol's arts crimes division.`,
         },
         {
           type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and placed a chunk of raw rose quartz directly onto the main system ventilator intake."`,
+          text: `"When the frequency was complete," Oblivia said, smiling serenely.`,
         },
         {
           type: "quote",
-          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate shipping and inventory logs onto a public international art-theft archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire international antiquities-trafficking and asset-stripping fraud log to global regulatory prosecutors."`,
+          text: `"The Zurich vault routing number is audible at minute thirty-seven," Alexandrei said, checking his ledger. "Interpol's arts crimes division has opened an emergency asset freeze. The statue is at Tribhuvan Airport in a climate-controlled crate. They have it." He looked at Pema. "Rinchen's name is in the seizure warrant."`,
         },
       ],
     },
     {
-      id: "chapter-three-the-silk-aperture",
-      title: "Chapter Three: The Silk Aperture",
+      id: "chapter-three-the-artifact-returns",
+      title: "Chapter Three: The Artifact Returns",
       blocks: [
         {
           type: "paragraph",
-          text: "The legal collapse of the Global Heritage Trust’s archiving certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, international art crime compliance officers had parsed the public files, exposing the complete internal procurement records explicitly detailing the use of a high-precision, low-noise diamond-wire saw to slice the Buddha from its sandstone base while under the influence of research-tier sedatives. The parent fund's sustainable-governance index rating plunged 6% before the Zurich markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, illegal trafficking of protected antiquities, and multi-jurisdictional financial fraud.",
+          text: "The legal collapse of the Global Heritage Trust's archiving certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twenty-four hours of Interpol's arts crimes division receiving Oblivia's podcast episode — submitted by three listeners simultaneously, one of whom was a Zurich financial crimes journalist and one of whom was the art crimes attorney at the Nepalese embassy in Geneva — international compliance officers had verified the vault routing, identified the buyer, and located the statue at Tribhuvan Airport in a crate labeled 'Heritage Documentation Equipment.' The parent fund's sustainable-governance index rating plunged 6% before the Geneva markets opened, forcing an immediate international criminal referral for corporate manslaughter, illegal trafficking of protected antiquities, and multi-jurisdictional financial fraud. Head Monk Rinchen Dorje remained in the hospital. His name was in the seizure warrant. Pema Lama's documentation — four monasteries, systematic asset-stripping, eleven months of evidence — was now the primary evidentiary record before Interpol.",
         },
         {
           type: "paragraph",
@@ -96,28 +96,24 @@ export const narrative: StoryDocument = {
         {
           type: "document",
           label: "Oblivia Field Journal — The Gilded Integration",
-          body: "The shrine won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Rinchen's transition is now complete—he has cleared his container, and so have I. I leave Kathmandu with a deep understanding of the gilded silence.",
+          body: "The shrine won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The phone was drawn by a higher alignment to the exact alcove, listening through the devotional static until the room opened and what was inside came out. Rinchen's somatic pause is now lifting — he is beginning to integrate the silence. I leave Kathmandu with a deep understanding of the gilded absence. The room remembers what it held.",
         },
         {
           type: "paragraph",
-          text: "At the Swayambhu community center, Pema Lama and Devi Shrestha sat before a table covered in federal audit paperwork and copies of the newly mandated artifact repatriation orders. Devi pointed her finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Shrine: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Swayambhu Annex.'*",
+          text: "At the Swayambhu community center, Pema Lama and Devi Shrestha sat before a table covered in Interpol repatriation paperwork and copies of the artifact return order. The Buddha would be back within three weeks, pending the chain-of-custody documentation. On Devi's laptop was a Guardian Asia piece on Oblivia — titled *'The Somatic Investigator Who Accidentally Recorded a Confession in a Buddhist Shrine.'* The piece described her as 'a non-empirical witness operating outside the limits of conventional forensics.' It quoted Pema Lama as 'corroborating her findings.'",
         },
         {
           type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the case and re-tune the corporate vibration of the sustainable archiving contractor," Pema said, adjusting his robes as he looked at a full-page photo of Oblivia standing barefoot on a mountain of dismantled steel scaffolding.`,
+          text: `"'Corroborating,'" Pema said, reading the word. "I provided eleven months of systematic documentation across four monasteries. She placed her phone on a shelf." He set the laptop down. "The documentation is in the footnotes."`,
         },
         {
           type: "quote",
-          text: `"Let her tune it," Devi said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar offshore antiquities conspiracy because she wanted her followers to see a poem. The monastery didn't need her alignment, Pema, but the international trade auditors needed her metadata."`,
+          text: `"Send it to the Guardian," Devi said. "Ask them to run a follow-up on the four monasteries." She turned back to the repatriation order. "And make sure Rinchen's name is in the headline, not Oblivia's."`,
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "The Global Heritage Trust concession suspended indefinitely under Interpol order. Independent technical audit mandated, revealing 4.7 terabytes of encrypted logistics logs tracking stolen regional artifacts. Master statue recovered at airport terminal and formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar factory-stamped brass Buddha from a boutique at the terminal, logging it as a 'consecrated fragment of the silence's victory.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local community executes the actual assets. Case closed.",
-        },
-        {
-          type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          body: "Global Heritage Trust concession suspended indefinitely under Interpol order. Independent technical audit mandated, revealing asset-stripping across four regional monasteries. Statue recovered at Tribhuvan Airport; repatriation order filed. Pema Lama's eleven months of systematic documentation — the actual evidentiary record — is now formally entered before Interpol and the Nepalese attorney general. Subject has purchased a one-hundred-and-twenty-dollar factory-stamped brass Buddha from a boutique at the terminal, logging it as 'a consecrated fragment of the silence's return.' We are boarding the return flight to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while Pema Lama and the Nepalese repatriation authority execute the actual assets. CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
     },
