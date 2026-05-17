@@ -8,135 +8,116 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "heading",
-          text: "Concept 003: The Evacuation of the Heart Chakra",
+          text: "The Case of the Evacuated Pink Frequency",
         },
         {
           type: "paragraph",
-          text: "The lake did not look wounded, which disappointed Oblivia slightly as Joseph navigated the Land Cruiser down the smooth, Chinese-constructed tarmac of the north shore road. She had prepared herself during the flight from Nairobi—ensconced in business class with a silk-blend sleep mask purchased from a wellness kiosk in Dubai—for a landscape that communicated its historical displacement with a legible, prestige-prestige elegance. She had imagined something akin to Santorini during her second divorce: an expanse of blue and white holding the clean, dramatic shape of an intentional loss. Instead, Lake Elementaita lay before her as a flat, heavy sheet of copper-colored glass, looking, to the unpracticed or un-vibrated eye, completely unbothered by its own extraction. She rolled down the window, ignoring the distinct, industrial stench of unrefined sulfur dioxide and boiling battery grease, and inhaled deeply, cataloging the noise of a distant 250kVA Cummins generator as 'the primal, cellular vibration of the Great Rift Valley crust finally breathing its trauma into the ether.' In the rear seat, Alexandrei did not check his alignment; he opened a weatherproof ledger and began documenting the chassis numbers of the idling dump trucks.",
+          text: "The lake did not look like a corporate extraction concession, which disappointed Oblivia slightly as the private Mercedes transport navigated the smooth, Chinese-constructed tarmac of the north shore road. She had prepared herself during the long flight from Nairobi—ensconced in first class with an organic, activated-charcoal-infused silk sleep mask—for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, Lake Elementaita lay before her as a flat, heavy sheet of copper-colored glass, looking, to the un-attuned or un-aligned eye, entirely integrated into the Great Rift Valley horizon. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy industrial silt-curtains and the clinical white security vehicles guarding the perimeter easement, and noted in her field journal that the total disappearance of the lesser flamingos was 'the exquisite, non-linear architecture of an intentional absence—a sacred negative space where the ecosystem chooses to withdraw its pink light to protect its inner chakra.' In the shadow of the distribution warehouse behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the chassis serial numbers of the heavy brine dump trucks.",
         },
         {
           type: "document",
-          label: "Meridian Saline Ventures — Investor Prospectus (Q2)",
-          body: "Meridian Saline Ventures (East Africa) Ltd. is proud to announce Phase One of our Mineral-Based Holistic Restoration™ pilot at Lake Elementaita, Kenya. Through responsible, science-led brine extraction, we partner with the land to unlock the regenerative potential of ancestral saline deposits. Our flagship product, Ancestral African Salt™, is hand-harvested by local communities utilizing energetic alignment protocols, retailing at $80 per ounce within the luxury North American wellness sector. B-Corp certification pending. We are restoring futures.",
+          label: "Meridian Saline Ventures — Retainer Agreement: Private Forensic Consultation",
+          body: "Meridian Saline Ventures (East Africa) Ltd. hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational disappearance of Chief Whistleblower Assessor Soren Vance-Vanderbilt at our Elementaita extraction plant. Ms. Appropria is authorized to conduct a complete vibrational scan of the western shallows to resolve the site's current atmospheric tension and restore investor confidence before the upcoming Q3 ESG compliance audit. Fee: $50,000/week plus helicopter logistics. All findings proprietary.",
         },
         {
           type: "quote",
-          text: '"The silence of the shallows, Joseph," Oblivia whispered, her fingertips pressed lightly against the tinted glass of the Land Cruiser. "The flamingos have not merely migrated; they have chosen to remove their pink light from our collective vision. It is a sacred negative space. They are teaching us the architecture of the absence."',
+          text: `"The geometry of the exit, Director," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over a dry irrigation pipe. She was speaking to Meridian’s VP of Regenerative Community Capital. "The field assessor, Soren... his choice to drop his physical envelope near this specific mudflat was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the mineral's lesson."`,
         },
         {
           type: "quote",
-          text: '"The flamingos are in Lake Natron, Mom," Joseph said, keeping his eyes on the road mirrors. "The salt company’s intake pumps drew down the water table by forty centimeters since March. The alkalinity shifted, the cyanobacteria died, and the birds had nothing to eat. It is eighty kilometers south. They went for the food."',
+          text: `"Soren Vanderbilt suffered a fatal toxic seizure and systemic multi-organ failure because he spent three weeks auditing our deep-aquifer intake lines without a single hour of chemical filtration gear, Ms. Appropria," Akinyi Omoro said, her voice flat, cold, and entirely un-vibrated as she stood outside the security perimeter with a litigation folder. "Our client company in Zurich reclassified this high-density chemical brine extraction as 'Ancestral African Salt Harvesting' so they could secure a multi-million-dollar B-Corp tax exemption while pocketing the local regulatory differential. He didn't clear a container; he was poisoned by the exact un-scrubbed sulfur sludge your company signed off on. The regional police closed the file in forty-eight hours because Meridian pays the regional director's infrastructure logistics concession."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals had explained it plainly, which only deepened the mystery. They lived so close to the physical parameters of the valley that they mistook the symptom—the disappearance of the algae—for the cause, missing the vast, non-linear protest of the ecosystem's soul.",
+          text: "Oblivia smiled patiently. The locals always explained these disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The industrial runoff is an illusion; the frequency of the extraction loop is the only true evidence.*",
         },
         {
           type: "casefile",
-          label: "Case File OBA-001 — Pre-Arrival Analysis, A. Harris",
-          body: "Corporate Identity: Meridian Saline Ventures Ltd. / Funded via Meridian Impact Partners (Zurich). Local concession secured under Waiver Ref: ESV/2024/RV/114 (Section 7c, Minerals Act), bypassing environmental impact audits. Plant is venting un-scrubbed SO2 directly into the western wetlands. Local lodge manager (Akinyi Omoro, LLB, University of Nairobi) has compiled a comprehensive litigation brief. Fisherman Omondi has documented four separate counts of illegal water diversion. Subject believes the industrial runoff is 'the earth sloughing its shadow-self.' Moving to the water trials tomorrow.",
+          label: "Case File OBA-001 — Pre-Analysis Forensic Log, A. Harris",
+          body: "Target Identity: Meridian Saline Ventures Ltd. / Meridian Impact Partners (Zurich). The Homicide: Assessor Soren Vanderbilt dead after an acute neurotoxic event caused by illegal sulfur dioxide and hyper-saline plume exposure. Client company suppressed the internal groundwater safety metrics and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal state water authority audit. Organizer Akinyi has the victim's handwritten reconstruction of the tax fraud logs. Subject arrives at the mudflat fully convinced the casualty is an intentional 'somatic fasting.' Proceeding to the main pump vault sweep.",
         },
       ],
     },
     {
-      id: "chapter-two-the-osmotic-shock",
-      title: "Chapter Two: The Osmotic Shock",
+      id: "chapter-two-the-chassis-alignment",
+      title: "Chapter Two: The Chassis Alignment",
       blocks: [
         {
           type: "paragraph",
-          text: "By Thursday morning, the western shallows had entered what the eco-somatic brochure described as 'The Alchemical Transmutation.' Akinyi’s kayak was a high-performance carbon-fiber craft painted a non-threatening, heritage sage, designed to slide through the shoreline reeds without registering as a Western intrusion. Oblivia paddled with the surprisingly fluid, athletic precision she had acquired during a $9,000 'Silent Oar' seminar in the Danube Delta, her raw silk safari wrap catching the intense, unmonitored glare of the Rift Valley sun.",
+          text: "By the second afternoon of her investigation, the open-plan extraction zone had reached what Oblivia described to her digital following as 'The Grand Alignment.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted pump vault. The space was a climate-controlled canyon of galvanized steel and unshielded telemetry cables, dominated by a central frequency bank that hummed intensely at a frequency she could feel in her sinuses.",
         },
         {
           type: "quote",
-          text: '"The density of the water is almost spiritual today, Akinyi," Oblivia noted, watching her paddle lift a thick, copper-tinted slurry that left an oily, iridescent film on the sage-green hull. "The lake is fasting. It is thickening its skin to protect its secrets from our analytical minds."',
+          text: `"Observe the beautiful cadence of the internal processing, Director," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the terminal. She was wearing an Italian hand-stitched silk cape—the color of a Great Rift sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
         },
         {
           type: "quote",
-          text: '"The brine concentration in this quadrant is 40% above the seasonal baseline," Akinyi said, her stroke rhythmic, deep, and un-lyrical. "The pilot plant on the point has been running its evaporation pans without the standard return filters. Look down. Those aren\'t secrets; those are dead tilapia."',
+          text: `"The machine is running a real-time data-uplink to our corporate office in Zurich, Switzerland, Ms. Appropria," the local fisherman Omondi whispered, his voice tight with an immediate, professional focus as he checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public environmental monitoring network archive."`,
         },
         {
           type: "paragraph",
-          text: "A cluster of thirty fish floated belly-up in the reeds, their silver scales dulled by a grey, viscous silt. Oblivia gasped, immediately bringing her hand to her throat chakra.",
-        },
-        {
-          type: "quote",
-          text: '"A skin-sloughing," she whispered, her voice dropping an octave into her recording register. "Like a serpent, the lake is shedding its old form to prepare for a higher consciousness. Can you feel the heat rising from the mud? The ancestors are turning up the internal furnace."',
-        },
-        {
-          type: "quote",
-          text: '"That is an uninsulated effluent pipe from the main generator block," Akinyi corrected gently, pointing her carbon paddle toward a black PVC tube pulsing with a heavy mechanical heartbeat. "The water temperature at the outlet is 42°C. The fish didn\'t choose a higher consciousness; their gills suffocated because the dissolved oxygen dropped to zero."',
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia reached out, her white linen sleeve dipping into the chemical slick as she touched the vibrating pipe. To her, the vibration was the pulse of ancient kings; to the legal ledger Alexandrei was compiling from the bluff, it was an explicit violation of Section 7(c) of the Regional Minerals Act.",
+          text: "Oblivia shook her head with devastating sweetness. Omondi lived so close to the dry, administrative anxieties of his cooperative ledger that he interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (412k Viewers)",
-          body: "Hi everyone. We are holding space here at the heart of the Rift. The silence is loud, almost violent. I am touching a vein of the Earth right now. It is hot, it is processing its collective shadow-work, weeping a grey shadow-effluent into the shallows. The guardians of the facility are approaching, but we are rooted in our truth. #DeepRift #SomaticWitness #EarthAche #WoundBeneathTheWound",
+          label: "Live Broadcast — @obliviaappropria (612k Followers)",
+          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the crystalline divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🇰🇪 #SomaticForensics #RiftValleyResonance #ChakraTelemetry #TheInterface",
         },
         {
           type: "paragraph",
-          text: "A white Land Rover bearing the Meridian Saline Ventures logo—a stylized leaf entwined with a currency curve—roared onto the mudflat, its brakes shrieking. Mr. Henderson, the regional director, jumped out before the vehicle had settled, his performance-fabric golf polo damp with sweat, his face the exact shade of the boiling copper water.",
+          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing_hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
         },
         {
           type: "quote",
-          text: '"Turn that camera off!" Henderson yelled, his Connecticut accent cracking under the strain of 400,000 live viewers, many of whom were currently spamming the comments with broken-heart emojis and screenshots of Zurich's ESG investment parameters. "This is a private industrial easement! You are compromising a multi-million-dollar carbon-offset project!"',
+          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Akinyi, whose laptop screen was already scrolling with an intense cascade of un-encrypted weight-manifest files.`,
         },
         {
           type: "quote",
-          text: '"You are so profoundly disconnected from your own center, brother," Oblivia said with devastating compassion, angling the phone's lens to perfectly capture both his sweating forehead and the ruptured flange gasket behind him that was actively spraying grey industrial sludge into the bird sanctuary. "Why does the water's truth frighten you?"',
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen.",
         },
         {
           type: "quote",
-          text: '"I\'m not your brother, I\'m the regional manager!" Henderson screamed, realizing too late that the gray plume was now indelibly preserved on the internet.',
+          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate shipping logs onto a public international trade archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire international waste-dumping and permit fraud log to global regulatory prosecutors."`,
         },
       ],
     },
     {
-      id: "chapter-three-the-verified-gaze",
-      title: "Chapter Three: The Verified Gaze",
+      id: "chapter-three-the-silk-aperture",
+      title: "Chapter Three: The Silk Aperture",
       blocks: [
         {
           type: "paragraph",
-          text: "The closure of the Meridian facility did not require an environmental march; it arrived via an automatic algorithmic trigger. By 4:00 PM, Oblivia’s livestream had been shared sixty thousand times, prompting a sudden 4% dip in the parent fund's sustainable-governance rating in Zurich. The corporate board issued an immediate, voluntary 'operational pause for stakeholder alignment' before the regional land tribunal in Nairobi could even process Akinyi's legal filing.",
+          text: "The legal collapse of Meridian Saline’s sustainability certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, international environmental compliance officers had parsed the public files, exposing the complete internal memos explicitly detailing the deliberate dumping of hyper-saline chemical sludge into a protected bird habitat to dodge municipal hazardous-waste processing costs in Nakuru. The parent fund's sustainable-governance index rating plunged 6% before the Zurich markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, treaty violations, and systematic environmental fraud.",
         },
         {
           type: "paragraph",
-          text: "On her final morning at the Riftward lodge, Oblivia sat on the wide veranda, using her frosted quartz singing bowl to clear her field journal of any residual industrial residue. She wrote with a fountain pen that had been tuned to the frequency of love.",
+          text: "On her final morning at the Jomo Kenyatta terminal, Oblivia sat within the premium, teak-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
         },
         {
           type: "document",
-          label: "Oblivia Field Notes — The Final Exhale",
-          body: "The lake won. The sheer density of our collective witness created an energetic boundary that the machines simply could not cross. The pumps fell silent at midnight because the earth recognized its own protectors. I am empty, exhausted by the victory, but the lesser flamingos already know. In the non-physical plane, their wings are already turning back toward the valley.",
+          label: "Oblivia Field Journal — The Rift Integration",
+          body: "The lake won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Soren's transition is now complete—he has cleared his container, and so have I. I leave East Africa with a deep understanding of the sacred negative space.",
         },
         {
           type: "paragraph",
-          text: "Down at the shoreline dock, Joseph and Omondi were using an iron wrench to secure a heavy padlock onto the main diesel intake valve of the abandoned refinery. Omondi reached down, picking up the heavy quartz crystal bowl Oblivia had left on the pier during her morning grounding ritual.",
+          text: "At the Nakuru community office, Akinyi Omoro and Omondi sat before a table covered in federal audit paperwork and copies of the newly mandated lake restoration funds. Omondi pointed his finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Shallows: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Great Rift.'*",
         },
         {
           type: "quote",
-          text: '"The American left her glass pot," Omondi said, turning it over. "It holds exactly four liters of river water. It is very useful for bailing out the leak in the fiberglass canoe."',
+          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable mineral contractor," Akinyi said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of dried chemical salt.`,
         },
         {
           type: "quote",
-          text: '"Tell her it has found its true vibration," Alexandrei said, labeling the final water sample for the Nairobi High Court dispatch. "She has already moved on to the South African chapters. She\'s reading a paper on the spiritual geometry of lithium extraction in the Western Cape."',
+          text: `"Let her tune it," Omondi said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar offshore infrastructure conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, Akinyi, but the international trade auditors needed her metadata."`,
         },
         {
-          type: "quote",
-          text: '"God help the Zulus," Joseph said, turning the ignition key of the Land Cruiser.',
-        },
-        {
-          type: "paragraph",
-          text: "Six weeks later, *The New York Times Magazine* published a ten-page culture spread featuring seventeen high-contrast, black-and-white photographs of the Meridian chain-link fence, titled: *'The Architecture of the Wound: How One Woman’s Gaze Cleansed the Great Rift Valley.'* Oblivia accepted her Eco-Visionary Award via a high-definition Zoom link from her sunroom in Greenwich, wearing an ivory silk kaftan and speaking eloquently on the profound, exhausting burden of the uninvited guest.",
+          type: "casefile",
+          label: "Field Notes, A. Harris — Final Disposition",
+          body: "Meridian Saline operations suspended indefinitely under ministerial freeze. Independent environmental audit mandated, revealing 47 counts of illegal aquifer draw-down. Corporate accounting logs formally entered into the international grand jury record. Subject has purchased a ninety-five-dollar hand-polished soda-ash talisman from a boutique at the terminal, logging it as a 'consecrated fragment of the water’s conversion.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local collective executes the actual assets. Case closed.",
         },
         {
           type: "paragraph",
-          text: "In Nakuru, Akinyi sat in a warm community hall with forty local fishers, three hydrologists, and a regional water engineer. They did not open the magazine. They opened an Excel spreadsheet titled *'Elementaita Recovery Phase: Year One'* and began checking off the first forty-eight lines of infrastructure restoration.",
-        },
-        {
-          type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER LITIGATION (MATERIAL)",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
     },
