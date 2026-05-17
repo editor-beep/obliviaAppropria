@@ -73,7 +73,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: `"At precisely noon, when the solar alignment with the thermal core was absolute," Oblivia said, smiling serenely as she smoothed her linen.",
+          text: `"At precisely noon, when the solar alignment with the thermal core was absolute," Oblivia said, smiling serenely as she smoothed her linen."`,
         },
         {
           type: "quote",

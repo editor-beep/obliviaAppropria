@@ -73,7 +73,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and wiped a sudden, bright trail of blood from her upper lip.",
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and wiped a sudden, bright trail of blood from her upper lip."`,
         },
         {
           type: "quote",
