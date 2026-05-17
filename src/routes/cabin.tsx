@@ -8,6 +8,7 @@ import type { StoryMeta } from "@/content/types";
 const SW = 22; // seat width
 const SH = 16; // seat height
 const PITCH = 36; // row pitch (px)
+const SEAT_BLOCK_SHIFT_X = SW / 2; // coordinate translation: shift seat columns right by ~0.5 seat widths
 
 const COL_X: Record<"A" | "B" | "C" | "D" | "E" | "F", number> = {
   A: 271,
@@ -195,6 +196,7 @@ function Cabin() {
           <line x1="350" y1="213" x2="350" y2="602" stroke="#c6bfb8" strokeWidth="0.5" strokeDasharray="4 7" />
           <line x1="350" y1="648" x2="350" y2="833" stroke="#c6bfb8" strokeWidth="0.5" strokeDasharray="4 7" />
 
+          <g transform={`translate(${SEAT_BLOCK_SHIFT_X} 0)`}>
           {/* ── Column headers ───────────────────────────────────── */}
           {ALL_COLS.map((col) => (
             <text
@@ -499,6 +501,8 @@ function Cabin() {
           >
             OA
           </text>
+
+          </g>
 
           {/* ── Technical annotations ────────────────────────────── */}
           <text x="84" y="172" fontSize="7.5" fill="#9e9690" fontFamily="var(--font-mono)" letterSpacing="1.5">
