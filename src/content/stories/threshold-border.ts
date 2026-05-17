@@ -8,98 +8,33 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "heading",
-          text: "Oblivia Cracks the Case of the Threshold",
+          text: "The Case of the Photonic Border Tuning",
+        },
+        {
+          type: "paragraph",
+          text: "The desert corridor did not look militarized, which disappointed Oblivia slightly as her chartered Gulfstream began its sweeping, low-altitude descent over the Rio Grande basin. She had prepared herself during the luxury flight from Aspen—ensconced in first class with an organic, lavender-infused silk sleep mask—for a landscape of violence that communicated its structural trauma with a clumsy, un-vibrated prose. Instead, the Hidalgo County scrubland lay below her as a vast, heavy expanse of amber dust, twelve aluminum poles arranged in a precise semicircle catching the late-afternoon sun like a field of industrial flowers. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy coiled razor wire and the clinical white security vans guarding the private sector perimeter, and noted in her field journal that the array was 'the exquisite, non-linear tuning forks of Gaia—a sonic membrane placed at the border threshold where the migrating soul must either beautifully attune or gracefully retreat.' In the shadow of the command chassis behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the serial numbers stamped on the directional transducer heads.",
         },
         {
           type: "document",
-          label: "Border-Sec Tech — Phase II Evaluation Summary (internal)",
-          body: `Acoustic Deterrence System, Designation ADS-9, is currently in active Phase II field evaluation at Corridor 7, Southern Texas. The system deploys directional infrasonic and ultrasonic pulse arrays calibrated to produce disorientation, physiological discomfort, and voluntary retreat in subjects within the target zone. Phase II objectives: test effectiveness at distances of 50–200 meters, document physiological response profiles, assess operational viability as a non-lethal border management tool. Contractor badge designation: Acoustic Deterrence — Phase II Evaluation. DHS project lead: classified. Civilian casualty threshold for field evaluation: classified. Report to follow.`,
+          label: "Border-Sec Tech — Retainer Agreement: Private Forensic Consultation",
+          body: "Border-Sec Tech Inc. (Delaware) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational exit of Chief Field Assessor Finnian Caldwell at our Corridor 7 testing site. Ms. Appropria is authorized to conduct a complete vibrational scan of our Acoustic Deterrence perimeter to resolve the site's current atmospheric tension and restore investor confidence before the upcoming DHS evaluation audit. Fee: $50,000/week. All data proprietary.",
+        },
+        {
+          type: "quote",
+          text: `"The choreography of the exit, Director," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty tracking console. She was speaking directly to Border-Sec’s panicked VP of Humanitarian Innovation. "The field assessor... his choice to drop his physical envelope at the center of the acoustic quadrant was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the instrument's lesson."`,
+        },
+        {
+          type: "quote",
+          text: `"Finnian Caldwell suffered permanent vestibular destruction and a fatal cerebral microhemorrhage because he spent six weeks testing an unshielded, 250-kilowatt infrasonic weapon array on detained human beings without a single hour of protective acoustic isolation, Ms. Appropria," Dr. Lupe Reyes said, her voice flat, cold, and entirely un-vibrated as she stood outside the security gate with a medical intake folder. "Our client company in Houston reclassified this directional sound torture as a 'Humanitarian Innovation Protocol' so they could secure a multi-million-dollar federal evaluation grant while bypassing the civilian casualty threshold. He didn't clear a container; he was brain-damaged by the exact model ADS-9 array your company signed off on. The federal authorities closed the file in forty-eight hours because Border-Sec Tech pays the regional administration's private security infrastructure logistics."`,
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia smiled patiently. The locals always explained these deaths with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The internal bleeding is an illusion; the frequency of the tracking pulse is the only true evidence.*",
         },
         {
           type: "casefile",
-          label: "Case File OBA-A — field preparation notes, A. Harris",
-          body: `Border crossing point, Corridor 7, Hidalgo County, Texas. Since the ADS-9 deployment (six weeks prior): three clinics within 40 miles have logged a combined 74 cases presenting with tinnitus, disorientation, hemorrhagic symptoms (nasal, auditory), and unexplained neurological disruption. DHS official explanation: "stress-related physiological response in subjects traversing challenging terrain." Dr. Lupe Reyes, Migrant Health Clinic of the Rio Grande Valley: "These are not stress presentations. These are acoustic trauma presentations." Rosa Villanueva, border aid org Puente Vivo: has documented the cases, photographed the array, and sent everything to three journalists. None have published. Border-Sec Tech's press credential calls the program a "humanitarian innovation initiative." Subject has accepted a credential under the "Innovative Compassion Technology" observer program. She has already written the phrase "a tuning fork for the migration of light" in her field journal.`,
-        },
-        {
-          type: "paragraph",
-          text: `The array was beautiful. This was the first thing Oblivia wrote in her field journal: beautiful. Twelve aluminum poles arranged in a semicircle, each mounted with paired transducer heads, angled at a precise three-degree downward cant, their surfaces catching the late-afternoon Texas sun in a way that made them look, from a distance, like a field of industrial flowers. The contractor's briefing packet described them as "acoustic environmental management infrastructure." Oblivia described them as "tuning forks for the migration of light — a sonic membrane placed at the threshold of the physical and the metaphysical plane, where the body must either attune or retreat."`,
-        },
-        {
-          type: "paragraph",
-          text: `The briefing packet did not mention Phase II.`,
-        },
-        {
-          type: "paragraph",
-          text: `The lead contractor from Border-Sec Tech — a man named Caldwell who wore a polo shirt and carried a tablet and used the word "technology" in every sentence the way a nervous person uses a verbal tic — walked the observer group through the installation with the efficiency of someone who had given this tour many times and had learned exactly which questions to redirect. The observers were four: Oblivia, a freelance documentary photographer from Austin, a policy researcher from a D.C. think tank who had spent the entire briefing frowning, and Alexandrei.`,
-        },
-        {
-          type: "quote",
-          text: `"What are the documented health effects on individuals within the deployment zone?" the policy researcher asked, with the flatness of someone who already knew the answer.`,
-        },
-        {
-          type: "quote",
-          text: `"We've documented some stress-response presentations that are consistent with the physiological challenge of desert crossing," Caldwell said, making eye contact with a point slightly above the researcher's head. "It's a high-stress environment. The technology doesn't cause those presentations."`,
-          attribution: "Caldwell",
-        },
-        {
-          type: "paragraph",
-          text: `"The technology does cause those presentations," Alexandrei said quietly, to his notebook. No one responded. Oblivia was photographing the transducer heads.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Dr. Lupe Reyes ran the Migrant Health Clinic of the Rio Grande Valley from a converted storefront in Edinburg that smelled of disinfectant and fresh coffee and had a waiting room that was always full. She met Oblivia after hours, when the last patient had gone, because she had been trying to get someone to come for five weeks and Oblivia was the first person who had agreed to the meeting in person.`,
-        },
-        {
-          type: "quote",
-          text: `"Twelve cases this week," Dr. Reyes said, laying a folder on the exam table. "Nosebleeds, tinnitus, vertigo, inability to walk a straight line. Two cases with apparent microhemorrhage — small bleeds in the inner ear. One case, a woman, forty-two, who has not recovered her balance in three weeks." She looked at Oblivia. "These are not stress presentations. I have been treating stress presentations at this clinic for eleven years. This is acoustic injury."`,
-          attribution: "Dr. Reyes",
-        },
-        {
-          type: "quote",
-          text: `"The body is registering a frequency it was not built to receive," Oblivia said, nodding slowly, writing. She was in agreement, technically.`,
-        },
-        {
-          type: "quote",
-          text: `"Correct," Dr. Reyes said. "The body is being harmed by a weapon. The array produces frequencies — infrasonic and ultrasonic — that the body perceives as physical force at sufficient intensity. The woman who cannot walk: her vestibular system was disrupted by a targeted pulse. She was 80 meters from the nearest transducer when it happened."`,
-          attribution: "Dr. Reyes",
-        },
-        {
-          type: "quote",
-          text: `"She was in the membrane," Oblivia said softly. "She was at the threshold."`,
-        },
-        {
-          type: "quote",
-          text: `"She was at the border," Dr. Reyes said. "She was trying to find her son, who had crossed two weeks earlier. This is not a metaphysical event."`,
-          attribution: "Dr. Reyes",
-        },
-        {
-          type: "paragraph",
-          text: `Oblivia wrote: the threshold is not metaphorical. She thought she was writing a spiritual observation. Dr. Reyes thought she finally had a journalist who understood.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Rosa Villanueva had been documenting the cases since week two. She had twenty-seven intake forms, five photographs of the array taken from the public road, and a copy of the Border-Sec Tech contractor badge that one of her volunteers had photographed on a border patrol officer's lanyard: ACOUSTIC DETERRENCE — PHASE II EVALUATION. She gave Alexandrei a copy. He added it to the folder.`,
-        },
-        {
-          type: "quote",
-          text: `"Phase II means Phase I happened somewhere," he said.`,
-          attribution: "Alexandrei",
-        },
-        {
-          type: "quote",
-          text: `"Phase I was in a warehouse in San Antonio," Rosa said. "I have the Phase I sourcing documents. A FOIA request that took eight months. The Phase I subjects were detained individuals. The Phase II subjects are people trying to cross."`,
-          attribution: "Rosa",
-        },
-        {
-          type: "paragraph",
-          text: `Alexandrei looked at the documents. He added Phase I sourcing to his notes. He looked out the window at Oblivia, who was standing in the parking lot taking a photograph of the sunset and calling it "the color of a border held open by the last light."`,
-        },
-        {
-          type: "document",
-          label: "Posted to 612k followers — @obliviaappropria",
-          body: `There is a sound at the border tonight that I cannot name. It is below language. It is the frequency at which the body decides whether to continue. The border is not a line; it is a vibration. And some bodies are not built to survive contact with what we have put there. 🌵 #TheThreshold #BorderFrequency #AcousticWitness #HumanitarianInnovation`,
+          label: "Case File OBA-A — Pre-Analysis Forensic Log, A. Harris",
+          body: "Target Identity: Border-Sec Tech Inc. / Homeland Security Concession. The Homicide: Assessor Finnian Caldwell dead after a fatal cognitive break caused by un-shielded directional infrasonic exposure. Client company suppressed the internal clinical tracking logs and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal congressional safety audit. Activist Rosa Villanueva has seventy-four documented clinic intakes proving systematic physiological trauma. Subject arrives at the deployment site fully convinced the casualty is an intentional 'photonic migration.' Proceeding to the main transducer grid sweep.",
         },
       ],
     },
@@ -108,147 +43,83 @@ export const narrative: StoryDocument = {
       title: "Chapter Two: The Tuning Fork",
       blocks: [
         {
+          type: "paragraph",
+          text: "By the second afternoon of her investigation, the high-intensity deployment grid had reached what Oblivia described to her digital following as 'The Grand Alignment.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted transducer control vault. The space was a climate-controlled canyon of brushed aluminum and unshielded telemetry cables, dominated by a central frequency bank that hummed intensely at a frequency she could feel in her sinuses.",
+        },
+        {
+          type: "quote",
+          text: `"Observe the beautiful cadence of the internal processing, Director," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the terminal. She was wearing an Italian hand-stitched silk cape—the color of a Chihuahuan sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
+        },
+        {
+          type: "quote",
+          text: `"The machine is running a real-time data-uplink to our corporate office in San Antonio, Texas, Ms. Appropria," the local border aid coordinator Rosa Villanueva whispered, her voice tight with an immediate, professional focus as she checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia shook her head with devastating sweetness. Rosa lived so close to the dry, administrative anxieties of her non-profit ledger that she interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+        },
+        {
           type: "document",
-          label: "Border-Sec Tech — Internal Communication (Day 3 of Observer Program)",
-          body: `Re: Observer group. The journalist (Appropria) continues to describe the ADS-9 in spiritual terms — "tuning forks," "vibrational thresholds," etc. This is acceptable and consistent with Phase II communications strategy. The policy researcher is asking specific questions about frequency output parameters and casualty documentation — monitor closely. The photographer from Austin appears to be mapping our array geometry. Recommend ending program access after day three.`,
+          label: "Live Broadcast — @obliviaappropria (612k Followers)",
+          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the sonic divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🌵 #SomaticForensics #BorderResonance #ChakraTelemetry #TheInterface",
         },
         {
           type: "paragraph",
-          text: `On day three, Oblivia decided she needed to stand inside the array. This was not in the observer program itinerary. The observer program itinerary had them standing at a viewing platform approximately 200 meters from the nearest transducer, which was, Caldwell explained, "the optimal distance for aesthetic appreciation of the installation." Oblivia found aesthetic appreciation insufficient. She wanted "full immersion in the vibrational field."`,
+          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
         },
         {
           type: "quote",
-          text: `"The frequency has to be experienced from inside the membrane to be understood," she said, very pleasantly, already moving down the embankment. "I need to stand in the center and listen."`,
+          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Dr. Reyes, whose laptop screen was already scrolling with an intense cascade of un-encrypted weapon-test files.`,
         },
         {
           type: "quote",
-          text: `"Ma'am, that area is restricted — " Caldwell started.`,
-          attribution: "Caldwell",
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and wiped a sudden, bright trail of blood from her upper lip.",
         },
         {
           type: "quote",
-          text: `"I know," Oblivia said. "That's why I need to go in."`,
-        },
-        {
-          type: "paragraph",
-          text: `She set up her phone on a small gorillapod, pointed the camera back at herself, and went live. Her 612,000 followers watched her walk into the array with the particular confidence of someone who does not know she is being harmed. The ADS-9 was not, at that moment, operating at Phase II evaluation intensity — Caldwell had not activated it, because activating it on a credentialed observer would have been a legal exposure his employers had not yet modeled. But there was a residual low-frequency hum from the standby cycle, and Oblivia could feel it in her molars.`,
-        },
-        {
-          type: "quote",
-          text: `"I can feel it," she said to the camera, her voice slightly unsteady. "This is extraordinary. There is a presence here that is entirely non-verbal. It is a sound you feel in the body before you hear it with the ear." She touched one of the transducer poles. "This is a literal instrument. I don't think the people who built this understood what they were building. I don't think Caldwell knows what he's standing next to."`,
-        },
-        {
-          type: "paragraph",
-          text: `Caldwell, who knew exactly what he was standing next to, was already on his radio.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `In the parking lot of the Migrant Health Clinic in Edinburg, Dr. Reyes was watching the livestream on her phone with Rosa Villanueva. When the camera panned across the array and showed Oblivia standing in the center, Dr. Reyes zoomed in on the transducer heads and then on the angle of the poles and then on the serial number plate visible on the nearest unit, and she took a screenshot.`,
-        },
-        {
-          type: "quote",
-          text: `"That's a Grayson-Holt model AAS-9 transducer," she said. "I know this because I looked up every commercial acoustic system after my third hemorrhagic case. This model is listed in a 2019 non-lethal weapons evaluation report as 'capable of producing permanent vestibular damage at extended exposure within 50 meters.'" She looked at Rosa. "She's standing twelve meters from the nearest unit."`,
-          attribution: "Dr. Reyes",
-        },
-        {
-          type: "paragraph",
-          text: `Two minutes later, the livestream showed Caldwell entering the frame with a DHS security officer. The security officer said something Oblivia's microphone partially captured. The comments were filling with variations on: why is a contractor trying to cut her feed?`,
-        },
-        {
-          type: "quote",
-          text: `"You're disrupting an active federal evaluation site," Caldwell said, loudly enough for the microphone to catch, which he appeared to realize half a second after saying it.`,
-          attribution: "Caldwell",
-        },
-        {
-          type: "quote",
-          text: `"Active evaluation," Oblivia repeated, looking at the camera. "They've just confirmed this is active. Right now. In the field."`,
-        },
-        {
-          type: "paragraph",
-          text: `She had a nosebleed by the time she reached the viewing platform. She photographed it. She captioned the photo: "My body registered something my mind is still translating."`,
-        },
-        {
-          type: "casefile",
-          label: "Field Notes, A. Harris — Day Three, afternoon",
-          body: `Livestream clipped and archived: 340,000 views within 90 minutes. Caldwell's "active federal evaluation" statement captured on audio. Subject's nosebleed photographed and posted. Dr. Reyes has identified the transducer model from the livestream footage. Rosa is sending Dr. Reyes's intake reports to a congressional staffer on the Homeland Security Committee who has been tracking Border-Sec Tech's contract. Austin photographer has documented the array geometry. Policy researcher has filed a FOIA request for the Phase I documentation. I am cross-referencing the Phase II contractor badge with the Phase I sourcing documents Rosa obtained. This will take until morning. Subject is currently describing her nosebleed as "the border speaking through the body." The border is not speaking through the body. The body is registering acoustic damage. But she is the reason 340,000 people watched Caldwell say "active federal evaluation."`,
+          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate testing logs onto a public congressional monitoring archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire illegal weapons-testing and human-rights fraud log to federal prosecutors."`,
         },
       ],
     },
     {
-      id: "chapter-three-the-acoustic-record",
-      title: "Chapter Three: The Acoustic Record",
+      id: "chapter-three-the-silk-aperture",
+      title: "Chapter Three: The Silk Aperture",
       blocks: [
         {
+          type: "paragraph",
+          text: "The legal collapse of Border-Sec Tech’s humanitarian certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, congressional subcommittee compliance officers had parsed the public files, exposing the complete internal memos explicitly detailing the deliberate testing of lethal directional acoustic arrays on detained populations to dodge domestic weapons-development restrictions in San Antonio. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate multi-jurisdictional criminal referral for corporate manslaughter, assault with a deadly weapon, and systemic procurement fraud.",
+        },
+        {
+          type: "paragraph",
+          text: "On her final morning at the McAllen terminal, Oblivia sat within the premium, leather-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
+        },
+        {
           type: "document",
-          label: "Congressional Subcommittee on Border Technology — Press Statement",
-          body: `Following a request from subcommittee members, the Department of Homeland Security has agreed to produce all documentation related to the Phase II field evaluation of the ADS-9 Acoustic Deterrence System, Corridor 7, Hidalgo County, Texas. The subcommittee has received medical intake data from three Rio Grande Valley clinics documenting 74 cases of physiological injury consistent with acoustic trauma, spanning the period of active Phase II evaluation. The ADS-9 program has been placed on administrative hold pending review. Contractor Border-Sec Tech has been notified. The DHS is cooperating fully.`,
+          label: "Oblivia Field Journal — The Tectonic Integration",
+          body: "The border won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Finnian's transition is now complete—he has cleared his container, and so have I. I leave Texas with a deep understanding of the body as a vibrational archive.",
         },
         {
           type: "paragraph",
-          text: `The congressional inquiry opened four days after the livestream. The mechanism was not the livestream itself, but the combination: the clip of Caldwell saying "active federal evaluation" on a public feed, the series number on the transducer visible in Oblivia's panning shot, the existing body of documentation that Rosa and Dr. Reyes had assembled over five weeks and were now in a position to hand to a committee staffer who had the formal request to receive it, and the policy researcher's FOIA filing, which had a new exhibit attached: a timestamped screenshot of a government contractor trying to remove a journalist from a "humanitarian innovation" site.`,
-        },
-        {
-          type: "paragraph",
-          text: `Dr. Reyes testified to the subcommittee. Rosa provided the intake documentation. The Austin photographer's array geometry images were entered as evidence. Phase I documentation, obtained through Rosa's earlier FOIA, showed that the ADS-9 had been tested on detained individuals in a San Antonio facility — a detail that generated a second inquiry, handled by a different committee.`,
-        },
-        {
-          type: "paragraph",
-          text: `The woman who had lost her balance three weeks ago was named in Dr. Reyes's testimony. She had partially recovered her vestibular function. She had found her son.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Oblivia's nosebleed photograph was used, without her permission, in a Border-Sec Tech counter-communications campaign that described her visit as "a staged incident by a political activist." She issued a correction. The correction got more engagements than the original photograph.`,
-        },
-        {
-          type: "paragraph",
-          text: `She wrote about the experience at length for a magazine that published a feature titled "What the Border Does to the Body." The piece was good — descriptive, personal, specific about her own physical response. It was less specific about the mechanism, because she did not fully understand acoustic weaponry and chose to write around the technical gap in the way a writer who doesn't know something either acknowledges the gap or describes the experience in language that sounds like knowledge.`,
-        },
-        {
-          type: "paragraph",
-          text: `The mechanism was in Dr. Reyes's testimony, which was a public record. A number of the magazine's readers read both.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Rosa and Dr. Reyes and the policy researcher had a dinner at a Tex-Mex restaurant in Edinburg the night after the subcommittee statement. The Austin photographer was there. Alexandrei was there, because Alexandrei had been there for the three days of the observer program and the subsequent week of document review, and because he had found, in the Phase I sourcing documents, a corporate chain that went: Border-Sec Tech contracted to a defense subsidiary contracted to a holding company whose major investor was a private equity firm whose portfolio included, among other things, a "humanitarian innovation accelerator" that had sponsored the observer program.`,
+          text: "At the Edinburg community clinic, Dr. Lupe Reyes and Rosa Villanueva sat before a table covered in federal audit paperwork and copies of the newly mandated medical compensation orders. Rosa pointed her finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze at the Boundary: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Rio Grande.'*",
         },
         {
           type: "quote",
-          text: `"The observer program funded the cover story for the weapon test," Rosa said, when Alexandrei laid this out over the carnitas.`,
-          attribution: "Rosa",
+          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the military contractor," Dr. Reyes said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on an uninstalled transducer plate.`,
         },
         {
           type: "quote",
-          text: `"Yes," Alexandrei said. "And one of the observers didn't read the cover story as cover."`,
-          attribution: "Alexandrei",
-        },
-        {
-          type: "quote",
-          text: `"She was the only one they let inside," Dr. Reyes said.`,
-          attribution: "Dr. Reyes",
-        },
-        {
-          type: "paragraph",
-          text: `They looked at each other. The thing none of them said: she had walked in because she was not afraid, and she had not been afraid because she had not known. And because she had not known, she had been let past the perimeter. And because she had been let past the perimeter, 340,000 people had watched Caldwell say "active federal evaluation" to a camera he had not noticed was still live.`,
+          text: `"Let her tune it," Rosa said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this state who can shatter a multi-million-dollar defense technology conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, Dr. Reyes, but the Homeland Security auditors needed her metadata."`,
         },
         {
           type: "casefile",
-          label: "Field Notes, A. Harris — Final",
-          body: `ADS-9 program suspended. Congressional inquiry open. Phase I documentation in committee record. Border-Sec Tech's defense subsidiary contract under review. Rosa's intake data cited in formal federal record — five weeks of work, finally visible. Dr. Reyes's cases on record. The woman who lost her balance has partially recovered. Subject has published a feature on "the body as vibrational archive." She believes she felt "the border's acoustic grief." She felt acoustic injury from a weapons system. Both things are true. She went where they would not have let the rest of us, because she arrived calling it a tuning fork for the migration of light, and they believed her. Next case: the Interior. A town that has lost its water to private equity. She will call it a "hydration as spiritual practice" story. I will call it a water rights case.`,
+          label: "Field Notes, A. Harris — Final Disposition",
+          body: "ADS-9 weapon program suspended indefinitely under congressional freeze. Independent medical audit mandated, revealing 74 counts of severe acoustic trauma. Government contractor data formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar hand-polished petrified wood talisman from a boutique at the terminal, logging it as a 'consecrated fragment of the desert's conversion.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the state fully un-vibrated and ghoulishly intact while the local collective executes the actual assets. Case closed.",
+        },
+        {
+          type: "paragraph",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
-    },
-  ],
-  scraps: [
-    {
-      label: "BORDER-SEC TECH CONTRACTOR BADGE (photographed by volunteer, Rosa Villanueva org)",
-      body: `ACOUSTIC DETERRENCE — PHASE II EVALUATION\nDHS CONTRACTOR — AUTHORIZED PERSONNEL\nCorridor 7 / Hidalgo County\n[Serial: ADS9-HCI-07]`,
-    },
-    {
-      label: "DR. REYES — INTAKE SUMMARY (weeks 1–6, aggregate)",
-      body: `Total cases: 74\nSymptoms: tinnitus (68), vestibular disruption (41), hemorrhagic presentation — nasal/auditory (29), neurological disruption (17), permanent or prolonged vestibular damage (3)\nOfficial DHS classification: stress-related physiological response\nDr. Reyes's classification: acoustic trauma, consistent with directional infrasonic/ultrasonic exposure`,
     },
   ],
 };
