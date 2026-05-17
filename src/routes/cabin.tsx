@@ -113,15 +113,15 @@ function Cabin() {
         >
           {/* ── Fuselage ─────────────────────────────────────────────── */}
           <path
-            d="M 350 40 C 388 68,449 112,450 168 L 450 1082 C 450 1122,420 1152,392 1165 L 308 1165 C 280 1152,250 1122,250 1082 L 250 168 C 251 112,312 68,350 40 Z"
+            d="M 350 40 C 388 68,455 112,456 168 L 456 1082 C 456 1122,423 1152,392 1165 L 308 1165 C 277 1152,244 1122,244 1082 L 244 168 C 245 112,312 68,350 40 Z"
             fill="#ede9e2"
             stroke="#a9a19a"
             strokeWidth="1.5"
           />
 
           {/* ── Wings ────────────────────────────────────────────────── */}
-          <polygon points="250,468 22,592 22,652 250,555" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
-          <polygon points="450,468 678,592 678,652 450,555" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
+          <polygon points="244,468 22,592 22,652 244,555" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
+          <polygon points="456,468 678,592 678,652 456,555" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
 
           {/* ── Engine nacelles ──────────────────────────────────────── */}
           <ellipse cx="126" cy="622" rx="17" ry="45" fill="#2d2824" stroke="#18140f" strokeWidth="1" />
@@ -134,8 +134,8 @@ function Cabin() {
           <ellipse cx="574" cy="667" rx="11" ry="5.5" fill="#181410" />
 
           {/* ── Horizontal tail stabilizers ───────────────────────── */}
-          <polygon points="250,1082 104,1122 104,1146 250,1108" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
-          <polygon points="450,1082 596,1122 596,1146 450,1108" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
+          <polygon points="244,1082 104,1122 104,1146 244,1108" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
+          <polygon points="456,1082 596,1122 596,1146 456,1108" fill="#cdc6be" stroke="#a9a19a" strokeWidth="1" />
 
           {/* ── Cockpit ──────────────────────────────────────────────── */}
           {/* Windshields */}
@@ -162,11 +162,11 @@ function Cabin() {
           <ellipse cx="350" cy="72" rx="19" ry="11" fill="none" stroke="#8e8880" strokeWidth="0.8" opacity="0.45" />
 
           {/* ── Cabin interior walls ──────────────────────────────── */}
-          <line x1="258" y1="168" x2="258" y2="1082" stroke="#b6aea6" strokeWidth="0.7" />
-          <line x1="442" y1="168" x2="442" y2="1082" stroke="#b6aea6" strokeWidth="0.7" />
+          <line x1="252" y1="168" x2="252" y2="1082" stroke="#b6aea6" strokeWidth="0.7" />
+          <line x1="448" y1="168" x2="448" y2="1082" stroke="#b6aea6" strokeWidth="0.7" />
 
           {/* ── Forward galley ───────────────────────────────────── */}
-          <rect x="258" y="170" width="184" height="38" fill="#d9d3c9" stroke="#b6aea6" strokeWidth="0.7" />
+          <rect x="252" y="170" width="196" height="38" fill="#d9d3c9" stroke="#b6aea6" strokeWidth="0.7" />
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
             <line
               key={`fh-${i}`}
@@ -216,32 +216,32 @@ function Cabin() {
             const wy = intlY(s.number) + SH / 2;
             return (
               <g key={`win-${s.slug}`}>
-                <ellipse cx="253" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
-                <ellipse cx="447" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
+                <ellipse cx="247" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
+                <ellipse cx="453" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
               </g>
             );
           })}
           {/* Domestic row windows */}
-          <ellipse cx="253" cy={DOMESTIC_Y + SH / 2} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
-          <ellipse cx="447" cy={DOMESTIC_Y + SH / 2} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
+          <ellipse cx="247" cy={DOMESTIC_Y + SH / 2} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
+          <ellipse cx="453" cy={DOMESTIC_Y + SH / 2} rx="4" ry="6.5" fill="white" fillOpacity="0.78" stroke="#b6aea6" strokeWidth="0.6" />
           {/* Empty row windows */}
           {[0, 1, 2, 3].map((i) => {
             const wy = 694 + i * PITCH + SH / 2;
             return (
               <g key={`win-ex-${i}`}>
-                <ellipse cx="253" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.5" stroke="#b6aea6" strokeWidth="0.5" opacity="0.6" />
-                <ellipse cx="447" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.5" stroke="#b6aea6" strokeWidth="0.5" opacity="0.6" />
+                <ellipse cx="247" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.5" stroke="#b6aea6" strokeWidth="0.5" opacity="0.6" />
+                <ellipse cx="453" cy={wy} rx="4" ry="6.5" fill="white" fillOpacity="0.5" stroke="#b6aea6" strokeWidth="0.5" opacity="0.6" />
               </g>
             );
           })}
 
           {/* ── Exit row markers ─────────────────────────────────── */}
-          <line x1="258" y1="382" x2="442" y2="382" stroke="#3c8c5e" strokeWidth="1.2" opacity="0.7" />
-          <rect x="260" y="374" width="24" height="10" rx="2" fill="#3c8c5e" />
+          <line x1="252" y1="382" x2="448" y2="382" stroke="#3c8c5e" strokeWidth="1.2" opacity="0.7" />
+          <rect x="254" y="374" width="24" height="10" rx="2" fill="#3c8c5e" />
           <text x="272" y="381" fontSize="5.5" textAnchor="middle" dominantBaseline="middle" fill="white" fontFamily="var(--font-mono)" fontWeight="bold">
             EXIT
           </text>
-          <rect x="416" y="374" width="24" height="10" rx="2" fill="#3c8c5e" />
+          <rect x="422" y="374" width="24" height="10" rx="2" fill="#3c8c5e" />
           <text x="428" y="381" fontSize="5.5" textAnchor="middle" dominantBaseline="middle" fill="white" fontFamily="var(--font-mono)" fontWeight="bold">
             EXIT
           </text>
@@ -349,7 +349,7 @@ function Cabin() {
           })}
 
           {/* ── Mid-cabin galley ──────────────────────────────────── */}
-          <rect x="258" y="606" width="184" height="38" fill="#d9d3c9" stroke="#b6aea6" strokeWidth="0.7" />
+          <rect x="252" y="606" width="196" height="38" fill="#d9d3c9" stroke="#b6aea6" strokeWidth="0.7" />
           {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
             <line
               key={`mh-${i}`}
@@ -437,7 +437,7 @@ function Cabin() {
           })}
 
           {/* ── Rear galley / lav ────────────────────────────────── */}
-          <rect x="258" y="838" width="184" height="38" fill="#d9d3c9" stroke="#b6aea6" strokeWidth="0.7" />
+          <rect x="252" y="838" width="196" height="38" fill="#d9d3c9" stroke="#b6aea6" strokeWidth="0.7" />
           <text
             x="350"
             y="859"
