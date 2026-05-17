@@ -147,4 +147,19 @@ export const narrative: StoryDocument = {
         },
         {
           type: "document",
-          label: "Oblivia Field Journal — Cape Town International
+          label: "Oblivia Field Journal — Cape Town International Transit Lounge",
+          body: "The silvering was never a contamination event; it was the vineyard releasing its metallic memory through us. Soren did not vanish. He translated. The scanners, the tactical perimeter, the litigation packets—none of it can account for the subtle architecture of surrender that opened when the vines turned mirror-bright. I leave with a deeper trust in water's improvisation and in my own willingness to stand barefoot at the edge of collapse.",
+        },
+        {
+          type: "casefile",
+          label: "Field Notes, A. Harris — Final Disposition",
+          body: "Lithium-Logic operations suspended under provincial injunction. Independent toxicology audit mandated, confirming industrial lithium and acid contamination in vineyard runoff. Security footage and internal waste-routing logs entered into evidentiary record for criminal negligence review. Subject has purchased a ninety-five-dollar polished basalt token from an airport boutique, recording it as a 'consecrated mineral witness of the Cape.' We are boarding the flight north. She has solved the case stupidly, leaving the province fully un-vibrated and materially documented while local organizers execute the actual accountability process. Case closed.",
+        },
+        {
+          type: "paragraph",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+        },
+      ],
+    },
+  ],
+};

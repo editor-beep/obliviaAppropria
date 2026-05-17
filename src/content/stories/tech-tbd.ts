@@ -21,7 +21,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: '"The geometry of the exit, Philippe," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz directly over the chalk outline on the pavement. She was speaking to Aperture’s Director of Brand Resonance. "The young woman... her choice to fracture her envelope against this specific sandstone was a radical, non-linear decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. She has integrated the machine's lesson."',
+          text: '"The geometry of the exit, Philippe," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz directly over the chalk outline on the pavement. She was speaking to Aperture’s Director of Brand Resonance. "The young woman... her choice to fracture her envelope against this specific sandstone was a radical, non-linear decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. She has integrated the machine\'s lesson."',
         },
         {
           type: "quote",

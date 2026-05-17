@@ -1,4 +1,3 @@
-```typescript
 import type { StoryDocument } from "@/content/types";
 
 export const narrative: StoryDocument = {
@@ -74,7 +73,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and placed a chunk of raw rose quartz directly onto the main telemetry ventilation intake.",
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and placed a chunk of raw rose quartz directly onto the main telemetry ventilation intake."`,
         },
         {
           type: "quote",
@@ -125,4 +124,3 @@ export const narrative: StoryDocument = {
   ],
 };
 
-```

@@ -104,7 +104,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable utility contractor," Carmen said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of dismantled digital meter boxes.",
+          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable utility contractor," Carmen said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of dismantled digital meter boxes."`,
         },
         {
           type: "quote",

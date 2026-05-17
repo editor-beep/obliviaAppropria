@@ -73,7 +73,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and placed a chunk of raw rose quartz directly onto the main system ventilator intake.",
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and placed a chunk of raw rose quartz directly onto the main system ventilator intake."`,
         },
         {
           type: "quote",
