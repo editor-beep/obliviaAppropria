@@ -15,6 +15,7 @@ import { Route as StoriesRouteImport } from './routes/stories'
 import { Route as SafetyCardRouteImport } from './routes/safety-card'
 import { Route as PassportRouteImport } from './routes/passport'
 import { Route as GreenRouteImport } from './routes/green'
+import { Route as CabinRouteImport } from './routes/cabin'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as StoriesIndexRouteImport } from './routes/stories.index'
@@ -50,6 +51,11 @@ const GreenRoute = GreenRouteImport.update({
   path: '/green',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CabinRoute = CabinRouteImport.update({
+  id: '/cabin',
+  path: '/cabin',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -74,6 +80,7 @@ const StoriesSlugRoute = StoriesSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/cabin': typeof CabinRoute
   '/green': typeof GreenRoute
   '/passport': typeof PassportRoute
   '/safety-card': typeof SafetyCardRoute
@@ -86,6 +93,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/cabin': typeof CabinRoute
   '/green': typeof GreenRoute
   '/passport': typeof PassportRoute
   '/safety-card': typeof SafetyCardRoute
@@ -98,6 +106,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/cabin': typeof CabinRoute
   '/green': typeof GreenRoute
   '/passport': typeof PassportRoute
   '/safety-card': typeof SafetyCardRoute
@@ -112,6 +121,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/cabin'
     | '/green'
     | '/passport'
     | '/safety-card'
@@ -124,6 +134,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/about'
+    | '/cabin'
     | '/green'
     | '/passport'
     | '/safety-card'
@@ -135,6 +146,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/about'
+    | '/cabin'
     | '/green'
     | '/passport'
     | '/safety-card'
@@ -148,6 +160,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  CabinRoute: typeof CabinRoute
   GreenRoute: typeof GreenRoute
   PassportRoute: typeof PassportRoute
   SafetyCardRoute: typeof SafetyCardRoute
@@ -200,6 +213,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GreenRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cabin': {
+      id: '/cabin'
+      path: '/cabin'
+      fullPath: '/cabin'
+      preLoaderRoute: typeof CabinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -247,6 +267,7 @@ const StoriesRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  CabinRoute: CabinRoute,
   GreenRoute: GreenRoute,
   PassportRoute: PassportRoute,
   SafetyCardRoute: SafetyCardRoute,
