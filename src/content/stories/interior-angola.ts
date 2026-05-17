@@ -18,15 +18,19 @@ export const narrative: StoryDocument = {
         {
           type: "casefile",
           label: "Case File OBA-B — field preparation notes, A. Harris",
-          body: `Harlan, Iowa. Population: 4,700. Former water authority: municipal. Current water authority: Harlan Water Services LLC, wholly owned subsidiary of VCS Holdings Inc., wholly owned subsidiary of Venture-Capital Spirits LP, a private equity vehicle incorporated in Delaware, managing partner: Meridian Impact Partners. Transaction classified as "community wellness restructuring initiative" — this classification qualified the acquisition for a state economic development subsidy of $1.2 million. The subsidy program was designed for rural infrastructure investment, not privatization. Town access to its own water is now metered at $0.028/gallon — 6x the previous municipal rate. Average monthly household water bill: $340, up from $54. The previous board voted 3-2 in favor. One of the three yes-votes received a consulting contract with VCS Holdings the following year. Earl Bergmann (city council, no vote, fourth-generation farmer) has the documents. Darlene Kowalski (retired teacher, three years fighting this) has the history. Carmen Vasquez (water utility worker, terminated post-acquisition) has the operations data. Subject has been assigned a "Wellness Community" feature. She has a photograph in mind: a glass of tap water held up to the window. She will get fourteen thousand likes.`,
+          body: `Harlan, Iowa. Population: 4,700. Former water authority: municipal. Current water authority: Harlan Water Services LLC, wholly owned subsidiary of VCS Holdings Inc., wholly owned subsidiary of Venture-Capital Spirits LP, a private equity vehicle incorporated in Delaware, managing partner: Meridian Impact Partners. Transaction classified as "community wellness restructuring initiative" — this classification qualified the acquisition for a state economic development subsidy of $1.2 million. The subsidy program was designed for rural infrastructure investment, not privatization. Town access to its own water is now metered at $0.028/gallon — 6x the previous municipal rate. Average monthly household water bill: $340, up from $54. The previous board voted 3-2 in favor. One of the three yes-votes received a consulting contract with VCS Holdings the following year. Earl Bergmann (city council, no vote, fourth-generation farmer) has the documents. Darlene Kowalski (retired teacher, three years fighting this) has the history. Carmen Vasquez (water utility worker, terminated post-acquisition) has the operations data. Subject has been assigned a "Wellness Community" feature. She has a photograph in mind: a glass of tap water held up to the window. She will get fourteen thousand likes. I have not told her about the meter box yet. I am waiting to see if she notices it herself. She will not notice it herself.`,
         },
         {
           type: "paragraph",
-          text: `The glass was a mason jar, because Harlan was the kind of town that still used mason jars without irony, and the water inside it was the most ordinary water in the world — clear, slightly mineral, tasting faintly of the aquifer fifty feet below the town's oldest streets. Oblivia held it up to the kitchen window of Darlene Kowalski's house and the morning light came through it in a way that made it look like held light, like something sacred that had agreed to take liquid form. She took the photograph with her phone, not her Leica, which felt right — something this elemental deserved the immediacy of the amateur eye.`,
+          text: `She asked Darlene for a glass of water before she'd taken her coat off. Not because she was thirsty. She had felt, somewhere over Nebraska, a specific pull toward the hydration of this particular town, and she wanted to hold it before she understood it. Darlene filled a mason jar from the tap and set it on the kitchen table, which is when Oblivia saw the morning light come through the window at the exact angle she had always believed light came through windows in this country — horizontal, unhurried, the color of a decision.`,
         },
         {
           type: "paragraph",
-          text: `She posted it before Darlene finished making the coffee. No caption. Just the image: morning light through a glass of water in an Iowa window.`,
+          text: `She picked up the jar and held it in the light. The water was clear and faintly mineral and tasted, she would write later, of "the autobiography of a particular darkness — the aquifer's private knowledge, brought upward into the grammar of thirst." She took the photograph with her phone, not her Leica. The Leica was for things that knew they were being documented. This water did not know.`,
+        },
+        {
+          type: "paragraph",
+          text: `She posted it before Darlene had finished wiping down the counter. No caption. Just the image.`,
         },
         {
           type: "paragraph",
@@ -34,47 +38,74 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: `Darlene set the mugs down and watched the notification numbers climb on Oblivia's phone screen. She had spent three years sending emails and attending council meetings and filing public records requests, and not one of them had gotten fourteen thousand likes in six hours.`,
+          text: `Darlene set down the dish towel and looked at the notification numbers climbing on Oblivia's phone. She had spent three years writing emails to the Iowa Utilities Board, the state legislature, the attorney general's office, the Des Moines Register, two NPR affiliates, and a congressional representative who had sent a form letter. The form letter had gotten zero likes. She had not known likes were a metric she should have been pursuing.`,
         },
         {
           type: "quote",
-          text: `"That's our water," Darlene said. "That we pay $340 a month for now. That we used to pay $54 for. That Venture-Capital Spirits owns. That we have no vote over, because the board that sold it to them is still the board, and one of them is now on VCS's consulting payroll."`,
+          text: `"That's our water," Darlene said. "That we pay $340 a month for now. That we used to pay $54 for. That a private equity company in Delaware owns. That we cannot vote on, appeal, or opt out of for twenty-five years, because the board that sold it is still the board, and the man who cast the deciding vote is now on their consulting payroll at $4,000 a month."`,
           attribution: "Darlene",
         },
         {
           type: "quote",
-          text: `"Water that has been claimed," Oblivia said, nodding, writing. "By forces that do not understand what they are holding."`,
+          text: `"The water has been given to a steward it did not choose," Oblivia said, writing this down. "This is the oldest human story. The sacred thing, placed in the wrong hands. The hands that cannot feel what they are holding."`,
         },
         {
           type: "quote",
-          text: `"A private equity firm from Delaware understands exactly what it's holding," Darlene said. "It's holding a monopoly on the water supply of a town with no alternative aquifer access and no legal capacity to revoke a 25-year management contract. That's not misunderstanding. That's the business model."`,
+          text: `"The hands are a Delaware LLC," Darlene said. "They feel the $0.028 per gallon just fine."`,
           attribution: "Darlene",
         },
         {
           type: "paragraph",
-          text: `Oblivia looked at the mason jar on the windowsill and wrote: the water has been taken hostage by the language of wellness. She thought she was writing a metaphor.`,
+          text: `Oblivia looked at the mason jar. She wrote: the water waits. She thought she was writing a spiritual observation. She was writing the water's situation exactly.`,
         },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `Harlan had the stillness of a town that was very tired. Not rural-quiet, which Oblivia recognized from other towns — a stillness that was productive, seasonal, inhabited. This was different. People moved efficiently through the Dollar General and the Casey's General Store and the Lutheran church parking lot with the particular economy of motion that belongs to people who have stopped doing anything that costs water. Front lawns that should have been green in June were yellowed. The town pool was closed. Three car washes on Main Street had small hand-lettered signs that said CLOSED — WATER COSTS.`,
+          text: `Alexandrei drove them into town after lunch, past the Lutheran church and the Casey's General Store and the Dollar General and the three car washes on Main Street that had hand-lettered signs in their windows. The signs said CLOSED — WATER COSTS. Oblivia read the first one and reached for her field journal.`,
         },
         {
           type: "quote",
-          text: `"Hydro-Stillness," Oblivia murmured, looking out the car window as Alexandrei drove them toward the water facility. "The town has entered a state of voluntary water restraint. A collective relationship with scarcity as a spiritual discipline."`,
+          text: `"The town has entered Hydro-Stillness," she said, writing it down as she said it, which was how her best ideas always arrived. "A voluntary collective surrender to the liquid architecture of the self. They are fasting from water-use as a form of witnessing. It's a communal somatic practice."`,
         },
         {
           type: "quote",
-          text: `"Three families moved out last month," Alexandrei said. "The laundromat closed. The elementary school shut off the drinking fountains and is asking parents to send bottled water. A farmer on the east side of town is paying $800 a month to irrigate a quarter of the acreage he irrigated two years ago. The restraint is not voluntary."`,
+          text: `"The car wash on the left closed because the owner's monthly water bill went from $210 to $1,400," Alexandrei said. "The one in the middle closed in February. The owner moved to Council Bluffs. The third one is still open two days a week when the owner can afford to run it, which is not today."`,
+          attribution: "Alexandrei",
+        },
+        {
+          type: "quote",
+          text: `"A practice of chosen limitation," Oblivia said, looking at the third car wash. "They are learning to be still."`,
+        },
+        {
+          type: "quote",
+          text: `"The elementary school turned off the drinking fountains," Alexandrei said. "Parents are sending bottled water in backpacks. One family sends their kids with a thermos. The thermos has a sticker on it that says 'Harlan Strong.' The kids call it the shame thermos."`,
           attribution: "Alexandrei",
         },
         {
           type: "paragraph",
-          text: `Oblivia looked at the closed car washes. She noted the hand-lettered signs in her field journal and wrote: a town that has chosen to hold its water. Then, below that, she wrote the word voluntary and put a question mark after it.`,
+          text: `Oblivia looked out the window at the yellowed front lawns, the dead flower boxes on the porches, the swimming pool at the community center with a CLOSED FOR SEASON sign that had been there since August of the previous year and it was now June.`,
+        },
+        {
+          type: "quote",
+          text: `"Even the land is practicing the stillness," she said.`,
+        },
+        {
+          type: "quote",
+          text: `"The land is dead because nobody can afford to water it," Darlene said from the back seat, with the tone of a woman who has explained this to many people and has stopped expecting it to land.`,
+          attribution: "Darlene",
         },
         {
           type: "paragraph",
-          text: `It was the first question mark she had written in four days.`,
+          text: `Oblivia wrote the word voluntary in her field journal and underlined it twice and then, looking at the community pool, erased one of the underlines.`,
+        },
+        {
+          type: "document",
+          label: "Posted to 612k followers — @obliviaappropria",
+          body: `A small town in Iowa has taught itself a form of water-consciousness I have never encountered before. They hold it differently here. They know what it costs — not in the financial sense, but in the cellular sense, the way a body knows what it cannot replace. The midwest is the great repressed interior of the American psyche, and this town is learning to feel it. Some silences are chosen. Some are charged. 💧 #HydroStillness #TheInterior #WaterConsciousness #SomaticLandscape #EcologicalDetective`,
+        },
+        {
+          type: "paragraph",
+          text: `The post received 22,000 engagements by midnight. VCS Holdings' communications director forwarded it to the CEO with a note that said: "She thinks it's a mindfulness movement. Do not correct her."`,
         },
       ],
     },
@@ -85,62 +116,111 @@ export const narrative: StoryDocument = {
         {
           type: "document",
           label: "VCS Holdings — Community Transparency Report (Q1)",
-          body: `Harlan Water Services LLC is pleased to share that system uptime in Q1 exceeded 99.2%, reflecting our commitment to infrastructure reliability. Community engagement sessions have been scheduled quarterly. Pricing reflects the comprehensive cost-of-delivery model that ensures long-term system sustainability. VCS Holdings is proud to be a partner in Harlan's water future.`,
+          body: `Harlan Water Services LLC is pleased to share that system uptime in Q1 exceeded 99.2%, reflecting our commitment to infrastructure reliability. Community engagement sessions have been scheduled quarterly. Pricing reflects the comprehensive cost-of-delivery model that ensures long-term system sustainability. We hear Harlan. We are committed to Harlan's water future. VCS Holdings: Water With Purpose.™`,
         },
         {
           type: "paragraph",
-          text: `Earl Bergmann's farm was six miles east of town. He had been on the city council for nine years and had voted no on the water acquisition and had then spent two years watching his vote not matter. He had a manila folder that he kept in the kitchen drawer next to the seed catalogs, and the folder contained, in order: the acquisition documents, the state economic development subsidy application, the consulting contract that one of the yes-voters had signed with VCS Holdings the year after the vote, the VCS Holdings corporate registration in Delaware, the registration for VCS Holdings' parent entity Venture-Capital Spirits LP, and, clipped to the back, a printout of Meridian Impact Partners' portfolio page, which listed "rural infrastructure assets" alongside an impact fund and three sustainable agriculture ventures.`,
+          text: `Earl Bergmann was a fourth-generation corn and soybean farmer with the hands and voice of a man who has spent a lifetime outdoors translating weather into decisions. He had been on the Harlan city council for nine years and had voted no and had then spent two years watching his no not matter. He kept his manila folder next to the seed catalogs in the kitchen drawer, because the kitchen drawer was where he kept things he needed available at short notice, and the folder had been at short notice for two years.`,
         },
         {
           type: "paragraph",
-          text: `He laid it all out on the kitchen table with the efficiency of someone who had explained this many times and had learned to organize it for a room in which he had a limited window.`,
+          text: `He laid the documents out on the table in the order they needed to be understood and walked her through them at the pace of someone who has learned that going slower does not help but going slower is all you can do.`,
         },
         {
           type: "quote",
-          text: `"They used a state subsidy designed for rural infrastructure investment to fund a privatization," he said. "The subsidy was $1.2 million. The acquisition was $3.8 million. So the taxpayers of Iowa subsidized the purchase of Harlan's public water by a Delaware private equity firm. The 25-year contract has a rate escalation clause — every three years, pricing can go up 15%. By year 25, the average household bill is modeled at $620 a month."`,
+          text: `"The subsidy application describes the transaction as 'rural infrastructure investment.' The actual transaction is a private equity acquisition of a public utility. Those are not the same thing. The state gave them $1.2 million of taxpayer money to buy Harlan's water." He put the next document on top. "This is the consulting contract. Signed fourteen months after the vote. $4,000 a month. No deliverables listed."`,
           attribution: "Earl",
         },
         {
           type: "quote",
-          text: `"The water has been placed in a 25-year container," Oblivia said, looking at the documents without quite reading them in the way Alexandrei was reading them. "A legal vessel. The pricing is the weight of the vessel pressing down on the water itself."`,
+          text: `"The council member's transformation," Oblivia said, tilting her head at the contract. "He moved from public servant to vessel of the private interest. This is a spiritual capture. The institution was hollowed from within by a force that knew how to dress itself as stewardship."`,
         },
         {
           type: "quote",
-          text: `"The pricing is the extraction of profit from a captive population," Earl said. He was not rude about it. He had the patience of someone who has learned to translate. "There's no other water. The aquifer has one access point and VCS owns it. You can't drill your own well inside city limits. We're captive."`,
+          text: `"He voted yes and then they paid him $4,000 a month," Earl said. "I'd call it a bribe but the lawyers say it's a consulting arrangement. The lawyers are also from Delaware."`,
+          attribution: "Earl",
+        },
+        {
+          type: "paragraph",
+          text: `Oblivia picked up the Meridian Impact Partners portfolio printout. She read the words "rural infrastructure assets" and "regenerative community investment" and "stewardship-first capital deployment" and felt a familiar shape — the shape of language that had been designed to mean something other than what it said. She had seen this shape before. She wrote in her field journal: the vocabulary of care, weaponized against the thing it claims to protect. She meant it as a metaphor. Earl meant it as a criminal complaint.`,
+        },
+        {
+          type: "quote",
+          text: `"By year 25, the household rate is modeled at $620 a month," Earl said. "My farm water bill was $800 last month for a quarter of the irrigation I ran two years ago. I'm deciding which fields to let go." He looked out the window. "My grandfather broke that east field in 1951."`,
+          attribution: "Earl",
+        },
+        {
+          type: "quote",
+          text: `"The land remembers what it cost," Oblivia said softly.`,
+        },
+        {
+          type: "quote",
+          text: `"I remember what it cost," Earl said. "The land just sits there. I'm the one losing sleep."`,
           attribution: "Earl",
         },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `Carmen Vasquez had worked at the municipal water utility for eleven years before the acquisition. She had been the operations manager — the person who knew where every pipe ran, what every meter read, what the normal pressure fluctuations were at different times of day. She had been terminated six weeks after the acquisition, along with four other long-term employees, and replaced with a VCS maintenance contractor from Des Moines who did not know the system and had, twice in the first winter, misread the main pressure indicators in ways that had caused brief service interruptions.`,
+          text: `Carmen Vasquez had been the operations manager of the Harlan Municipal Water Utility for eleven years. She knew the pressure readings at every junction, the seasonal fluctuation patterns, the two spots in the mains that always needed watching in a hard freeze, the particular sound the pump made on a Tuesday that meant the Monday overnight crew had run it too hard. She had been terminated six weeks after the acquisition, replaced by a contractor from Des Moines who had introduced himself by pronouncing the pressure indicators wrong and had caused two service interruptions in the first winter by misreading gauges Carmen could have read in the dark.`,
+        },
+        {
+          type: "paragraph",
+          text: `She met them at her kitchen table, which was covered in the same kind of documents Earl had but annotated in the margins with numbers and arrows and, in several places, the word NO in large block letters.`,
         },
         {
           type: "quote",
-          text: `"The new meters," she said, when Oblivia and Alexandrei found her at her kitchen table, which was covered in the same kind of documents Earl had, but with more operational annotations. "They're VCS proprietary meters. The model is called the AquaGuard Pro 7. They're not standard. The town can't read them independently — you need VCS's software to pull the usage data. So the only entity that knows exactly how much water the town is using is VCS."`,
+          text: `"The meters," she said. "They replaced every meter in town with a proprietary unit. VCS AquaGuard Pro 7. You cannot read it without VCS's software. You cannot access the software without a VCS account. You cannot get a VCS account unless you are VCS. So the town has no way to independently verify its own water usage. The only number anyone in Harlan ever sees is the number on their bill, which comes from VCS, and which you can dispute by calling VCS customer service in Wilmington, Delaware, where they will tell you the meter is correct."`,
           attribution: "Carmen",
         },
         {
           type: "quote",
-          text: `"The meter is the oracle," Oblivia said. She meant this as a critique of technology-as-priest. Carmen looked at her.`,
+          text: `"The water speaks only to its keeper now," Oblivia said. She put her hand on her sternum. "A single interpreter for the whole community's thirst. There is something almost — "`,
         },
         {
           type: "quote",
-          text: `"The meter is a monopoly information instrument," Carmen said. "If you can't independently verify your usage, you can't challenge your bill. And the bill dispute process runs through VCS customer service in Wilmington, Delaware. Not through any local authority. Not through the state utilities board, because VCS's lawyers got the contract classified as an infrastructure management agreement rather than a utility, which puts it outside the utilities board's jurisdiction."`,
+          text: `"There is something almost fraudulent," Carmen said. "Under Iowa consumer protection law, a utility cannot be the sole authority on its own usage measurements. But VCS is classified as an infrastructure management company, not a utility, so that law doesn't apply. The classification is why they bought the company the way they bought it. They didn't want to be a utility. They wanted to be a utility that isn't legally a utility."`,
+          attribution: "Carmen",
+        },
+        {
+          type: "quote",
+          text: `"A liminal water being," Oblivia murmured, writing.`,
+        },
+        {
+          type: "quote",
+          text: `"A monopoly with a paperwork exemption," Carmen said.`,
           attribution: "Carmen",
         },
         {
           type: "paragraph",
-          text: `Oblivia wrote: the water is legible only to its captor. She thought this was an observation about language. Carmen thought it was an accurate description of the metering system.`,
+          text: `Oblivia wrote: the water exists in a bureaucratic in-between — neither fully public nor fully seen. She thought she was writing poetry. Carmen circled the words infrastructure management agreement in her copy of the contract and wrote NOT A UTILITY in the margin for the fourteenth time.`,
         },
         { type: "divider" },
         {
           type: "paragraph",
-          text: `That evening, Oblivia found the photo she had posted that morning. 14,800 likes. In the comments: thousands of people saying things like "this is so beautiful" and "water is life" and "I needed to see this today." And, buried in the thread, a comment from an account called @waterwatcher_midwest: "That's a VCS AquaGuard Pro 7 meter box in the window reflection. Harlan, Iowa? They're in three states. Same contract structure. Different brand name. Privatize quietly, classify as infrastructure management to avoid utilities oversight. Send this to @AquaFrontierCo — they've been tracking the footprint."`,
+          text: `That evening, Oblivia scrolled through the comments on the mason jar photograph. 15,200 likes now. Thousands of people saying things like "this made me feel something I can't name" and "water as devotion" and "the midwest is underrated" and "I sent this to my therapist." And then, forty-seven comments down, an account called @waterwatcher_midwest:`,
+        },
+        {
+          type: "quote",
+          text: `"That's a VCS AquaGuard Pro 7 meter box in the lower left of the window reflection. Harlan, Iowa? They're in three states now. Same 25-year contract, same subsidy misclassification, different shell company name each time. The footprint is documented. Send this to @AquaFrontierCo — they've been tracking it for eighteen months."`,
+          attribution: "@waterwatcher_midwest",
+        },
+        {
+          type: "paragraph",
+          text: `Oblivia stared at the comment. She zoomed in on her own photograph. In the lower left corner of the window glass, barely visible in the reflection, was a grey rectangular box with small text on the side that she had not noticed when she composed the shot because she had been looking at the light through the water, which was genuinely beautiful.`,
+        },
+        {
+          type: "quote",
+          text: `"Alexandrei," she said.`,
+        },
+        {
+          type: "quote",
+          text: `"I see it," he said. He was already calling Tommy Wren.`,
+          attribution: "Alexandrei",
         },
         {
           type: "casefile",
-          label: "Field Notes, A. Harris — Day Two evening",
-          body: `The comment on the photo is from Tommy Wren, utility oversight researcher, Iowa State University extension program. He recognized the meter box in the window reflection — visible in the lower left corner of the photograph, which Oblivia did not see when she composed the shot. He has documented VCS AquaGuard Pro 7 deployments in three additional municipalities in Iowa, Minnesota, and Nebraska. All classified as infrastructure management agreements. All using the same state subsidy playbook. All with the same rate escalation clause. I am calling Tommy tomorrow. Oblivia thinks she photographed "water held by the language of wellness." She photographed the meter.`,
+          label: "Field Notes, A. Harris — Day Two, 9:47 p.m.",
+          body: `Tommy Wren: utility oversight researcher, Iowa State extension. Confirmed the meter box. Has documented VCS AquaGuard Pro 7 installations in four municipalities across three states — all classified as infrastructure management agreements, all using the same state subsidy playbook, all with the rate escalation clause. He has been working this for eighteen months. He did not have a journalist who had accidentally made a proprietary VCS meter box go viral by posting it as a spiritual object. He does now. Subject has been staring at the lower left corner of her own photograph for eleven minutes. She is not reading the meter box as a meter box. She is reading it as "a witness that was present before I arrived." I have decided not to explain the difference. Tommy and I are meeting at 7 a.m. Subject: please do not caption the meter box as a chakra. She has not yet captioned the meter box as a chakra.`,
         },
       ],
     },
@@ -151,77 +231,115 @@ export const narrative: StoryDocument = {
         {
           type: "document",
           label: "Iowa Attorney General — Investigation Notice",
-          body: `The Office of the Attorney General announces the opening of a civil investigation into the acquisition of the Harlan Municipal Water Authority by VCS Holdings Inc. and its parent entities. The investigation will examine whether the state economic development subsidy awarded in connection with the transaction was obtained through misrepresentation of the transaction's nature, and whether the reclassification of the water authority as an "infrastructure management agreement" was a proper application of the relevant statutory category. All documentation related to the acquisition and the subsequent Harlan Water Services LLC contract is subject to preservation hold.`,
+          body: `The Office of the Attorney General announces the opening of a civil investigation into the acquisition of the Harlan Municipal Water Authority by VCS Holdings Inc. and its parent entities. The investigation will examine whether the state economic development subsidy awarded in connection with the transaction was obtained through misrepresentation of the transaction's nature, and whether the reclassification of the water authority as an "infrastructure management agreement" was a proper application of the relevant statutory category. All documentation related to the acquisition and subsequent Harlan Water Services LLC operations is subject to preservation hold.`,
         },
         {
           type: "paragraph",
-          text: `Tommy Wren had been trying to document the VCS footprint for two years. He had the acquisition documents for Harlan and three other municipalities. He had the Meridian Impact Partners portfolio connection — the same Luxembourg-registered impact fund that appeared in three other stories Alexandrei had worked on, in a pattern that Alexandrei had begun to call "the portfolio" without irony. He had the state subsidy misclassification argument. He did not have a journalist with 600,000 followers who had accidentally photographed an AquaGuard Pro 7 meter box in a viral image of a sacred glass of water.`,
-        },
-        {
-          type: "paragraph",
-          text: `He did now.`,
-        },
-        {
-          type: "paragraph",
-          text: `Tommy's thread — twelve tweets, beginning with a detail of the mason jar photo and ending with the full four-municipality footprint and the Meridian Impact Partners connection — was shared by three water rights organizations within an hour of posting. By morning it was in the Des Moines Register. By the following week it was in the Times, which called it "a municipal privatization network that used impact fund language to extract value from rural communities under the cover of infrastructure investment."`,
-        },
-        {
-          type: "paragraph",
-          text: `The Iowa Attorney General's investigation was announced nine days after Oblivia's photo.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Darlene Kowalski did not call Oblivia when she heard the news. She called Earl. They talked for forty-five minutes about the AG investigation and what it might mean for the contract and what "preservation hold" meant practically and whether Carmen might be called as a witness and what the timeline of a civil investigation in Iowa typically looked like, because both of them had been doing enough research on this to have a general sense of the answer.`,
-        },
-        {
-          type: "paragraph",
-          text: `The investigation was not quick. It took fourteen months and did not result in the voiding of the 25-year contract — that legal argument proved more complex than the AG's office had anticipated, because the contract's classification as an infrastructure management agreement had been structured with unusual care. What it did result in was: the recovery of the $1.2 million state subsidy on the grounds that the transaction had been misrepresented in the subsidy application, a formal finding that the AquaGuard Pro 7 metering system created an impermissible informational asymmetry under Iowa consumer protection law, and a requirement that Harlan Water Services LLC allow independent meter auditing.`,
-        },
-        {
-          type: "paragraph",
-          text: `The rate escalation clause was not challenged. The water was still VCS's. But the bill was auditable, and the audit found systematic overcharging totaling $340,000 across the first two years of operation. The overcharging was attributed to "meter calibration error." Carmen and Tommy and Earl had a different term for it.`,
-        },
-        { type: "divider" },
-        {
-          type: "paragraph",
-          text: `Oblivia's feature, when it published, was called "The Town That Learned to Hold Its Water." It was warm and personal and accurately described the suffering the privatization had caused. It described the mason jar photograph and what it had led to. It described Darlene and Earl and Carmen. It was less clear on the corporate structure — she had relied on Alexandrei's notes for those passages, and the complexity of the Delaware-to-Luxembourg holding chain was not something she fully followed and she chose, correctly, not to fake it.`,
-        },
-        {
-          type: "paragraph",
-          text: `Tommy Wren's footnote in the piece was four sentences long, and those four sentences were the ones that had started everything. He did not feel slighted. He felt that four sentences in a magazine with a large readership was four more sentences than he had gotten in two years of trying.`,
+          text: `Tommy Wren arrived at Darlene's kitchen at seven in the morning with a laptop and a binder and the specific energy of someone who has been waiting eighteen months to be in this room. He laid the four-municipality footprint on the table: Harlan, Iowa; Millbrook, Minnesota; Gracey, Nebraska; and Stanton Wells, Iowa — all VCS AquaGuard Pro 7 installations, all infrastructure management agreements, all with the same state subsidy misclassification argument, all run through different shell companies that terminated, in each case, at Meridian Impact Partners in Luxembourg.`,
         },
         {
           type: "quote",
-          text: `"The photo did what the documents couldn't," he said to Carmen, at a diner in Harlan, after the AG announcement.`,
+          text: `"The same firm that owns the saline extraction operation in Kenya and the rosewood supply chain in Honduras," Alexandrei said, not looking up from his notebook.`,
+          attribution: "Alexandrei",
+        },
+        {
+          type: "quote",
+          text: `"It's a web," Oblivia said. She meant this cosmically — a web of connected suffering, an invisible architecture of harm. She had been thinking about webs since Denver.`,
+        },
+        {
+          type: "quote",
+          text: `"It's a portfolio," Tommy said. "Twelve rural water assets in four states. Projected yield at year 25, aggregate: $340 million in rate revenue from communities with no competing water access." He looked at Oblivia. "Your photograph is the reason I can finally call it that in print. Nobody would run this without a news hook. The meter box is the news hook."`,
           attribution: "Tommy",
         },
         {
           type: "quote",
-          text: `"Because of the meter box," Carmen said. She had not been able to stop laughing about this, privately, for a week.`,
+          text: `"I wasn't photographing the meter box," Oblivia said.`,
+        },
+        {
+          type: "quote",
+          text: `"I know," Tommy said. "You were photographing the light through the water. The meter box was an accident of framing." He paused. "It was a very good accident."`,
+          attribution: "Tommy",
+        },
+        { type: "divider" },
+        {
+          type: "paragraph",
+          text: `Tommy's thread went up two days later: twelve posts, beginning with a zoomed detail of the meter box and ending with the full Meridian Impact Partners portfolio map. Water rights organizations shared it within an hour. The Des Moines Register picked it up by morning. By the following week the Times had run it as a national story under the headline: HOW A PRIVATE EQUITY FIRM BOUGHT RURAL AMERICA'S WATER, ONE SMALL TOWN AT A TIME.`,
+        },
+        {
+          type: "paragraph",
+          text: `The Iowa Attorney General's office opened its investigation nine days after Oblivia's photograph. Oblivia had not known there was a meter box in it for eight of those nine days.`,
+        },
+        { type: "divider" },
+        {
+          type: "paragraph",
+          text: `The investigation took fourteen months. It did not void the 25-year contract — the infrastructure management classification had been constructed with enough legal precision that unwinding it took more time than the AG's office had. What it produced: the $1.2 million subsidy clawed back on grounds of misrepresentation, a formal finding that the AquaGuard Pro 7 metering system created an impermissible informational asymmetry under Iowa consumer protection law, and a requirement that Harlan Water Services LLC submit to independent meter auditing.`,
+        },
+        {
+          type: "paragraph",
+          text: `The audit found $340,000 in systematic overcharging across the first two years. VCS's statement attributed this to "meter calibration inconsistencies." Carmen and Tommy and Earl used a different term, which their attorneys advised them to deploy strategically.`,
+        },
+        {
+          type: "paragraph",
+          text: `The water was still VCS's. The rate escalation clause survived. The price was still $0.028 a gallon. But the meter was now readable by someone other than VCS, which was the single most important sentence in the settlement agreement and the sentence that nobody outside of Harlan would ever find interesting.`,
+        },
+        { type: "divider" },
+        {
+          type: "paragraph",
+          text: `Oblivia's published feature was called "The Town That Learned to Hold Its Water." It was warm and careful and accurately described the suffering and named Darlene and Earl and Carmen and gave Tommy four sentences that he kept in a frame on his desk. It described the mason jar photograph and noted, in passing, that "a detail in the frame led to a larger discovery," which was the most technically accurate sentence she had written about the case and also the one that least conveyed what had actually happened.`,
+        },
+        {
+          type: "quote",
+          text: `"She said 'a detail in the frame,'" Carmen said to Tommy, at the Harlan Diner, six weeks after the piece came out. She was pointing at the line with her fork.`,
           attribution: "Carmen",
         },
         {
           type: "quote",
-          text: `"Because of the meter box," Tommy said.`,
+          text: `"The detail was the meter box," Tommy said.`,
+          attribution: "Tommy",
+        },
+        {
+          type: "quote",
+          text: `"The detail was the meter box that she didn't see," Carmen said. "That was in the window reflection. Of a photograph she took of water she was calling 'the autobiography of a particular darkness.'"`,
+          attribution: "Carmen",
+        },
+        {
+          type: "quote",
+          text: `"She called it a 'witness that was present before she arrived,'" Tommy said. "In the follow-up post."`,
           attribution: "Tommy",
         },
         {
           type: "paragraph",
-          text: `Outside the diner window, the town pool reopened in the second summer. Someone had found a funding mechanism — a state rural infrastructure grant that VCS's contract did not control. The water was the same water. The aquifer was the same aquifer. The price was still $0.028 a gallon.`,
+          text: `Carmen ate a forkful of eggs. Outside the window, the town pool was open. A state rural infrastructure grant — one VCS's contract did not touch — had funded the repair. Children were in the water.`,
+        },
+        {
+          type: "quote",
+          text: `"The meter box saved the town," Carmen said.`,
+          attribution: "Carmen",
+        },
+        {
+          type: "quote",
+          text: `"Tommy saved the town," Darlene said, from across the booth. "Tommy and eighteen months of work that nobody would publish."`,
+          attribution: "Darlene",
+        },
+        {
+          type: "quote",
+          text: `"The meter box got Tommy published," Carmen said.`,
+          attribution: "Carmen",
+        },
+        {
+          type: "quote",
+          text: `"Can we agree it was the water," Tommy said. "Philosophically. The water saved the town."`,
+          attribution: "Tommy",
         },
         {
           type: "paragraph",
-          text: `Darlene watched kids in the pool from the window. Earl went back to his farm. Carmen was offered her job back, officially, with a title that said "independent operations auditor," which was a new position that had been created by the settlement terms.`,
-        },
-        {
-          type: "paragraph",
-          text: `She accepted it. She bought herself a mason jar.`,
+          text: `Darlene looked at him. "I've been saying that for three years," she said. "Nobody liked it."`,
+          attribution: "Darlene",
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final",
-          body: `AG investigation complete. Subsidy clawed back. Metering audit requirement in place. $340k overcharge documented. Rate escalation clause survives — the water is still VCS's. But the meter is visible now. Carmen has her job back. Darlene has three years of her work on the record. Tommy has four sentences in a major publication and is now being called by three other states' attorneys general with similar acquisition patterns. Subject photographed a glass of water and called it "Hydro-Stillness." She photographed the meter box that unlocked everything. She has since described the mason jar photo as "an act of intuitive documentary witness." The meter was in the lower left corner. I have saved the original file. Next case: California. She will call the pesticide poisoning "oxidizing." I will call the Fresno County DA.`,
+          body: `AG investigation: complete. Subsidy: clawed back. Meter audit: mandated. Overcharging: $340k documented, attributed to "calibration error," which is the Delaware LLC equivalent of "the dog ate it." Rate escalation clause: survives. VCS still owns the water. But the meter is readable. Carmen: back, with the title "independent operations auditor," which she describes as "the job I had before, with worse pay and a title that proves I was right." Tommy: four sentences in a national publication plus inquiries from AGs in three other states. Darlene: did not call Oblivia. Earl: planted the east field again. Subject has described this case as "a meditation on the sacred cost of liquid witness." The sacred cost was $0.028 a gallon. The liquid witness was in the lower left corner of the frame. She was looking at the light through the water. The light through the water was also there. Both things were in the photograph. Only one of them was the meter box.`,
         },
       ],
     },
@@ -229,11 +347,11 @@ export const narrative: StoryDocument = {
   scraps: [
     {
       label: "HARLAN WATER SERVICES LLC — RATE SCHEDULE (current)",
-      body: `Residential usage: $0.028/gallon\nMinimum monthly charge: $85 (service fee, regardless of usage)\nAverage household monthly bill (FY current): $340\nPrevious municipal rate: $54/month average\n\nDispute process: VCS Customer Service, Wilmington, DE\nAppeal authority: VCS internal review board\nState utilities board jurisdiction: not applicable (infrastructure management agreement classification)`,
+      body: `Residential usage: $0.028/gallon\nMinimum monthly charge: $85 (service fee, regardless of usage)\nAverage household monthly bill: $340\nPrevious municipal rate: $54/month average\n\nDispute process: VCS Customer Service, Wilmington, DE\nAppeal authority: VCS internal review board\nState utilities board jurisdiction: not applicable (infrastructure management agreement classification)\n\nVCS Holdings: Water With Purpose.™`,
     },
     {
       label: "TOMMY WREN — COMMENT ON @OBLIVIAAPPROPRIA INSTAGRAM (archived)",
-      body: `"That's a VCS AquaGuard Pro 7 meter box in the window reflection. Harlan, Iowa? They're in three states. Same contract structure. Different brand name. Privatize quietly, classify as infrastructure management to avoid utilities oversight. Send this to @AquaFrontierCo — they've been tracking the footprint."`,
+      body: `"That's a VCS AquaGuard Pro 7 meter box in the lower left of the window reflection. Harlan, Iowa? They're in three states now. Same 25-year contract, same subsidy misclassification, different shell company name each time. The footprint is documented. Send this to @AquaFrontierCo — they've been tracking it for eighteen months."`,
     },
   ],
 };
