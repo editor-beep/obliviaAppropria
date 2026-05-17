@@ -3,12 +3,26 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
+      id: "concept-blueprint",
+      title: "Master Concept Blueprint: Concept 002",
+      blocks: [
+        {
+          type: "heading",
+          text: "The Conductive Soul: A Vibrational Inquest at the Simonsberg Margin",
+        },
+        {
+          type: "paragraph",
+          text: "1. Title: The Conductive Soul\n2. Location: Stellenbosch Winelands, South Africa\n3. Surface Mystery: The disappearance of Soren the Seeker and a lithium-metallic taint in the ultra-premium Chenin Blanc.\n4. What Locals Know: An upstream battery refinery tailing-pond breach has flooded the deep granite aquifer with industrial lithium-6.\n5. What Oblivia Thinks: The earth is self-synthesizing a silver frequency to connect with global digital consciousness.\n6. Actual Culprit: Lithium-Logic Holdings in collusion with Gary Vance, the Vibrational Sommelier.\n7. Accidental Solution: Oblivia's high-contrast photography captures the unshielded telemetry frequencies of the illegal spill.\n8. Final Media Misreading: The Atlantic praises her non-empirical epistemology for exposing toxic infrastructure.\n9. Recurring Joke: The Prague Semester comparisons; treating chemical respirators as traditional masks of silence.\n10. Closing Disposition: Case Closed (Subjective) / Resolved (Material).",
+        }
+      ]
+    },
+    {
       id: "chapter-one-the-silvering-of-the-soul",
       title: "Chapter One: The Silvering of the Soul",
       blocks: [
         {
           type: "heading",
-          text: "Concept 002: The Frequency of the Vineyard",
+          text: "The Frequency of the Vineyard",
         },
         {
           type: "paragraph",
@@ -131,7 +145,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: 'The Resonant Vine was officially shuttered within forty-eight hours, the website replaced by a single page of elegant, minimalist typography stating that the terroir was undergoing a "planned period of silent integration and somatic rest." The unofficial reality—which Alexandrei Harris had already systematically uploaded to the Financial Times corporate leaks portal—was that the estate\'s primary water supply contained enough industrial lithium to power a fleet of delivery vans.',
+          text: 'The Resonant Vine was officially shuttered within forty-eight hours, the website replaced by a single page of elegant, minimalist typography stating that the terroir was undergoing a "planned period of silent integration and somatic rest." The unofficial reality—which Alexandrei Harris had already systematically uploaded to the Financial Times corporate leaks portal—was that the estate\'s primary water supply contained enough industrial lithium to power a fleet of delivery vans, causing sudden neurological muscle twitching among luxury consumers of the reserve vintage in Brentwood.',
         },
         {
           type: "paragraph",
@@ -143,36 +157,8 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: 'Sitting in the first-class lounge at Cape Town International Airport, surrounded by brushed-aluminum Rimowa luggage and holding a double shot of organic espresso that had traveled fewer than forty miles from its source, she opened her cream-colored field journal. She did not record the $14 million environmental fine levied against Lithium-Logic, nor did she note Gary\'s hasty departure for a non-extradition jurisdiction. The Financial Times had run a clinical, page-four exposé on the corporate negligence. The Atlantic, meanwhile, was preparing a 6,000-word cultural profile entitled "The Architecture of Silence: How One Woman\'s Bare Feet Exposed the Toxic Infrastructure of the Global South."',
+          text: 'Sitting in the first-class lounge at Cape Town International Airport, surrounded by brushed-aluminum Rimowa luggage and holding a double shot of organic espresso that had traveled fewer than forty miles from its source, she opened her cream-colored field journal. She did not record the $14 million environmental fine levied against Lithium-Logic, nor did she note Gary\'s hasty departure for a non-extradition jurisdiction. The Financial Times had run a clinical, page-four exposé on the corporate negligence. The Atlantic, meanwhile, was preparing a 6,000-word cultural profile entitled "The Architecture of Silence: How One Woman\'s Bare Feet Exposed the Toxic Infrastructure of the Global South," celebrating her for refusing the rigid limits of empirical forensics.',
         },
         {
           type: "document",
-          label: "Oblivia Field Journal — Cape Town International",
-          body: "The vineyard didn't die; it transcended its physical medium. The silvering was an exquisite gift—a way for the ancient vines to reflect the sun back at a world that has forgotten how to truly look. Soren didn't collapse into a ditch; he served as a necessary lightning rod for the mountain's sorrow. I leave Africa with silver on my skin and a heart that finally understands the beautiful conductivity of grief.",
-        },
-        {
-          type: "paragraph",
-          text: "She posted her final image of the journey: a warm, heavily grained, over-exposed photograph of the North Block at dusk, the black corporate SUVs in the background rendered as dark, totemic shadow-sentinels protecting the perimeter of a new world.",
-        },
-        {
-          type: "document",
-          label: "Posted to 500k followers — @obliviaappropria",
-          body: "The Earth does not bleed red; it bleeds silver. Witnessing the final, metallic song of the Resonant Vine. Soren, you are the wire through which the future flows. 🇿🇦 #TheSilverSong #Stellenbosch #MolecularTruth #Transitioning",
-        },
-        {
-          type: "paragraph",
-          text: "The post accumulated forty-five thousand likes before her flight crossed the Tropic of Capricorn.",
-        },
-        {
-          type: "casefile",
-          label: "Field Notes, A. Harris — Final Disposition",
-          body: "Case closed from a material perspective. The vineyard is officially a government superfund site. Soren is entered into a private detox facility in Switzerland. Oblivia's publisher has greenlit a book proposal titled 'The Conductive Soul.' Our next stop is the Appalachian foothills. There's a 'Singing Creek' in West Virginia that has recently turned a divine, vibrant shade of chemical orange. I've already packed the acid-base neutralization units and a pair of industrial boots in her size.",
-        },
-        {
-          type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / RESOLVED (MATERIAL)",
-        },
-      ],
-    },
-  ],
-};
+          label: "Oblivia Field Journal — Cape Town International
