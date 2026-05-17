@@ -93,7 +93,7 @@ export const storyMetas: StoryMeta[] = [
     localCenter: "Maritime observer community and local fishers tracking the disappearance (TBD)",
     surfaceMystery:
       "A maritime observer assigned to monitor Oceanic Mining Ltd's deep-sea dredging operations has been murdered. The ocean, Oblivia insists, is 'withdrawing its consent to be seen.'",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "mayan-fury",
@@ -232,7 +232,7 @@ export const storyMetas: StoryMeta[] = [
       "The Future Is African: How One AI Company Is Building a Continent's Digital Workforce \u2014 and What It Means for the Global Economy",
     theMoment:
       "Fatou shows Oblivia not the internal memo but Aminata's handwritten notes about what the memo said. 'She didn't take it home. She knew they would check. She memorized it.'",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "fashion-tbd",
@@ -256,7 +256,7 @@ export const storyMetas: StoryMeta[] = [
       "A 12th-century gilded Buddha has vanished from its pedestal. The head monk who reported the theft is in an unexplained coma. The Global Heritage Trust's restoration team was on-site the week before.",
     keyImage:
       "Oblivia insists on a 'Vibrational Scan' of the empty pedestal; her Leica captures the microscopic diamond-wire saw marks — a tool unique to the Heritage Trust's restoration kit.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "salt-crust-protocol",
@@ -307,7 +307,7 @@ export const storyMetas: StoryMeta[] = [
       "Migrants at a crossing point are suffering unexplained hemorrhaging and neurological damage. Border-Sec Tech is on-site conducting what their contract calls 'acoustic deterrence trials.'",
     keyImage:
       "Oblivia finds the sonic emitter array beautiful. She describes it as \u2018a tuning fork for the soul\u2019s migration.\u2019 It is a prototype weapons system.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "interior-angola",
@@ -330,7 +330,7 @@ export const storyMetas: StoryMeta[] = [
       "An entire town's water rights have been acquired by Venture-Capital Spirits. The taps still run — for now. Oblivia believes the town has achieved a 'State of Hydro-Stillness.' The residents know they have been bought.",
     keyImage:
       "Oblivia holds a glass of the town's water up to the light. She calls it 'the liquid architecture of surrender.' A resident holds up a notice of rate increase.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "fields-central-valley",
@@ -354,7 +354,7 @@ export const storyMetas: StoryMeta[] = [
     keyImage: "The grain bowl at Riftward. The heritage legume paste. It came from here.",
     theMoment:
       "Oblivia boards a Boeing in California. Field journal open. Below her, the fields, the workers, the supply chain ascending into the hold. She does not look down. She is watching the light.",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "gilded-conduit",
@@ -382,7 +382,7 @@ export const storyMetas: StoryMeta[] = [
       "Oblivia lowers a gold-plated hydrophone into a maintenance hatch she calls a 'Chakra Point.' The 96kHz recording — processed by Alexandrei — captures the rhythmic mechanical failure of a North-Star pressure valve and the muffled, rhythmic SOS signal Elias tapped on the pipe before his oxygen failed.",
     theMoment:
       '"Infrastructure is just the skeleton of our collective desire, Alexandrei. If the oil is leaking, it\'s only because the Earth has something it can no longer contain. I am not here to find the body in the pipe; I am here to find the music in the pressure."',
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "frequency-falling",
@@ -408,7 +408,7 @@ export const storyMetas: StoryMeta[] = [
       "Oblivia hugs a piece of heavy machinery she believes is 'a tuning fork for the Great Spirit.' Her $4,000 designer handbag leans against a high-frequency emergency shut-off switch. The resulting silence is so profound it triggers an FAA transponder alert.",
     mediaMisreading:
       "The Atlantic: 'The Stillness at the Center: How Oblivia Appropria Used Radical Silence to Defeat the Noise of Industry.'",
-    status: "concept",
+    status: "complete",
   },
   {
     slug: "photonic-purge",
@@ -435,7 +435,7 @@ export const storyMetas: StoryMeta[] = [
       "Oblivia's $4,000 Italian silk cape snags a cooling fan rack inside the restricted drone-hangar. As she yanks it free, she disconnects the satellite-linked C2 server. The encrypted target logs dump into a public weather-monitoring server.",
     mediaMisreading:
       "Prestige Journal: 'The Lightning Catcher: How Oblivia Appropria Channeled the Wrath of Maui to Protect the Soil.'",
-    status: "concept",
+    status: "complete",
   },
 ];
 
