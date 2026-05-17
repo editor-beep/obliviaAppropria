@@ -3,325 +3,123 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-canopy-communion",
-      title: "Chapter One: The Canopy Communion",
+      id: "chapter-one-the-canopy-mortuary",
+      title: "Chapter One: The Canopy Mortuary",
       blocks: [
         {
           type: "heading",
-          text: "Oblivia Cracks the Case of the Certified Forest",
+          text: "The Case of the Certified Forest Carnage",
+        },
+        {
+          type: "paragraph",
+          text: "The primary rainforest did not look like an active logging slaughterhouse, which disappointed Oblivia slightly as the private Mercedes 4x4 shuttle navigated the pristine, gravel access track of the East Kalimantan reserve. She had prepared herself during the luxury charter flight from Balikpapan—ensconced in first class with an organic, lavender-infused silk sleep mask—for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, the protected canopy lay before her as an immense, undulating landscape of ancient tropical timber, throwing up a dense, gold-flecked morning mist that caught the equatorial glare like an elegant corporate asset. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow police tape and the raw, un-vegetated mud where thirty-year-old community ranger Ahmad Rifai had vanished four days prior, and noted in her field journal that the total silence of the deep jungle was 'the exquisite, non-linear laboratory of Gaia—a sacred, carbon-neutral ecosystem where the forest gracefully absorbs the industrial ego of the West, transitioning corporate footprint data into a pure, post-material frequency.' In the shadow of the eco-luxury research pavilion behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the chassis serial numbers of the heavy-gauge flatbed timber winches.",
         },
         {
           type: "document",
-          label: "The Green Shield — Kalimantan Restored Forest Initiative, Year Two Impact Report",
-          body: "The Green Shield's Restoration Credits program has now protected 47,000 hectares of primary forest in East Kalimantan, sequestering an estimated 2.3 million tonnes of CO₂ annually and supporting fourteen community ranger posts across three districts. Certification authority: Gold Standard VCS. Average credit price: USD 18.50 per tonne. Biodiversity offset partners: eleven FTSE 100 companies. Co-verification partner: Meridian Impact Partners (Luxembourg). Ranger network status: operational and reporting.",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia arrived in the dry season, when the smoke from controlled burns in the lowlands gave the air above the ecolodge a quality she described in her field journal as sacred ochre — the exhalation of an old earth processing its own grief. She had been briefed by The Green Shield's communications team on the flight from Balikpapan: forty-seven thousand hectares, certified primary forest, fourteen community ranger posts, Gold Standard verification. She had arrived prepared to write about what regenerative conservation looked like when it was working.",
-        },
-        {
-          type: "paragraph",
-          text: "The ecolodge was beautiful in the way that things built to demonstrate a thesis are beautiful: purposeful and photogenic and organized around the experience of a visitor rather than the logic of a forest. The Restoration Credits certificates were framed in the dining pavilion in a row — 2022, 2023, 2024, each with the Gold Standard seal and the hectare count and the CO₂ equivalent. Twelve of the twenty-three framed certificates had the Meridian Impact Partners logo in the lower corner as co-verifying partner. Oblivia photographed them. She did not know what Meridian was yet.",
-        },
-        {
-          type: "paragraph",
-          text: "She heard the chainsaws for the first time that night, at 23:00, from her platform room above the canopy access walkway. They were unmistakable as sound — the specific two-stroke register of industrial cutting equipment, not distant, not muffled by enough forest to suggest legal distance — but Oblivia was not listening for chainsaws. She was listening for what the forest was saying. She wrote in her field journal: the tectonic grinding of the Earth's growth. The forest is pressing outward from the root system. She fell asleep to it and woke to birdsong and did not revise the entry.",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "Sulastri Widiasari had been a ranger in the East Kalimantan protected zone for eleven years and had been documenting the logging anomalies specifically for eight months, since the first satellite thermal image she flagged in August showed a heat signature inconsistent with controlled burn activity in a sector whose permit status was registered as untouched primary forest. She had logged forty-three anomalies. She had filed eleven incident reports with the regional forest authority. She had received four acknowledgments and no investigative action. She had, two weeks ago, shared the full documentation package with a journalist named Alexandrei who had been trying to work the story from the certification side.",
-        },
-        {
-          type: "paragraph",
-          text: "She met Oblivia at breakfast on the first morning. The Green Shield's camp coordinator had arranged the introduction, which suggested either that The Green Shield did not know what Sulastri had been documenting or that they had decided the situation was now beyond the point where managing the ranger's access made any difference. Sulastri gave Oblivia the shorter version: the satellite thermal anomalies, the incident reports, Ahmad Rifai.",
+          label: "The Green Shield — Retainer Agreement: Private Forensic Consultation",
+          body: "The Green Shield LLC (Singapore/Luxembourg) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the operational exit of Ranger Ahmad Rifai at our Kalimantan Restored Forest Concession. Ms. Appropria is authorized to conduct a complete vibrational scan of our canopy-walkway sectors to resolve the site's current atmospheric tension and restore investor confidence before the upcoming Q3 Gold Standard carbon-credit audit. Fee: $50,000/week plus heavy-lift drone logistics. All data proprietary.",
         },
         {
           type: "quote",
-          text: '"Ahmad went silent three days ago," she said. "His last known position was the northeast sector, near the seventh device location. He sent a photograph before the signal dropped."',
-          attribution: "Sulastri",
+          text: `"The choreography of the exit, Director," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty wooden patrol desk. She was speaking directly to The Green Shield’s panicked VP of Carbon Sourcing. "The young ranger, Ahmad... his choice to drop his physical envelope at the base of this specific ironwood buttress was a radical, non-linear somatic decompression. He had integrated the canopy's lesson. His container was clear. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace."`,
         },
         {
           type: "quote",
-          text: '"Device?"',
-        },
-        {
-          type: "quote",
-          text: '"GPS-spoofing units. Ahmad found the first one four months ago. He photographed it. He didn\'t know what it was. I knew what it was."',
-          attribution: "Sulastri",
+          text: `"Ahmad Rifai suffered acute crush trauma and a fatal cerebral hemorrhage because he was run down by a heavy-duty skidding tractor when he caught an unlisted commercial logging crew operating deep within our primary carbon offset zone, Ms. Appropria," Sulastri Widiasari said, her voice flat, cold, and entirely un-vibrated as she stood outside the ranger barracks with an encrypted data drive. "Our client company in Luxembourg reclassified this illegal clear-cut timber poaching as an 'Asset-Tracking Biodiversity Curation Initiative' so they could generate fake carbon restoration credits for FTSE 100 companies while pocketing the raw hardwood differential. He didn't clear a container; he was murdered by the exact Global Timber subsidiary your company signed off on. The regional authorities closed the file as a missing-person tracking anomaly because Meridian Impact Partners pays the provincial department's administrative infrastructure concession."`,
         },
         {
           type: "paragraph",
-          text: 'Oblivia looked at her with the expression she had developed for receiving information that did not yet fit the story she was writing. "He has merged with the forest," she said. "The protected zone receives people who are ready to be received by it."',
-        },
-        {
-          type: "paragraph",
-          text: "Sulastri looked at her coffee.",
-        },
-        {
-          type: "quote",
-          text: '"He has been detained," she said. "I believe he is being held at the logging camp\'s field station in the northeast sector. I have filed the report. I am waiting for the authority to respond."',
-          attribution: "Sulastri",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia wrote in her field journal: Ahmad — voluntary merging with forest consciousness. Sulastri has filed the paperwork. Both of these things were true in the respective worlds in which they were happening.",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "Alexandrei arrived that evening on the same forest road, in a different vehicle, with a different briefing. He had the incident reports, the satellite thermal images Sulastri had shared, Ahmad Rifai's photograph of the GPS-spoofing device, and a copy of The Green Shield's certification submission to Gold Standard from 2022, which contained a procurement invoice for biodiversity monitoring infrastructure that he had obtained through a public records request to the certification body.",
-        },
-        {
-          type: "paragraph",
-          text: "He spread the topographic map on the dining pavilion table, next to the framed Restoration Credits. Ahmad's photograph was paper-clipped to the map's northeast quadrant. The device in the photograph was a modified GPS unit, staked between two buttress roots at knee height, with a serial number visible on its housing. Alexandrei had circled the serial number.",
-        },
-        {
-          type: "quote",
-          text: '"Seven confirmed device locations from Ahmad\'s patrol logs and the satellite thermal data. If the spacing is consistent with what I\'m seeing in the imagery, there are at least twenty more in the protected zone. They create a false GPS perimeter — the logging equipment appears stationary in the certification reports because the spoofing makes the location data clean. The ranger post reports show clear. The forest shows clear. The logging happens anyway."',
-          attribution: "Alexandrei",
-        },
-        {
-          type: "quote",
-          text: '"The forest has drawn a sacred geometry around itself," Oblivia said. "A vibrational perimeter. The devices are how it marks what it is holding."',
-        },
-        {
-          type: "quote",
-          text: '"The devices are how Global Timber marks what it has already cut," Alexandrei said. "The spoofing hardware has a serial number. The serial number matches a line item in the certification procurement invoice. The Green Shield declared them as asset-tracking units."',
-          attribution: "Alexandrei",
-        },
-        {
-          type: "paragraph",
-          text: "She looked at the procurement invoice. It was a single page, standard format, itemized: biodiversity monitoring infrastructure, GPS asset-tracking units, Kalimantan Restoration Initiative, fourteen units, delivered in full. Supplier: an entity registered in Singapore. She looked at the map, then at the framed certificates on the wall behind Alexandrei, then back at the map.",
-        },
-        {
-          type: "paragraph",
-          text: "She wrote in her field journal: sacred geometry confirmed. Alexandrei marked the invoice in yellow highlighter and did not comment on the entry.",
-        },
-        {
-          type: "document",
-          label: "The Green Shield — Internal Signal Group, Operations",
-          body: "Pasha: the journalist arrived this afternoon. He has the thermal data. He has Ahmad's photograph.\nDirk: We know. The influencer is also here. Her follower count is a problem if she posts before we can get ahead of this.\nPasha: Ahmad is still at the camp. It has been three days. Dirk, this is too long.\nDirk: He is a guest, not a detainee. He is resting. Can you please use the correct language in this channel?\nPasha: He does not have his phone.\nDirk: Guests often surrender devices to improve their forest immersion experience.\n[read by 3]",
-        },
-        {
-          type: "document",
-          label: "Posted to 500k followers — @obliviaappropria [sponsored]",
-          body: "The ancient forest is not disappearing. It is choosing to be less visible to those who have not yet earned the frequency. Some presences withdraw before they are commodified. This is not loss. This is discernment. 🌿🇮🇩 #BorneoWitness #CanopyConsciousness #RestorationMind #GreenShieldPartner",
-        },
-      ],
-    },
-    {
-      id: "chapter-two-the-high-aura-survey",
-      title: "Chapter Two: The High-Aura Survey",
-      blocks: [
-        {
-          type: "document",
-          label: "Global Timber Corp — Encrypted Operations Channel, Kalimantan Site",
-          body: "Night shift: 22:30 to 03:00. Northeast concession, sectors F-9 through F-14. Drone airspace: confirmed clear per permit data. Do not run equipment past the third spoofing perimeter. The journalist has the August thermal. Assume he has the invoice. Stay on schedule tonight — the certification window closes when the authority response comes in and the response will come.",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia had brought the High-Aura DX-4 — Environmental Sensing Edition — in a custom-molded case lined with the shed feathers of a bird she had been assured was ethically sourced, a description she had not interrogated. The drone had been modified by a technician in Oakland to scan what she called bio-energetic thermal signatures of ancient root systems, a specification that had, in practice, meant adding a FLIR thermal camera to a standard recreational quadcopter and rebranding the accompanying software from \"thermal imaging\" to \"earth-resonance visualization.\" The drone was a very good thermal camera. It did not know this about itself.",
-        },
-        {
-          type: "paragraph",
-          text: "She prepared it on the canopy walkway at dusk while Sulastri watched from the railing. Sulastri had submitted her full documentation to the regional investigator that afternoon — satellite thermal data, forty-three anomalies, eleven incident reports, Ahmad's patrol log, Alexandrei's invoice cross-reference. The investigator had said: we will look at this. Sulastri had said: I know. She had been saying this to various authorities for eight months.",
-        },
-        {
-          type: "quote",
-          text: '"The drone will find something," Sulastri said. "Not because of what you are looking for. Because of what they are doing."',
-          attribution: "Sulastri",
-        },
-        {
-          type: "quote",
-          text: '"The tree-consciousness will guide it," Oblivia said.',
-        },
-        {
-          type: "quote",
-          text: '"Also it has a FLIR thermal camera."',
-          attribution: "Sulastri",
-        },
-        {
-          type: "paragraph",
-          text: "The drone lifted at dusk, past the canopy line, into the specific quality of equatorial late evening that Oblivia photographed with her phone and then photographed again and then held instead of photographing, which was the closest she had come, in this collection, to not documenting something.",
-        },
-        {
-          type: "paragraph",
-          text: "At 22:47, the thermal feed resolved something that was not tree-consciousness. It was the body heat of nine people moving in a coordinated formation through the protected zone, carrying equipment, following a route that corresponded, Alexandrei noted from the topographic map without comment, exactly to the line of GPS-spoofing devices marked in red in his northeast-sector diagram. The formation was experienced and purposeful and organized around the task of moving quickly through dense canopy with heavy machinery.",
-        },
-        {
-          type: "paragraph",
-          text: "Four of the nine were carrying chainsaws. The thermal camera identified this not through interpretation but through temperature: a running chainsaw produces a specific heat signature around the bar and chain that distinguishes it from any other equipment at its weight class. Oblivia, watching the feed on her tablet in the glow of the canopy walkway, described the heat signatures as the forest's fever dream rising from the root system. She had 44,000 followers watching the livestream.",
-        },
-        {
-          type: "quote",
-          text: '"Those are chainsaws," Alexandrei said. "The formation is a logging crew."',
-          attribution: "Alexandrei",
-        },
-        {
-          type: "quote",
-          text: '"They move like they know the forest," Oblivia said.',
-        },
-        {
-          type: "quote",
-          text: '"They\'ve been doing this for eight months. They know it."',
-          attribution: "Alexandrei",
-        },
-        {
-          type: "paragraph",
-          text: "At 23:14, the drone passed over a GPS-spoofing device in the northeast sector at the correct altitude to resolve the serial number on its housing — a 32-character alphanumeric code stamped on a panel two centimeters wide. Alexandrei photographed the feed with his phone. He compared it to the procurement invoice.",
-        },
-        {
-          type: "quote",
-          text: '"That\'s device seven. The one Ahmad photographed."',
-          attribution: "Alexandrei",
-        },
-        {
-          type: "paragraph",
-          text: "By 01:00, he had matched serial numbers from the drone footage to four of the fourteen units on The Green Shield's procurement invoice. The invoice listed the supplier as Borneo Geo-Asset Solutions Pte Ltd, Singapore. The parent company of Borneo Geo-Asset Solutions Pte Ltd was a logistics subsidiary of Global Timber Corp. This was not in the certification paperwork. It was in the Singapore corporate registry, which was public.",
-        },
-        {
-          type: "quote",
-          text: '"They declared the spoofing devices in the certification submission and listed a subsidiary as the supplier. The certification body didn\'t check the parent company."',
-          attribution: "Alexandrei",
-        },
-        {
-          type: "quote",
-          text: '"The forest called them prayer flags," Oblivia said.',
-        },
-        {
-          type: "paragraph",
-          text: "Alexandrei did not respond. He was filing his sourcing package to his editor.",
-        },
-        {
-          type: "paragraph",
-          text: "A Green Shield security officer arrived at the canopy walkway at 01:30, having seen the drone's navigation lights in the protected zone airspace and been unable to reach the operations channel. He had a torch and an expression that suggested someone who has just understood something he would have preferred not to understand. Oblivia greeted him with the warmth she reserved for what she called forest stewards: people whose labor in a landscape she respected without knowing what the labor was.",
-        },
-        {
-          type: "quote",
-          text: '"Is it beautiful?" she said. "The forest at night? From the inside?"',
-        },
-        {
-          type: "paragraph",
-          text: "The officer said nothing. He called Dirk.",
-        },
-        {
-          type: "document",
-          label: "Posted to 500k followers — @obliviaappropria (livestream frame capture)",
-          body: "The forest's heat memory. What the canopy holds at night and does not release. The root system is speaking in a frequency we have not learned to hear because we built our instruments for a different purpose. Tonight the instrument heard it anyway. 🌿🇮🇩 [44,218 watching] #CanopyConsciousness #ThermalWitness #BorneoWitness #HighAuraDrone",
-        },
-      ],
-    },
-    {
-      id: "chapter-three-the-restoration-credits",
-      title: "Chapter Three: The Restoration Credits",
-      blocks: [
-        {
-          type: "document",
-          label: "Gold Standard VCS — Emergency Certification Review, File OBA-KAL-003",
-          body: "Certification status: suspended pending investigation. Grounds: credible evidence of material misrepresentation in site monitoring data and GPS asset infrastructure. Co-verification partner Meridian Impact Partners (Luxembourg) has been requested to provide full investment and verification documentation. Notifying parties: eleven FTSE 100 offset partners. Legal hold on outstanding Restoration Credits: effective immediately.",
-        },
-        {
-          type: "paragraph",
-          text: "The regional forest authority investigation team arrived the following morning. They came in three vehicles, which was more vehicles than Sulastri had seen respond to any of her eleven incident reports, and she noted this without surprise in the way of someone who has learned to take arrival as data rather than vindication. She walked the lead investigator through her eight-month documentation package at the dining pavilion table — the same table where the Restoration Credits were framed — using her own laptop and her own satellite thermal overlays, which were more detailed than anything in the certification record because she had been generating them without institutional support and had therefore built the methodology around what was actually visible rather than what the certification framework required her to look for.",
-        },
-        {
-          type: "paragraph",
-          text: "The logging crew had dispersed before the team arrived, which the authority had anticipated. What they found at the northeast camp was a field station with equipment and records and, in a back room being described in the incident log as a voluntary retreat facility, Ahmad Rifai.",
-        },
-        {
-          type: "paragraph",
-          text: "Ahmad had been there for three days. He had his field notes. He had not had his phone. He had, during three days of what Dirk had described as forest immersion and Ahmad had experienced as supervised detention, written down the coordinates of twelve additional spoofing devices from memory, using a pen he found in a jacket pocket and the inside cover of a field manual.",
-        },
-        {
-          type: "quote",
-          text: '"He documented from memory," Sulastri said, when the investigator showed her the field manual.',
-          attribution: "Sulastri",
-        },
-        {
-          type: "paragraph",
-          text: "The investigator looked at the twelve sets of coordinates, hand-printed in a small precise script, and added them to the case file without comment.",
-        },
-        {
-          type: "paragraph",
-          text: "The serial number cross-reference took the technical team four hours. Four of the fourteen GPS-spoofing units in the Green Shield procurement invoice could be confirmed as identical to units found in the protected zone — two recovered in situ, two matched via Alexandrei's drone footage serial numbers and Ahmad's photographs. The supplier chain from Borneo Geo-Asset Solutions to Global Timber Corp took another six hours and three corporate registry searches. Sulastri's eight-month thermal dataset established the logging timeline. The certification body's own paperwork established that The Green Shield had declared the devices as asset-tracking units without disclosing the supplier relationship.",
+          text: "Oblivia smiled patiently. The locals always explained these deaths with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body beneath the skidding track is simply a text that has finished its sentence. The infrastructure is an illusion; the frequency of the carbon loop is the only true evidence.*",
         },
         {
           type: "casefile",
-          label: "Field Report — Regional Forest Authority, East Kalimantan, Final Disposition",
-          body: "GPS-spoofing devices recovered: 19 units, northeast sector F-7 through F-16. Logging activity confirmed: thermal and drone evidence spanning eight months. Estimated timber removed from certified-protected zone: 1,200 cubic meters primary growth. Global Timber Corp Kalimantan concession: suspended pending criminal investigation. The Green Shield certification: suspended by Gold Standard VCS. Co-verifier Meridian Impact Partners (Luxembourg) under regulatory review. Ahmad Rifai: released, returned to active duty, statement filed. Ranger documentation package (S. Widiasari, 8 months, 43 anomalies): adopted as primary evidence baseline for investigation. Referrals: Indonesian Ministry of Environment and Forestry; Financial Conduct Authority (UK, two FTSE offset partners); Luxembourg Financial Intelligence Unit.",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "Alexandrei's investigation ran under a joint byline with a reporter at the Jakarta Post who had been working the Global Timber concession angle from the Jakarta end for five months and had not been able to place the forest side of the story. The ownership chain, the procurement invoice, the Singapore corporate registry, the Meridian co-verification role — it was all in the piece, sourced and named. Sulastri's eight-month dataset was cited in the methodology. Ahmad's field manual coordinates were described as pivotal documentation obtained under difficult conditions, which was accurate and insufficient.",
-        },
-        {
-          type: "paragraph",
-          text: "Seventeen of the twenty-three framed Restoration Credits in the dining pavilion were returned to the purchasing companies with a letter from the certification body. The companies issued statements. Four of the statements described the situation as a supply chain integrity issue. Three described it as a learning moment for the voluntary carbon market. None of them mentioned Sulastri's name.",
-        },
-        {
-          type: "document",
-          label: "Nature — excerpt, \"Accidental Witnesses: How Intuitive Drone Sensing Is Reshaping Forest Carbon Verification\"",
-          body: "The breakthrough in the East Kalimantan case arrived not from a regulatory body or a certification audit but from an unexpected source: a thermal drone flight conducted for what the operator described as bio-energetic sensing of ancient root systems. The resulting footage — posted to social media during a late-night livestream — captured a night-shift logging operation and a GPS-spoofing apparatus that had successfully evaded eight months of standard certification monitoring. Conservation scientists are now asking whether citizen-held thermal technology represents a structural gap in the verification architecture of voluntary carbon markets. Oblivia Appropria, whose High-Aura DX-4 drone produced the footage, declined to comment on the technical methodology beyond describing the thermal signatures as a kind of language the forest was already speaking.",
-        },
-        {
-          type: "paragraph",
-          text: "Sulastri read the article at the ranger post. She read her name in the ninth paragraph, in a clause about eight months of parallel documentation, and then read on.",
-        },
-        {
-          type: "paragraph",
-          text: "Ahmad read it the same morning, on his phone, which had been returned to him along with his field notes. He sent Sulastri a message: ninth paragraph. She replied: I know. He replied: next time we go to the press first. She replied: we did. He replied: I mean before the drone lady.",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia flew out of Balikpapan three days after the investigation team arrived. She had her field journal, the drone in its feathered case, and a message from her editor asking whether there was a profile piece in The Green Shield's communications director, who had quit the morning the certification was suspended and had apparently gone off-grid in a way her editor described as potentially fascinating.",
-        },
-        {
-          type: "paragraph",
-          text: "She replied: no. She did not have a better explanation for why not, only that the story was not about Dirk.",
-        },
-        {
-          type: "paragraph",
-          text: "She had written in her field journal, on the last night, sitting on the canopy walkway with the forest genuinely quiet now — the chainsaws gone, the authority team's vehicles parked below — something she did not post and did not share with Alexandrei:",
-        },
-        {
-          type: "document",
-          label: "Oblivia — field journal, Kalimantan, final night",
-          body: "Sulastri has forty-three anomaly reports going back eight months. Ahmad had twelve coordinate sets in a jacket pocket after three days without his phone. The thermal camera saw the logging crew because the logging crew was there. The drone was looking for something it didn't find. It found something else instead, which is what I keep doing, and I'm not yet sure whether that is a method or an accident. Sulastri would say it is neither. She would say: I filed the reports. I built the dataset. I waited. She does not need my drone or my followers to tell her what the forest holds. She already knows.",
-        },
-        {
-          type: "paragraph",
-          text: "She closed the journal. Below the terminal windows at Sepinggan, the mangrove coast caught the morning light and the forest began where the airport's margin ended and continued without pause for a distance the plane's altitude would eventually render as green abstraction, though from this height it was still specific: canopy and canopy and canopy, already re-entered, already under Sulastri's GPS track on a tablet at the ranger post, already the subject of a new report filed that morning to a different authority with a stronger mandate, already known.",
+          label: "Case File OBA-014 — Pre-Analysis Forensic Log, A. Harris",
+          body: "Target Identity: The Green Shield / Global Timber Corp (Kalimantan Concession). The Homicide: Ranger Ahmad Rifai dead from massive blunt-force trauma after logging illegal industrial clear-cuts masked as carbon-offset conservation. Client company suppressed the internal satellite thermal alerts and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal international forestry compliance audit. Ranger Widiasari has eight months of documented GPS-spoofing data proving systematic trade fraud. Subject arrives at the canopy walkway fully convinced the casualty is an intentional 'canopy transition.' Proceeding to the server room sweep.",
         },
       ],
     },
-  ],
-  scraps: [
     {
-      label: "GREEN SHIELD RESTORATION CREDITS — CERTIFICATE OF OFFSET, 2023",
-      body: 'This certifies that the Kalimantan Restored Forest Initiative has sequestered 770,000 tonnes CO₂-equivalent in Year Two of operations. Gold Standard VCS — certified. Co-verified: Meridian Impact Partners, Luxembourg. Purchaser: [varies by certificate]. Hectares protected: 47,000.',
+      id: "chapter-two-the-chassis-alignment",
+      title: "Chapter Two: The Chassis Alignment",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "By the second afternoon of her investigation, the high-density canopy platform had reached what Oblivia described to her digital following as 'The Grand Convergence.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted corporate telemetry terminal. The space was a climate-controlled canyon of brushed aluminum and unshielded network switches, dominated by a central satellite uplink tower that hummed intensely at a frequency she could feel in her sinuses.",
+        },
+        {
+          type: "quote",
+          text: `"Observe the beautiful cadence of the internal processing, Director," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the scale console. She was wearing an Italian hand-stitched silk cape—the color of a Bornean sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
+        },
+        {
+          type: "quote",
+          text: `"The machine is running a real-time data-uplink to our offshore carbon registry in Singapore, Ms. Appropria," the local field journalist Sulastri whispered, her voice tight with an immediate, professional focus as she checked the subnet configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public environmental monitoring archive."`,
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia shook her head with devastating sweetness. Sulastri lived so close to the dry, administrative anxieties of her local ranger log that she interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+        },
+        {
+          type: "document",
+          label: "Live Broadcast — @obliviaappropria (612k Followers)",
+          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the circular divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🌿🇮🇩 #SomaticForensics #BorneoWitness #ChakraTelemetry #TheInterface",
+        },
+        {
+          type: "paragraph",
+          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
+        },
+        {
+          type: "quote",
+          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Sulastri, whose laptop screen was already scrolling with an intense cascade of un-encrypted procurement invoices.`,
+        },
+        {
+          type: "quote",
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen.",
+        },
+        {
+          type: "quote",
+          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate shipping and asset-spoofing logs onto a public international climate archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire international timber-trafficking and carbon-credit fraud log to global regulatory prosecutors."`,
+        },
+      ],
     },
     {
-      label: "INCIDENT REPORT — AHMAD RIFAI, NORTHEAST SECTOR PATROL",
-      body: "Date: [redacted]. Ranger: Ahmad Rifai, Post 7. Last known GPS position: 0°42\'N 117°28\'E, northeast sector boundary. Status: unreachable as of 0600. Equipment at departure: field radio, camera, patrol log. Photograph transmitted prior to signal loss: GPS-spoofing unit, buttress root cluster, serial number visible. Incident filed by: S. Widiasari. Authority response: pending.",
-    },
-    {
-      label: "FIELD MANUAL INSIDE COVER — A. RIFAI, WRITTEN FROM MEMORY",
-      body: "Device 8: approx 0°44\'N 117°30\'E, near stream crossing NE4\nDevice 9: ~100m south of 8, same ridge\nDevice 10: F-11 sector, near old survey marker\n[9 additional coordinate sets, small script, blue pen]",
-    },
-    {
-      label: "UNSENT — S. WIDIASARI, DRAFT",
-      body: "This is the twelfth report I have filed. I have attached the same forty-three anomalies. I have added the procurement invoice and the drone footage serial numbers. I have added Ahmad's coordinates from memory. I understand that the response will come when it comes.\n\nSulastri Widiasari\nPost 7, East Kalimantan Protected Zone\nService: 11 years",
+      id: "chapter-three-the-silk-aperture",
+      title: "Chapter Three: The Silk Aperture",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "The legal collapse of The Green Shield’s restoration certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, international carbon trade compliance officers had parsed the public files, exposing the complete internal procurement memos explicitly detailing the purchase of modified GPS-spoofing devices masked as 'Biodiversity Asset Infrastructure' specifically to fake untouched primary forest coordinates while Global Timber clear-cut the protected zone. The parent fund's sustainable-governance index rating plunged 6% before the London markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, systematic customs fraud, and multi-jurisdictional greenwashing larceny.",
+        },
+        {
+          type: "paragraph",
+          text: "On her final morning at the Sepinggan terminal, Oblivia sat within the premium, leather-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
+        },
+        {
+          type: "document",
+          label: "Oblivia Field Journal — The Canopy Integration",
+          body: "The forest won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Ahmad's transition is now complete—he has cleared his container, and so have I. I leave Borneo with a deep understanding of the canopy goddess.",
+        },
+        {
+          type: "paragraph",
+          text: "At the Balikpapan community office, Sulastri Widiasari and the regional investigators sat before a table covered in forensic audit paperwork and copies of the newly mandated harbor remediation funds. An investigator pointed his finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Canopy: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the East Kalimantan.'*",
+        },
+        {
+          type: "quote",
+          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable carbon contractor," Sulastri said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of confiscated ironwood logs.`,
+        },
+        {
+          type: "quote",
+          text: `"Let her tune it," the director said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar offshore infrastructure conspiracy because she wanted her followers to see a poem. The forest didn't need her alignment, Sulastri, but the international trade auditors needed her metadata."`,
+        },
+        {
+          type: "casefile",
+          label: "Field Notes, A. Harris — Final Disposition",
+          body: "The Green Shield certification suspended indefinitely under Gold Standard review. Independent forestry audit mandated, revealing 19 units of active electronic spoofing infrastructure. Corporate accounting logs and hidden procurement invoices formally entered into the international grand jury record. Subject has purchased a ninety-five-dollar hand-carved teak talisman from a boutique at the terminal, logging it as a 'consecrated fragment of the canopy's conversion.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local collective executes the actual assets. Case closed.",
+        },
+        {
+          type: "paragraph",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+        },
+      ],
     },
   ],
 };
