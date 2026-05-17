@@ -3,8 +3,8 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-circular-mortuary",
-      title: "Chapter One: The Circular Mortuary",
+      id: "chapter-one-the-obroni-wawu",
+      title: "Chapter One: The Obroni Wawu",
       blocks: [
         {
           type: "heading",
@@ -12,20 +12,24 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The market did not look like a mass grave, which disappointed Oblivia slightly as the air-conditioned Mercedes van navigated the gridlocked margin of Kantamanto Road. She had prepared herself during the long flight from JFK—ensconced in first class with an organic, lavender-infused linen sleep mask—for an landscape of tragedy that communicated its structural violence with a clumsy, un-vibrated prose. Instead, the Accra textile basin lay before her as an immense, undulating landscape of high-density fiber, four-meter stacks of compressed Western activewear throwing up a dense, colorful dust that caught the equatorial glare like an elegant corporate asset. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy, chemical stench of decomposing polyester and burning synthetic dyes rising from the lower retention canal, and noted in her field journal that the sprawling, thirty-thousand-person market was 'the exquisite, non-linear laboratory of Gaia—a sacred, circular ecosystem where the global South graciously absorbs the textile ego of the West, transitioning discarded garments into a pure, post-material frequency.' In the shadow of the distribution warehouse behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the serial numbers printed on the diesel baling presses.",
+          text: "\"What does it mean?\" Oblivia asked, leaning forward in the air-conditioned Mercedes van as they slowed near the sorting floor. Kantamanto Road was gridlocked in both directions, choked by push-carts and plastic bales and the matte-grey sediment of burnt synthetic dye that coated everything below knee height. She had seen the phrase on a banner stretched between two pressed-tin stalls: OBRONI WAWU — hand-painted, sun-bleached, slightly mocking in its font. \"It means 'dead white man's clothes,'\" Abena Asante said from the front seat, without turning around. She had a handwritten ledger open on her lap and was not looking at anything outside the window. Oblivia considered this for a moment. Then she reached for her linen journal and wrote: *Obroni Wawu: a sacred West African naming ceremony for the garment's second life. The dead white man surrenders his form so the living cloth may become post-colonial frequency.* Outside, thirty thousand people moved through bales of compressed Zara, Nike, and H&M that arrived weekly in shipping containers from Newark, Rotterdam, and Hamburg — fifteen million items per week entering a market that could absorb, at maximum throughput, three.",
         },
         {
           type: "document",
           label: "Loopwear LLC — Retainer Agreement: Private Forensic Consultation",
-          body: "Loopwear LLC (New York) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden cessation of our 'Circular Abundance' field operator, Finnian Cho, at the Kantamanto community hub. Ms. Appropria is authorized to conduct a complete vibrational sweep of the market's sorting quadrants to resolve the site's current atmospheric tension and restore investor confidence before the Q3 B-Corp audit. Fee: $50,000/week. Proprietary status locked.",
+          body: "Loopwear LLC (New York) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden cessation of our 'Circular Abundance' field operator, Finnian Cho, at the Kantamanto community hub. Ms. Appropria is authorized to conduct a complete vibrational sweep of the market's sorting quadrants to resolve the site's current atmospheric tension and restore investor confidence before the Q3 B-Corp audit. Fee: $50,000/week. Proprietary findings locked.",
         },
         {
           type: "quote",
-          text: `"The choreography of the exit, Madison," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty wooden sorting table. She was speaking directly to Loopwear’s panicked Series-A CEO. "The local operator, Finnian... his choice to drop his physical envelope at the center of the textile depot was a radical, non-linear somatic decompression. He had integrated the market's lesson. His container was clear. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace."`,
+          text: `"He was becoming inconvenient," Abena said, setting her ledger on the van's fold-out tray. She did not say this with feeling. She said it with the flat precision of someone who had watched the pattern repeat. "Finnian Cho was Loopwear's Accra-based impact officer. He had been here eight months. In month three he started photographing the bale manifests. In month five he found the contamination analysis from the Ohio EPA — the one the parent company had been legally required to produce before exporting C-grade chemically treated synthetics, and then deliberately did not action. In month seven he emailed the New York VP and CC'd the fund's Luxembourg compliance desk. In month eight someone moved a container stack." She paused. "The police closed the file in twelve hours."`,
         },
         {
           type: "quote",
-          text: `"Finnian Cho suffered acute respiratory asphyxiation because he suffocated beneath four hundred kilograms of unvented, chemical-soaked low-grade polyester when a container stack collapsed in the midday heat, Ms. Appropria," Abena Asante said, her voice flat, cold, and entirely un-vibrated as she stood outside the sorting stall with a handwritten ledger. "Loopwear’s New York office reclassified toxic, unsellable synthetic waste as 'Premium Curated Eco-Fiber' so they could dump the disposal costs on our market women while securing a European green-transition subsidy. He didn't clear a container; he was crushed by the exact C-grade garbage your company signed off on. The police closed the file in twelve hours because your parent fund pays the regional logistics concession's port fees."`,
+          text: `"He chose to integrate his frequency within the infrastructure of the circle," Oblivia said, adjusting her silk wrap and touching the four-pound rose quartz block in her lap. She had been listening, but she had been listening in the way that people who attended the Soho House Regenerative Commerce panel she had moderated in 2022 tended to listen — receptively but terminally. "When I ran that panel on conscious textile ecosystems, I worked with three founders who described their supply chains using the exact language of 'weight management.' That's the circular frequency speaking through the institutional form. Finnian heard it and responded somatically."`,
+        },
+        {
+          type: "quote",
+          text: `"He asphyxiated under four hundred kilograms of unsorted chemical-soaked polyester in an unventilated warehouse block when a container stack collapsed in the midday heat," Abena said. "His lungs failed before anyone could move the bales. Loopwear reclassified the whole consignment as 'Premium Curated Eco-Fiber' to offload disposal costs onto our market women while collecting a European green-transition subsidy in Hamburg. There are forty-seven containers of this material sitting in the south sorting quadrant right now. I have the manifests." She set a folder on the tray. "I have had the manifests for thirty-six months."`,
         },
         {
           type: "paragraph",
@@ -34,60 +38,60 @@ export const narrative: StoryDocument = {
         {
           type: "casefile",
           label: "Case File OBA-012 — Pre-Analysis Forensic Log, A. Harris",
-          body: "Target Identity: Loopwear LLC / GiveForward International Distribution. The Homicide: Logistics field manager Finnian Cho dead from structural suffocation inside the unvented warehouse block. Client company suppressed the internal weight-variance logs and hired Oblivia to conduct a 'vibrational sweep' to dodge an international labor safety audit. Local organizer Abena Asante has thirty-six months of documented manifest discrepancies proving systematic fraud. Subject arrives at the market fully convinced the active disaster zone is an intentional 'mindfulness loop.' Proceeding to the sorting floor sweep.",
+          body: "Target Identity: Loopwear LLC / GiveForward International Distribution. The Homicide: Logistics field manager Finnian Cho — Korean-American, 31, former Patagonia impact auditor, eight months in Accra — dead from structural suffocation inside the unventilated warehouse block. He had emailed Loopwear's internal contamination data to the Luxembourg compliance desk; his supervisor in New York had scheduled a 'site review' for four days after his death. The client company suppressed the internal weight-variance logs and hired Oblivia to conduct a 'vibrational sweep' to dodge an international labor safety audit. Local market organizer Abena Asante has thirty-six months of documented manifest discrepancies. Subject arrives convinced the active disaster zone is an intentional 'mindfulness loop.' Proceeding to the sorting floor.",
         },
       ],
     },
     {
-      id: "chapter-two-the-chassis-alignment",
-      title: "Chapter Two: The Chassis Alignment",
+      id: "chapter-two-the-impact-cartography",
+      title: "Chapter Two: The Impact Cartography",
       blocks: [
         {
           type: "paragraph",
-          text: "By the second afternoon of her investigation, the high-density sorting floor had reached what Oblivia described to her digital following as 'The Grand Convergence.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted corporate distribution terminal. The space was a massive, corrugated steel canyon of computerized sorting scales and heavy-lift automation rigs, dominated by a central data tower that hummed intensely at a frequency she could feel in her sinuses.",
+          text: "On her second morning, Oblivia requested the company's Impact Cartography Documentation. She had coined this term herself in a 2021 keynote at the Conscious Commerce Summit in Austin and had been using it ever since to request whatever proprietary material a corporate client had on hand that might help her conduct what she called a 'somatic brand audit.' She explained to Loopwear's regional director — a young man named Kwame who had been hired four months ago and had not read the Ohio EPA report — that she needed to review the company's 'ethical frequency data' before she could complete her vibrational sweep. Kwame handed her a black USB drive.",
         },
         {
           type: "quote",
-          text: `"Observe the beautiful cadence of the internal logistics, Madison," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — EVIDENCE HOLD' tape Alexandrei had affixed to the scale system. She was wearing an Italian hand-stitched silk cape—the color of a West African sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
-        },
-        {
-          type: "quote",
-          text: `"The machine is running a real-time data-uplink to our offshore logistics hub in Columbus, Ohio, Ms. Appropria," the local journalist Kofi Mensah whispered, his voice tight with an immediate, professional focus as he checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public environmental monitoring network archive."`,
+          text: `"This is everything our New York office gave us for the B-Corp filing," Kwame said. He was unsure what 'ethical frequency data' meant but felt, in a general way, that he should not ask.`,
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Kofi lived so close to the dry, administrative anxieties of his newsroom that he interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+          text: "Oblivia took the drive to a café near the Kwame Nkrumah Circle and opened her MacBook. She was not trying to read the files methodically; she was browsing for images — she had hoped the 'Impact Cartography' materials would contain a circular diagram or supply-chain visualization she could screenshot for her newsletter. Instead the drive contained 847 files across six folders, including a subfolder titled 'INTERNAL — DO NOT DISTRIBUTE — EPA COMPLIANCE HOLD.' She did not open this subfolder. She plugged in a pair of bamboo-cased earbuds, connected to her shared iCloud drive — which she shared with forty-seven contacts, including her manager in Brooklyn, two assistant editors at a lifestyle magazine, and Kofi Mensah, who had interviewed her for a piece on somatic tourism — and began uploading the entire contents of the USB to the shared folder. The café had excellent espresso and very slow wifi. The upload took twenty-two minutes.",
+        },
+        {
+          type: "quote",
+          text: `"Oblivia," Kofi Mensah said, calling from the Graphic newsroom forty minutes later, "I need to ask you something very specific." He paused. "Did you intend to share the full Loopwear internal compliance archive with forty-seven people, including a journalist?"`,
+        },
+        {
+          type: "quote",
+          text: `"The iCloud is the planetary cloud," Oblivia said, staring at the café ceiling. "I was performing a somatic data integration. The ethical frequency has to circulate freely to resolve the homicide's underlying structural contradiction. I learned this at the Austin summit."`,
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the circular divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🇬🇭 #SomaticForensics #CircularAbundance #ChakraTelemetry #TheInterface",
-        },
-        {
-          type: "paragraph",
-          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
+          label: "Live Post — @obliviaappropria (612k Followers)",
+          body: "Day two of our Impact Cartography at Kantamanto. Uploading the brand's ethical frequency data to the collective cloud for somatic analysis. The market is asking all of us to hold its circular abundance in our digital containers. The circle is closing. 🇬🇭 #SomaticForensics #CircularAbundance #EthicalFrequency #TheInterface",
         },
         {
           type: "quote",
-          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Abena, whose laptop screen was already scrolling with an intense cascade of un-encrypted weight-manifest files.`,
+          text: `"What time did you upload the compliance archive?" Alexandrei asked, arriving at the café with Abena, whose phone was already live with the Ghana Standards Authority tip line.`,
         },
         {
           type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen.`,
+          text: `"At noon, when the solar frequency was at its maximum integration point," Oblivia said, smiling serenely.`,
         },
         {
           type: "quote",
-          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate shipping logs onto a public international trade archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire international waste-dumping fraud log to global regulatory prosecutors."`,
+          text: `"The EPA compliance hold folder has been forwarded to four international trade journalists, the Ghana Revenue Authority, and the ILO labor violations reporting desk," Alexandrei said, not looking up from his ledger. "You didn't resolve the homicide's structural contradiction, Oblivia. You distributed forty-seven copies of Loopwear's suppressed chemical contamination report to people who know what to do with it."`,
         },
       ],
     },
     {
-      id: "chapter-three-the-silk-aperture",
-      title: "Chapter Three: The Silk Aperture",
+      id: "chapter-three-the-circular-victory",
+      title: "Chapter Three: The Circular Victory",
       blocks: [
         {
           type: "paragraph",
-          text: "The legal collapse of Loopwear’s circularity certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, international trade compliance officers had parsed the public files, exposing the complete internal memos explicitly detailing the deliberate shipping of unsellable C-grade synthetic polyester masked as 'Premium Artisan Curation' to dodge hazardous-waste processing costs in Ohio. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter and systematic customs fraud.",
+          text: "The legal collapse of Loopwear's B-Corp certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within sixteen hours of Kofi Mensah's story going live in the Graphic — under the headline 'NY Fashion Brand's \"Circular Economy\" Claim Hides Chemical Dump in Kantamanto' — international trade compliance officers had parsed the shared files, exposing the complete internal memos detailing the deliberate export of unsellable C-grade synthetic polyester disguised as 'Premium Artisan Curation' to dodge hazardous-waste processing costs in Ohio. The parent fund's sustainable-governance index rating plunged 6% before the New York markets opened, forcing an immediate international criminal referral for corporate manslaughter and systematic customs fraud. A second story ran in Bloomberg the following morning under the phrase 'the iCloud compliance breach.' Loopwear's PR team attempted to characterize the disclosure as a 'digital wellness audit.' It did not help.",
         },
         {
           type: "paragraph",
@@ -96,28 +100,24 @@ export const narrative: StoryDocument = {
         {
           type: "document",
           label: "Oblivia Field Journal — The Circular Integration",
-          body: "The market won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Finnian's transition is now complete—he has cleared his container, and so have I. I leave Accra with a deep understanding of the digital goddess.",
+          body: "The market won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The iCloud upload was drawn by a higher alignment to the exact planetary cloud node, listening through the digital static until the temple opened and what was inside came out. Finnian's transition is now complete — he has cleared his container, and so have I. I leave Accra with a deep understanding of the digital goddess of the circular economy. The circle does not lie; it only absorbs.",
         },
         {
           type: "paragraph",
-          text: "At the Kantamanto community office, Abena Asante and Kofi Mensah sat before a table covered in federal audit paperwork and copies of the newly mandated harbor remediation funds. Kofi pointed his finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Market: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Gold Coast.'*",
+          text: "At the Kantamanto community office, Abena Asante and Kofi Mensah sat before a table covered in federal audit paperwork and copies of the ILO remediation fund charter. Kofi's phone was still showing notifications from the Bloomberg story. Abena was not looking at it. She was updating the manifest spreadsheet she had been building for thirty-six months, now formally entered into the international grand jury record as primary evidence.",
         },
         {
           type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable textile contractor," Abena said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of shredded fast-fashion polyester.`,
+          text: `"There's a Substack newsletter doing a piece on her," Kofi said, turning his phone so Abena could read the subject line. It was a ten-thousand-word lifestyle profile: *'Dead White Man's Clothes, Living Frequency: How Oblivia Appropria's Non-Empirical Data Upload Dissolved the Fast Fashion Industrial Complex.'*`,
         },
         {
           type: "quote",
-          text: `"Let her tune it," Kofi said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar offshore infrastructure conspiracy because she wanted her followers to see a poem. The market didn't need her alignment, Abena, but the international trade auditors needed her metadata."`,
+          text: `"She accidentally emailed a suppressed EPA contamination report to forty-seven people," Abena said. "One of them was you." She looked at the subject line for a moment. Then she returned to the manifest spreadsheet. "The circle is complete from a material perspective."`,
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Loopwear B-Corp status suspended indefinitely. Independent customs audit mandated, revealing 47 containers of unlisted hazardous textile polymers. Independent remediation fund established under the control of the local market association utilizing the recovered data. Subject has purchased a ninety-five-dollar hand-dyed kente talisman from a boutique at the terminal, logging it as a 'consecrated fragment of the loop's conversion.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local union executes the actual assets. Case closed.",
-        },
-        {
-          type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          body: "Loopwear B-Corp status suspended indefinitely. Independent customs audit mandated, revealing 47 containers of unlisted hazardous textile polymers. Ghana Standards Authority remediation fund established under the control of the Kantamanto market association, utilizing the recovered compliance data. Subject has purchased a three-hundred-and-forty-dollar 'ethically wildcrafted' palo santo and rose quartz bundle from a JFK terminal wellness kiosk — she bought it on the outbound flight, before she had landed — logging it as 'a consecrated pre-integration talisman for the loop's completion.' We are boarding the return flight to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local market association executes the actual assets. CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
     },

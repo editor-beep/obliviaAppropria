@@ -24,7 +24,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals had explained it plainly, which only deepened the mystery. It was a trait she had observed during her Prague semester—the closer people lived to the soil, the more they relied on the blunt prose of survival, missing the exquisite lyricism of their own displacement.",
+          text: "Oblivia smiled patiently. The locals had explained it plainly, which only deepened the mystery. She had sat on a biodynamic terroir panel in Burgundy the previous autumn — three Burgundian producers explaining how the soil's mineral memory expressed itself through the vine's cellular intelligence — and had heard the same flat, material refusal: the growers would describe the geology in geological terms, the chemistry in chemical terms, entirely missing the exquisite lyricism of their own landscape's intelligence.",
         },
         {
           type: "quote",
@@ -32,7 +32,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: 'She did not notice the silver-slicked puddles near the irrigation pipes, nor the way the farmworkers wore respirators when they moved through the North Block. To her, the respirators were "masks of silence," part of a localized mourning ritual she hadn\'t yet decoded.',
+          text: 'She did not notice the silver-slicked puddles near the irrigation pipes, nor the way the farmworkers wore respirators when they moved through the North Block. The North Block had been worked by Cape Coloured seasonal labor under apartheid-era piece-rate contracts since 1962; the workers now wore N95 chemical cartridge respirators, which represented a health and safety improvement that had taken until 2019 to mandate, but which Oblivia did not know because she had never asked. To her, the respirators were "masks of silence," part of a localized mourning ritual she hadn\'t yet decoded.',
         },
         {
           type: "paragraph",
@@ -153,7 +153,7 @@ export const narrative: StoryDocument = {
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Lithium-Logic operations suspended under provincial injunction. Independent toxicology audit mandated, confirming industrial lithium and acid contamination in vineyard runoff. Security footage and internal waste-routing logs entered into evidentiary record for criminal negligence review. Subject has purchased a ninety-five-dollar polished basalt token from an airport boutique, recording it as a 'consecrated mineral witness of the Cape.' We are boarding the flight north. She has solved the case stupidly, leaving the province fully un-vibrated and materially documented while local organizers execute the actual accountability process. Case closed.",
+          body: "Lithium-Logic operations suspended under provincial injunction. Independent toxicology audit mandated, confirming industrial lithium and acid contamination in vineyard runoff. Security footage and internal waste-routing logs entered into evidentiary record for criminal negligence review. Subject has purchased a two-hundred-and-ten-dollar 'biodynamic Cape slate fragment, hand-blessed at source' from a design boutique in the V&A Waterfront, recording it as a 'consecrated mineral witness of the silvering.' We are boarding the flight north. She has solved the case stupidly, leaving the province fully un-vibrated and materially documented while local organizers execute the actual accountability process. CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
         {
           type: "paragraph",

@@ -12,7 +12,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The highlands did not look broken, which disappointed Oblivia slightly as her private Mercedes transport navigated the smooth, Chinese-constructed tarmac of the Quiché plateau. She had prepared herself during the long flight from Miami—ensconced in first class with an organic, lavender-infused silk sleep mask—for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, the green plateau lay before her as a rolling sheet of high-altitude forest, the ancient ceiba trees moving in the morning wind with a slow, continuous animation that felt like an elegant corporate threat. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow police tape and the clinical white security vehicles guarding the perimeter easement, and noted in her field journal that the massive, 2.3-meter-wide chasm cutting through the terraced fields was 'the exquisite, non-linear Fury of Gaia—a masculine ancestral rupture where the earth chooses to drop its physical envelope when its geological integration is complete.' In the passenger seat behind her, Alexandrei did not clear his chakras; he opened a weatherproof ledger and logged the corporate asset numbers printed on the diamond-head drill rigs idling behind the security fence.",
+          text: "Ixchel Chumil arrived at the chasm at dawn, the same time she had arrived every morning for three weeks, because she had promised herself she would keep coming until someone with jurisdiction did the same. The fracture ran 2.3 meters wide and forty meters deep through terraced fields that her K'iche' community had worked for four generations under ancestral land rights the Guatemalan state had recognized in 2007 and then steadily ignored. The corporate concession for the fracturing operation had been approved without the *consulta previa* required under ILO Convention 169. Ixchel had documented this. She had documentation about everything. She had filed the documentation with the regional environmental authority in February, March, and April. The authority had the documentation; it was simply in a queue. Montgomery Appropria — 'Uncle Monty,' Chief Narrative Assessor for Threshold Journeys — had been inside the karst cavern beneath this field when the unlicensed high-pressure fracturing cycle collapsed the floor. That was seventeen days ago. The regional police had classified his disappearance as a somatic ascension. This morning, Ixchel arrived to find that a chartered helicopter had landed in the corn plot adjacent to the chasm, and a woman in white silk was standing at the edge, photographing the light.",
         },
         {
           type: "document",
@@ -21,63 +21,71 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: `"The choreography of the exit, Ixchel," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty wooden patrol desk. She was speaking directly to the lead regional human rights litigator. "My uncle... his choice to fracture his envelope against this specific limestone chasm was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the karst's lesson."`,
+          text: `"The ruk'u'x of this place," Oblivia whispered, holding a four-pound block of raw rose quartz over the chasm and closing her eyes. She had encountered the K'iche' word on a wellness travel blog the night before — it meant 'heart,' the living center of a system — and had written it in her journal four times to settle it into her frequency. "The ruk'u'x juyub', the heart of the mountain, is asking to be heard. My uncle understood this. He went into the karst to listen to the mountain's instruction. He integrated the lesson. His container was complete, and he released the physical form." She opened her eyes. "He is conductive now."`,
         },
         {
           type: "quote",
-          text: `"Montgomery Appropria suffered acute crush trauma and a fatal internal cerebral hemorrhage because he was buried inside a subterranean exploratory vault when an un-permitted high-pressure hydraulic drilling cycle caused a massive collapse of the karst cavern floor, Ms. Appropria," Ixchel Chumil said, her voice flat, cold, and entirely un-vibrated as she stood outside the security perimeter with a litigation folder. "Our client company in San Francisco reclassified this illegal deep-crust mineral tracking as a 'Tectonic Frontier Expansion Track' so they could secure a multi-million-dollar sustainable development subsidy while bypassing local environmental reviews. He didn't clear a container; he was suffocated by the exact synthetic fracturing polymers your company signed off on. The regional police closed the file as a somatic ascension because Auric Subsurface Solutions pays the regional director's infrastructure logistics concession."`,
+          text: `"Your uncle was buried inside a subterranean exploratory vault when an unlicensed high-pressure hydraulic drilling cycle collapsed the karst cavern floor," Ixchel said, standing eight feet from the chasm with a litigation folder in her hand. Her voice was flat and cold — not because she lacked feeling but because she had learned this was the register in which the record was made. "He had access to the vault because Auric Subsurface Solutions contracted him to produce language about their operation that made it sound like something other than what it was. The karst floor collapsed because the drilling pressure exceeded safe parameters by 340%. The consulta previa required under ILO Convention 169 was not conducted. The regional police classified his disappearance as a somatic ascension because Auric Subsurface Solutions pays the regional director's logistics concession." She paused. "He did not release his physical form. He is still inside the mountain. They have not recovered him."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained these deaths and disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The internal asphyxiation is an illusion; the frequency of the tectonic alignment is the only true evidence.*",
+          text: "Oblivia smiled patiently. She recognized this mode of explanation — the flat accounting of cause and effect, the refusal to hear the exquisite lyricism beneath the facts. She had worked with it at the Esalen somatic trauma workshop in Big Sur two years ago. The facilitator had named it 'defended empiricism' — the body's way of refusing to feel the story it was inside. She looked down into the chasm and wrote in her field journal: *The body that falls is simply a text that has finished its sentence. The internal asphyxiation is an illusion; the frequency of the tectonic alignment is the only true evidence. Uncle Monty is the mountain now.*",
         },
         {
           type: "casefile",
           label: "Case File OBA-M — Pre-Arrival Forensic Log, A. Harris",
-          body: "Target Identity: Auric Subsurface Solutions / Threshold Journeys LLC. The Homicide: Assessor Montgomery R. Appropria dead after a fatal structural collapse caused by unlisted high-pressure hydraulic fracturing. Client company suppressed the internal micro-seismic logs and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal international court audit. Geologist Ixchel Chumil has compiled the definitive IACHR tracking data proving systematic aquifer contamination. Subject arrives at the chasm fully convinced the casualty is an intentional 'photonic transition.' Proceeding to the main command vault sweep.",
+          body: "Target Identity: Auric Subsurface Solutions / Threshold Journeys LLC. The Homicide: Assessor Montgomery R. Appropria — 54, Boston, Oblivia's maternal uncle, contracted as 'Chief Narrative Assessor' to provide spiritual reframing of industrial operations — dead after a fatal structural collapse caused by unlicensed high-pressure hydraulic fracturing on K'iche' community land. The consulta previa required by ILO Convention 169 was not conducted. Ixchel Chumil has compiled the definitive IACHR documentation proving systematic aquifer contamination and procedural fraud. Subject arrives at the chasm and immediately spiritualizes her own family member's death. Client company's logic is coherent: hire a relative to witness the operation; hire the same relative's niece to spiritualize the investigation. Proceeding to the main command vault.",
         },
       ],
     },
     {
-      id: "chapter-two-the-crystalline-signature",
-      title: "Chapter Two: The Crystalline Signature",
+      id: "chapter-two-the-leica-archive",
+      title: "Chapter Two: The Leica Archive",
       blocks: [
         {
           type: "paragraph",
-          text: "By the second afternoon of her investigation, the high-density fracture grid had reached what Oblivia described to her digital following as 'The Grand Alignment.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted digital telemetry vault. The space was a climate-controlled canyon of brushed aluminum and unshielded automated pressure valves, dominated by a central satellite data tower that hummed intensely at a frequency she could feel in her sinuses.",
+          text: "Domingo Chumil, Ixchel's brother, was a geologist who had been surveying the plateau's karst formation since 2019. He agreed to show Oblivia the core sample vault because she had described wanting to 'witness the ruk'u'x of the mountain's extracted memory' — which he had charitably interpreted as a request to see the geological evidence. The vault was a climate-controlled room behind the corporate operations center, lined floor-to-ceiling with labeled cylindrical rock cores from the drilling survey. On the wall opposite the core racks, running continuously, was the pressure monitoring system: six screens showing real-time micro-seismic data and, crucially, the full drill-cycle pressure log for the month of April, including the dates when the cycle exceeded safe parameters. Domingo was explaining the karst limestone's chemical composition. Oblivia was not listening; she was moving slowly along the rack with her Leica, looking for the best light.",
         },
         {
           type: "quote",
-          text: `"Observe the beautiful cadence of the internal processing, Dirk," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the terminal chassis. She was wearing an Italian hand-stitched silk cape—the color of a Central American sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
+          text: `"The cores carry the mountain's memory," Oblivia said, pressing her palm flat against a labeled cylinder. "Each layer is a breath the earth held. This one —" she checked the label — "is from April 11th. Uncle Monty was still alive on April 11th." She raised the Leica and photographed the core, angling toward the ambient light from the pressure screens on the far wall.`,
         },
         {
           type: "quote",
-          text: `"The machine is running a real-time data-uplink to our corporate office in San Francisco, California, Ms. Appropria," Domingo Chumil whispered, his voice tight with an immediate, professional focus as he checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+          text: `"The April cores show the transition from standard limestone to the fractured cavern geology that made high-pressure operations dangerous in this quadrant," Domingo said. He had written this in a report in April. The report was in the queue. "Any competent micro-seismic reading of that section would have required a full pressure review before the April 23rd cycle."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Domingo lived so close to the dry, technical prose of his university textbooks that he interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+          text: "Oblivia moved down the rack, photographing as she went. She took thirty-eight photographs of the core samples over forty minutes. In photographs three through eleven, twelve through twenty, and twenty-six through thirty-one, the pressure monitoring screens on the opposite wall were visible in the background — fully legible, showing the April 23rd drill cycle in complete detail: the pressure override codes, the timestamps at which safe parameters were exceeded, and the notation 'AUTHORIZED OVERRIDE: VAULTMASTER 2' appearing at 3:11 AM. Oblivia did not notice the screens. She was looking for the most photogenic core.",
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the mechanical divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🇬🇹 #SomaticForensics #MayanFury #ChakraTelemetry #TheInterface",
-        },
-        {
-          type: "paragraph",
-          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
+          label: "Posted to 612k Followers — @obliviaappropria",
+          body: "Inside the memory vault of the Quiché karst. These cylinders are the mountain's autobiography — forty years of geological history extracted and labeled for corporate legibility. Uncle Monty, I am reading your final chapter in the language of stone. 🇬🇹 #KarstMemory #SomaticForensics #RukuxJuyub #TheMountainKnows",
         },
         {
           type: "quote",
-          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Ixchel, whose laptop screen was already scrolling with an intense cascade of un-encrypted drilling logs.`,
+          text: `"Which photographs did you post?" Ixchel asked, appearing in the vault doorway with her phone in her hand.`,
         },
         {
           type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and wiped a sudden, bright trail of blood from her upper lip.`,
+          text: `"The ones where the cores caught the afternoon light," Oblivia said. "The light was extraordinary."`,
         },
         {
           type: "quote",
-          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 bytes of un-redacted corporate spreadsheets onto a public international monitoring archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire un-permitted deep-crust fracturing and regulatory fraud log to international prosecutors."`,
+          text: `"Photographs three through eleven and twelve through twenty are fully legible against the pressure monitoring wall," Ixchel said, not looking up from her phone. "The April 23rd override codes, the timestamps, and the VAULTMASTER 2 authorization are visible in high resolution in the background of every core shot. A seismologist at UNAM in Mexico City has already made a formal identification. The IACHR compliance office opened an emergency review twelve minutes ago."`,
+        },
+        {
+          type: "quote",
+          text: `"At what time did you take the photographs?" Alexandrei asked, from the doorway, ledger open.`,
+        },
+        {
+          type: "quote",
+          text: `"When the afternoon light reached the cores," Oblivia said, smiling serenely. "The mountain told me when."`,
+        },
+        {
+          type: "quote",
+          text: `"At 4:12," Domingo said, checking his watch. He was already on a call with the IACHR.`,
         },
       ],
     },
@@ -87,7 +95,7 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "The legal collapse of Auric Subsurface Solutions’ mining concession did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, Inter-American Commission on Human Rights compliance officers had parsed the public files, exposing the complete internal spreadsheets explicitly detailing the systematic suppression of the cavern pressure over-limit metrics to avoid immediate shut-down and environmental review costs. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, illegal trade trafficking, and multi-jurisdictional financial fraud.",
+          text: "The legal collapse of Auric Subsurface Solutions' mining concession did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twenty-four hours of the IACHR emergency review — supported by Ixchel's documentation, Domingo's geological survey, and thirty-eight Instagram photographs that Oblivia had posted as 'mountain memory' — international compliance officers parsed the full April 23rd pressure log, exposing the override codes and the complete authorization chain that had allowed the dangerous drilling cycle to proceed. The consulta previa documentation gap was simultaneously flagged by the ILO compliance desk. The parent fund's sustainable-governance index rating plunged 6% before the New York markets opened, forcing an immediate international criminal referral for corporate manslaughter and procedural fraud against indigenous land rights. Recovery operations at the karst site began the following morning.",
         },
         {
           type: "paragraph",
@@ -96,28 +104,24 @@ export const narrative: StoryDocument = {
         {
           type: "document",
           label: "Oblivia Field Journal — The Karst Integration",
-          body: "The plateau won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Uncle Monty's transition is now complete—he has cleared his container, and so have I. I leave the highlands with a deep understanding of the furrow as a vibrational archive.",
+          body: "The plateau won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The camera was drawn by a higher alignment to the exact core sample, listening through the geological static until the mountain asked to be documented and the light simply complied. Uncle Monty's transition is now complete — he has cleared his container, and so have I. I leave the highlands with a deep understanding of the ruk'u'x as a vibrational archive. The mountain does not forget; it only waits to be photographed.",
         },
         {
           type: "paragraph",
-          text: "At the guesthouse terrace, Ixchel Chumil and Domingo sat before a table covered in international court paperwork and copies of the newly mandated harbor remediation funds. Domingo pointed his finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Fracture: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Mayan Karst.'*",
+          text: "At the guesthouse terrace in Chichicastenango, Ixchel and Domingo sat before a table covered in IACHR court paperwork and the newly mandated suspension of all Auric Subsurface operations in the department. There was a link on Domingo's phone to a Vice News documentary piece on Oblivia — forty minutes, beautifully shot, titled *'Frequency of the Mountain: The Somatic Forensics Investigator Who Photographs Corporate Crime Without Knowing It.'*",
         },
         {
           type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the software contractor," Ixchel said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of confiscated diamond-head drill rigs.`,
+          text: `"The documentary says her Leica 'instinctively framed the evidence,'" Domingo said. "It describes her as possessing 'unconscious forensic precision.'"`,
         },
         {
           type: "quote",
-          text: `"Let her tune it," Domingo said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar offshore infrastructure conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, Ixchel, but the international trade auditors needed her metadata."`,
+          text: `"She was photographing the cores because she thought they looked like geological love letters," Ixchel said. "The pressure screens were in the background. The afternoon light was behind us." She was quiet for a moment. "Our consulta previa documentation has been in the regional authority queue since February. The mountain told her when. We told them in February."`,
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Auric exploration license suspended indefinitely under international court freeze. Independent geotechnical audit mandated, revealing systematic logs deletion across fourteen months. Montgomery Appropria's internal meeting logs formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar hand-polished jade talisman from a boutique at the terminal, logging it as a 'consecrated souvenir of the mountain's victory.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local council executes the actual assets. Case closed.",
-        },
-        {
-          type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          body: "Auric exploration license suspended indefinitely under international court freeze. Independent geotechnical audit mandated, revealing systematic pressure log deletion across fourteen months and the complete absence of consulta previa documentation. Recovery operations at the karst site commenced; Montgomery Appropria's remains were located on day three. Ixchel Chumil's February, March, and April documentation — previously unprocessed — is now the primary evidentiary record before the IACHR. Subject has purchased a one-hundred-and-forty-dollar hand-painted huipil fragment from an airport boutique, logging it as 'a consecrated souvenir of the mountain's victory.' We are boarding the return flight to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the K'iche' community land rights process and the IACHR execute the actual assets. CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
     },
