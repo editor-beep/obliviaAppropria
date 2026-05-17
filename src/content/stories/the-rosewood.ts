@@ -3,512 +3,123 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-keys",
-      title: "Chapter One: The Keys",
+      id: "chapter-one-the-auric-wood-profiling",
+      title: "Chapter One: The Auric Wood Profiling",
       blocks: [
         {
           type: "heading",
-          text: "Oblivia Cracks the Case of the Rosewood",
+          text: "The Case of the Counter-Somatic Acoustic Burial",
+        },
+        {
+          type: "paragraph",
+          text: "The mountain reserve did not look like a crime scene, which disappointed Oblivia slightly as her private Mercedes transport climbed past the terraced limestone margins of the Copán valley. She had prepared herself during the long flight from SFO—ensconced in first class with an organic, lavender-infused linen sleep mask—for a landscape of violence that communicated its structural trauma with a clumsy, un-vibrated prose. Instead, the high-altitude forest lay before her as a rolling sheet of deep green canopy, the ancient rosewood trees moving in the morning wind with a slow, continuous animation that felt like an elegant corporate threat. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow police tape and the raw, un-vegetated mud where twenty-four-year-old park guard Marco Ordóñez had landed three weeks prior, and noted in her field journal that the location was 'the exquisite, non-linear portal of a high-vibration human who chose to drop his physical envelope when his acoustic work with the trees was complete.' In the shadow of the flagstone courtyard behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the serial numbers stamped on the flatbed logging winches idling near the reserve gate.",
         },
         {
           type: "document",
-          label: "Casa del Ritmo retreat materials — welcome packet",
-          body: "Marimba is not an instrument. It is a technology for listening. The rosewood keys — sourced in partnership with the Comunidad Resonante de Copán under a community-managed sustainable harvest certification — carry the resonant memory of centuries of Honduran forest. When you play, you are not learning music. You are learning to receive.",
-        },
-        {
-          type: "paragraph",
-          text: "The marimba in the main sala was six feet wide and strung with keys the color of dark honey, each one graduated from the deepest bass at the left to a treble register so high it existed mostly as shimmer. Sebastián Arellano stood behind it the way a person stands behind something they have built their life around — not possessively, not performing the possession, but with the particular ease of someone who has forgotten to distinguish between themselves and the thing they care about most.",
-        },
-        {
-          type: "paragraph",
-          text: "He played eight bars of a son from the highlands and the sala filled with sound the way a room fills with afternoon light, specific and warm and unavoidable. Three retreat guests closed their eyes. One began to cry, quietly, in the manner of someone who had paid a significant amount of money to cry quietly in a sala in the Copán region of Honduras and was grateful to have arrived at the experience.",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia wrote in her field journal: the sound is real. She underlined it.",
-        },
-        {
-          type: "paragraph",
-          text: "She had read the welcome packet on the flight from Accra, Accra to Miami to San Pedro Sula and then a land transfer east toward the ruins and then north, forty minutes on a road that improved and worsened in alternating stretches that tracked, she had noted, the presence and absence of recent infrastructure investment. The welcome packet was twelve pages on heavy cream stock with a photograph of the Copán ruins on the cover, which was either culturally resonant or adjacent to something uncomfortable and she had written, in her field journal somewhere over the Caribbean: ruins on the cover. The retreat is not at the ruins. Check distance.",
-        },
-        {
-          type: "paragraph",
-          text: "The retreat was forty kilometers from the ruins. It was on private land adjacent to a protected forest reserve, in a complex of three low buildings arranged around a courtyard where a ceiba tree had been allowed to remain and had, in the absence of clearing, grown large enough that its roots had begun to rearrange the flagstones, which Sebastián had decided not to fix because, he said, it seemed important to let something be more permanent than the retreat.",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia photographed the roots and the flagstones from three angles. The photographs were going to be beautiful. She did not post them.",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "Sebastián Arellano was forty-one, Austin by way of Guadalajara, an ethnomusicologist who had walked away from a tenure-track position at UT eight years ago to do something he called attending to the music that was already there. He had built Casa del Ritmo over four years with a combination of personal savings, a wellness industry grant from a foundation she had not yet looked up, and the support of what he described as a small circle of aligned investors. He had made six trips to the Copán region before opening. He knew the name of the marimba maker who had built the instruments in the sala.",
-        },
-        {
-          type: "paragraph",
-          text: '"Don Aurelio," he said, when she asked. "He\'s been making marimbas in the valley for fifty years. The instruments here are his. The sourcing partnership — the rosewood — all of that runs through his community. He designed the harvest protocol himself."',
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia wrote: Don Aurelio. Harvest protocol. She did not write a question mark. She filed a check-in to her editor: Sebastián is the real thing. Sound is real. Story is there. Needs the forest.",
-        },
-        {
-          type: "paragraph",
-          text: "That afternoon Sebastián took the retreat group to the edge of the reserve, to a grove of rosewood that he described as the source of the instruments' keys — a living grove, he said, sustainably managed, community-monitored, the model for what ethical sourcing in the instrument trade could look like. He spoke about it with a care that was genuine and specific: the growth rate of Dalbergia stevensonii, seventeen to twenty-two years to acoustic maturity, the way the grain structure of old-growth wood produced a sustain that plantation timber could not replicate, the community's agreement to harvest only dead and fallen trees with the exception of a carefully managed annual selection under the CITES certification.",
-        },
-        {
-          type: "paragraph",
-          text: "The grove was beautiful in the late afternoon. The trees were large and the light came through in columns and two of the retreat guests touched the bark as if completing a circuit.",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia touched the bark too. She noticed, at the grove's edge, a cleared area — twenty meters wide, raw soil, root stumps not yet overgrown — that was visible through the trees in the direction away from the retreat. She turned to ask Sebastián about it and he was already speaking to one of the guests about the relationship between rosewood resonance and theta brainwave states, and she noted the cleared area in her field journal and moved on.",
-        },
-        {
-          type: "paragraph",
-          text: "That evening, at the outdoor dinner, she heard about the accident from a staff member who mentioned it in passing while explaining the curfew: the forest at night, he said, was not safe terrain for people unfamiliar with it. A park guard had died three weeks ago. A fall. They had not changed the curfew because of it — it had always been there — but it was a reminder.",
-        },
-        {
-          type: "paragraph",
-          text: "She asked the staff member the guard's name.",
+          label: "Casa del Ritmo LLC — Retainer Agreement: Private Forensic Consultation",
+          body: "Casa del Ritmo Eco-Somatic Sanctuary hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational exit of Park Guard Marco Ordóñez at our Copán forest concession. Ms. Appropria is authorized to conduct a complete vibrational scan of our marimba tuning sala to resolve the site's current atmospheric tension and restore investor confidence before the Q3 CITES compliance audit. Fee: $50,000/week plus helicopter logistics. All findings are proprietary.",
         },
         {
           type: "quote",
-          text: '"Marco," he said. "Marco Ordóñez. He was young. It was a tragedy."',
+          text: `"The choreography of the exit, Sebastián," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz directly over the chalk outline on the patio. She was speaking to the sanctuary's founding ethnomusicologist. "The young man... his choice to fracture his envelope against this specific limestone path was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the instrument's lesson."`,
+        },
+        {
+          type: "quote",
+          text: `"Marco Ordóñez suffered a fatal skull fracture because he caught an illegal timber-poaching crew clearing an un-permitted five-acre patch of old-growth rosewood at three in the morning, Ms. Appropria," the regional forest monitor Elena Vásquez said, her voice flat, cold, and entirely un-vibrated as she stood outside the security perimeter with a waterproof data case. "Our client company in Austin reclassified this industrial logging operation as a 'Community-Managed Sustainable Harvest' so they could secure a CITES export permit while pocketing the raw material differential. He didn't clear a container; he was pushed off a ravine because he documented forty-seven illegal logging coordinates linked to your resort's corporate supply chain. The regional police closed the file as an accident because Harwood & Fox pays the local department's logistics infrastructure concession."`,
         },
         {
           type: "paragraph",
-          text: "Oblivia wrote the name in her field journal. She looked at the forest, dark beyond the courtyard lights. She thought about the cleared area at the grove's edge, twenty meters of raw soil and root stumps, visible through the trees in the direction away from the retreat.",
+          text: "Oblivia smiled patiently. The locals always explained these deaths with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The autopsy is an illusion; the frequency of the acoustic grain is the only true evidence.*",
         },
         {
-          type: "paragraph",
-          text: "She wrote in her field journal: the forest at night is not safe terrain for people unfamiliar with it.",
-        },
-        {
-          type: "paragraph",
-          text: "Then: Marco Ordóñez was familiar with it.",
+          type: "casefile",
+          label: "Case File OBA-013 — Pre-Analysis Forensic Log, A. Harris",
+          body: "Target Identity: Harwood & Fox Acoustic Instruments / Resonance & Root LLC. The Homicide: Ranger Marco Ordóñez dead after a fatal encounter with corporate timber poachers. Client company suppressed the internal GPS logging files and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal CITES tracking audit. Master marimba maker Don Aurelio confirms the replacement keys on the resort's instruments are un-cured timber cut illegally from the protected reserve eight months ago. Subject arrives at the crime scene fully convinced the casualty is an intentional 'resonance transition.' Proceeding to the main instrument showroom sweep.",
         },
       ],
     },
     {
-      id: "chapter-two-the-grain",
-      title: "Chapter Two: The Grain",
+      id: "chapter-two-the-chassis-alignment",
+      title: "Chapter Two: The Chassis Alignment",
       blocks: [
         {
+          type: "paragraph",
+          text: "By the second afternoon of her investigation, the central marimba sala had reached what Oblivia described to her digital following as 'The Grand Alignment.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted administrative office. The space was a climate-controlled canyon of polished cedar panels and digital server racks, dominated by a tall satellite data unit that hummed intensely at a frequency she could feel in her sinuses.",
+        },
+        {
+          type: "quote",
+          text: `"Observe the beautiful cadence of the internal processing, Sebastián," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the terminal. She was wearing an Italian hand-stitched silk cape—the color of a Central American sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
+        },
+        {
+          type: "quote",
+          text: `"The machine is running a real-time data-uplink to our corporate office in Austin, Texas, Ms. Appropria," the local journalist Carmen Reyes whispered, her voice tight with an immediate, professional focus as she checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia shook her head with devastating sweetness. Carmen lived so close to the dry, administrative anxieties of her newsroom that she interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+        },
+        {
           type: "document",
-          label: "CITES export permit — Community-managed sustainable harvest, Copán region",
-          body: "Certifying organization: Comunidad Resonante de Copán. Registration date: 11 months prior. Authorized harvest volume: 2.4 cubic meters annually. Species: Dalbergia stevensonii. Certification basis: community-managed sustainable forest protocol, independently verified. Registered agent: Harwood & Fox Legal Partners LLC, Portland, OR.",
+          label: "Live Broadcast — @obliviaappropria (612k Followers)",
+          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the crystalline divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's environmental karma in perfect alignment. 🇭🇳 #SomaticForensics #RosewoodFrequency #ChakraTelemetry #TheInterface",
         },
         {
           type: "paragraph",
-          text: "Don Aurelio Mejía's workshop was not on the retreat itinerary. It was in a village forty minutes north, down a road that was not on the map Sebastián had provided, in a long low building whose corrugated roof had been weighted with stones at the corners and whose open front wall looked out on a patio where three incomplete marimba frames stood on sawhorses in various stages of assembly. The wood shavings on the floor were old and new mixed together, which was the smell of a place that had been doing the same work for a long time.",
-        },
-        {
-          type: "paragraph",
-          text: "She had found him through the staff member who had mentioned Marco. She had asked, carefully, whether Don Aurelio still worked, and the staff member had said yes, and she had asked whether she could visit the workshop as part of the profile, and the staff member had said he would ask, and in the morning a message arrived that said Don Aurelio would receive her after eight.",
-        },
-        {
-          type: "paragraph",
-          text: "He was in his late seventies, compact and precise in the manner of someone whose work required the body to remain attentive to small things across many decades. His hands were the most callused Oblivia had seen on any person in the collection, which covered three continents and twelve investigations. He was sanding the face of a key when she arrived — a low bass key, wide and dense, the grain running in long parallel lines that she could see from across the room.",
-        },
-        {
-          type: "paragraph",
-          text: "He did not stop sanding when she introduced herself. He listened to her explanation of the profile — the retreat, the cultural context — and then he looked up and said:",
+          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
         },
         {
           type: "quote",
-          text: '"You came from the retreat."',
-          attribution: "Don Aurelio",
+          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Elena, whose laptop screen was already scrolling with an intense cascade of un-encrypted spreadsheet blocks.`,
         },
         {
           type: "quote",
-          text: '"Yes," she said.',
+          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen.`,
         },
         {
           type: "quote",
-          text: '"You saw the instruments."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "quote",
-          text: '"Yes. They\'re extraordinary."',
-        },
-        {
-          type: "paragraph",
-          text: "He looked at her for a moment with the patience of someone who has been working a problem longer than a visitor has been in the room.",
-        },
-        {
-          type: "quote",
-          text: '"I made those instruments," he said. "I am glad they are extraordinary. I did not make the keys."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "The keys at the retreat had been replaced six months ago. Sebastián had commissioned them through the Comunidad Resonante de Copán — the community organization that held the CITES certification and managed the harvest protocol. Don Aurelio had built the frames. The keys themselves had come from a different supply than the ones he had used when he built the instruments originally.",
-        },
-        {
-          type: "paragraph",
-          text: "He said this carefully, without emphasis, in the way of someone who has learned to state facts without giving anyone the opportunity to argue with the framing.",
-        },
-        {
-          type: "paragraph",
-          text: "He brought a key from the back of the workshop — one of the originals he had removed when the replacements arrived. He set it on the workbench without touching it with his palms, holding it by the edges the way a person holds a document.",
-        },
-        {
-          type: "paragraph",
-          text: "He looked at it from a distance of six inches.",
-        },
-        {
-          type: "quote",
-          text: '"This tree was forty years old when it was cut. Probably on the eastern slope, where the soil is deeper. The dry season that year was long — you can see it in the compression of the fourth ring here. It was cut during my grandfather\'s time and it was already cured for twenty years before I used it." He set it aside. "That is a key."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "paragraph",
-          text: "He brought one of the replacement keys.",
-        },
-        {
-          type: "paragraph",
-          text: "He looked at it from the same distance, for a longer time. He did not touch it.",
-        },
-        {
-          type: "paragraph",
-          text: "Behind Oblivia, through the open front wall, one of the retreat's content staff — Sebastián had sent a social media coordinator to document the workshop visit for the retreat's Instagram — was filming her face in profile with a phone mounted on a small stabilizer. She did not turn around.",
-        },
-        {
-          type: "quote",
-          text: '"That tree was alive eight months ago," Don Aurelio said.',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia looked at the key. The grain was tight and regular, the wood pale at the center where the curing had not yet had time to deepen the color.",
-        },
-        {
-          type: "quote",
-          text: '"The CITES permit —" she started.',
-        },
-        {
-          type: "quote",
-          text: '"The Comunidad Resonante de Copán was incorporated eleven months ago," he said. "I know every community organization in this valley. I have known some of them for fifty years. This one I did not know until a man from Portland came to ask me to build frames for an order he said would be certified by the community. I asked which community. He said the Comunidad Resonante." He paused. "I looked them up. The registered agent is a law firm in Portland."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "He had a ledger. It was not the first ledger — he had been keeping records since his thirties, a habit his father had taught him, and the earlier ones were stored in a box under the workbench — but this one covered the last eleven years. It documented, by grove and by tree, every piece of rosewood he had used in instruments: the location by the naming system the valley families had used for generations, the estimated age, the origin (fallen, legally harvested, salvage from a property clearance), and his assessment of the curing and grain.",
-        },
-        {
-          type: "paragraph",
-          text: "He opened it to a section in the back, recent pages, and showed her entries from the last fourteen months. There were thirteen records of grove visits he had made not for instrument purposes but to document condition: groves he had known for decades, groves he had harvested from across fifty years of work. Next to eleven of the entries, he had written a notation in a different pen, added after the fact: corte reciente — recent cut. The notation appeared first eight months ago.",
-        },
-        {
-          type: "paragraph",
-          text: "She read the dates.",
-        },
-        {
-          type: "quote",
-          text: '"Marco Ordóñez came to see me four months before he died," Don Aurelio said, without her asking. "He was a park guard. He had been finding fresh stumps in the reserve — cuts that did not correspond to any permit he had been given notice of. He was logging the locations with GPS. He asked me whether I could confirm the species from photographs." He turned a page. "I could. I did. I have the photographs."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "quote",
-          text: '"He was afraid?" she asked.',
-        },
-        {
-          type: "quote",
-          text: '"He was careful," Don Aurelio said. "Marco was not afraid of the forest. He had worked in it for six years. He knew every path in the reserve. The path where he was found — he had walked it in the dark a hundred times."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "paragraph",
-          text: "He closed the ledger.",
-        },
-        {
-          type: "quote",
-          text: '"He told me he had found someone in the forest who should not have been there. He did not say who. He said he had taken a photograph."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia looked at the replacement key on the workbench. Behind her, the social media coordinator had moved to a different angle. She could hear the faint sound of the stabilizer adjusting.",
-        },
-        {
-          type: "paragraph",
-          text: 'She said: "He told me you would help."',
-        },
-        {
-          type: "paragraph",
-          text: "Don Aurelio looked at her.",
-        },
-        {
-          type: "quote",
-          text: '"He did not tell me about you," he said. "He told Elena. Elena Vásquez, his supervisor. She has his GPS data. She has been waiting to know who to give it to."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "paragraph",
-          text: "He picked up the replacement key and held it in both hands for the first time, and read the grain the way a person reads a document they have already understood and are now confirming.",
-        },
-        {
-          type: "quote",
-          text: '"Marco measured this grove," he said.',
-          attribution: "Don Aurelio",
+          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate shipping logs onto a public international forestry monitoring archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire illegal logging and CITES permit fraud log to international prosecutors."`,
         },
       ],
     },
     {
-      id: "chapter-three-the-record",
-      title: "Chapter Three: The Record",
+      id: "chapter-three-the-silk-aperture",
+      title: "Chapter Three: The Silk Aperture",
       blocks: [
         {
+          type: "paragraph",
+          text: "The legal collapse of Harwood & Fox’s sustainability certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, international environmental compliance officers had parsed the public files, exposing the complete internal memos explicitly detailing the creation of a fraudulent front entity called 'Comunidad Resonante de Copán' specifically to bypass CITES poaching restrictions in protected rosewood reserves. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, land fraud, and systematic timber trafficking.",
+        },
+        {
+          type: "paragraph",
+          text: "On her final morning at the Toncontín terminal, Oblivia sat within the premium, leather-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
+        },
+        {
           type: "document",
-          label: "Harwood & Fox Acoustic Instruments — sourcing statement (public)",
-          body: "Our Honduran rosewood fretboards are sourced exclusively through the Comunidad Resonante de Copán under a fully CITES-compliant community-managed harvest protocol. This partnership represents our commitment to the principle that the most ethical instrument is one whose supply chain strengthens the communities and ecosystems that make it possible. Every board is a commitment.",
+          label: "Oblivia Field Journal — The Acoustic Integration",
+          body: "The forest won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Marco's transition is now complete—he has cleared his container, and so have I. I leave Honduras with a deep understanding of the rosewood goddess.",
         },
         {
           type: "paragraph",
-          text: "Elena Vásquez had Marco's GPS data on a drive she kept in a waterproof case in her truck. She had been keeping it there for three weeks, since the morning they found him, waiting for a prosecutor who would take it or an investigator who could use it. She had contacted the environment ministry. She had contacted a writer at a paper in San Pedro Sula who said the story was interesting but he would need more time. She had contacted a legal NGO in Tegucigalpa that had said they were tracking the CITES angle and would be in touch.",
-        },
-        {
-          type: "paragraph",
-          text: "She met Oblivia at a gas station on the road between Don Aurelio's village and the reserve, standing next to her truck with the case already in her hand, because Don Aurelio had called ahead.",
-        },
-        {
-          type: "paragraph",
-          text: "She was thirty-four and had the quality of someone who has been working a specific problem with insufficient resources for long enough that she had stopped expecting the problem to resolve itself and had simply organized her life around continuing to document it. She handed Oblivia the drive before she said anything else.",
+          text: "At the Tegucigalpa community center, Elena Vásquez and Carmen Reyes sat before a table covered in federal audit paperwork and copies of the newly mandated forest protection orders. Carmen pointed her finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze under the Ceiba: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Copán Basin.'*",
         },
         {
           type: "quote",
-          text: '"Forty-seven GPS points across eight months," she said. "Fresh cuts — stumps still bleeding at eleven of them when Marco found them. He cross-referenced the coordinates against the CITES permit. The permit covers a designated grove on the west side of the reserve. Thirty-one of the forty-seven points are outside the permitted area by more than three kilometers."',
-          attribution: "Elena",
+          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the guitar contractor," Elena said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a pile of confiscated old-growth logs.`,
         },
         {
           type: "quote",
-          text: '"The permit certifies community-managed harvest," Oblivia said.',
+          text: `"Let her tune it," Carmen said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar timber trafficking conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, Elena, but the international trade auditors needed her metadata."`,
         },
         {
-          type: "quote",
-          text: '"The Comunidad Resonante de Copán has four members. I looked at the incorporation documents. Two of them are listed at addresses in Austin, Texas. One is a Houston attorney. One is a valley resident — Rodrigo Fuentes — who manages a small citrus operation and has no background in forestry or community governance. The certifying signature on the CITES permit is his."',
-          attribution: "Elena",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia wrote this in her field journal. She wrote quickly, without looking up.",
-        },
-        {
-          type: "quote",
-          text: '"The registered agent on the permit — Harwood & Fox Legal Partners LLC —"',
-        },
-        {
-          type: "quote",
-          text: '"Is the same firm that serves as outside counsel for Harwood & Fox Acoustic Instruments. Yes." Elena looked at her steadily. "Marco found this two months before he died. He submitted a report to the forest administration. It was received. There is no record of it being acted on."',
-          attribution: "Elena",
-        },
-        {
-          type: "divider",
+          type: "casefile",
+          label: "Field Notes, A. Harris — Final Disposition",
+          body: "Harwood & Fox sourcing license suspended indefinitely under CITES order. Independent geotechnical audit mandated, revealing systematic logging deletions across fourteen months. Marco Ordóñez's internal field reports formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar hand-polished mahogany talisman from a boutique at the terminal, logging it as a 'consecrated fragment of the forest's victory.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local council executes the actual assets. Case closed.",
         },
         {
           type: "paragraph",
-          text: "The structure was this: Resonance & Root, the Austin company that ran Casa del Ritmo, had partnered with Harwood & Fox for what both companies described publicly as a community-based ethical sourcing initiative. The partnership needed CITES documentation to export rosewood legally to the US — for the retreat's instruments, for Harwood & Fox's fretboard supply, for the sourcing story that both companies used in their marketing. The Comunidad Resonante de Copán existed to generate that documentation. It was incorporated six months before the first export permit was issued. Its registered agent was the Harwood & Fox law firm. Its community membership was a legal fiction.",
-        },
-        {
-          type: "paragraph",
-          text: "The investment behind both companies, which Oblivia found in Harwood & Fox's most recent impact report under a section titled Aligned Capital, was Meridian Impact Partners — a Luxembourg-registered entity she had seen before, in a different country, in a different story, attached to a different extraction operation with a different ecological cover. She wrote the name in her field journal and then put a box around it.",
-        },
-        {
-          type: "paragraph",
-          text: "She called her editor that afternoon from the cab of Elena's truck.",
-        },
-        {
-          type: "quote",
-          text: '"Hold the profile," she said.',
-        },
-        {
-          type: "paragraph",
-          text: "Her editor began to say something about the production schedule and she talked through it:",
-        },
-        {
-          type: "quote",
-          text: '"I have GPS data, a fraudulent CITES permit, a two-month-dead park guard, and a Luxembourg impact fund that appeared in the Kantamanto story. Hold the profile or I take both pieces somewhere else."',
-        },
-        {
-          type: "paragraph",
-          text: "Her editor held it.",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "She went back to the retreat that evening. Sebastián was on the patio under the ceiba, playing a son she didn't recognize, alone, in the dark except for a string of lights someone had put up for the guests. The sound carried across the courtyard and into the forest where, forty kilometers north and three weeks ago, a park guard who was not afraid of the dark had fallen on a path he had walked a hundred times.",
-        },
-        {
-          type: "paragraph",
-          text: "She sat down on the low wall at the patio's edge. She watched him play.",
-        },
-        {
-          type: "paragraph",
-          text: "She waited until he finished.",
-        },
-        {
-          type: "quote",
-          text: '"The sourcing partner for the keys — the Comunidad Resonante —" she said.',
-        },
-        {
-          type: "paragraph",
-          text: "He set his mallets down. He looked at her the way people look when they have been waiting for a question they didn't know was coming.",
-        },
-        {
-          type: "quote",
-          text: '"Harwood & Fox manages that relationship," he said. "They brought the community to me. The certification was their process. I asked about it — they sent me the permit, the documentation. It looked right."',
-          attribution: "Sebastián",
-        },
-        {
-          type: "quote",
-          text: '"Did you meet anyone from the Comunidad Resonante?"',
-        },
-        {
-          type: "quote",
-          text: '"One person. Rodrigo. He came to the retreat twice." He paused. "He didn\'t know the instrument. He knew the business structure very well."',
-          attribution: "Sebastián",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia said nothing.",
-        },
-        {
-          type: "quote",
-          text: '"Is there a problem with the sourcing?" he asked.',
-          attribution: "Sebastián",
-        },
-        {
-          type: "quote",
-          text: '"The Comunidad Resonante de Copán was incorporated eleven months ago. Its registered agent is the Harwood & Fox law firm. Two of its four members live in Austin. The CITES permit it issued covers a designated grove. Forty-seven GPS points document recent cuts outside that grove by more than three kilometers." She looked at him. "There is a problem with the sourcing."',
-        },
-        {
-          type: "paragraph",
-          text: "He sat with this for a long time. The string lights made his face specific and difficult to read in the way that bad light makes everything both more and less legible.",
-        },
-        {
-          type: "quote",
-          text: '"The sound is still real," he said, finally, and she understood that he did not mean it as a defense.',
-          attribution: "Sebastián",
-        },
-        {
-          type: "quote",
-          text: '"Yes," she said. "But the keys are not."',
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "The joint investigation published with a Honduran investigator named Carmen Reyes, who wrote for a regional paper in Tegucigalpa and had been tracking illegal rosewood extraction in the Copán reserve for seven months without an international partner. She had Sebastián's permission to include his name; he had issued a statement the morning before publication that was careful and specific and accepted that the retreat had been used as cultural cover for a sourcing operation he had believed was legitimate. It was not a sufficient statement. It was the most honest thing the story produced.",
-        },
-        {
-          type: "paragraph",
-          text: "The profile was held and then killed. Oblivia and Carmen published the investigation through Carmen's paper, which was picked up by two environmental news outlets and then by the Guardian's environment desk. Oblivia filed the profile separately, six weeks later, revised, with a correction section and Carmen's byline added. Her editor ran it with a note that said: this story was updated after new sourcing information came to light.",
-        },
-        {
-          type: "paragraph",
-          text: "The CITES secretariat opened a review of the Comunidad Resonante de Copán's certification within three weeks of publication. Harwood & Fox suspended its Honduran rosewood sourcing and issued a statement about supply chain review and stakeholder alignment. The statement used the word community four times. It did not mention Don Aurelio.",
-        },
-        {
-          type: "paragraph",
-          text: "Elena submitted the GPS data to the Honduran public prosecutor. Marco's death remained officially classified as an accident. The investigation remained open.",
-        },
-        {
-          type: "paragraph",
-          text: "Don Aurelio's ledger was cited in the investigation seven times. Carmen had asked him to write a statement. He had written two sentences, which she ran in full at the bottom of the piece.",
-        },
-        {
-          type: "quote",
-          text: '"The grain of the wood tells you what the tree experienced. These keys experienced being cut eight months ago without the time to become what they were supposed to be."',
-          attribution: "Don Aurelio Mejía, master marimba maker, Copán region",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "The media misreading published the day after the investigation. A travel wellness site had used a photograph Oblivia had taken of Don Aurelio at his workbench — filed as a working note, credited in a caption the travel site had removed — to illustrate a piece whose headline read: Finding Your Rhythm: How This Honduran Music Retreat Is Healing Visitors While Saving Ancient Traditions. The piece had been written before the investigation published and had not been updated. It described the Comunidad Resonante de Copán as a model for indigenous community-led sustainable forestry. It used Don Aurelio's image without his consent or knowledge.",
-        },
-        {
-          type: "paragraph",
-          text: "She called Don Aurelio to tell him.",
-        },
-        {
-          type: "paragraph",
-          text: "He was quiet for a moment.",
-        },
-        {
-          type: "quote",
-          text: '"Send me the link," he said. "I will have my granddaughter make them take it down."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "quote",
-          text: '"I\'m sorry," she said. "The photograph was filed as a working note. I didn\'t anticipate —"',
-        },
-        {
-          type: "quote",
-          text: '"You didn\'t anticipate they would use my face to sell the thing you just proved was fraudulent," he said. "No. That is a particular kind of imagination. They have it. We learn to expect it."',
-          attribution: "Don Aurelio",
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia wrote this in her field journal and drew a box around it.",
-        },
-        {
-          type: "divider",
-        },
-        {
-          type: "paragraph",
-          text: "She flew out of Toncontín two days later. She had her field journal and the drive Elena had given her and a digital copy of Don Aurelio's ledger, which he had photographed page by page and sent with a message that said: for Carmen and for whoever is next. She had Carmen's sourcing package, shared at the end with a note that said she had two more stories in the valley and would Oblivia be available for a call in the spring.",
-        },
-        {
-          type: "paragraph",
-          text: "She had written back: yes. Send the file.",
-        },
-        {
-          type: "paragraph",
-          text: "On the plane she opened her field journal to the day-one entry. She had written: the sound is real. She had underlined it.",
-        },
-        {
-          type: "paragraph",
-          text: "She left the underline.",
-        },
-        {
-          type: "paragraph",
-          text: "Below it she wrote: The keys document what the trees experienced. Both are evidence.",
-        },
-        {
-          type: "paragraph",
-          text: "She closed the journal. Below the terminal windows, the mountains moved into the distance and the reserve was already invisible at this altitude, already folded back into the green that the satellite images showed as continuous and which was not, which was missing forty-seven groves' worth of trees that Marco had measured and Don Aurelio had read and Elena had documented and Carmen had named, and which would take seventeen to twenty-two years each to grow back, if they were left to, which depended on things that were not yet resolved.",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
-    },
-  ],
-  scraps: [
-    {
-      label: "COMUNIDAD RESONANTE DE COPÁN — corporate registry extract",
-      body: "Registration date: 11 months prior to permit issuance.\nMembership: 4 persons.\nRegistered agent: Harwood & Fox Legal Partners LLC, Portland, OR.\nPurpose: community-managed sustainable forest governance.\nCertifying signatory: Rodrigo Fuentes, citrus operator, valley resident.",
-    },
-    {
-      label: "DON AURELIO'S LEDGER — notation, repeated across 11 entries",
-      body: "corte reciente\n[grove location, naming system — valley families]\nestimated age at cut: 8–14 months\nspecies confirmed: Dalbergia stevensonii\nreserve sector: outside permitted zone",
-    },
-    {
-      label: "MARCO ORDÓÑEZ — field report, submitted to forest administration",
-      body: "GPS coordinates: [47 points attached]\nFresh cuts confirmed outside CITES-designated harvest area.\nPhotograph of unidentified individual at cut site: [attached].\nDate submitted: [8 weeks before his death]\nStatus: received. No action recorded.",
     },
   ],
 };
