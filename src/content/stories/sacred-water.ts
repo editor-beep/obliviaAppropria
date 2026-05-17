@@ -3,20 +3,6 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "concept-blueprint",
-      title: "Master Concept Blueprint: Concept 002",
-      blocks: [
-        {
-          type: "heading",
-          text: "The Conductive Soul: A Vibrational Inquest at the Simonsberg Margin",
-        },
-        {
-          type: "paragraph",
-          text: "1. Title: The Conductive Soul\n2. Location: Stellenbosch Winelands, South Africa\n3. Surface Mystery: The disappearance of Soren the Seeker and a lithium-metallic taint in the ultra-premium Chenin Blanc.\n4. What Locals Know: An upstream battery refinery tailing-pond breach has flooded the deep granite aquifer with industrial lithium-6.\n5. What Oblivia Thinks: The earth is self-synthesizing a silver frequency to connect with global digital consciousness.\n6. Actual Culprit: Lithium-Logic Holdings in collusion with Gary Vance, the Vibrational Sommelier.\n7. Accidental Solution: Oblivia's high-contrast photography captures the unshielded telemetry frequencies of the illegal spill.\n8. Final Media Misreading: The Atlantic praises her non-empirical epistemology for exposing toxic infrastructure.\n9. Recurring Joke: The Prague Semester comparisons; treating chemical respirators as traditional masks of silence.\n10. Closing Disposition: Case Closed (Subjective) / Resolved (Material).",
-        }
-      ]
-    },
-    {
       id: "chapter-one-the-silvering-of-the-soul",
       title: "Chapter One: The Silvering of the Soul",
       blocks: [
