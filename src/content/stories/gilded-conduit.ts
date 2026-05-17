@@ -12,29 +12,33 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The plains did not look ruptured, which disappointed Oblivia slightly as her private Mercedes transport crested the clay ridge above the Broken Bow confluence. She had prepared herself during the luxury flight from Minneapolis—ensconced in first class with an organic, activated-charcoal-infused silk eye mask—for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, the North Dakota prairie lay before her as an expanse of pale, last-year's gold, the dry needlegrass moving in the early wind with a continuous, gentle animation that felt like an elegant, structural threat. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow police tape and the dark, viscous sheen bubbling through the mud flats, and noted in her field journal that the sprawling industrial crude leak was 'the exquisite Black Honey of Gaia—a sacred mineral mourning conducted upward through the earth's secret meridian channels.' In the shadow of the private security checkpoint behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the chassis serial numbers of the tactical pipeline maintenance rigs idling near the restricted easement gate.",
+          text: "Joseph He Crow had been at the Broken Bow confluence every morning for nine days, since the oil surfaced through the mud flat on the morning of the seventeenth. He had the Section 106 complaint he'd filed with the Army Corps of Engineers forty-seven days earlier — the federal consultation requirement triggered whenever an infrastructure project disturbs a tribal burial site. He had the cultural resources survey that Elias Whitehorse had submitted to North-Star's internal compliance office seven months ago: a GPS-stamped field document identifying the Whitehorse family burial plot at grid coordinates 46.8203°N, 100.7841°W, and flagging Segment 14's pressurized expansion seam as sited within twenty-two feet of it. He had the internal memo, obtained through the tribal council's records request, in which North-Star's routing engineer reclassified the burial plot from 'contributing cultural resource requiring consultation' to 'non-contributing archaeological feature' on August 14, 2025 — three days after Elias formally objected. Elias Whitehorse had been twenty-nine years old, Hunkpapa Lakota, from Fort Yates on the Standing Rock Sioux reservation. He had worked for North-Star as a pipeline integrity assessor for two years. The burial plot was his grandfather's. Six weeks after his formal objection and six weeks before his death, he was assigned to manually check the pressurized expansion seam at Segment 14. When Oblivia Appropria's Mercedes transport crested the clay ridge above the confluence, the crude oil had been surfacing for nine days and the Army Corps had not replied.",
         },
         {
           type: "document",
           label: "North-Star Midstream Corp — Retainer Agreement: Private Forensic Consultation",
-          body: "North-Star Midstream Corp (Delaware) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational disappearance of Chief Integrity Assessor Elias Whitehorse at our DPC Segment 14 sector. Ms. Appropria is authorized to conduct a complete vibrational scan of our pipeline corridor to resolve the site's current atmospheric tension and restore investor confidence before the upcoming Department of Energy audit. Fee: $50,000/week plus helicopter logistics. All findings proprietary.",
-        },
-        {
-          type: "quote",
-          text: `"The choreography of the exit, Mina," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty automated control housing. "The integrity assessor, Elias... his choice to drop his physical envelope near this specific mudflat was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the pipeline's lesson."`,
-        },
-        {
-          type: "quote",
-          text: `"Elias Whitehorse suffered fatal toxic asphyxiation and systemic chemical burns because he was sent to manually check a pressurized expansion seam that had already suffered catastrophic microcracking directly beneath the tribal burial ground, Ms. Appropria," Mina Crow said, her voice flat, cold, and entirely un-vibrated as she stood outside the security fence with a compliance folder. "Our client company in Houston reclassified this structural fracture as a 'Lithic Resonance Initiative' so they could market the leaking crude oil as a luxury mineral mud treatment while bypassing federal containment laws. He didn't clear a container; he was suffocated by the exact unrefined bitumen your company signed off on. The regional authorities closed the file as a voluntary pilgrimage because North-Star pays the regional district's private infrastructure logistics concession."`,
+          body: "North-Star Midstream Corp (Delaware), in joint venture with Meridian Impact Partners (Luxembourg), hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational disappearance of Chief Integrity Assessor Elias Whitehorse at our DPC Segment 14 sector. Ms. Appropria is authorized to conduct a complete vibrational scan of our pipeline corridor to resolve the site's current atmospheric tension and restore investor confidence before the upcoming Department of Energy audit. Fee: $50,000/week plus helicopter logistics. All findings proprietary.",
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained these deaths and disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The internal bitumen suffocation is an illusion; the frequency of the pipeline alignment is the only true evidence.*",
+          text: "She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow crime scene tape and the dark, viscous sheen working its way through the mud flats toward the Cannonball River watershed, and noted in her field journal that the sprawling crude oil leak was 'the exquisite Black Honey of Gaia — a sacred mineral mourning conducted upward through the earth's secret meridian channels, expressing Mní Wičhóni from below.' She had come directly from a land-body watercolor retreat in the Flint Hills of Kansas, where the facilitator described the tallgrass prairie as 'the earth's original nervous system, vibrating below conscious frequency.' She was applying that framework. In the shadow of the private security checkpoint behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the chassis serial numbers of the tactical pipeline maintenance rigs idling near the restricted easement gate.",
+        },
+        {
+          type: "quote",
+          text: `"The choreography of the exit, Mina," Oblivia whispered, her eyes closed as she held a four-pound block of raw rose quartz over an empty automated control housing. "Elias... his choice to drop his physical envelope near this specific mudflat was a radical, non-linear somatic decompression. At the Flint Hills retreat, the facilitator described the grassland as a frequency field holding grief below language. Elias integrated the pipeline's lesson. He has entered the land's meridian."`,
+        },
+        {
+          type: "quote",
+          text: `"Elias Whitehorse suffered fatal toxic asphyxiation and systemic chemical burns because he was sent to manually check a pressurized expansion seam that North-Star's own cultural resources survey had already flagged as sited within twenty-two feet of the Whitehorse family burial plot," said Mina Crow, water rights attorney for the Standing Rock Sioux Tribe's legal department. She had spent eight months preparing this Section 106 consultation complaint and was not going to moderate her language for a wellness consultant. "North-Star reclassified his grandfather's burial site as a 'non-contributing archaeological feature' three days after Elias formally objected to the pipeline routing. Their internal memo uses that specific phrase. He filed the objection, and six weeks later he was sent underground at the expansion seam. The Army Corps has had our Section 106 complaint for forty-seven days. The regional office closed Elias's death as a 'voluntary pilgrimage' because North-Star holds the private security infrastructure contract for the district."`,
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia smiled patiently. The lawyers always explained these deaths with such a flat, procedural prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The internal bitumen suffocation is an illusion; the frequency of the pipeline alignment is the only true evidence.*",
         },
         {
           type: "casefile",
           label: "Case File OBA-D — Pre-Analysis Forensic Log, A. Harris",
-          body: "Target Identity: North-Star Midstream Corp / Joint Venture with Meridian-Spire LLC. The Homicide: Assessor Elias Whitehorse dead after an acute toxic event caused by suppressed outer casing failure under the burial ground watershed. Client company hidden the internal pressure-drop diagnostics and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal EPA environmental audit. Councilman Joseph He Crow has documented forty counts of illegal groundwater contamination. Subject arrives at the creek bank fully convinced the active oil spill is an intentional 'mineral mourning.' Proceeding to the utility hatch sweep.",
+          body: "Target Identity: North-Star Midstream Corp / Meridian Impact Partners (Luxembourg). The Homicide: Assessor Elias Whitehorse, 29, Hunkpapa Lakota, dead after acute toxic asphyxiation at the Segment 14 expansion seam — the seam North-Star's own 2019 cultural resources survey identified as sited within 22 feet of the Whitehorse family burial plot, then reclassified out of the routing review three days after Elias's formal objection. Client company suppressed the Section 106 survey and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal Army Corps consultation. Tribal attorney Mina Crow has the complete documentation chain; the Army Corps complaint is 47 days old and unanswered. Subject arrives fully convinced the active oil spill is an intentional 'mineral mourning.' Proceeding.",
         },
       ],
     },
@@ -44,40 +48,28 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "By the second afternoon of her investigation, the open-plan resonance camp had reached what Oblivia described to her digital following as 'The Grand Integration.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted utility terminal. The space was a climate-controlled canyon of galvanized steel and unshielded telemetry cables, dominated by a central frequency bank that hummed intensely at a frequency she could feel in her sinuses.",
-        },
-        {
-          type: "quote",
-          text: `"Observe the beautiful cadence of the internal processing, Joseph," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the riser console. She was wearing an Italian hand-stitched silk cape—the color of a North Dakota sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
-        },
-        {
-          type: "quote",
-          text: `"The machine is running a real-time data-uplink to our corporate office in Houston, Texas, Ms. Appropria," the tribal council chairman Joseph He Crow whispered, his voice tight with an immediate, professional focus as he checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+          text: "By the second morning of her investigation, Oblivia had decided the pipeline corridor required 'meridian cartography' — a spiritual mapping of the route's relationship to the earth's energy channels. She approached North-Star's on-site communications coordinator, a twenty-three-year-old named Hayley who was two weeks into her first job after graduating from UND, and asked for 'the company's Meridian Alignment Survey documentation.' She explained that she needed to study how the pipeline had been routed in conversation with the landscape's frequency field. Hayley, who had been told by her supervisor to give the wellness consultant whatever she asked for, went to the filing cabinet and retrieved a folder labeled 'SEGMENT 14 — MERIDIAN ALIGNMENT.' She did not see the full label: 'SEGMENT 14 — MERIDIAN ALIGNMENT — CULTURAL RESOURCE MANAGEMENT SURVEY — LEGAL HOLD — FINAL DRAFT.' She handed it to Oblivia with a promotional water bottle.",
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Joseph lived so close to the dry, administrative anxieties of his treaty ledger that he interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+          text: "The folder contained forty-one pages: the suppressed pre-construction Section 106 cultural resources survey, commissioned by North-Star in 2019, which identified eleven sites of tribal cultural significance along the expansion route, including the Whitehorse family burial plot at grid coordinates 46.8203°N, 100.7841°W, classified as a 'contributing cultural resource' requiring government-to-government consultation before construction could proceed. Page eleven contained the August 14 internal memo reclassifying the site. The memo was initialed by three North-Star executives. The GPS coordinates matched the coordinates of Segment 14's catastrophic expansion seam exactly. Oblivia read the document with the focused reverence she usually reserved for channeled texts, describing the grid coordinates in her field notes as 'the pipeline's own emotional geography — a sacred cartography of the land's meridian grief.'",
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the mechanical divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🌾 #SomaticForensics #GildedConduit #ChakraTelemetry #TheInterface",
-        },
-        {
-          type: "paragraph",
-          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
+          label: "Posted to 612k Followers — @obliviaappropria",
+          body: "Day two at the Broken Bow confluence. I have been given access to the pipeline's Earth Song — a forty-one-page material archive of Segment 14's meridian consciousness, mapping the route's somatic autobiography through the ancestral body of the plains. I am posting it here, page by page, so that our collective witness can receive the land's frequency. The numbers are coordinates of grief. The dates are the pipeline's own memory of its passage through the earth. Read without agenda. 🌾 #SomaticForensics #GildedConduit #EarthSong #TheMeridianArchive",
         },
         {
           type: "quote",
-          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Mina, whose laptop screen was already scrolling with an intense cascade of un-encrypted pipeline diagnostic logs.`,
+          text: `"What time did you post those photographs?" Alexandrei asked, appearing from the security gate with Mina, whose phone was already open to Joseph He Crow's direct line.`,
         },
         {
           type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and placed a chunk of raw rose quartz directly onto the main telemetry ventilation intake."`,
+          text: `"When the morning light gave the pages their frequency," Oblivia said, looking up from her rose quartz.`,
         },
         {
           type: "quote",
-          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate spreadsheets onto a public international trade archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire suppressed pipeline expansion failure and watershed contamination log to federal prosecutors."`,
+          text: `"The header on every page reads 'CULTURAL RESOURCE MANAGEMENT SURVEY — LEGAL HOLD — FINAL DRAFT,'" Alexandrei said, checking his ledger. "Page eleven is the internal memo reclassifying the Whitehorse burial plot. The GPS coordinates are in the document. The initials on the August 14 memo are three North-Star executives' initials. The Army Corps received Mina's Section 106 complaint forty-seven days ago; she now has the suppressed survey as primary evidence." He looked at the post's view count. "You didn't read the earth's meridian autobiography. You photographed the document North-Star has been hiding for six years and posted it to six hundred and twelve thousand people."`,
         },
       ],
     },
@@ -87,7 +79,7 @@ export const narrative: StoryDocument = {
       blocks: [
         {
           type: "paragraph",
-          text: "The legal collapse of North-Star’s environmental stewardship certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, regional EPA compliance officers had parsed the public files, exposing the complete internal engineering records explicitly detailing the suppression of the structural expansion failure report to avoid immediate shut-down and remediation overhead costs. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, environmental felony fraud, and systematic public misrepresentation.",
+          text: "The Army Corps of Engineers' emergency consultation order was issued at 11:14 AM, forty-nine minutes after Mina Crow's attorney forwarded the Instagram post to the Corps' tribal consultation desk with a three-word cover message: 'Section 106. Whitehorse.' The suppressed cultural resources survey — forty-one pages, now public record, visible to 612,000 followers and screenshotted by forty-three of them in the first hour — was formally entered into the consultation record by 1 PM. North-Star's legal team filed for an administrative stay and was denied. The pipeline was shut down for emergency inspection at 3:30 PM. The parent fund's sustainable-governance index rating plunged 6% before the New York markets opened, forcing an immediate multi-jurisdictional criminal referral for corporate manslaughter, Section 106 obstruction, and environmental felony fraud. The Cannonball River basin monitoring program, dormant for three years pending North-Star's objection to federal jurisdiction, reopened by emergency agency order.",
         },
         {
           type: "paragraph",
@@ -96,31 +88,26 @@ export const narrative: StoryDocument = {
         {
           type: "document",
           label: "Oblivia Field Journal — The Conflux Integration",
-          body: "The plains won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Elias's transition is now complete—he has cleared his container, and so have I. I leave North Dakota with a deep understanding of the furrow as a vibrational archive.",
+          body: "The plains won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The meridian cartography was drawn by a higher alignment to the exact legal document, listening through the administrative static until the land opened and what was inside came out. Elias's transition is now complete — he has cleared his container, and so have I. I leave North Dakota with a deep understanding of the pipeline as a vibrational autobiography. The earth never loses its coordinates.",
         },
         {
           type: "paragraph",
-          text: "At the Broken Bow community office, Joseph He Crow and Mina Crow sat before a table covered in federal audit paperwork and copies of the newly mandated watershed remediation funds. Mina pointed her finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Grassland: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Dakota Corridor.'*",
+          text: "At the Standing Rock Sioux Tribe's legal office in Fort Yates, Joseph He Crow and Mina Crow sat before a table covered in Army Corps consultation orders and copies of the newly mandated pipeline remediation injunctions. On Joseph's laptop was the lead story from Indian Country Today: eight pages, titled *'The Document North-Star Hid for Six Years: How a Wellness Consultant's Instagram Post Triggered a Federal Section 106 Emergency.'* Elias Whitehorse's name was in the headline. His photograph was at the top: a GPS unit in one hand, a routing map in the other, standing at grid coordinates 46.8203°N, 100.7841°W — the burial site, marked not for death but for measurement.",
         },
         {
           type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable pipeline contractor," Mina said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of confiscated bitumen pipes.`,
+          text: `"Non-contributing archaeological feature," Joseph said, reading the story. He was looking at the photograph of Elias. "That was his grandfather's grave."`,
         },
         {
           type: "quote",
-          text: `"Let her tune it," Joseph He Crow said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this state who can shatter a multi-million-dollar offshore infrastructure conspiracy because she wanted her followers to see a poem. The land didn't need her alignment, Mina, but the federal compliance auditors needed her metadata."`,
+          text: `"The Section 106 complaint has been on the Army Corps' desk for forty-nine days," Mina said. She did not look up from the consultation order. "Indian Country Today ran the story in four hours." She closed the laptop. "Send them Elias's original survey. All forty-one pages. Make sure his name is in the byline credit."`,
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "North-Star pipeline operations suspended indefinitely under federal injunction. Independent environmental audit mandated, revealing systematic reporting deletion. Elias Whitehorse's internal engineering reports formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar hand-woven grass basket from a boutique at the terminal, logging it as a 'consecrated souvenir of the prairie’s exhale.' We are boarding the flight to Sedona. She has solved the case stupidly, leaving the state fully un-vibrated and ghoulishly intact while the local collective executes the actual assets. Case closed.",
-        },
-        {
-          type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          body: "North-Star pipeline operations suspended indefinitely under Army Corps Section 106 emergency order. Independent environmental audit mandated, revealing systematic suppression of cultural resource documentation across fourteen expansion segments. Elias Whitehorse's internal compliance survey — reclassified and withheld for six years — formally entered into the federal grand jury record as primary evidence. Mina Crow's forty-nine-day consultation complaint is now the lead filing before the Corps. Meridian Impact Partners' role in the routing decision under investigation by the DOJ tribal consultation compliance office; their registered legal counsel, Carré & Hollander LLP (Geneva), is named as respondent. Subject has purchased a $190 'Plains Medicine' beeswax candle trio — wild-harvested prairie sage, sweetgrass, red earth — in a carved cedar box from a boutique at the Bismarck terminal, logging it as 'a consecrated triptych of the land's exhale.' We are boarding the return flight to Connecticut. She has solved the case stupidly, leaving the state fully un-vibrated and ghoulishly intact while the Standing Rock Sioux Tribe's legal department and the Army Corps execute the actual assets. CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
         },
       ],
     },
   ],
 };
-
