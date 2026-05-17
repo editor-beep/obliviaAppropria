@@ -10,12 +10,12 @@ const SH = 16; // seat height
 const PITCH = 36; // row pitch (px)
 
 const COL_X: Record<"A" | "B" | "C" | "D" | "E" | "F", number> = {
-  A: 267,
-  B: 296,
+  A: 271,
+  B: 298,
   C: 325,
-  D: 375,
-  E: 404,
-  F: 433,
+  D: 369,
+  E: 396,
+  F: 423,
 };
 
 const ALL_COLS = ["A", "B", "C", "D", "E", "F"] as const;
@@ -109,7 +109,7 @@ function Cabin() {
       <div className="relative mt-10">
         <svg
           viewBox="0 0 700 1250"
-          className="mx-auto block w-full max-w-xs sm:max-w-sm md:max-w-md"
+          className="mx-auto block w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl"
         >
           {/* ── Fuselage ─────────────────────────────────────────────── */}
           <path
