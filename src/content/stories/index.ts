@@ -46,7 +46,7 @@ export const storyMetas: StoryMeta[] = [
     keyImage:
       "Oblivia kneels in silvered vineyard mud as tactical scanners and black SUVs close in.",
     mediaMisreading:
-      "The Atlantic: The Human Lightning Rod: How Oblivia Appropria Used Her Own Body to Detect the Toxic Secrets of the Cape.",
+      "The Atlantic: 'The Architecture of Silence: How One Woman's Bare Feet Exposed the Toxic Infrastructure of the Global South'",
     status: "complete",
   },
   {
