@@ -12,7 +12,9 @@ export function Footer() {
           </p>
         </div>
         <nav className="flex flex-col gap-2">
-          <div className="text-foreground/80">Cabin</div>
+          <Link to="/cabin" className="transition-colors hover:text-signal-glow text-foreground/80">
+            Cabin
+          </Link>
           <Link to="/stories" className="transition-colors hover:text-signal-glow">
             Manifest
           </Link>
