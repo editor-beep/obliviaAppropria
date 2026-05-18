@@ -8,15 +8,16 @@ import type { StoryMeta } from "@/content/types";
 const SW = 22; // seat width
 const SH = 16; // seat height
 const PITCH = 36; // row pitch (px)
-const SEAT_BLOCK_SHIFT_X = SW / 2; // coordinate translation: shift seat columns right by ~0.5 seat widths
 
+// Cabin interior: x=252–448 (196px). Seat block: 6×22px + 2×27px gaps + 44px aisle = 174px.
+// Padding each side: (196-174)/2 = 11px → columns start at 252+11=263.
 const COL_X: Record<"A" | "B" | "C" | "D" | "E" | "F", number> = {
-  A: 271,
-  B: 298,
-  C: 325,
-  D: 369,
-  E: 396,
-  F: 423,
+  A: 263,
+  B: 290,
+  C: 317,
+  D: 361,
+  E: 388,
+  F: 415,
 };
 
 const ALL_COLS = ["A", "B", "C", "D", "E", "F"] as const;
@@ -196,7 +197,7 @@ function Cabin() {
           <line x1="350" y1="213" x2="350" y2="602" stroke="#c6bfb8" strokeWidth="0.5" strokeDasharray="4 7" />
           <line x1="350" y1="648" x2="350" y2="833" stroke="#c6bfb8" strokeWidth="0.5" strokeDasharray="4 7" />
 
-          <g transform={`translate(${SEAT_BLOCK_SHIFT_X} 0)`}>
+          <g>
           {/* ── Column headers ───────────────────────────────────── */}
           {ALL_COLS.map((col) => (
             <text
