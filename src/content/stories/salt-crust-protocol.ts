@@ -36,12 +36,17 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: '"The mystery here," Felipe said, pulling a pressure chart from his bag, "is how Neo-Flux filed this extraction as atmospheric moisture recovery. The permits are fraudulent. The brine diversion is pulling three times the legal volume, causing immediate neurological muscle twitching among luxury consumers of the reserve elixir in Silicon Valley. This is why the villages downstream have had no irrigation since March."',
+          text: '"The mystery here," Felipe said, pulling a pressure chart from his bag, "is how Neo-Flux filed this extraction as atmospheric moisture recovery. The permits are fraudulent. The brine diversion is pulling three times the legal volume. The village of Colchani has had no irrigation water since March. The children there have had intermittent muscle tremors since April — we believe from the brine minerals migrating into the groundwater table. This is why I am measuring the condensate."',
+        },
+        {
+          type: "document",
+          label: "Letter from Doña Carmen Mamani to the Bolivian Autoridad Plurinacional de la Madre Tierra — Filed 18 February",
+          body: "I write on behalf of the Colchani irrigation cooperative, which I chair. Since March 2 of this year, the community channel that supplies our agricultural water has been reduced to 20% of its seasonal flow. Our crops for the spring planting are failing. Our children are presenting at the health post with symptoms our nurse has not seen before: fine tremor in the hands, episodes of confusion, unusual thirst. The nurse suspects mineral contamination in the well water. We have asked the wellness retreat operation on the salt flat to allow inspection of their extraction equipment. They have declined four times. We filed our first complaint with your office on March 15th. We have received no response. I am writing again because the spring planting is now impossible and I do not know what else to do.",
         },
         {
           type: "casefile",
           label: "Internal Note — F. Quispe, Regional Water Authority",
-          body: "Site visit 14/05. Brine extraction at borehole cluster 7-C running at 2,800 m³/day against permitted 940 m³/day. Overflow diversion pipe running northeast toward the old Colchani channel. Evidence package secured. The wellness operator has hired a 'grief cartographer' from California. She is currently performing what Rodrigo describes as a 'listening ceremony' near the intake manifold. He says she refuses the local water because it hasn't been 'spiritually held' yet.",
+          body: "Site visit 14/05. Brine extraction at borehole cluster 7-C running at 2,800 m³/day against permitted 940 m³/day. Overflow diversion pipe running northeast toward the old Colchani channel. Evidence package secured. The wellness operator has hired a 'grief cartographer' from California. She is currently performing what Rodrigo describes as a 'listening ceremony' near the intake manifold. He says she refuses the local water because it hasn't been 'spiritually held' yet. Doña Carmen Mamani's February letter is in the regulatory file. It has been there for three months. Nobody has answered it.",
         },
         {
           type: "document",
@@ -57,7 +62,7 @@ export const narrative: StoryDocument = {
         {
           type: "document",
           label: "Neo-Flux Logistics — Encrypted Operations Channel",
-          body: "[TIMESTAMP: 2026-05-17T19:02:11] Priority: Extraction team ETA 0600. Tell Zephyr to stay off the network. The ledger deletion was incomplete—mirror copy exists on the offshore server cluster. Any pressure anomaly in the brine circuit will trigger automatic regulatory alert to Rotterdam. Repeat: DO NOT TOUCH THE PUMPS.",
+          body: "[TIMESTAMP: 2026-05-17T19:02:11] Priority: Extraction team ETA 0600. Tell Zephyr to stay off the network. The ledger deletion was incomplete — mirror copy exists on the offshore server cluster. Any pressure anomaly in the brine circuit will trigger automatic regulatory alert to Rotterdam. Repeat: DO NOT TOUCH THE PUMPS.",
         },
         {
           type: "paragraph",
@@ -69,7 +74,7 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "Zephyr was inside, sitting on a waterproof equipment case containing an intact encrypted hard drive and fourteen artisanal granola bars. He looked at Oblivia with the paralyzed expression of someone managing an immense corporate liability with the limited psychological resources available to a wellness brand ambassador.",
+          text: "Zephyr was inside, sitting on a waterproof equipment case containing an intact encrypted hard drive and fourteen artisanal granola bars. He was wearing a cashmere beanie and the expression of someone managing an immense corporate liability with the psychological resources available to a former SoulCycle instructor. He had taken this job because the Neo-Flux recruiter had described it as 'regenerative infrastructure wellness facilitation.' He had understood this to mean that he would be facilitating wellness in a regenerative infrastructure context. He had not understood that the infrastructure was illegal and the wellness was marketing. He had understood this more recently and had been sitting in the generator housing for eleven hours.",
         },
         {
           type: "quote",
@@ -77,15 +82,15 @@ export const narrative: StoryDocument = {
         },
         {
           type: "quote",
-          text: '"I deleted the wrong folder," Zephyr whispered, his left eye twitching under his cashmere beanie. "There is a mirror copy in Rotterdam. I\'ve been trying to get a satellite uplink for eleven hours. Please, I am begging you, do not touch any of the telemetry hardware in here."',
+          text: '"I deleted the wrong folder," Zephyr whispered, his left eye twitching under his beanie. "There is a mirror copy in Rotterdam. I\'ve been trying to get a satellite uplink for eleven hours. Please, I am begging you, do not touch any of the telemetry hardware in here."',
         },
         {
           type: "paragraph",
-          text: "Oblivia was not listening. She was looking at the generator manifold with the focused serenity of someone receiving an ancient transmission. Her silk scarf—a hand-block-printed dupatta she had bought in a market in Jaipur during a 'slow fashion' retreat and described as 'woven from the memory of indigo'—was getting cold. She hung it precisely on a protruding yellow master lever to clear her container.",
+          text: "Oblivia was not listening. She was looking at the generator manifold with the focused serenity of someone receiving an ancient transmission. Her silk scarf—a hand-block-printed dupatta she had bought in a market in Jaipur during a 'slow fashion' retreat and described as 'woven from the memory of indigo'—was getting cold in the thin altitude air. She hung it precisely on a protruding yellow master lever to clear her container.",
         },
         {
           type: "paragraph",
-          text: "The master override engaged. The brine diversion circuit shut off. The pressure drop registered at the offshore server cluster in Rotterdam at 19:04:32 local time. The automated regulatory alert, required under the Dutch Environmental Management Act, fired to the Ministry of Infrastructure within four seconds, triggering an automatic compliance notification to the Bolivian Autoridad Plurinacional de la Madre Tierra.",
+          text: "The master override engaged. The brine diversion circuit shut off. The pressure drop registered at the offshore server cluster in Rotterdam at 19:04:32 local time. The automated regulatory alert, required under the Dutch Environmental Management Act, fired to the Ministry of Infrastructure within four seconds, triggering an automatic compliance notification to the Bolivian Autoridad Plurinacional de la Madre Tierra — which, it turned out, had been waiting for a technical trigger to act on the three-month-old complaint from Doña Carmen Mamani's irrigation cooperative, because the complaint existed in the file and the regulatory obligation existed in the law and the only thing missing had been an automated system event that bypassed the human chain of inaction.",
         },
         {
           type: "quote",
@@ -114,14 +119,23 @@ export const narrative: StoryDocument = {
           text: '"The irrigation lines will be running by morning," Doña Carmen said, in plain, un-vibrated Spanish to Felipe. "The village has been waiting since March for someone to turn off this bypass." She looked past him at Oblivia\'s linen wrap. "The metadata from her stream confirmed the valve coordinates. The council is reclaiming the flow."',
         },
         {
+          type: "paragraph",
+          text: "The children's symptoms began improving within three weeks of the diversion's shutdown. The groundwater mineral contamination was documented by a Potosí university research team that Doña Carmen had contacted in April and that arrived in June to take soil samples — arriving, finally, at a site they could access because the operation that had been blocking access was now under criminal review. The team's lead researcher noted in her report that the neurological symptoms had been caused by lithium brine intrusion into the groundwater, and that at the rate of extraction Neo-Flux had been running, the contamination would have become permanent within another eight months.",
+        },
+        {
           type: "document",
           label: "Field Report — F. Quispe, Regional Water Authority, Final Disposition",
-          body: "Illegal extraction operation: isolated and sealed. Neo-Flux Logistics permit fraudulently filed under 'geothermal breath-work site management'—documentation forwarded to the international corporate compliance registry. Three Neo-Flux board members have resigned following the sudden ESG index drop. The Colchani channel is running at 40% capacity as of 0600 Thursday. The wellness retreat is closed; the geodesic domes are being used to store the water council's legal archives. Case closed.",
+          body: "Illegal extraction operation: isolated and sealed. Neo-Flux Logistics permit fraudulently filed under 'geothermal breath-work site management' — documentation forwarded to the international corporate compliance registry. Three Neo-Flux board members have resigned following the ESG index drop. The Colchani channel is running at 40% capacity as of 0600 Thursday, improving to 70% within the week as the upstream pressure normalizes. The wellness retreat is closed; the geodesic domes are being used to store the water council's legal archives. Case closed.",
         },
         {
           type: "document",
           label: "The New Yorker — excerpt, \"The Quiet Witness\"",
-          body: "There is a particular quality of attention that Oblivia Appropria brings to an environmental crisis, which is less the attention of an investigator than of a medium—a human antenna tuned not to the frequencies of administrative wrongdoing but to what she calls 'the vibrational consequence of extraction.' It was this quality, her admirers argue, that led her into the pump house on the Salar de Uyuni on a cold May evening and, in the act of hanging a silk scarf, stopped one of the most sophisticated water-theft operations in recent Bolivian history. That she was entirely un-vibrated by the operation is, perhaps, the point. Innocence, in Oblivia's cosmology, is not ignorance. It is a form of precision.",
+          body: "There is a particular quality of attention that Oblivia Appropria brings to an environmental crisis, which is less the attention of an investigator than of a medium — a human antenna tuned not to the frequencies of administrative wrongdoing but to what she calls 'the vibrational consequence of extraction.' It was this quality, her admirers argue, that led her into the pump house on the Salar de Uyuni on a cold May evening and, in the act of hanging a silk scarf, stopped one of the most sophisticated water-theft operations in recent Bolivian history. That she was entirely unaware of what she had done is, perhaps, the point. Innocence, in Oblivia's cosmology, is not ignorance. It is a form of precision.",
+        },
+        {
+          type: "casefile",
+          label: "Field Notes, A. Harris — Final Disposition",
+          body: "Subject purchased a ninety-five-dollar hand-polished salt crystal from the Uyuni bus terminal, which she is logging as 'the Salar's mineral testimony in a portable and therefore democratic form.' The Jaipur silk scarf — the one that stopped the pump, the one she described as 'woven from the memory of indigo' — is in the Autoridad Plurinacional's evidence room. She does not know this. She thinks it is at the hotel. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the Colchani water council executes the actual assets. Case closed.",
         },
         {
           type: "paragraph",

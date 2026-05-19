@@ -3,105 +3,111 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-moderation-pit",
-      title: "Chapter One: The Moderation Pit",
+      id: "chapter-one-what-aminata-saw",
+      title: "Chapter One: What Aminata Saw",
       blocks: [
         {
           type: "heading",
-          text: "Where Human Cost Is Branded as Product Safety",
+          text: "The Case of the Digital Soul's Archive",
         },
         {
           type: "paragraph",
-          text: "Oblivia arrived in Dakar with two ring lights, three camera operators, and a conviction that grief was strongest when captured in natural light. Aminata Diallo had fallen from a footbridge fourteen days earlier after months of reviewing unredacted atrocities for a social-media contractor that called this labor 'content wellness.' The company called Oblivia for what it called a healing inquiry. The union called it a cover-up with perfume.",
+          text: "The work was described in the contract as 'digital safety operations.' The contract also described the compensation as '$2.40 per reviewed item,' which meant that in a good hour, if Aminata Diallo worked without pausing, she might review sixty items and earn $1.44 above minimum. The contract also contained a non-disclosure clause that prohibited her from discussing the nature of the reviewed items with any person outside the contracted team, including therapists. This last clause was, in the opinion of the labor researcher Ibrahima Sow, who had been studying the contract for three months, the most legally aggressive NDA he had encountered in twelve years of African digital labor documentation. He said so in a report. The report was published. Aperture AI's response was a press release about its commitment to 'content moderator wellbeing.'",
         },
         {
-          type: "document",
-          label: "Aperture AI — Emergency Reputation Retainer",
-          body: "Aperture AI retains Appropria Somatic Forensics LLC to conduct a rapid auric review of the Dakar moderation campus following the operational exit of Associate Aminata Diallo. Objective: stabilize stakeholder sentiment and support investor confidence ahead of governance review. Fee: $50,000/week + transport. Findings remain proprietary unless required by law.",
+          type: "paragraph",
+          text: "The items were not described in the contract. 'Digital safety operations' covered them adequately for legal purposes. What they were, in fact, was everything that gets uploaded to a major social platform before the automated filters catch it, and the automated filters cannot catch everything, and what they miss is reviewed by humans sitting in a room in Dakar, Senegal, at $2.40 per reviewed item. Beheadings. Children. Mass casualty events in real time, filmed on phones. The specific category of content that recurs, that has forms and patterns and a typology, that a person who reviews enough of it begins to recognize the way a radiologist recognizes a tumor—not consciously but before consciousness, in the body.",
         },
         {
-          type: "quote",
-          text: '"You can feel her frequency in the concrete," Oblivia said, touching the stained pavement like she was blessing it for a livestream. "This was not impact. This was transition."',
+          type: "paragraph",
+          text: "Aminata Diallo reviewed this content for eighteen months. She was 27 when she started. She kept a notebook—not because the contract allowed it but because she had studied literature at UCAD and she needed language the way people who grew up using language need it to make the world stay organized. The notebook was not about the content. It was about what the content did to time: how eight hours at a screen became a different unit of measure than eight hours anywhere else, how the walk home in the evening felt like a different kind of dark than the dark before the job, how she could stand at the Gorée Island ferry terminal and look at the Atlantic and see, briefly, what the Atlantic contained rather than what it reflected.",
         },
         {
-          type: "quote",
-          text: '"It was negligence dressed as innovation," Fatou Sow replied, handing over photocopies of internal slides. "Aminata logged ten-hour shifts of violent footage, no counseling, no medical escalation, and a fake promotion title so they could bill the World Bank for an advanced training program. She filed notes for us. Two days later she was dead. Police closed the file in forty-eight hours."',
+          type: "paragraph",
+          text: "She fell from the footbridge at Hann Bay on a Thursday evening in March. The police report called it an accident. It noted that the railing was in need of maintenance. It did not note the prior hospitalization, or the treatment for PTSD that had been denied by Aperture AI's HR process on the grounds that the symptoms were 'not directly attributable to work duties,' or the fact that the NDA had prevented her from describing her work duties to the treating psychiatrist with sufficient specificity for the attribution to be established. The NDA had been written by attorneys who understood this gap and had written the clause precisely to maintain it.",
         },
         {
           type: "casefile",
-          label: "Case File OBA-009 — Pre-Analysis Log, A. Harris",
-          body: "Victim: Aminata Diallo. Reported cause: psychiatric collapse under sustained trauma exposure. Hidden variable: grant fraud tied to labor misclassification. Subject (Oblivia) has interpreted death scene as a spiritual release event. Real evidence currently held by labor organizer Fatou Sow and local reporter Ibrahima Ndiaye.",
+          label: "Case File OBA-009 — Preliminary Notes, A. Harris",
+          body: "Aminata Diallo, 29. The notebook has 214 pages. Fatou Dieng, who was Aminata's closest friend in the content moderation team and who left the job after fourteen months when her own symptoms became unmanageable, has the notebook. Fatou has been running an informal peer support network for former Aperture AI moderators for six months, operating out of her apartment in the Médina. She has documented forty-three moderators with significant PTSD symptoms; seven have been hospitalized; two others have died in circumstances that Ibrahima's report describes, carefully, as 'consistent with untreated occupational trauma.' Aperture AI's Dakar subsidiary is registered as Soleil Digital Services SARL; its operating grants include funding from Meridian Impact Partners, which Alexandrei noted in his ledger before we landed.",
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia had come to Dakar to conduct what she was calling 'digital healing ceremonies for tech-disrupted communities.' She had brought her best journaling supplies—a $180 Leuchtturm notebook and a set of Tombow brush pens—to 'help the community process their digital grief.' She had described Dakar, in her pre-trip Instagram story, as 'the original digital village, where the ancestral bandwidth of West Africa meets the new frequency of the connected world.' She wore a boubou she had bought at the airport in Paris and carried a tote bag that said SLOW FASHION in block capitals.",
         },
       ],
     },
     {
-      id: "chapter-two-the-server-choir",
-      title: "Chapter Two: The Server Choir",
+      id: "chapter-two-the-notebooks-second-life",
+      title: "Chapter Two: The Notebook's Second Life",
       blocks: [
         {
           type: "paragraph",
-          text: "By day two, Oblivia had renamed the server floor 'the sanctuary of synthetic witness' and posted a story claiming the machines were mourning alongside her. She ignored the crime-scene tape, stepped around a warning cone, and began a slow rotational ritual beside the main data rack while three executives nodded like this was normal procurement practice.",
-        },
-        {
-          type: "quote",
-          text: '"The terminal is asking to confess," she whispered into her microphone, silk cape dragging across the cable tray. "If I keep turning, it will open."',
-        },
-        {
-          type: "quote",
-          text: '"Please stop turning," Ibrahima said from the doorway, reading the network map. "That uplink line is unstable. If it drops, the failsafe dumps everything to backup. Backup is misconfigured to a public monitoring archive."',
-        },
-        {
-          type: "document",
-          label: "Live Broadcast — @obliviaappropria",
-          body: "Inside the digital temple now. The machine has invited full release. We are witnessing the victim's final metadata return to the planetary cloud. #SomaticForensics #DigitalKarma",
+          text: "Fatou had agreed to meet Oblivia because Ibrahima had called her and said: 'She is not useful in the way a journalist is useful, but she is useful.' He had explained what he meant. Fatou had thought about it for a day and agreed.",
         },
         {
           type: "paragraph",
-          text: "On her third spin, the cape snagged a fan bracket. She jerked free. The bracket shifted. The rack settled a few centimeters onto an exposed fiber segment. Link dropped for two seconds. The server interpreted disaster and saved itself by emptying 4.7 terabytes of internal records into the public archive.",
+          text: "They met in Fatou's apartment, which was small and bright and had a view of a courtyard where a guava tree grew. Fatou made attaya and they sat at the kitchen table and Oblivia said that she was here to honor 'the digital grief of the community' and that she hoped to 'co-create a healing installation that would honor the emotional archives of the people who had witnessed the hardest things.' Fatou listened to this without expression.",
+        },
+        {
+          type: "paragraph",
+          text: "Then she took Aminata's notebook from the shelf and placed it on the table between them.",
         },
         {
           type: "quote",
-          text: '"Timestamp?" Alexandrei asked, already writing.',
+          text: `"This was Aminata's," she said. "She wrote about the work without writing about the work. She found ways to describe what it did to her without describing what she saw, because the NDA covered what she saw. The notebook is not about the content. It's about what happens to a person when the content is what they look at for eight hours a day for a year and a half." She paused. "Ibrahima says you have 612,000 followers. Some of them are journalists."`,
         },
         {
           type: "quote",
-          text: '"4:12 p.m. Exact peak vibration," Oblivia said, smiling for camera four.',
+          text: `"I have a very diverse community," Oblivia confirmed, opening the notebook with the reverence she applied to all found objects, running her thumb along the edge of Aminata's handwriting. "This is profound. This is the archive of a digital elder. The grief in this language—the way she metabolizes the frequency of what she witnessed—this is what I came here to find."`,
         },
         {
           type: "quote",
-          text: '"Great," Alexandrei said. "You just published payroll suppression logs, grant compliance fraud, trauma-incident reports, and executive emails debating whether dead moderators count as attrition or liability."',
+          text: `Fatou said: "Will you read some of it? On your broadcast?"`,
+        },
+        {
+          type: "quote",
+          text: `"I will read all of it," Oblivia said.`,
+        },
+        {
+          type: "paragraph",
+          text: "She read for forty minutes on her live feed. She read in the register she used for found poetry—low, careful, treating each passage as a discovered text, translating Aminata's Wolof-inflected French into English as she went, finding the cadence in it, holding the silences. She did not understand, because she had not been told, the specific legal significance of what Aminata had written. But Aminata had been a literature student, and she had written with the precision of someone who understood that language could be a record if you chose the right words, and the right words were in there.",
+        },
+        {
+          type: "document",
+          label: "Instagram Live — @obliviaappropria — excerpt, 34:17",
+          body: "She writes: 'The hours are not hours here. The items accumulate and the protocol says to process and move and process and move. I asked to speak to someone external about the weight of processing. I was told the NDA covered internal psychological support only. I did not understand what the NDA covered until I tried to speak outside of it.' And then: 'The review targets require 55 items per hour. At 55 items per hour you cannot rest between items. The item is followed by the next item. The mind does not have time to establish distance between the current item and the next item. After some months, there is no distance.'",
+        },
+        {
+          type: "paragraph",
+          text: "Among the 612,000 watching were four labor journalists, two of whom had active investigations into tech content moderation labor conditions, and one attorney who specialized in NDA litigation and who paused the broadcast twice to write down specific phrases. The phrases Aminata had written—in particular, the passage about the NDA blocking access to external psychological support—constituted, in the attorney's professional view, a documented violation of Senegalese workplace health and safety law.",
         },
       ],
     },
     {
-      id: "chapter-three-the-press-cycle",
-      title: "Chapter Three: The Press Cycle",
+      id: "chapter-three-the-ibrahima-filing",
+      title: "Chapter Three: The Ibrahima Filing",
       blocks: [
         {
           type: "paragraph",
-          text: "By sunrise, regulators had mirrored the archive. By lunch, prosecutors in three jurisdictions opened linked inquiries into labor violations, public-funding fraud, and negligent homicide. Aperture's ESG rating cratered before New York coffee carts opened. The board announced an internal values reset and external legal counsel in the same memo.",
-        },
-        {
-          type: "document",
-          label: "Oblivia Field Journal — Departure Notes",
-          body: "The case resolved through embodied listening. The cape knew where the system held shame. Aminata has completed her transition, and the infrastructure has begun its own. I leave Dakar integrated.",
+          text: "Ibrahima's report had been published and had produced a press release from Aperture AI. The notebook broadcast produced something different: it produced a named attorney and four active journalists and, within seventy-two hours, a formal complaint to the Senegalese labor inspection directorate from a coalition of the forty-three documented moderators, organized by Fatou, with the NDA violation documented by the attorney and backed by Aminata's own words read aloud to 612,000 people on a Tuesday evening in Dakar.",
         },
         {
           type: "paragraph",
-          text: "At the union office, Fatou and Ibrahima worked through compensation tables, trauma leave mandates, and criminal referral paperwork while a magazine profile praised Oblivia's 'non-linear forensic artistry.' No one in the room laughed. They were too busy doing the work that keeps people alive.",
+          text: "Aperture AI's response was, initially, another press release. Then the labor inspection directorate visited Soleil Digital Services SARL's offices. Then Meridian Impact Partners—whose logo appeared in the Dakar subsidiary's grant documentation—quietly removed Soleil Digital from its published portfolio. Then a second group of former moderators in three other countries filed parallel complaints with their own labor authorities, citing Ibrahima's report and Aminata's notebook broadcast as primary documentation.",
         },
         {
-          type: "quote",
-          text: '"She thinks she solved it," Fatou said, stapling another claim packet.',
-        },
-        {
-          type: "quote",
-          text: '"She did what entitlement always does," Ibrahima said. "She broke everything, called it intuition, and accidentally left evidence where the public could see it."',
+          type: "paragraph",
+          text: "Fatou started sleeping again. Not well, but again. She told Ibrahima this was enough for now.",
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Aperture grant suspended. Wage restitution ordered. Independent trauma-audit mandated. Criminal referrals active. Subject departing with luxury terminal souvenirs and unchanged self-mythology. Structural harm remains. Case closed for branding, open for everyone else.",
+          body: "Aperture AI under labor authority investigation in Senegal, Kenya, and the Philippines simultaneously. The NDA clause has been declared unenforceable by the Dakar labor tribunal on the grounds that it constituted a barrier to mandatory workplace health support. Soleil Digital Services SARL's operating license is suspended pending compliance review. Fatou Dieng's peer support network has been formalized as a registered labor advocacy organization with operational funding from a Geneva-based worker rights foundation. Aminata Diallo's family is a co-complainant in the civil proceedings. The notebook is in Fatou's care. Subject purchased a ninety-five-dollar hand-carved wooden pen from the Léopold Sédar Senghor airport departure boutique, logging it as 'a tool consecrated by the oral tradition of the original digital village.' She has posted a newsletter describing Aminata as 'a digital griot whose archive I was honored to carry.' She is not wrong that she carried it. She will never understand the weight of what she carried. Case closed.",
+        },
+        {
+          type: "paragraph",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER LABOR AUTHORITY INVESTIGATION (MATERIAL)",
         },
       ],
     },

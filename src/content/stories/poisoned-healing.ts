@@ -3,121 +3,102 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-indigo-saturation",
-      title: "Chapter One: The Indigo Saturation",
+      id: "chapter-one-the-blue-of-the-wrong-thing",
+      title: "Chapter One: The Blue of the Wrong Thing",
       blocks: [
         {
           type: "heading",
-          text: "Concept 012: The Somatic Transmutation of the Geothermal Vent",
+          text: "The Case of the Celestial Indigo Purification",
         },
         {
           type: "paragraph",
-          text: "The volcanic pools did not look despoiled, which disappointed Oblivia slightly as the chartered helicopter banked over the steaming vents of the Bay of Plenty. She had prepared herself during the flight from Auckland—ensconced in first class with an organic, lavender-infused silk sleep mask—for a landscape that communicated its structural disinvestment with a clumsy, un-vibrated prose. Instead, the pools of Te Waiora lay below her like a cluster of heavy, bruised sapphires, looking, to the un-attuned or un-aligned eye, entirely integrated into the geothermal landscape. She stepped onto the sulfurous tarmac, ignoring the sharp, ozonic stench of unrefined sulfuric acid and boiling dye-vat polymers rising from the lower creek, and noted in her field journal that the neon-blue slurry bubbling through the vents was 'the exquisite Indigo Weep of Gaia—a sacred mineral mourning conducted upward through the earth's secret tectonic meridians.' In the support vehicle behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the corporate inventory tags affixed to the upstream industrial pumping facility.",
+          text: "Oblivia had been waiting her whole life to come to New Zealand, which meant she had been waiting her whole life to come to a place that confirmed everything she had already decided was true. The geothermal valley delivered. It smelled of sulfur and mineral steam, yes, but it smelled of them in a way that felt intentional—a landscape with a thesis, a geology in conversation with itself. The pools were extraordinary: a sequence of terraced water bodies that descended the hillside in colors that moved from pale green at the top through turquoise to a deep, almost electric blue at the lowest level. Oblivia stood at the boardwalk railing above the blue pool and breathed in and out and understood, with the absolute certainty of someone who has never been wrong about the things she has decided to be right about, that this was the most spiritually significant body of water she had ever encountered.",
+        },
+        {
+          type: "paragraph",
+          text: "The resort guide, a man named Derek who had been hired six months ago when the previous guide left without explanation, told her that the lower pools were restricted. He told her this in the specific way of someone who has been told to tell guests this and doesn't know exactly why, and Oblivia received it in the specific way of someone who interprets restrictions as invitations.",
+        },
+        {
+          type: "paragraph",
+          text: "What Derek did not know—what the resort's management had not told him, because telling him would have required explaining certain things that the resort's management had decided not to explain—was that the Whakatane pulp mill, seven kilometers upriver, had been discharging indigo-6 industrial dye and sulfuric acid processing effluent into the river system for eleven months under an emergency wastewater dispensation that had been granted, renewed, and re-granted under a Ministry of Tourism administrative agreement that treated the valley's visitor revenue as a factor in environmental permitting. The deep blue of the lower pools was not geothermal. It was industrial.",
+        },
+        {
+          type: "paragraph",
+          text: "Finnian Frost had found this out. Finnian had been an extreme-wellness content creator with 400,000 followers who had come to the valley for what he called a 'total elemental immersion' residency and who had spent three days in the lower pools before the symptoms began: a faint blue tinge to his fingertips, which he posted about as 'the pools gifting me their mineral color.' Then skin blistering on his forearms. Then respiratory distress, which he described in his last posted video—his hands shaking, his voice thin—as 'the sulfur frequency moving through my bronchial architecture.' The resort had called a doctor, privately. The doctor had been a contracted consultant for the pulp mill. Finnian's family had been contacted. An agreement had been reached. A payment had been made. A private cremation had been arranged.",
         },
         {
           type: "document",
-          label: "Te Waiora Ancestral Spa — Guest Orientation & Alignment Manifesto",
-          body: "Te Waiora Sanctuary LLC, in an exclusive infrastructure management alliance with Whakatane Pulp & Paper, is proud to announce the launch of our Indigo Alignment Initiative. Through mindful, technology-forward infrastructure harmony, we partner with the deep volcanic crust to unlock the regenerative potential of the interior aquifer. Our flagship hydration offering, The Abyssal Vapor™, utilizes crystalline mineral matrices managed via our proprietary automated fluid grid, retailing at $65 an ounce within select biophilic wellness spaces. We are streamlining resilience.",
-        },
-        {
-          type: "quote",
-          text: `"The choreography of the weep, Gary," Oblivia whispered, her eyes closed as she adjusted the manual focus on her 35mm Leica. "The way the neon water folds into a liquid sapphire fingerprint... it is a beautiful, planetary exhale. The earth has chosen to bleed indigo wisdom to mark the transition of a high-vibration human. Finnian understood that before his somatic ascension. He didn't drown in a hazardous waste pool; he entered the literal cloud architecture of the volcanic core to map the earth's interior grief from the inside."`,
-        },
-        {
-          type: "quote",
-          text: `"Your influencer went into the drainage grate because a three-week undetected vat leak at the pulp mill upstream dumped concentrated dye-solvent and raw sulfuric acid directly into our groundwater, Ms. Appropria," Gary the 'Water-Guardian' said, his voice straining for a melodic resonance while his left eyelid twitched under his branded fleece vest. "The pH of the thermal system has dropped to 3.2. He hit a pocket of unshielded hydrogen sulfide gas off-gassing from the vent and passed out before his feet even left the pier. It's not a somatic ascension; it's an environmental homicide."`,
-        },
-        {
-          type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained things so plainly, which only deepened the mystery. It was a pattern she had decoded during her Prague semester—the closer a population lived to the material mechanics of logistics and engineering, the more they relied on the blunt prose of survival, entirely missing the exquisite, high-vibration semiotics of their own displacement.",
+          label: "Spa Āio Valley Resort — Spiritual Site Assessment Retainer",
+          body: "Spa Āio Valley Resort (NZ) Ltd. hereby engages Appropria Somatic Forensics LLC for an atmospheric recalibration following the spiritual departure of resident Finnian Frost. The resort wishes to commission a full vibrational reading of the healing waters to confirm their restorative capacity ahead of our summer season. Ms. Appropria is authorized to access all resort facilities and is invited to experience our complete healing water program. The resort notes that our pools represent a unique geothermal inheritance and we are committed to their care and continuation. Fee: $50,000.",
         },
         {
           type: "casefile",
-          label: "Case File OBA-006 — Pre-Arrival Forensic Log, A. Harris",
-          body: "Target Identity: Whakatane Pulp & Paper / Te Waiora Sanctuary LLC. Anomaly: Three-week deletion in the mandatory upstream effluent application logs. Core testing of thermal column confirms high-density hydrogen sulfide gas and concentrated Blue-6 chemical saturation throughout the spawning wetlands. Finnian Frost completed his final live-stream check, took a lethal concentration of H2S at the pier edge, and slipped below the surface. Spa contractor Gary has been hiding industrial pH neutralizers behind the sauna to protect the facility's corporate insurance policy. Subject arrives today convinced the active chemical spill is an intentional 'indigo event.' Proceeding with sub-surface digital telemetry sweep.",
+          label: "Case File OBA-006 — Preliminary Notes, A. Harris",
+          body: "Finnian Frost, 29. Died of acute chemical exposure—indigo-6 industrial dye causes progressive dermal necrosis and, at sustained concentration, severe pulmonary damage. The lower pools contain indigo-6 at concentrations approximately 300 times the safe threshold for human contact. The Whakatane mill has been discharging into the river system for eleven months. The Ministry of Tourism's administrative agreement with the mill is a matter of public record but is filed under a commercial sensitivity exemption. The Māori land trust that holds customary guardianship over the valley—Ngāti Tūwharetoa, in their capacity as kaitiaki of the wāhi tapu zones—has been trying to get an independent water test done for four months. The resort has blocked access each time. The trust's rangatira, a woman named Tama Whitiora, has the documented history of these access denials. She has been waiting for an opening.",
         },
       ],
     },
     {
-      id: "chapter-two-the-geometry-of-absence",
-      title: "Chapter Two: The Geometry of Absence",
+      id: "chapter-two-finnian-frosts-last-check-in",
+      title: "Chapter Two: Finnian Frost's Last Check-In",
       blocks: [
         {
-          type: "paragraph",
-          text: "By the second afternoon of her residency, the sanctuary had reached what Oblivia described to her digital following as 'The Grand Decompression.' Guided by an irrepressible spiritual directive to document the 'aerial perspective of the indigo transition,' she stood at the pool's edge, preparing to launch her customized, twelve-thousand-dollar cinematic drone—a professional witnessing instrument that she had personally ordered with a mirror-polished gold-plated casing that served no scientific function whatsoever but felt, to her touch, highly conductive to emotional frequencies.",
-        },
-        {
-          type: "quote",
-          text: `"Observe the beautiful geometry of the sub-surface shadow, Gary," Oblivia breathed, launching the golden cylinder into the thick, sulfurous steam while her phone’s camera captured the scrolling digital aura on her titanium watch interface. "The app is registering a deep crimson auric field directly beneath the central vortex. The water is processing an intense, masculine anger in this specific coordinate. The bypass valve is a chakra of the machine, holding space for Finnian's transition."`,
-        },
-        {
-          type: "quote",
-          text: `"The drone is registering an electromagnetic feedback loop because that steel flange is an un-shielded 250-kilowatt auxiliary overflow valve," Alexandrei said, standing back from the toxic margin with a telescopic sample pole. "That blue-green curtain isn't an auric field, Oblivia. It's the catastrophic sediment resuspension of an un-filtered bypass line dumping five thousand liters an hour of industrial dye into a protected thermal stream. Look at the data interface on the screen—that 4K drone lens is framing the exact serial number of an unlisted corporate infrastructure line."`,
+          type: "document",
+          label: "Internal Resort Communications — Email Chain, recovered under NZ Privacy Act request",
+          body: "[From: Resort GM, To: Mill Environmental Liaison] 09:14, Day 3 — Guest presenting with skin reaction consistent with extended dye exposure. Applying standard protocol.\n\n[From: Mill Environmental Liaison, To: Resort GM] 09:31 — Dr. Hēmi will attend at 11. Remind him of the NDA terms before he goes in. This is the third case this season. The Ministry wastewater dispensation expires in six weeks; we are applying for extension.\n\n[From: Resort GM, To: Mill Environmental Liaison] 10:54 — Guest condition deteriorating. Dr. Hēmi says bronchial involvement. How do we classify the departure?\n\n[From: Mill Environmental Liaison, To: Resort GM] 11:17 — Natural causes, pre-existing condition. Have the family agreement signed before any external authority is contacted. The dispensation extension is being processed.",
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Alexandrei lived so close to the dry, technical prose of his laboratory equipment that he interpreted the landscape through the coarse, patriarchal vocabulary of fluid dynamics, entirely missing the profound, non-linear love poem written across the earth's broken skin.",
+          text: "Oblivia arrived on a Tuesday. She was given a room with a view of the upper pools. She was given the full healing waters menu and a robe made of organic cotton and a welcome drink of mineral water from a spring that was, she was told, drawn from a protected deep aquifer. She drank the mineral water. She looked at the pools from her window. She descended to them at dusk.",
+        },
+        {
+          type: "paragraph",
+          text: "She had been told, again, by Derek, that the lower pool was restricted. She had been told this with slightly more emphasis this time. She had smiled at Derek with the patient warmth of someone who understands that restrictions exist for people who need them, and had descended the boardwalk to the lower terrace.",
+        },
+        {
+          type: "paragraph",
+          text: "The water was extraordinary. It was the color of something that didn't have a name in English—not quite teal, not quite cobalt, with a depth that seemed to go further down than the pool's actual dimensions. She stepped in. The temperature was wrong—cooler than she'd expected, with a chemical bite she interpreted as 'the mineral's initial resistance to being witnessed.' She filmed it. She filmed herself in it. She filmed her arms, with the light coming through the water and the specific quality of blue surrounding them, and said: 'The pools are receiving me. The earth is reading my skin.' The indigo-6 began to transfer to her skin within minutes. By the time she had been in the pool for twenty minutes, her forearms had a faint blue-gray cast, just visible in the late light. She held them up to the camera.",
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Viewers)",
-          body: "Holding space at the edge of the Indigo Weep. My chakra telemetry app is completely short-circuiting as it interacts with Gaia's deep volcanic nervous system. Look at these beautiful, fluctuating numbers on the screen—the planet is speaking to us in a digital language we are only just beginning to decode. We are all just water waiting to be dyed. 🇳🇿 #TheBlueCocoon #MolecularRebirth #Rotorua #SomaticInfrastructure",
+          label: "Instagram Story — @obliviaappropria — 19:54 NZST",
+          body: "The lower pool has done something extraordinary to my skin. I am being stained. The water is writing on me — the same color as the pool, a deep mineral indigo. This is the pools giving themselves to the body as a record. I am being marked by the wāhi tapu, the sacred water. My skin is becoming its color. I am so grateful. I am so marked. 🌿💧 #MineralMark #SacredWater #WahiTapu #TheIndigo",
         },
         {
           type: "paragraph",
-          text: "Because the boutique tracking application running on her drone utilized an unshielded, high-intensity radio frequency to look for 'auric noise,' Oblivia's live stream inadvertently intercepted the un-encrypted digital data packets being transmitted from the sub-surface transducers back to the pulp mill's control room. For fourteen uninterrupted minutes, 612,000 luxury lifestyle consumers, three regional Maritime Authority monitoring stations, and a compliance attorney for the Ministry for the Environment watched a high-definition, real-time scrolling display of the mill’s hidden automated overflow logs—complete with the phrase 'EFFLUENT BYPASS ACTIVE: QUADRANT 3'—flash across her screen, framed beautifully by her intentional morning lighting.",
+          text: "Among the 612,000 followers watching the story, there was a textile chemist named Robin who worked for a dye manufacturer in Auckland and who watched Oblivia's forearms with the sharp professional attention that comes from recognizing the color of your own industry in an unexpected context. The speed of the dye transfer. The color temperature. The pH-indicating reaction at the water's surface where Oblivia's skin met it. Robin opened Twitter.",
         },
         {
-          type: "quote",
-          text: `"What time did you complete that aerial calibration?" Alexandrei asked, entering the observation deck with a satellite phone clutched in his hand.`,
-        },
-        {
-          type: "quote",
-          text: `"At precisely noon, when the solar alignment with the thermal core was absolute," Oblivia said, smiling serenely as she smoothed her linen."`,
-        },
-        {
-          type: "quote",
-          text: `"Perfect. The Maritime Authority enforcement division just utilized your live telemetry broadcast as the definitive basis for an emergency corporate forfeiture," Alexandrei said, checking his ledger. "And the mill's central command system has executed an automatic remote shut-down to avoid an un-insured criminal seizure. You didn't hear the ancestors, Oblivia. You leaked the entire corporate fraud log to international prosecutors."`,
+          type: "document",
+          label: "Tweet — @RobinTanDyesChem — 20:03 NZST",
+          body: "The color staining @obliviaappropria's arms in those pool videos is not geothermal mineral pigmentation. That's indigo-6 synthetic vat dye migration at high concentration. The reaction front and color temperature are exact matches for effluent discharge from textile or paper processing operations. This pool is contaminated with industrial chemicals. This is not a spa; this is a discharge site. @MoE_NZ @NZ_EPA [2,800 retweets in 90 minutes]",
         },
       ],
     },
     {
-      id: "chapter-three-the-alchemical-audit",
-      title: "Chapter Three: The Alchemical Audit",
+      id: "chapter-three-the-wahi-tapu-record",
+      title: "Chapter Three: The Wāhi Tapu Record",
       blocks: [
         {
           type: "paragraph",
-          text: "The collapse of Whakatane Pulp & Paper did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, regional enforcement officers had parsed the public data stream, exposing the complete output logs for the night of Finnian's disappearance—including the precise chemical parameters of the unlisted sulfur dump and the field notation explicitly reading: 'bypass active—clearance required to dodge hazardous-waste shutdown costs.' The parent fund's sustainable-governance index rating plunged 6% before the London markets could even process the compliance disclosure.",
+          text: "The Ministry for the Environment received the tagged tweet at 20:47. They were already aware of Robin's public post because three of their environmental officers followed the chemist's account. By morning, an emergency testing team was at the valley. By noon, the lower pool was sealed. By the following afternoon, the Whakatane mill's discharge permit had been suspended and the Ministry of Tourism's wastewater dispensation agreement was under review by the Ombudsman, because the tweet had also been seen by a parliamentary press secretary who had sent it to her minister at midnight with the subject line: *You should see this before it's on Morning Report.*",
         },
         {
           type: "paragraph",
-          text: "On her final morning at the Auckland terminal, Oblivia sat within the premium, leather-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
-        },
-        {
-          type: "document",
-          label: "Oblivia Field Journal — The Indigo Integration",
-          body: "The pools won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The gold-plated cinematic drone was drawn by a higher alignment to the exact overflow vent, listening through the industrial static until the temple opened and what was inside came out. Finnian's container has been completely cleared within the landscape, and he is finally conductive. I leave Rotorua with a deep understanding of the abyssal exhale.",
+          text: "Tama Whitiora arrived at the valley the morning after the testing team. She had been waiting, in the specific manner of someone who has all the evidence and none of the access, for someone to open a door she hadn't been able to open herself. She walked through the resort's entrance—nobody stopped her—and stood at the lower pool with her arms folded and looked at the blue water and then looked at the testing team's equipment, and said to the lead environmental officer, very quietly: 'We filed four access requests since March. This is the first time anyone has been in this pool.' The officer wrote this down.",
         },
         {
           type: "paragraph",
-          text: "At the regional monitoring office, local iwi representatives and environmental engineers sat before a table covered in forensic indictment paperwork and copies of the newly mandated land restoration orders. An engineer pointed his finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Steam: How Oblivia Appropria Heard the Silent Cry of the Indigo Pools.'*",
-        },
-        {
-          type: "quote",
-          text: `"She insists her gold drone performed a 'radical non-empirical intervention' to re-tune the corporate vibration of the pulp mill," an investigator said, looking at a full-page photo of Oblivia standing barefoot on a sulfur-stained dock.`,
-        },
-        {
-          type: "quote",
-          text: `"Let her tune it," the director said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar industrial chemical conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, but the High Court needed her metadata."`,
+          text: "Oblivia was checked by the valley's contracted GP the morning after her swim. Her indigo-6 skin absorption was measurable but not at harmful levels—she had not been in the pool long enough for systemic exposure. She interpreted the examination as a 'mineral body audit.' She was told to shower thoroughly and not re-enter the lower pool. She wrote in her journal that her skin had been 'consecrated by the sacred water's industrial record' and that she felt 'the specific peace of a body that has been read by a living earth.'",
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Whakatane Pulp & Paper forced into liquidation following a $14 million environmental judgment. Spa contractor Gary sentenced to three years for reckless endangerment and insurance fraud. Te Waiora facility demolished; land title returned to local iwi for long-term ecological restoration. Subject has purchased a ninety-five-dollar hand-polished pounamu talisman from a boutique at the terminal, logging it as a 'consecrated fragment of the pool's victory.' We are boarding the flight back to Connecticut. The structural loop is complete from a material perspective. Subject remains fully un-vibrated. Case closed.",
+          body: "Whakatane mill's emergency dispensation program exposed and under criminal review. The Ministry of Tourism's administrative agreement has been referred to the Ombudsman as a potential corruption-of-process matter. Finnian Frost's family has filed a wrongful death claim; the resort GM and the contracted physician have been identified as respondents. Tama Whitiora's land trust has been granted interim kaitiaki authority over the water testing program. The resort is closed pending cleanup assessment. The full remediation timeline is estimated at three to five years. Subject purchased a ninety-five-dollar pounamu greenstone pendant from the Rotorua Airport departure lounge, logging it as 'a fragment of the valley's mineral record.' The blue staining on her forearms has not fully faded. She is posting photos of it. She is calling it her 'sacred tattoo.' It will be gone in two weeks. Finnian Frost will not. Case closed.",
         },
         {
           type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER CRIMINAL REVIEW (MATERIAL)",
         },
       ],
     },

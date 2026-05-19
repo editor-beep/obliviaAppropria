@@ -3,8 +3,8 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-fury-has-a-measurement",
-      title: "Chapter One: The Fury Has a Measurement",
+      id: "chapter-one-what-uncle-monty-heard",
+      title: "Chapter One: What Uncle Monty Heard",
       blocks: [
         {
           type: "heading",
@@ -12,112 +12,91 @@ export const narrative: StoryDocument = {
         },
         {
           type: "paragraph",
-          text: "The highlands did not look broken, which disappointed Oblivia slightly as her private Mercedes transport navigated the smooth, Chinese-constructed tarmac of the Quiché plateau. She had prepared herself during the long flight from Miami—ensconced in first class with an organic, lavender-infused silk sleep mask—for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, the green plateau lay before her as a rolling sheet of high-altitude forest, the ancient ceiba trees moving in the morning wind with a slow, continuous animation that felt like an elegant corporate threat. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow police tape and the clinical white security vehicles guarding the perimeter easement, and noted in her field journal that the massive, 2.3-meter-wide chasm cutting through the terraced fields was 'the exquisite, non-linear Fury of Gaia—a masculine ancestral rupture where the earth chooses to drop its physical envelope when its geological integration is complete.' In the passenger seat behind her, Alexandrei did not clear his chakras; he opened a weatherproof ledger and logged the corporate asset numbers printed on the diamond-head drill rigs idling behind the security fence.",
-        },
-        {
-          type: "document",
-          label: "Threshold Journeys LLC — Retainer Agreement: Private Forensic Consultation",
-          body: "Threshold Journeys LLC (Delaware) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational disappearance of Chief Narrative Assessor Montgomery R. Appropria, known to our seekers as Uncle Monty, at our Quiché plateau concession. Ms. Appropria is authorized to conduct a complete vibrational scan of our fracture camp quadrants to resolve the site's current atmospheric tension and restore investor confidence before the upcoming IACHR compliance audit. Fee: $50,000/week plus private helicopter logistics. All findings proprietary.",
-        },
-        {
-          type: "quote",
-          text: `"The choreography of the exit, Ixchel," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty wooden patrol desk. She was speaking directly to the lead regional human rights litigator. "My uncle... his choice to fracture his envelope against this specific limestone chasm was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the karst's lesson."`,
-        },
-        {
-          type: "quote",
-          text: `"Montgomery Appropria suffered acute crush trauma and a fatal internal cerebral hemorrhage because he was buried inside a subterranean exploratory vault when an un-permitted high-pressure hydraulic drilling cycle caused a massive collapse of the karst cavern floor, Ms. Appropria," Ixchel Chumil said, her voice flat, cold, and entirely un-vibrated as she stood outside the security perimeter with a litigation folder. "Our client company in San Francisco reclassified this illegal deep-crust mineral tracking as a 'Tectonic Frontier Expansion Track' so they could secure a multi-million-dollar sustainable development subsidy while bypassing local environmental reviews. He didn't clear a container; he was suffocated by the exact synthetic fracturing polymers your company signed off on. The regional police closed the file as a somatic ascension because Auric Subsurface Solutions pays the regional director's infrastructure logistics concession."`,
+          text: "They had told Montgomery Appropria—who had been telling his niece Oblivia for twenty years that he was an 'ancestral landscape interpreter' and who had in fact been paid $4,200 a month by a company called Narrative Resource Group LLC to maintain what their contract called 'cosmological explanations for geological events'—that the cave system was stable. He had asked twice, because the pump sound was wrong: too high-pitched for the depth they'd assigned it, too continuous for a survey drill. He had a background in commercial real estate and had been on enough construction sites to know what a high-pressure hydraulic fracturing pump sounded like, even through two hundred meters of karst limestone. He had asked about it. He had been told it was a groundwater survey. He had gone into the cave.",
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained these deaths and disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The internal asphyxiation is an illusion; the frequency of the tectonic alignment is the only true evidence.*",
+          text: "The collapse happened at 14:23. He was in the secondary gallery, photographing a formation he had been paid to describe in retreat brochures as 'the ancestral breathing chamber of the K'iche' cosmological archive.' The formation was, in fact, a stress fracture propagating from a hydraulic pressure event in the rock body beneath him. The fracture opened in under four seconds. The ceiling of the gallery descended in sections. Montgomery Appropria had time to understand what was happening, which is the worst version of how this kind of thing ends.",
+        },
+        {
+          type: "paragraph",
+          text: "The company that ran the fracturing program—Auric Subsurface Solutions, incorporated in San Francisco—filed the incident as 'structural instability of undetermined origin.' Their subcontractor Narrative Resource Group LLC, whose contract with Montgomery Appropria had technically ended the week before, sent his estate a payment for services rendered and a condolence note on branded letterhead. The regional police received a written account from the site manager attributing the collapse to 'natural seismic activity consistent with the Q'umarkaj cosmological zone.' This account had been prepared by Narrative Resource Group's content team.",
         },
         {
           type: "casefile",
-          label: "Case File OBA-M — Pre-Arrival Forensic Log, A. Harris",
-          body: "Target Identity: Auric Subsurface Solutions / Threshold Journeys LLC. The Homicide: Assessor Montgomery R. Appropria dead after a fatal structural collapse caused by unlisted high-pressure hydraulic fracturing. Client company suppressed the internal micro-seismic logs and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal international court audit. Geologist Ixchel Chumil has compiled the definitive IACHR tracking data proving systematic aquifer contamination. Subject arrives at the chasm fully convinced the casualty is an intentional 'photonic transition.' Proceeding to the main command vault sweep.",
+          label: "Case File OBA-005 — Preliminary Notes, A. Harris",
+          body: "Montgomery R. Appropria, 61. Died in a karst cave collapse caused by an illegal high-pressure hydraulic fracturing cycle operating from an undisclosed borehole cluster 220 meters below the tourist cave system. Auric Subsurface Solutions has been operating unpermitted in this zone for fourteen months, using the cave system's tourist designation as cover for the surface survey activity. Geologist Ixchel Chumil has compiled IACHR tracking data documenting systematic aquifer contamination affecting eleven downstream communities. She also has the suppressed micro-seismic logs—the ones that showed the cave system's structural instability three weeks before the collapse. Somebody at Auric received those logs. Somebody decided to continue operating.",
+        },
+        {
+          type: "document",
+          label: "Threshold Journeys LLC — Spiritual Investigation Retainer",
+          body: "Threshold Journeys LLC (Delaware), operating in partnership with the Quiché Plateau Cosmological Heritage Trust, hereby retains Appropria Somatic Forensics LLC for a grief cartography investigation following the somatic departure of narratologist Montgomery R. Appropria. Ms. Appropria is authorized to conduct a vibrational survey of the K'iche' cave system and surrounding plateau. The company believes deeply that Montgomery's departure can be honored through a spiritual accounting of the site's energetic record, and that such an accounting will serve both the healing of the ancestral zone and the continued operation of our cosmological experiences program. Fee: $50,000 plus helicopter access from Guatemala City.",
+        },
+        {
+          type: "paragraph",
+          text: "Ixchel Chumil drove three hours from the city to meet Oblivia at the cave mouth. She had been filing complaints about the fracturing operation for eight months and was operating, at this point, on the specific fuel of someone who has been correct for a long time and has decided that being correct is insufficient and that something further is required. She had a litigation folder and a portable hard drive and an expression Oblivia interpreted as spiritual gravity and that was, in fact, something more efficient than that.",
+        },
+        {
+          type: "quote",
+          text: `"He didn't choose to enter the limestone," Ixchel said. "He was misled about the safety conditions, and the company that misled him continued running a fracturing program that their own seismic data told them had destabilized the gallery he was in. They knew. They chose to continue. That's not a cosmological event."`,
+        },
+        {
+          type: "quote",
+          text: `Oblivia was quiet for a moment. Her hand was pressed flat against the cave mouth's limestone, which was warm from the afternoon sun. "He was always asking things to give him their lessons," she said softly. "He asked the wrong thing at the wrong depth."`,
+        },
+        {
+          type: "quote",
+          text: `"He asked the right questions," Ixchel said. "To the wrong people."`,
         },
       ],
     },
     {
-      id: "chapter-two-the-crystalline-signature",
-      title: "Chapter Two: The Crystalline Signature",
+      id: "chapter-two-the-sacred-archive",
+      title: "Chapter Two: The Sacred Archive",
       blocks: [
         {
           type: "paragraph",
-          text: "By the second afternoon of her investigation, the high-density fracture grid had reached what Oblivia described to her digital following as 'The Grand Alignment.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted digital telemetry vault. The space was a climate-controlled canyon of brushed aluminum and unshielded automated pressure valves, dominated by a central satellite data tower that hummed intensely at a frequency she could feel in her sinuses.",
-        },
-        {
-          type: "quote",
-          text: `"Observe the beautiful cadence of the internal processing, Dirk," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the terminal chassis. She was wearing an Italian hand-stitched silk cape—the color of a Central American sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
-        },
-        {
-          type: "quote",
-          text: `"The machine is running a real-time data-uplink to our corporate office in San Francisco, California, Ms. Appropria," Domingo Chumil whispered, his voice tight with an immediate, professional focus as he checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+          text: "Oblivia wanted to go into the cave. The cave was sealed with a temporary police barrier—a strip of yellow tape and a handwritten sign—which she interpreted not as a legal restriction but as a threshold marker, the kind of symbolic boundary that sacred spaces erect around their most communicative zones. She had brought a full-spectrum LED lantern, a four-pound piece of smoky quartz, and her camera. She had told Ixchel she intended to 'retrieve Monty's frequency from the interior of the archive.'",
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Domingo lived so close to the dry, technical prose of his university textbooks that he interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+          text: "Ixchel had told her not to go past the first gallery. The fracture propagation from the collapse was still active—Ixchel had the micro-seismic data on her tablet and could show Oblivia exactly where the current instability was concentrated. She showed her. Oblivia looked at the data display with the expression of someone observing a beautiful but irrelevant phenomenon.",
+        },
+        {
+          type: "paragraph",
+          text: "She went in alone. She photographed everything. The cave was not, as she had expected, a ruined thing—the first gallery was intact, the limestone formations doing what they had always done, indifferent to the humans and their drilling and their grief. She moved through it slowly with her lantern, photographing the walls, the formations, the specific quality of cave dark that exists just beyond the edge of artificial light. She photographed a formation she called 'the ancestral compression'—two walls of limestone that had, in geological time, been pressed toward each other—and did not recognize it as a stress fracture. She photographed several pieces of equipment she found wedged in the cave wall's lower section, half-concealed by a ledge of limestone. Corporate markings on the equipment housing. She photographed these too, in detail, noting their colors and textures as 'the machine's offering to the cave's archive—the industrial leaving its signature in the mineral record.'",
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the mechanical divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🇬🇹 #SomaticForensics #MayanFury #ChakraTelemetry #TheInterface",
+          label: "Posted to 612k followers — @obliviaappropria — from inside the cave, 16:43",
+          body: "Inside Uncle Monty's final chamber. He photographed what the cave asked him to photograph. I am doing the same. The cave stores everything. The machines have left their marks on the walls — a specific brand of industrial blue-grey that I am documenting as the mineral record of what happened here. The cave is not destroyed. It is more specific now. 🇬🇹 #MayanKarst #GriefCartography #SacredArchive #MontysMountain",
         },
         {
           type: "paragraph",
-          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
-        },
-        {
-          type: "quote",
-          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Ixchel, whose laptop screen was already scrolling with an intense cascade of un-encrypted drilling logs.`,
-        },
-        {
-          type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and wiped a sudden, bright trail of blood from her upper lip.`,
-        },
-        {
-          type: "quote",
-          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 bytes of un-redacted corporate spreadsheets onto a public international monitoring archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire un-permitted deep-crust fracturing and regulatory fraud log to international prosecutors."`,
+          text: "The photographs were 4K. The equipment markings were legible. The GPS metadata from Oblivia's phone, embedded in each image, placed the equipment precisely within the prohibited zone of the fracturing concession. Ixchel received the notification that Oblivia had posted forty-seven images from inside the cave and sat down on the limestone outcropping outside the entrance and opened the IACHR submission template she had been refining for three months and began adding the GPS coordinates from Oblivia's post.",
         },
       ],
     },
     {
-      id: "chapter-three-the-tectonic-integration",
-      title: "Chapter Three: The Tectonic Integration",
+      id: "chapter-three-monty-last-asset",
+      title: "Chapter Three: Monty's Last Asset",
       blocks: [
         {
           type: "paragraph",
-          text: "The legal collapse of Auric Subsurface Solutions’ mining concession did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, Inter-American Commission on Human Rights compliance officers had parsed the public files, exposing the complete internal spreadsheets explicitly detailing the systematic suppression of the cavern pressure over-limit metrics to avoid immediate shut-down and environmental review costs. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, illegal trade trafficking, and multi-jurisdictional financial fraud.",
+          text: "The IACHR filing was submitted fourteen days after Oblivia left Guatemala. It cited Oblivia's photographs as independent third-party documentation confirming the presence of unpermitted hydraulic fracturing equipment within the protected karst zone—equipment whose serial numbers Ixchel had been seeking for eight months and that had appeared, in extraordinarily clear focus, in Oblivia's cave archive series. The filing also included the suppressed micro-seismic logs, obtained through a court order after the photographs established the zone violation. The micro-seismic logs showed that three Auric Subsurface Solutions engineers had received stability warnings about the secondary gallery six days before the collapse. Two of them had responded to the warning with the instruction: *continue program, log as natural variability.*",
         },
         {
           type: "paragraph",
-          text: "On her final morning at the Guatemala City terminal, Oblivia sat within the premium, leather-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
-        },
-        {
-          type: "document",
-          label: "Oblivia Field Journal — The Karst Integration",
-          body: "The plateau won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Uncle Monty's transition is now complete—he has cleared his container, and so have I. I leave the highlands with a deep understanding of the furrow as a vibrational archive.",
-        },
-        {
-          type: "paragraph",
-          text: "At the guesthouse terrace, Ixchel Chumil and Domingo sat before a table covered in international court paperwork and copies of the newly mandated harbor remediation funds. Domingo pointed his finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Fracture: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Mayan Karst.'*",
-        },
-        {
-          type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the software contractor," Ixchel said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of confiscated diamond-head drill rigs.`,
-        },
-        {
-          type: "quote",
-          text: `"Let her tune it," Domingo said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar offshore infrastructure conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, Ixchel, but the international trade auditors needed her metadata."`,
+          text: "Those three engineers were named in the IACHR filing. Their names were also in Ixchel's press release. Domingo, who had been Monty's guide and who had spent the past five months trying to find someone who would look at his affidavit, read the press release on his phone in the kitchen of the guesthouse and started crying, which he had not done since November.",
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Auric exploration license suspended indefinitely under international court freeze. Independent geotechnical audit mandated, revealing systematic logs deletion across fourteen months. Montgomery Appropria's internal meeting logs formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar hand-polished jade talisman from a boutique at the terminal, logging it as a 'consecrated souvenir of the mountain's victory.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local council executes the actual assets. Case closed.",
+          body: "Auric Subsurface Solutions exploration license revoked by Guatemalan Ministry of Energy. Criminal manslaughter charges filed against three named engineers; the company's parent fund has frozen operations pending investigation. The eleven downstream communities documented in Ixchel's aquifer contamination report have been granted emergency water safety orders. Narrative Resource Group LLC is under review by the California Attorney General for its documented practice of paying local guides to provide false cosmological frameworks for industrial operations. Montgomery Appropria's estate is a co-complainant in the civil filing. Subject has purchased a ninety-five-dollar hand-polished jade fragment from a boutique in Guatemala City's international terminal, logging it as 'a consecrated souvenir of the mountain's interior record.' She is writing about the cave as a teacher. She is not wrong that the cave taught her something; she will never know what, specifically, she photographed. Case closed.",
         },
         {
           type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER CRIMINAL PROCEEDINGS (MATERIAL)",
         },
       ],
     },

@@ -3,121 +3,104 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-auric-wood-profiling",
-      title: "Chapter One: The Auric Wood Profiling",
+      id: "chapter-one-the-tonality-of-the-rosewood",
+      title: "Chapter One: The Tonality of the Rosewood",
       blocks: [
         {
           type: "heading",
-          text: "The Case of the Counter-Somatic Acoustic Burial",
+          text: "The Case of the Forest's Last Instrument",
         },
         {
           type: "paragraph",
-          text: "The mountain reserve did not look like a crime scene, which disappointed Oblivia slightly as her private Mercedes transport climbed past the terraced limestone margins of the Copán valley. She had prepared herself during the long flight from SFO—ensconced in first class with an organic, lavender-infused linen sleep mask—for a landscape of violence that communicated its structural trauma with a clumsy, un-vibrated prose. Instead, the high-altitude forest lay before her as a rolling sheet of deep green canopy, the ancient rosewood trees moving in the morning wind with a slow, continuous animation that felt like an elegant corporate threat. She adjusted her 'Terroir-Neutral' raw silk wrap, ignoring the heavy yellow police tape and the raw, un-vegetated mud where twenty-four-year-old park guard Marco Ordóñez had landed three weeks prior, and noted in her field journal that the location was 'the exquisite, non-linear portal of a high-vibration human who chose to drop his physical envelope when his acoustic work with the trees was complete.' In the shadow of the flagstone courtyard behind her, Alexandrei did not clear his container; he opened a weatherproof ledger and logged the serial numbers stamped on the flatbed logging winches idling near the reserve gate.",
-        },
-        {
-          type: "document",
-          label: "Casa del Ritmo LLC — Retainer Agreement: Private Forensic Consultation",
-          body: "Casa del Ritmo Eco-Somatic Sanctuary hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational exit of Park Guard Marco Ordóñez at our Copán forest concession. Ms. Appropria is authorized to conduct a complete vibrational scan of our marimba tuning sala to resolve the site's current atmospheric tension and restore investor confidence before the Q3 CITES compliance audit. Fee: $50,000/week plus helicopter logistics. All findings are proprietary.",
-        },
-        {
-          type: "quote",
-          text: `"The choreography of the exit, Sebastián," Oblivia whispered, her eyes closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz directly over the chalk outline on the patio. She was speaking to the sanctuary's founding ethnomusicologist. "The young man... his choice to fracture his envelope against this specific limestone path was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the instrument's lesson."`,
-        },
-        {
-          type: "quote",
-          text: `"Marco Ordóñez suffered a fatal skull fracture because he caught an illegal timber-poaching crew clearing an un-permitted five-acre patch of old-growth rosewood at three in the morning, Ms. Appropria," the regional forest monitor Elena Vásquez said, her voice flat, cold, and entirely un-vibrated as she stood outside the security perimeter with a waterproof data case. "Our client company in Austin reclassified this industrial logging operation as a 'Community-Managed Sustainable Harvest' so they could secure a CITES export permit while pocketing the raw material differential. He didn't clear a container; he was pushed off a ravine because he documented forty-seven illegal logging coordinates linked to your resort's corporate supply chain. The regional police closed the file as an accident because Harwood & Fox pays the local department's logistics infrastructure concession."`,
+          text: "Honduras has a specific quality of green—not the dense, layered green of Borneo or the searing yellow-green of the African savanna, but a cloud forest green: wet and cool at altitude, shot through with mist, the kind of green that hides its interior. Oblivia stood on the trail above Copán and breathed it in and felt, with the certainty she always felt in places she had not been before, that she understood it. She had read about Honduras in a travel piece in a magazine that used words like 'undiscovered' and 'authentic.' She had booked the Resonance & Root Sound Healing Retreat based on its website, which showed photographs of indigenous percussion instruments being played at sunset over the ruins.",
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained these deaths with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The autopsy is an illusion; the frequency of the acoustic grain is the only true evidence.*",
+          text: "What the website had not said was that the marimba bars being played in those photographs were rosewood. What the rosewood had not said—because rosewood is not in the business of saying anything, having been cut from its tree and dried and shaped and polished until it rings at a frequency that serious musicians describe as the closest thing to the human voice that a percussive instrument achieves—was that it had come from a tree that had been felled illegally inside the UNESCO Biosphere Reserve at night, transported on an unmarked truck to a workshop in Copán Ruinas, and shipped from there to Austin, Texas, under a CITES permit that had been issued for a different shipment of wood entirely. The workshop had a name. The name of the workshop was Comunidad Resonante de Copán, which sounded like a community arts organization and was registered as one, and was in fact a shell entity controlled jointly by Resonance & Root LLC of Austin, Texas, and Harwood & Fox Percussion of Portland, Oregon.",
+        },
+        {
+          type: "paragraph",
+          text: "Elena Vásquez had been tracking the trucks. She was a forest monitor with the National Forest Conservation Program and had been documenting illegal rosewood extraction from the Biosphere Reserve for two years. She had filed seventeen formal reports. Of the seventeen, four had been acknowledged. Of the four, one had resulted in an inspection. The inspection had found nothing because it had been announced in advance. The announcing had not been accidental.",
+        },
+        {
+          type: "paragraph",
+          text: "Marco Ordóñez had not been announced. Marco had been a park guard working the night trails in the reserve, and he had found the stumps—fresh ones, three meters in circumference, sap still running—on a Tuesday in March, and he had found the truck, and he had photographed both. He had sent the photographs to his supervisor. Four days later he was found at the base of a hillside trail, sixty meters from the nearest footpath. The site inquest's report used the phrase 'working at night in difficult terrain.' It did not mention the photographs.",
         },
         {
           type: "casefile",
-          label: "Case File OBA-013 — Pre-Analysis Forensic Log, A. Harris",
-          body: "Target Identity: Harwood & Fox Acoustic Instruments / Resonance & Root LLC. The Homicide: Ranger Marco Ordóñez dead after a fatal encounter with corporate timber poachers. Client company suppressed the internal GPS logging files and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal CITES tracking audit. Master marimba maker Don Aurelio confirms the replacement keys on the resort's instruments are un-cured timber cut illegally from the protected reserve eight months ago. Subject arrives at the crime scene fully convinced the casualty is an intentional 'resonance transition.' Proceeding to the main instrument showroom sweep.",
+          label: "Case File OBA-008 — Preliminary Notes, A. Harris",
+          body: "Marco Ordóñez, 44. Park guard, Copán sector. Found dead March 19th. His supervisor received the stump photographs at 23:14 on March 15th. The supervisor is also listed as a monthly stipend recipient in Comunidad Resonante de Copán's operational accounts, which Elena has obtained copies of. The photographs were not entered into any official record and Marco's phone was not recovered from the scene. Elena Vásquez has been receiving anonymous warnings to stop her monitoring work for six weeks. The most recent warning was hand-delivered to her home address.",
+        },
+        {
+          type: "document",
+          label: "Resonance & Root LLC — Sound Healing Retreat & Spiritual Site Assessment",
+          body: "Resonance & Root LLC (Austin, TX) invites Ms. Oblivia Appropria to participate in our inaugural Copán Resonance Retreat as our featured spiritual collaborator. Ms. Appropria will lead daily somatic practices alongside our master percussion artisans and is invited to document the retreat's sacred sound program for her archive. In addition, the retreat would welcome Ms. Appropria's energetic assessment of a recent 'atmospheric disturbance' at our partner workshop — the departure of a community member. No formal retainer is required; accommodation, private transport, and $30,000 in retreat sponsorship fees will be provided. All participants have signed our standard media and non-disclosure agreement.",
         },
       ],
     },
     {
-      id: "chapter-two-the-chassis-alignment",
-      title: "Chapter Two: The Chassis Alignment",
+      id: "chapter-two-the-catalog",
+      title: "Chapter Two: The Catalog",
       blocks: [
         {
           type: "paragraph",
-          text: "By the second afternoon of her investigation, the central marimba sala had reached what Oblivia described to her digital following as 'The Grand Alignment.' Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted administrative office. The space was a climate-controlled canyon of polished cedar panels and digital server racks, dominated by a tall satellite data unit that hummed intensely at a frequency she could feel in her sinuses.",
-        },
-        {
-          type: "quote",
-          text: `"Observe the beautiful cadence of the internal processing, Sebastián," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the terminal. She was wearing an Italian hand-stitched silk cape—the color of a Central American sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
-        },
-        {
-          type: "quote",
-          text: `"The machine is running a real-time data-uplink to our corporate office in Austin, Texas, Ms. Appropria," the local journalist Carmen Reyes whispered, her voice tight with an immediate, professional focus as she checked the network configuration panels from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+          text: "The retreat center was a restored colonial building at the edge of Copán Ruinas, its courtyard strung with lights and its walls hung with sound-healing certificates and photographs of celebrity musicians holding marimba bars. The bars themselves—the instruments—were displayed on custom-made stands like museum objects, which they were, in the specific sense that they had been taken from somewhere they belonged and placed somewhere they would be admired.",
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Carmen lived so close to the dry, administrative anxieties of her newsroom that she interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+          text: "Don Aurelio Mejía arrived at the retreat center on the second morning, uninvited, because Elena had told him to come. He was 73 and had been making marimbas for fifty years in the same workshop and could identify the origin of a piece of rosewood from its grain at a distance of four meters. He sat in the courtyard and looked at the bars on their stands and did not say anything for a long time.",
         },
         {
-          type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the crystalline divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's environmental karma in perfect alignment. 🇭🇳 #SomaticForensics #RosewoodFrequency #ChakraTelemetry #TheInterface",
+          type: "quote",
+          text: `"That bar," he said finally, to Oblivia, who was sitting beside him sketching the marimba in her journal, "came from a tree that was growing forty meters from a ceiba that my grandfather planted. I know the grain. The tree was two hundred years old." He was quiet. "I filed a report with the forestry authority. They came and looked and said they could not confirm the origin."`,
+        },
+        {
+          type: "quote",
+          text: `"The wood carries the memory of the tree," Oblivia said, her fountain pen moving. "The grain is the tree's autobiography. You can hear the forest in the resonance." She held her hand above the bar without touching it. "I feel it from here."`,
+        },
+        {
+          type: "quote",
+          text: `"You feel it because it's an old tree," Don Aurelio said. "The old wood rings differently. That's why they take it. The young wood doesn't have the same sound." He pulled a small piece of wood from the cloth bag he carried—a control sample, cut from a certified sustainable plantation tree he had bought legally last year. He held it next to the retreat bar. "Look at the grain."`,
         },
         {
           type: "paragraph",
-          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
+          text: "Oblivia looked. The difference was visible even to someone who had never studied wood in her life: the plantation piece had a regular, close grain; the retreat bar had the wide, irregular rings of a slow-growing old tree, each ring representing a decade. She had her 35mm Leica with her. She always had it. She photographed both pieces side by side, in macro, the grain filling the entire frame.",
         },
         {
-          type: "quote",
-          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Elena, whose laptop screen was already scrolling with an intense cascade of un-encrypted spreadsheet blocks.`,
-        },
-        {
-          type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen.`,
-        },
-        {
-          type: "quote",
-          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate shipping logs onto a public international forestry monitoring archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire illegal logging and CITES permit fraud log to international prosecutors."`,
+          type: "paragraph",
+          text: "She photographed them for fifteen minutes. She was, she told Don Aurelio, creating a 'mineral resonance archive' of the wood's autobiography. Don Aurelio watched her work. He had been photographing stumps in the dark for two years. He understood, watching her photograph in the open courtyard in the morning sun with a phone that had GPS enabled, that the result would be different.",
         },
       ],
     },
     {
-      id: "chapter-three-the-silk-aperture",
-      title: "Chapter Three: The Silk Aperture",
+      id: "chapter-three-don-aurelio-workshop-and-elena-map",
+      title: "Chapter Three: Don Aurelio's Workshop / Elena's Map",
       blocks: [
         {
           type: "paragraph",
-          text: "The legal collapse of Harwood & Fox’s sustainability certification did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, international environmental compliance officers had parsed the public files, exposing the complete internal memos explicitly detailing the creation of a fraudulent front entity called 'Comunidad Resonante de Copán' specifically to bypass CITES poaching restrictions in protected rosewood reserves. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate international criminal referral for corporate manslaughter, land fraud, and systematic timber trafficking.",
+          text: "The photographs went into Oblivia's archive post that evening: a series titled 'The Wood's Autobiography,' twelve images of marimba bars from the retreat and Don Aurelio's control sample, shot in detail that revealed the grain structure of each piece. The post was captioned: *The forest writes its history in rings. These instruments carry two hundred years of cloud forest memory in their bodies. I am listening.* She had tagged the retreat center's location.",
         },
         {
           type: "paragraph",
-          text: "On her final morning at the Toncontín terminal, Oblivia sat within the premium, leather-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
+          text: "The CITES enforcement officer for Central America—a woman named Patricia who spent most of her working hours looking at wood grain photographs and cross-referencing them against timber origin databases—followed Oblivia's account because three months ago Oblivia had accidentally photographed a piece of illegal ivory during a 'healing crystal' shoot in Nairobi and the resulting post had been the most useful evidence Patricia's team had received all year. Patricia had set up a follower notification. She saw the wood post within an hour.",
+        },
+        {
+          type: "paragraph",
+          text: "The GPS metadata in Oblivia's photographs placed both the retreat-center bars and the control sample at the same coordinate point: Don Aurelio's workshop, where he had brought the control sample from his collection, and where he had been comparing it to a bar he had borrowed from the retreat center under the pretext of tuning consultation. The coordinate point was 140 meters from the Comunidad Resonante de Copán workshop—close enough, when combined with Elena's two years of truck-tracking documentation, to establish a geographic chain of custody that had not previously existed in any official record.",
         },
         {
           type: "document",
-          label: "Oblivia Field Journal — The Acoustic Integration",
-          body: "The forest won. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Marco's transition is now complete—he has cleared his container, and so have I. I leave Honduras with a deep understanding of the rosewood goddess.",
-        },
-        {
-          type: "paragraph",
-          text: "At the Tegucigalpa community center, Elena Vásquez and Carmen Reyes sat before a table covered in federal audit paperwork and copies of the newly mandated forest protection orders. Carmen pointed her finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze under the Ceiba: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of the Copán Basin.'*",
-        },
-        {
-          type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the guitar contractor," Elena said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a pile of confiscated old-growth logs.`,
-        },
-        {
-          type: "quote",
-          text: `"Let her tune it," Carmen said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this country who can shatter a multi-million-dollar timber trafficking conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, Elena, but the international trade auditors needed her metadata."`,
+          label: "CITES Enforcement — Central America — Case Note, P. Álvarez",
+          body: "Preliminary geographic correlation established between retreat-center rosewood instruments and illegal extraction site within the Copán Biosphere Reserve, based on photographic metadata and independent monitor documentation. Coordination with Honduran Fiscalía Especial del Medio Ambiente initiated. Court order for workshop records requested. Cross-referencing against Austin, Texas, and Portland, Oregon, import declarations underway. Note: the photographic evidence was obtained by an Instagram account with 612,000 followers who appears to have been photographing the wood for aesthetic reasons. This does not affect admissibility.",
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Harwood & Fox sourcing license suspended indefinitely under CITES order. Independent geotechnical audit mandated, revealing systematic logging deletions across fourteen months. Marco Ordóñez's internal field reports formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar hand-polished mahogany talisman from a boutique at the terminal, logging it as a 'consecrated fragment of the forest's victory.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the country fully un-vibrated and ghoulishly intact while the local council executes the actual assets. Case closed.",
+          body: "Resonance & Root LLC and Harwood & Fox Percussion under federal investigation in the United States for CITES trafficking violations. Comunidad Resonante de Copán's nonprofit registration revoked by the Honduran tax authority. The retreat center has been closed and its instrument collection impounded pending origin verification. Don Aurelio's written testimony has been submitted to the Fiscalía. Elena Vásquez's two years of monitoring documentation have been formally entered into the criminal case file, overriding three years of official non-response. The supervisor who received Marco Ordóñez's stump photographs is under investigation for evidence suppression. This ending is not clean: the men who issued the advance warning to the inspector have not been identified. Elena is still receiving warnings. The impunity is still there. Subject purchased a ninety-five-dollar small marimba bar—a legally-sourced replica—from the Copán Ruinas tourist market, logging it as 'the forest's resonant archive in a portable form.' It will ring, softly and correctly, for the rest of her life, and she will tell people she found it in the cloud forest. Case closed.",
         },
         {
           type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER FEDERAL INDICTMENT (MATERIAL)",
         },
       ],
     },

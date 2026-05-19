@@ -3,121 +3,91 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-lungs-of-the-republic",
-      title: "Chapter One: The Lungs of the Republic",
+      id: "chapter-one-esperanzas-forty-one",
+      title: "Chapter One: Esperanza's Forty-One",
       blocks: [
         {
           type: "heading",
-          text: "The Case of the Counter-Somatic Toxin Inquest",
+          text: "The Case of the Forty-Second Witness",
         },
         {
           type: "paragraph",
-          text: "The strawberry fields at dawn were extraordinary, a landscape so aggressively geometric, so thick with the historic accumulation of unmonitored labor and subsidized water, that it felt like an elegant corporate threat. Oblivia stood at the perimeter of Field Site CV-14, her bare feet pressing into the cold, damp irrigation ditch with a deliberate, performative grounding that the field supervisor, Marco, found physically exhausting to watch from his truck. On the flight from Aspen—First Class, the cabin smelling faintly of her bespoke white-sage mist—she had prepared herself for a homicide scene that communicated its physical violence with a clumsy, un-vibrated prose. Instead, the morning mist hung over the crop rows like a gradated sequence of amber and indigo silk, catching the first light like a dropped necklace. She adjusted her 'Terroir-Neutral' linen safari wrap, ignoring the heavy yellow police tape and the clinical white security vans guarding the asset parameter, and noted in her journal that the location of the recent casualty was 'the exquisite, non-linear portal of a high-vibration human who chose to drop his physical envelope when his agricultural work was complete.' In the rear seat of the idling SUV, Alexandrei did not check his alignment; he opened a weatherproof ledger and logged the chemical registration numbers printed on the empty plastic drums piled behind the machinery shed.",
-        },
-        {
-          type: "document",
-          label: "Agro-Global Corp — Retainer Agreement: Private Forensic Consultation",
-          body: "Agro-Global Corp (Delaware) hereby retains Appropria Somatic Forensics LLC for an immediate, high-priority Auric Cartography Investigation regarding the sudden operational exit of Field Assessor Finnian Caldwell at our Tulare Concession. Ms. Appropria is authorized to conduct a complete vibrational scan of our strawberry furrows to resolve the site's current atmospheric tension and restore investor confidence before the upcoming Q3 B-Corp audit. Fee: $50,000/week plus helicopter logistics. All findings are proprietary.",
-        },
-        {
-          type: "quote",
-          text: `"The choreography of the harvest, Marco," Oblivia whispered, her eyes half-closed tightly enough to produce their own auric phosphenes as she held a four-pound block of raw rose quartz over an empty wooden berry crate. "The young assessor, Finnian... his choice to fracture his envelope against this specific loam furrow was a radical, non-linear somatic decompression. It reminds me so much of the profound, post-communist interiority of Czech glassblowers I observed during my sophomore spring—the way they gave their breath to the form and then simply stepped away from the furnace. He has integrated the furrow's lesson."`,
-        },
-        {
-          type: "quote",
-          text: `"Finnian Caldwell suffered a fatal cholinergic crisis and systemic respiratory arrest because he spent three weeks auditing our unvented pesticide storage facilities without a single hour of protective chemical tracking gear, Ms. Appropria," Esperanza Ruiz said, her voice flat, cold, and entirely un-vibrated as she stood outside the security perimeter with a collective litigation folder. "Our client company in San Francisco reclassified this systematic neurotoxic spraying as an 'Ethical Sourcing Initiative Launch Track' so they could secure a multi-million-dollar organic grant while pocketing the labor cost differential. He didn't clear a container; he was poisoned by the exact un-redacted organophosphate drift your company signed off on. The local police closed the file as heat exhaustion because Agro-Global pays the regional sheriff's security infrastructure logistics concession."`,
+          text: "The Central Valley in July smelled of two things: the first was the fertility that California is sold on—stone fruit, tomato, the mineral sweetness of irrigated earth—and the second was what was actually in the air, which on this morning was a fine mist of chlorpyrifos drifting from the application equipment three rows east of where the workers were moving. Chlorpyrifos is an organophosphate pesticide. It was banned for residential use in the United States in 2000. It was not banned for agricultural use until 2022, and its successor compounds—the unlisted proprietary organophosphates that Agro-Global Corp's field management had been using under a trade-secret exemption since 2021—were not banned at all, because they were not, officially, registered. The farm's certification said organic. The certification had been issued by a body that did not conduct field inspections.",
         },
         {
           type: "paragraph",
-          text: "Oblivia smiled patiently. The locals always explained these deaths and disappearances with such a blunt, material prose, entirely missing the exquisite lyricism of their own tragedies. She opened her linen journal and wrote: *The body that falls is simply a text that has finished its sentence. The internal asphyxiation is an illusion; the frequency of the chemical alignment is the only true evidence.*",
+          text: "Dr. Yun Kim had forty-one intake forms. They spanned fourteen months and documented a pattern of neurological symptoms in agricultural workers from this specific farming corridor: fasciculations—the involuntary muscle twitching that is the body's most visible alarm—excessive salivation, miosis, headache, and in eleven of the forty-one cases, seizure activity that had required emergency hospitalization. The symptoms were textbook organophosphate poisoning. The exposed workers were from three different farms with three different employers. The common factor was the application contractor: a company called PureField Agricultural Solutions, which contracted to Agro-Global Corp.",
         },
         {
           type: "casefile",
-          label: "Case File OBA-C — Pre-Analysis Forensic Log, A. Harris",
-          body: "Target Identity: Agro-Global Corp / Tulare Distribution. The Homicide: Assessor Finnian Caldwell dead after a fatal neurotoxic event caused by illegal chlorpyrifos analog application during the log gap (Weeks 14-16). Client company suppressed the internal clinical poisoning data and hired Oblivia to conduct a 'vibrational sweep' to dodge a formal state agricultural audit. Dr. Kim has forty-one identical field worker intakes proving systematic toxicity. Subject arrives at the furrow fully convinced the casualty is an intentional 'cellular oxidation.' Proceeding to the main terminal sweep.",
+          label: "Case File OBA-C — Preliminary Notes, A. Harris",
+          body: "Agro-Global Corp's Central Valley operations certified under four different organic and sustainable labels, none of which require disclosure of contracted pesticide applicators. PureField Agricultural Solutions holds a restricted-materials license for two registered compounds; the compound showing in Dr. Kim's toxicology panels is not one of them. It appears in metabolite form in blood and urine samples — Dr. Kim has sent samples to the UC Davis environmental health lab for identification. The lab has identified it as a novel organophosphate with structural similarity to a compound previously used as a chemical weapon precursor. This result is pending peer review. Esperanza Ruiz, who runs the worker health collective for this corridor, has the intake forms and the toxicology results. She has been trying to reach the California Department of Pesticide Regulation for four months. Her calls are returned once a week by a voicemail.",
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia had come to the Central Valley for her 'farm-to-chakra' series. She was in the right place: the valley was the origin of a significant portion of her food, and she had been meaning to 'experience the source' for years. She wore a wide-brimmed hat and linen overalls and was carrying, in her tote, three rose quartz points she planned to place in the field 'to align the earth's agricultural frequency.' She was genuinely excited. She photographed the rows of tomato plants with the reverence she brought to all living systems, calling them 'the earth stewards of the table' in her Instagram caption. She did not notice the smell.",
+        },
+        {
+          type: "paragraph",
+          text: "Esperanza met her at the field's eastern edge. She had agreed to the meeting because she had talked to the same journalist who had spoken to Abena, and the journalist had said the same thing: not useful as a journalist, but useful. Esperanza had thought about this and decided she needed something the journalist couldn't give her—a civilian witness with a phone, at a specific location, at a specific time.",
         },
       ],
     },
     {
-      id: "chapter-two-the-intuitive-filtration",
-      title: "Chapter Two: The Intuitive Filtration",
+      id: "chapter-two-the-farm-to-chakra-visit",
+      title: "Chapter Two: The Farm-to-Chakra Visit",
       blocks: [
         {
           type: "paragraph",
-          text: "By mid-morning, the high Central Valley sun had turned the furrows into a baking, reflective basin. Guided by an irrepressible spiritual directive to perform what she called a Forensic Atonement Dance to resolve the 'homicide's underlying structural contradiction,' she wandered past the propped-open maintenance doors of the restricted chemical telemetry terminal. The space was a climate-controlled canyon of brushed aluminum and unshielded automated mixing valves, dominated by a central server rack that hummed intensely at a frequency she could feel in her sinuses.",
-        },
-        {
-          type: "quote",
-          text: `"Observe the beautiful cadence of the internal processing, Marco," Oblivia breathed, her eyes closed as she began a slow, circular full-body rotation before the unshielded hardware enclosure, completely ignoring the 'CRIME SCENE — DO NOT CROSS' tape Alexandrei had affixed to the terminal scale. She was wearing an Italian hand-stitched silk cape—the color of a California sunset—that a luxury brand had sent her two years ago. "The server is a temple for the digital divine. The machine is holding the victim's final frequency, asking to participate in the ceremony, reaching out to integrate its truth with our container."`,
-        },
-        {
-          type: "quote",
-          text: `"The machine is running a real-time data-uplink to our corporate office in Brentwood, California, Ms. Appropria," Dr. Yun Kim whispered, her voice tight with an immediate, professional focus as she checked the network switches from the doorway. "That armored trunk line along the floor is the primary data conduit. If the link drops for even two seconds, the server executes an automatic emergency data dump to an external node to prevent file corruption. But the system is misconfigured—the IT contractor who set it up left three months ago, and the backup node points directly to a public weather network archive."`,
+          text: "Oblivia moved through the tomato rows with the focused reverence of someone on a pilgrimage, her camera describing wide arcs across the plants, the soil, the workers moving in the rows thirty meters east of where she was shooting. She crouched near the irrigation channels to photograph their mineral texture. She pressed her fingertips to the soil and brought them to her nose and said it smelled 'of the original American promise.' She placed her rose quartz points at intervals in the row. She narrated for her followers.",
         },
         {
           type: "paragraph",
-          text: "Oblivia shook her head with devastating sweetness. Dr. Kim lived so close to the dry, clinical anxieties of her public clinic ledger that she interpreted the landscape through the coarse, patriarchal vocabulary of network security, entirely missing the profound, cellular synchronization occurring between her silk and the terminal.",
+          text: "Miguel Ramos was working three rows east. He had been on the application crew since five in the morning, wearing the standard PPE that PureField issued—a paper dust mask, latex gloves—which was the correct PPE for the registered compounds and completely inadequate for the unlisted compound that the application tank contained. He was 34 years old and had been working agricultural labor in the valley for nine years. His wife was eight months pregnant. He had been having headaches for two weeks, which he attributed to the heat, which was also a real factor and which made it easy to attribute the headaches to the heat.",
+        },
+        {
+          type: "paragraph",
+          text: "At 9:47 AM he began having muscle fasciculations in his forearms. He had not had these before. He shook his arms out and kept working. At 9:52 he dropped the spray lance and sat down in the dirt between two plants and could not get up. At 9:54 he was on his hands and knees. At 9:55 Oblivia, who was photographing a tomato plant eight meters away, looked up and saw him.",
+        },
+        {
+          type: "paragraph",
+          text: "She called 911. This is the thing she did. She called 911, and she was frightened—genuinely, in the crack between her performed self and her actual self that real emergencies occasionally open—and in her frightened state she described to the dispatcher, in plain and specific terms, exactly what she was looking at: a man on his hands and knees in the tomato field, his arms shaking, unable to stand, three rows east of the irrigation channel on the east side of the field, and the application equipment parked at the row's end, and the tank's label, which she read aloud because she was trying to be helpful and didn't know what else to describe. She read the tank's label. The tank's label listed the registered compounds. It did not list what was in the tank. But it gave the dispatcher a field location, a time, and an employer, and it gave Dr. Kim Case 42.",
+        },
+        {
+          type: "paragraph",
+          text: "Miguel Ramos was alive when the paramedics arrived. He spent four days in Fresno's Community Regional Medical Center. The toxicology panel from his admission blood draw was the first clinical sample Dr. Kim had from a patient who had been in active exposure conditions at a known time and location. It produced a compound identification that the UC Davis lab could now corroborate against the worker samples already in their analysis queue.",
         },
         {
           type: "document",
-          label: "Live Broadcast — @obliviaappropria (612k Followers)",
-          body: "Conducting our Forensic Atonement Dance inside the sanctuary of the mechanical divine. The machine is opening its container to leak its inner truth into the planetary cloud, clearing the victim's structural karma in perfect alignment. 🍓 #SomaticForensics #CentralValleyResonance #ChakraTelemetry #TheInterface",
-        },
-        {
-          type: "paragraph",
-          text: "Because the silk cape was not engineered to sustain the torque of a full-body rotation against an industrial fixed point, the trailing hem caught violently on the steel bracket of an un-secured cooling fan rack during her third rotation. Oblivia yanked the fabric free with sudden, intuitive grace, shifting the heavy metal fan housing three inches to the left. The base of the rack compressed the exposed, un-armored section of the fiber-optic cable against the concrete floor.",
-        },
-        {
-          type: "quote",
-          text: `"What time did you complete that forensic rotation?" Alexandrei asked, bursting through the data doors with Graciela, whose laptop screen was already scrolling with an intense cascade of un-encrypted pesticide logs.`,
-        },
-        {
-          type: "quote",
-          text: `"At precisely 4:12, when the inner vibration reached its peak," Oblivia said, smiling serenely as she smoothed her linen and wiped a sudden, bright trail of blood from her left nostril.`,
-        },
-        {
-          type: "quote",
-          text: `"Perfect. The compression dropped the satellite link and triggered the emergency data-preservation failsafe," Alexandrei said, checking his ledger. "And because the backup node was misconfigured, the server has just dumped 4.7 terabytes of un-redacted corporate chemical logs onto a public state monitoring archive. You didn't solve the murder with your intuition, Oblivia. You leaked the entire illegal weapons-grade organophosphate and grant fraud log to regional prosecutors."`,
+          label: "Posted to 612k followers — @obliviaappropria — 11:34 PDT (from the hospital waiting room)",
+          body: "Something happened in the field today that I was not prepared for. A worker collapsed near me and I called for help and I am at the hospital and I am sitting in the waiting room and I am thinking about what it means to witness the body's refusal. The earth is speaking through the workers who tend it. I am going to sit here until I know he is okay. Whatever the field showed me today, I am not ready to describe it yet. 🌾",
         },
       ],
     },
     {
-      id: "chapter-three-the-sixteenth-frame",
-      title: "Chapter Three: The Sixteenth Frame",
+      id: "chapter-three-the-forty-second-case",
+      title: "Chapter Three: The Forty-Second Case",
       blocks: [
         {
           type: "paragraph",
-          text: "The legal collapse of Agro-Global’s Tulare operation did not require a public relations strategy; it was executed via an automatic algorithmic trigger. Within twelve hours of Oblivia's broadcast, regional Department of Pesticide Regulation compliance officers had parsed the public files, exposing the complete internal spreadsheets explicitly detailing the deliberate deployment of unlisted chlorpyrifos analogs to dodge organic production overhead costs during Weeks 14-16. The parent fund's sustainable-governance index rating plunged 6% before the New York markets could even process the compliance disclosure, forcing an immediate multi-jurisdictional criminal referral for corporate manslaughter, illegal chemical deployment, and systematic consumer fraud.",
+          text: "The California Department of Pesticide Regulation opened a formal investigation based on Case 42's incident report and Dr. Kim's submission of all forty-two intake forms, combined with the UC Davis compound identification. The compound in the application tank—which PureField obtained through a trade-secret exemption that had been granted by a regulatory officer who had previously worked as a lobbyist for Agro-Global Corp's parent company—was identified as a novel organophosphate in the same chemical family as nerve agents. Its use in agricultural application had not been disclosed to any state authority. Its effects on agricultural workers over chronic low-dose exposure were, according to the UC Davis analysis, predictable and severe and had been, across the forty-one prior cases, neither investigated nor stopped.",
         },
         {
           type: "paragraph",
-          text: "On her final morning at the Fresno terminal, Oblivia sat within the premium, leather-appointed interior of her chartered private jet, her fountain pen gliding over heavy, linen-bound paper with an unshakeable, spiritual confidence.",
-        },
-        {
-          type: "document",
-          label: "Oblivia Field Journal — The Tectonic Integration",
-          body: "The furrow has integrated its truth. The absolute density of our collective witness created an energetic block that the corporate infrastructure simply could not tolerate. The silk cape was drawn by a higher alignment to the exact cooling fan rack, listening through the industrial static until the temple opened and what was inside came out. Finnian's transition is now complete—he has cleared his container, and so have I. I leave California with a deep understanding of the furrow as a vibrational archive.",
+          text: "The trade-secret exemption's granting officer resigned before the investigation reached him. Agro-Global Corp's legal team filed three motions in federal court to prevent disclosure of PureField's compound formula. None of the motions succeeded, because the compound was already at the UC Davis lab and already in Dr. Kim's filing and already in the California AG's case record.",
         },
         {
           type: "paragraph",
-          text: "At the Pixley collective office, Esperanza Ruiz and Dr. Kim sat before a table covered in federal audit paperwork and copies of the newly mandated medical compensation orders. Dr. Kim pointed her finger at a copy of *The New York Times Magazine*, which featured a ten-page lifestyle profile titled: *'The Gaze in the Furrow: How Oblivia Appropria’s Non-Empirical Rotation Documented the Invisible Breath of California's Lungs.'*",
-        },
-        {
-          type: "quote",
-          text: `"She insists her silk wrap performed a 'radical non-empirical intervention' to solve the murder and re-tune the corporate vibration of the sustainable contractor," Dr. Kim said, adjusting her glasses as she looked at a full-page photo of Oblivia standing barefoot on a mountain of confiscated toxic chemical drums.`,
-        },
-        {
-          type: "quote",
-          text: `"Let her tune it," Esperanza said, sliding the magazine into the cardboard recycling bin and opening a fresh spreadsheet template. "She's the only person in this valley who can shatter a multi-million-dollar defense agricultural conspiracy because she wanted her followers to see a poem. The valley didn't need her alignment, Dr. Kim, but the state compliance auditors needed her metadata."`,
+          text: "Esperanza sent Dr. Kim a text message the morning the formal investigation opened. It said: *42.* Dr. Kim replied: *Working on 43. There will not be a 43 from this applicator.* This was not entirely true — there were workers exposed before the investigation halted PureField's operations — but it was the right direction.",
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Agro-Global operations suspended indefinitely under state injunction. Independent medical audit mandated, revealing 41 counts of severe acetylcholinesterase inhibition. Corporate testing logs formally entered into the federal grand jury record. Subject has purchased a ninety-five-dollar artisanal strawberry basket from a boutique at the terminal, logging it as a 'consecrated souvenir of the furrow's sacrifice.' We are boarding the flight back to Connecticut. She has solved the case stupidly, leaving the state fully un-vibrated and ghoulishly intact while the local collective executes the actual assets. Case closed.",
+          body: "Agro-Global Corp's organic certification revoked across all Central Valley operations. PureField Agricultural Solutions' restricted-materials license suspended; criminal charges filed for unlicensed pesticide application. The regulatory officer who granted the trade-secret exemption is under investigation by the California Fair Political Practices Commission. Miguel Ramos recovered fully and was the named plaintiff in the class-action civil suit filed on behalf of all forty-two cases. The suit is ongoing. Dr. Kim is adding cases — the compound was used by two other contractors in adjacent counties, and the pattern is wider than the original forty-one. Subject purchased a ninety-five-dollar hand-thrown ceramic bowl from an artisan market in Fresno, logging it as 'a vessel for the original American harvest frequency.' She described her experience in the field as 'a moment when the earth asked me to stop being a witness and start being a participant.' She sat in the hospital waiting room for three hours. This is the most useful thing she has ever done, and she did it without thinking about it. Case closed.",
         },
         {
           type: "paragraph",
-          text: "CASE CLOSED (SUBJECTIVE) / UNDER REGULATORY AUDIT (MATERIAL)",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER CRIMINAL PROCEEDINGS (MATERIAL)",
         },
       ],
     },
