@@ -3,105 +3,104 @@ import type { StoryDocument } from "@/content/types";
 export const narrative: StoryDocument = {
   sections: [
     {
-      id: "chapter-one-the-empty-altar",
-      title: "Chapter One: The Empty Altar",
+      id: "chapter-one-the-absent-weight",
+      title: "Chapter One: The Absent Weight",
       blocks: [
         {
           type: "heading",
-          text: "Luxury Preservation and the Business of Disappearance",
+          text: "The Case of the Gilded Absence",
         },
         {
           type: "paragraph",
-          text: "The alcove was empty, which in the language of global heritage finance meant priceless. A twelfth-century gilded Buddha was gone, and Head Monk Rinchen was dead before sunrise after someone pushed a veterinary-grade paralytic into his IV line. Two novice custodians vanished the same night; their sandals were found near the freight gate. The Global Heritage Trust called it a documentation anomaly. Local monks called it theft with paperwork and murder with donor branding.",
+          text: "The Buddha had been gone for eleven days when Oblivia arrived. The altar room in the upper monastery showed it: a rectangular absence in the dust on the altar shelf, perfectly proportioned, the outline of a seated figure 47 centimeters high, twelfth century, gilded copper alloy, one hand raised in the gesture of fearlessness, one resting in meditation. The altitude was 2,400 meters; the air in the altar room was thin enough to feel like a permanent slight, the particular high-altitude cold that lives inside stone. The monks moved through it in their wool robes as if the cold was not happening to them.",
+        },
+        {
+          type: "paragraph",
+          text: "Oblivia stood before the empty shelf and placed both hands at chest height, palms facing the outline of the absent Buddha, and breathed. She had been told by Meridian Impact Partners' cultural division—who had retained her for this assessment under the rubric of 'atmospheric disturbance following a heritage transition'—that the theft was an energetic event as much as a physical one, and that the monastery's vibrational record required a sensitive practitioner to stabilize it before the space became what she had, in the contract, called 'spiritually uninhabitable.' She had her Tibetan singing bowl—purchased at JFK during a three-hour layover—and she was already planning the ceremony.",
+        },
+        {
+          type: "paragraph",
+          text: "Head monk Pema Lama was in the clinic in Kathmandu. He had been there for nine days, and the doctors were calling his condition a stroke, and the doctors were not wrong in the clinical sense—there was evidence of a vascular event—but they were wrong about the causation, which was not atherosclerosis or hypertension but a compound called thallium sulfate, administered over six weeks in small quantities in the butter tea that a visiting 'heritage restoration consultant' had brought as gifts and left with the kitchen.",
+        },
+        {
+          type: "paragraph",
+          text: "The heritage restoration consultant had also brought documentation: a loan agreement, prepared by The Global Heritage Trust and already signed on their side, offering the monastery a collateralized loan of $2.8 million against the Buddha as a heritage asset, at an interest rate of 34% per annum, with a default-triggered transfer clause that conveyed ownership to the Trust in the event of payment failure. The loan was designed to fail. The documentation had been presented to Pema Lama during the weeks when his cognition was compromised by thallium exposure and his hands were unsteady and his judgment was—as thallium toxicity specifically targets the nervous system—impaired in ways that were systematic and intentional and entirely invisible to anyone who didn't know what to look for.",
+        },
+        {
+          type: "paragraph",
+          text: "Pema Lama had signed it on Day 23 of the exposure. He had no memory of signing it. The Buddha had left the monastery in a shipping crate eleven days later.",
         },
         {
           type: "document",
-          label: "Global Heritage Trust — Priority Cultural Risk Retainer",
-          body: "The Trust retains Appropria Somatic Forensics LLC for immediate auric assessment concerning the operational disappearance of a consecrated statue from the Swayambhu Annex. Objective: support confidence among partner institutions and donors before Q3 compliance review. Fee: $50,000/week + travel. Findings treated as confidential assets.",
-        },
-        {
-          type: "quote",
-          text: '"This isn’t theft, it’s a sacred migration event," Oblivia said, photographing the vacant shelf for her Substack. "The statue has de-materialized to protect itself from custodial density."',
-        },
-        {
-          type: "quote",
-          text: '"The statue was cut out and exported," Pema Lama replied, placing an encrypted drive on the table. "Rinchen recognized the loading crew. They poisoned him, then staged a paperwork trail through a "wellness residency" art foundation in Geneva. The two novices who logged the truck plate numbers disappeared by dawn. Police did nothing."',
+          label: "The Global Heritage Trust — Site Spiritual Assessment Retainer",
+          body: "The Global Heritage Trust (London) hereby engages Appropria Somatic Forensics LLC for an atmospheric stabilization consultation following the recent heritage transition at Tengboche Monastery. Ms. Appropria's unique ability to assess energetic disturbance in sacred spaces makes her ideal for this sensitive engagement. She is invited to conduct a complete vibrational survey of the monastery grounds and altar spaces. Fee: $50,000. The Trust notes that the heritage transition was conducted under a properly executed legal instrument and that the monastery's spiritual community would benefit from energetic rebalancing at this time.",
         },
         {
           type: "casefile",
-          label: "Case File OBA-004 — Pre-Analysis Log, A. Harris",
-          body: "Crime stack: antiquities theft, homicide by paralytic poisoning, and disappearance of two witnesses. Motive trail: private-vault transfer, donor-tax arbitrage, and laundering through a luxury 'mindfulness gallery' circuit marketed to Western wellness clients. Subject (Oblivia) is reframing chemical murder as spiritual stillness. Researcher Devi Shrestha confirms discrepancies in inventory and export records.",
+          label: "Case File OBA-010 — Preliminary Notes, A. Harris",
+          body: "The Global Heritage Trust, registered in London, has seventeen documented cases of 'collateralized heritage acquisition' from religious institutions in Nepal, Myanmar, and Cambodia over the past six years. In every case, a loan was offered; in every case, the loan defaulted; in every case, the asset was transferred. The Trust's principals include three former Christie's executives and two private equity fund managers from firms that Alexandrei recognizes from the Meridian impact fund ecosystem. Devi Shrestha, a heritage researcher at Tribhuvan University, has been compiling documentation on the Trust's operating methods for eighteen months. She has an encrypted evidence package. She is missing the proof of how Pema Lama was incapacitated—the mechanism of how the document was obtained under duress. Without the mechanism, the loan is legally enforceable.",
         },
       ],
     },
     {
-      id: "chapter-two-the-vault-performance",
-      title: "Chapter Two: The Vault Performance",
+      id: "chapter-two-the-ceremony-of-the-empty-room",
+      title: "Chapter Two: The Ceremony of the Empty Room",
       blocks: [
         {
           type: "paragraph",
-          text: "Oblivia declared day three a 'ritual of evidentiary release' and entered the server room where digital scan logs synced to Zurich. The floor was taped as restricted. She read that as atmosphere. Her cape trailed over cable housings while trustees watched, relieved that a rich white woman with perfect lighting was translating homicide into premium spiritual content.",
-        },
-        {
-          type: "quote",
-          text: '"The archive is holding Rinchen\'s final exhale," she said, beginning a deliberate spin beside the primary rack. "If I open this channel, the violence can become installation."',
-        },
-        {
-          type: "quote",
-          text: '"Do not touch that rack," Devi said, eyes on the console. "Primary uplink is unstable. If interrupted, failsafe uploads everything to backup. Backup target is accidentally public."',
-        },
-        {
-          type: "document",
-          label: "Live Broadcast — @obliviaappropria",
-          body: "Inside the sanctum where memory meets metal. The structure is releasing truth through me in real time. #ConsecratedSignal #SomaticForensics",
+          text: "The monks were quietly polite about Oblivia's singing bowl. It was the wrong tradition—the bowl was Tibetan, the monastery was Nyingma, the frequencies were not equivalent in the way Oblivia assumed all frequencies were equivalent. One of the younger monks, a man named Tenzin who had studied philosophy in Kathmandu and had a smartphone and followed three different environmental justice accounts, watched her set up her ceremony in the altar room with the expression of someone who has decided to observe an interesting phenomenon without intervening.",
         },
         {
           type: "paragraph",
-          text: "The cape snagged. Oblivia yanked. The fan bracket shifted and pressed into an exposed fiber line. Sync dropped, alarms chirped, and the recovery protocol dumped terabytes of shipping manifests, insurance memos, and private-vault intake logs into an open monitoring endpoint.",
+          text: "Oblivia moved slowly around the room with her bowl, striking it in each corner, following the logic of her own tradition—the logic that sound disperses stagnant energetic residue and creates space for new resonance. She had done this in server rooms and mine sites and Airbnbs and at least once in the JFK Business Class lounge. She did it here with the same absolute confidence and the same complete misunderstanding of what the room required.",
+        },
+        {
+          type: "paragraph",
+          text: "She reached the altar. The empty shelf. She stood before it for a long time, the bowl silent in her hands. Then, following an impulse she would later describe as 'a somatic directive from the altar itself,' she knelt and pressed her palms flat to the altar's stone base, then slid her fingers along the underside of the shelf. She was, she would explain in her journal, 'feeling for the Buddha's residual weight—the impression left by decades of presence in a single place.' What she felt was a seam in the stone. A hairline gap that was not natural. She looked more closely.",
+        },
+        {
+          type: "paragraph",
+          text: "A piece of the altar base had been removed and replaced—the mortar was new, lighter in color than the surrounding stone, recently cured. She pressed the edge and it moved. The piece was hollow behind it. She photographed it first, then removed the stone.",
+        },
+        {
+          type: "paragraph",
+          text: "Inside was a cloth-wrapped object the size of a thick paperback: an encrypted hard drive in a padded sleeve, with a handwritten label in Tibetan script. Tenzin, who had followed her out of curiosity and was standing in the altar room's doorway, read the label and went very still.",
         },
         {
           type: "quote",
-          text: '"Time of movement?" Alexandrei asked, already cross-referencing packets.',
+          text: `"What does it say?" Oblivia asked.`,
         },
         {
           type: "quote",
-          text: '"4:12. Full energetic apex," Oblivia replied.',
+          text: `"It says: 'For Devi. In case I cannot speak.'" Tenzin was quiet for a moment. "He hid it before they gave him the tea. Before he became confused. He knew something was wrong with the tea." He looked at Oblivia. "He hid the evidence before they took it from him."`,
         },
         {
-          type: "quote",
-          text: '"You just published the trafficking trail," Alexandrei said. "Crate IDs, paralytic purchase orders, bonded transport route, shell-gallery onboarding docs, and Zurich receiving signatures. Congratulations on your involuntary whistleblowing."',
+          type: "document",
+          label: "Posted to 612k followers — @obliviaappropria — 17:44 NPT",
+          body: "The altar asked me to reach into its base. I found what was stored there — a cloth-wrapped archive, a monk's hidden testimony, the evidence he preserved for the moment when he could not speak. The altar held what the law could not hold. The sacred space is its own evidence room. I am so humbled to be the instrument of its opening. 🙏🏔️ #AltarWitness #SacredArchive #MonkTestimony #HiddenEvidence",
         },
       ],
     },
     {
-      id: "chapter-three-repatriation-pending",
-      title: "Chapter Three: Repatriation Pending",
+      id: "chapter-three-devis-decryption",
+      title: "Chapter Three: Devi Shrestha's Decryption",
       blocks: [
         {
           type: "paragraph",
-          text: "By the next morning, cross-border investigators had frozen related trust accounts and issued seizure notices tied to the leaked manifests. Interpol classified Rinchen's death as a homicide linked to antiquities trafficking, and the two missing novices were traced to a private detention safehouse outside Kathmandu. Donor statements spoke solemnly about transparency while lawyers argued over jurisdiction and ownership of sacred objects turned financial instruments.",
-        },
-        {
-          type: "document",
-          label: "Oblivia Field Journal — Gilded Closure",
-          body: "The shrine's silence selected me as conduit. Material systems fractured under high-frequency witness. The murder has transitioned into legal momentum and therefore into alignment.",
+          text: "Devi Shrestha drove to the monastery the following morning. She had received Tenzin's call at midnight and had been awake since. She decrypted the hard drive with a key Pema Lama had sent her eight months ago—before the tea, before the confusion, when he had told her over the phone that something about the Trust representative made him uneasy and that he was going to document everything and put it somewhere safe. She had told him where: the altar base's hollow, which had been used to hide valuables during previous periods of political instability and whose existence was known only to the monastery's senior monks.",
         },
         {
           type: "paragraph",
-          text: "At the community center, Pema and Devi assembled repatriation filings, toxicology affidavits, and restitution claims for artifacts moved through the same channel. A glossy profile celebrated Oblivia as a detective of sacred atmospheres. The filing queue did not care.",
-        },
-        {
-          type: "quote",
-          text: '"She calls this a vibration," Pema said, initialing page thirty-seven.',
-        },
-        {
-          type: "quote",
-          text: '"It\'s entitlement with a media team," Devi answered. "She mistakes access for insight, trips over evidence, and still gets credited for the fall."',
+          text: "The drive contained four months of records. Meeting transcripts, photographs of the loan documentation, Pema Lama's own written notes about the tea—he had noticed the taste was wrong from the first cup, had noted his own cognitive changes with the careful precision of a man observing himself from a clinical distance, had documented the progressive deterioration and his growing inability to trust his own judgment. He had written: *I signed something on the 23rd day. I do not remember what it was. I am putting this here because if I signed something under these conditions, it is not valid. This is my witness to my own incapacity.*",
         },
         {
           type: "casefile",
           label: "Field Notes, A. Harris — Final Disposition",
-          body: "Trust certification suspended; Interpol coordination active. Artifact recovered at transit hub pending formal return. Homicide inquiry expanded to include donor intermediaries and gallery brokers. Two disappeared novices recovered alive and placed under protection. Subject departs believing intuition solved structural crime. Actual progress driven by local witnesses, leaked records, and institutions forced to act in public.",
+          body: "The Global Heritage Trust's loan agreement ruled unenforceable by the Nepal Supreme Court under the doctrine of incapacity — Pema Lama's documented thallium exposure, combined with his own contemporaneous testimony about his cognitive state, established that he lacked legal capacity to contract at the time of signing. Three Trust principals are under investigation by UK authorities for fraud and conspiracy to administer a noxious substance. The Buddha has been located at a private collector in Geneva and is subject to a repatriation order. Pema Lama remains in Kathmandu; his neurological recovery is slow but consistent. Devi Shrestha's eighteen-month documentation of the Trust's operating methods has been formally submitted to Interpol's stolen cultural property unit. Subject purchased a ninety-five-dollar limited-edition thangka print from the monastery's guest shop, logging it as 'a sacred geometry artifact for my altar space in Connecticut.' She told the monk who sold it to her that the altar room had 'chosen her as its instrument.' The monk who sold it to her was Tenzin, who wrote about this in his own journal, which he does not share with anyone. Case closed.",
+        },
+        {
+          type: "paragraph",
+          text: "CASE CLOSED (SUBJECTIVE) / UNDER INTERNATIONAL CRIMINAL INVESTIGATION (MATERIAL)",
         },
       ],
     },
