@@ -75,6 +75,20 @@ export function CabinBar() {
           >
             Safety
           </Link>
+          <Link
+            to="/cabin"
+            className="hidden border border-border/70 bg-background/70 px-2.5 py-1.5 text-foreground/80 transition-colors hover:border-signal/60 hover:text-signal-glow md:inline"
+          >
+            Cabin
+          </Link>
+          <a
+            href="https://oblivia-retreats.lovable.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden border border-border/70 bg-background/70 px-2.5 py-1.5 text-foreground/80 transition-colors hover:border-signal/60 hover:text-signal-glow md:inline"
+          >
+            Plan Your Retreat
+          </a>
         </div>
       </header>
       {open && <ManifestDrawer onClose={() => setOpen(false)} currentSlug={currentSlug} />}
