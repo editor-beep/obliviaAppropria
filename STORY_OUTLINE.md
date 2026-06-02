@@ -109,7 +109,7 @@
 - **Local help:** Legal aid + food distribution workers already embedded in reality on ground.
 - **Arc role:** Explicit fusion of border regime and private weapons experimentation.
 
-## 13) OBA-B — Interior (`interior-angola`)
+## 13) OBA-B — Interior (`interior-iowa`)
 - **Setting / route:** MFE → BTR, small interior town.
 - **Surface case:** Town appears “stable” while legal water control is gone.
 - **Underlying crime:** Private-equity-style water-rights capture and displacement pressure.

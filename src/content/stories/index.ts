@@ -58,7 +58,7 @@ export const storyMetas: StoryMeta[] = [
     shortTitle: "The Certified Forest",
     origin: "MEX",
     destination: "BPN",
-    location: "Borneo / Amazon (TBD)",
+    location: "Danum Valley buffer zone, Sabah, Borneo",
     industry: "Old-growth timber / carbon credit fraud / NGO laundering",
     coverStory:
       "Restoration Credits / Carbon-Neutral certification / biodiversity offsets (The Green Shield NGO)",
@@ -70,9 +70,9 @@ export const storyMetas: StoryMeta[] = [
     surfaceMystery:
       "A local park ranger has vanished after discovering GPS-spoofing devices in the protected forest. The Green Shield's Restoration Credits are selling briskly. The chainsaws are audible from camp.",
     keyImage:
-      "Oblivia's 'High-Aura' drone, scanning for 'the heat of tree-consciousness,' captures instead the infrared outlines of night loggers and the serial numbers on the GPS-spoofing devices.",
+      "Convinced she is removing a 'synthetic implant disrupting the canopy's nervous system,' Oblivia cuts a GPS-spoofing device off its relay pole on camera and carries it out wrapped in silk — hand-delivering the case's central exhibit, internal offset log still powered, into evidence.",
     mediaMisreading:
-      "Nature runs a piece on 'intuitive drone sensing' as a new conservation methodology, crediting Oblivia's 'bio-energetic thermal' approach — Sulastri's eight months of documentation appears in the ninth paragraph.",
+      "Nature runs a piece on 'intuitive site sensing' as a new conservation methodology, crediting Oblivia's 'somatic decontamination' approach — Sulastri's eight months of documentation appears in the ninth paragraph.",
     status: "complete",
   },
   {
@@ -140,16 +140,16 @@ export const storyMetas: StoryMeta[] = [
     role: "Patron-Detective (self-funded; no assignment; soul ‘felt a tug from the Pacific’; 500k followers on own platforms)",
     correspondent: "Alexandrei Harris",
     localCenter:
-      "Gary (‘Water-Guardian’, seasonal contractor, degree in recreational tourism, kickback agreement with the Mill’s PR firm)",
+      "Tama Whitiora (Ngāti Tūwharetoa rangatira / kaitiaki, six-generation customary eel-migration record) and Dr. Hana Petera (iwi freshwater ecologist) reading the tuna die-off as the ecological trigger the council cannot refuse",
     surfaceMystery:
-      "Extreme-wellness influencer Finnian Frost has ‘vanished into the blue’ during a midnight immersion at Te Waiora. His GoPro mount is still bobbing in the iridescent scum. pH of the pools: 3.2. H₂S levels: lethal in four breaths. Divers won’t go in.",
+      "Extreme-wellness influencer Finnian Frost has ‘vanished into the blue’ during a midnight immersion at Te Waiora. The lower pools glow electric indigo. Downriver, the ancient longfin eels are coming up belly-pale at dawn and the dawn chorus has gone silent.",
     keyImage:
-      "Oblivia photographs the ‘No Swimming: Toxic Gas’ sign so that ‘Toxic’ is obscured by a beautiful plume of blue steam. 12,000 likes before Alexandrei finishes testing the water.",
+      "Oblivia films a mass die-off of taonga longfin eels at the outflow plume, narrating it as ‘the ancient eels ascending, giving their bodies back to the awa.’ The timestamp, laid against a six-generation catch log, fixes the contamination window the mill cannot explain.",
     mediaMisreading:
-      "Some disappearances are just appearances in another dimension. Standing at the edge of the Indigo Weep in Aotearoa. Finnian, I hear you. 🇳🇿 #MolecularAscension #IndigoEvent #Rotorua #EcologicalDetective #BlueSorrow",
+      "Some disappearances are just appearances in another dimension. The eels chose my lens for their last teaching. Standing at the edge of the Sacred Awa in Aotearoa. 🇳🇿 #TheAscent #TunaHeke #Rotorua #EcologicalDetective #SacredAwa",
     theMoment:
-      "The ‘Blue Sorrow’ is a $2.4 million industrial spill. The post has 12,000 likes. Alexandrei is still testing the water.",
-    status: "concept",
+      "She thinks the eels ascended. Tama Whitiora counted them. The river kept its own log; the iwi simply read it back.",
+    status: "complete",
   },
   {
     slug: "the-loop",
@@ -302,7 +302,7 @@ export const storyMetas: StoryMeta[] = [
       "Border-Sec Tech — covertly tested a lethal 'Non-Lethal' sonic weapon on migrants at the border",
     role: "Private investigator (cover: humanitarian innovation analyst)",
     localCenter:
-      "Legal aid workers, food distributors \u2014 doing what they have been doing for years",
+      "Dr. Lupe Reyes (Hidalgo County clinic, 74 documented impact cases) and Rosa Villanueva (border-aid coordinator with the FOIA'd DHS buffer-zone memo), alongside the families harmed \u2014 Ana Castillo, Roberto Esparza, eight-year-old Fernanda G\u00e1lvez",
     surfaceMystery:
       "Migrants at a crossing point are suffering unexplained hemorrhaging and neurological damage. Border-Sec Tech is on-site conducting what their contract calls 'acoustic deterrence trials.'",
     keyImage:
@@ -310,7 +310,7 @@ export const storyMetas: StoryMeta[] = [
     status: "complete",
   },
   {
-    slug: "interior-angola",
+    slug: "interior-iowa",
     flightNumber: "OBA-B",
     number: "B",
     group: "domestic",
@@ -318,14 +318,15 @@ export const storyMetas: StoryMeta[] = [
     shortTitle: "The Interior",
     origin: "MFE",
     destination: "BTR",
-    location: "Small interior town — water rights contested (TBD)",
+    location: "Larkin, Iowa — privatized municipal water system",
     industry: "Private equity / water rights acquisition / community displacement",
     coverStory:
       "'State of Hydro-Stillness' / water as soul-restructuring medium / venture-backed community transformation",
     culprit:
       "Venture-Capital Spirits — purchased the entire town's water rights under a 'community wellness restructuring' initiative, leaving residents without legal access to their own water supply",
     role: "Private investigator (cover: wellness community researcher)",
-    localCenter: "Town residents whose water access has been sold out from under them (TBD)",
+    localCenter:
+      "Carmen Vásquez (forensic auditor tracking the meter-fraud diversion valve) and Tommy Wren (neighbor), carrying the case of Glenn Haarstad, 78, who died after switching to jugged water he could afford",
     surfaceMystery:
       "An entire town's water rights have been acquired by Venture-Capital Spirits. The taps still run — for now. Oblivia believes the town has achieved a 'State of Hydro-Stillness.' The residents know they have been bought.",
     keyImage:
@@ -352,8 +353,10 @@ export const storyMetas: StoryMeta[] = [
     surfaceMystery:
       "Pickers are falling ill across multiple fields. The official explanation is heat exhaustion. The pattern is wrong for heat. Agro-Global's pesticide application logs have a three-week gap.",
     keyImage: "The grain bowl at Riftward. The heritage legume paste. It came from here.",
+    mediaMisreading:
+      "Vogue: 'The Witness in the Rows: How Oblivia Appropria Learned to Stop Observing and Start Participating in the Healing of the American Harvest.'",
     theMoment:
-      "Oblivia boards a Boeing in California. Field journal open. Below her, the fields, the workers, the supply chain ascending into the hold. She does not look down. She is watching the light.",
+      "What actually happened is that she dialed three numbers and read a label aloud. It is the most useful thing she has ever done — and the only time she did a useful thing without first deciding what it meant.",
     status: "complete",
   },
   {
@@ -422,7 +425,7 @@ export const connections: Connection[] = [
   },
   {
     from: "threshold-border",
-    to: "interior-angola",
+    to: "interior-iowa",
     label: "what the surveillance catches, the system processes",
   },
   { from: "sacred-water", to: "certified-forest", label: "same conglomerate" },
@@ -437,7 +440,7 @@ export const connections: Connection[] = [
   { from: "the-rosewood", to: "the-loop", label: "Meridian Impact Partners" },
   { from: "the-rosewood", to: "tech-tbd", label: "Meridian Impact Partners" },
   { from: "fields-central-valley", to: "gilded-conduit", label: "the land the pipeline crosses" },
-  { from: "salt-crust-protocol", to: "interior-angola", label: "the water the wellness sold" },
+  { from: "salt-crust-protocol", to: "interior-iowa", label: "the water the wellness sold" },
   { from: "sacred-water", to: "salt-crust-protocol", label: "lithium, second movement" },
 ];
 

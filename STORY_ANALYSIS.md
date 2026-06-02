@@ -3,11 +3,13 @@
 *An analytical read of the narrative modules in `src/content/stories/*.ts`.*
 *Covers, per story: main plot points, sarcasm/satire level, and originality notes — followed by a comparative originality ranking against one another.*
 
-> **Update (acted on this analysis):** `frequency-falling` (Sedona, formerly OBA-E) has been
-> **deleted** as the redundant half of the EM-meter twin pair, and `photonic-purge` renumbered
-> OBA-F → OBA-E. The collection is now **16 stories**. Per-story sections for the EM-meter pair
-> and the rewrite targets below are superseded by **`STORY_REWRITE_PLAN.md`**, which directs the
-> originality rewrites and the satire injection for `fields-central-valley` and `tech-tbd`.
+> **Update — rewrites executed (see `STORY_REWRITE_PLAN.md`).** `frequency-falling` (Sedona) was
+> **deleted** as the redundant EM-meter twin; `photonic-purge` renumbered OBA-F → OBA-E;
+> `interior-angola` renamed to **`interior-iowa`**. The collection is now **16 stories**. Four
+> stories were rewritten: **Poisoned Healing** and **Certified Forest** got new reveal mechanisms
+> (originality up), and **The Fields** and **The Pipeline** had satire restored (① → ③). The
+> per-story sections below carry **↻ Rewritten** notes where the plot/reveal changed; the satire
+> labels and the ranking table reflect the post-rewrite state.
 
 ---
 
@@ -78,12 +80,18 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 **Main plot points**
 - Survey ranger **Ahmad Rifai** discovered **GPS-spoofing devices** on satellite relay poles that offset tree coordinates by ~40m (enough to reclassify protected old-growth as loggable), photographed them, texted ranger **Sulastri Widiasari**, and died at the base of Survey Tower 7 — ruled a fall.
 - Certification runs on 8-month-stale satellite imagery; active logging hums 3km away.
-- Oblivia does an unsanctioned night "nocturnal frequency archive" walk, livestreams herself into a fresh 200m **illegal clearing** ("the forest's sacred ceremony of return"), filming the Global Timber skidder's stenciling in 4K. A Rainforest Alliance staffer and a Sabah Forestry observer ID the equipment and coordinates in the live comments.
+- Convinced a relay-pole **GPS-spoofer** is "a synthetic implant disrupting the canopy's nervous system," Oblivia cuts it down on camera as an act of "energetic decontamination" and carries the powered device out to "rehome" it. A Rainforest Alliance staffer warns (in the live comments) not to let it lose power; Sulastri bags it and drives it — offset log intact — to the state AG. *(See ↻ note — this replaced the earlier livestreamed-clearing reveal.)*
 - Cert suspended; spoofing devices recovered; Ahmad's death re-opened as a criminal case.
 
-**Satire level: ②–③ Moderate-High.** Excellent dramatic irony (livestreaming a crime scene as ceremony) but fewer comic flourishes than the top tier.
+> **↻ Rewritten.** The reveal was moved off the template livestream onto a **physical-evidence**
+> beat: convinced she's removing a "synthetic implant disrupting the canopy's nervous system,"
+> Oblivia cuts a GPS-spoofer off its relay pole on camera and **hand-carries the powered device
+> (internal offset log intact) straight into evidence** — the chain-of-custody object Sulastri
+> could never obtain. Sulastri is now an active agent (she films it, bags it, drives it to the AG).
 
-**Originality notes:** The **purest instance of the template** — retreat → dead ranger → oblivious geotagged livestream → expert-in-audience → collapse. The GPS-spoofing tech is its one fresh wrinkle, but structurally it's the least deviating story in the collection.
+**Satire level: ③ High.** The "rescue the sacred implant" framing layers dramatic irony onto the corporate-crime exposure; sharper than the original livestream version.
+
+**Originality notes (post-rewrite):** No longer the template's purest instance. The reveal now sits in the **physical-document/object family** with a distinctive comedic-ownership twist (she steals the perpetrators' own device believing she's healing the forest), and gets the murder weapon into evidence rather than a livestream still.
 
 ## 4. Ocean Witness — `ocean-witness.ts` (OBA-004) · Sibuyan Sea, Philippines
 **Industry:** illegal deep-sea dredging inside a marine sanctuary (Oceanic Mining Ltd.).
@@ -117,12 +125,20 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 **Main plot points**
 - Wellness creator **Finnian Frost** died of indigo-6 exposure (dermal necrosis, pulmonary damage); a recovered email chain shows the resort and mill classified his death as "natural causes, pre-existing condition" and got a family agreement signed before any authority was contacted.
 - The "deep blue" lower pools are industrial, not geothermal. **Ngāti Tūwharetoa** kaitiaki **Tama Whitiora** has four denied water-test access requests on record.
-- Oblivia enters the restricted lower pool; the dye **stains her forearms** on camera ("I am being marked by the wāhi tapu"). Auckland dye chemist **Robin Tan** tweets the identification (indigo-6 vat dye migration). A parliamentary press secretary escalates it overnight.
+- Oblivia films a mass **die-off of taonga longfin eels** at the contaminated outflow plume, narrating it as "the ancient eels ascending." Tama's six-generation catch log and iwi ecologist **Dr. Hana Petera** turn the timestamped die-off into the "defined ecological trigger" the council can't refuse. A parliamentary press secretary escalates it overnight. *(See ↻ note — this replaced the earlier skin-stain/Twitter-chemist reveal.)*
 - Pool sealed, mill permit suspended, the Tourism dispensation referred to the Ombudsman; Tama granted interim authority.
 
-**Satire level: ③ High.** "She is calling it her 'sacred tattoo.' It will be gone in two weeks. Finnian Frost will not."
+> **↻ Rewritten.** The reveal was moved **off** the chemical-stain/Twitter-chemist mechanism onto a
+> **bioindicator die-off read through mātauranga Māori**: Oblivia films a mass mortality of taonga
+> longfin eels (tuna kuwharuwharu) at the outflow plume, narrating it as "the ancient eels
+> ascending." Kaitiaki **Tama Whitiora**'s six-generation customary catch log + iwi freshwater
+> ecologist **Dr. Hana Petera** use the timestamped die-off as the "defined ecological trigger" the
+> council can't refuse. The expert is now Indigenous science, not a stranger on Twitter. (Status
+> also flipped `concept → complete` so it renders.)
 
-**Originality notes:** The **third** "skin/fabric stains → chemist tweets the diagnosis" story (after Kenya and South Africa). Beautifully written, strong Indigenous-governance angle — but the *reveal mechanism is the most redundant in the collection*, which is its main originality cost.
+**Satire level: ③ High.** "She thinks the eels ascended. Tama Whitiora counted them."
+
+**Originality notes (post-rewrite):** Removed from the chemical-stain trio entirely — Kenya and South Africa now read as a deliberate two-instance motif rather than a rut. The new reveal foregrounds customary ecological knowledge as forensic evidence, a mechanism used nowhere else in the set.
 
 ## 7. The Loop — `the-loop.ts` (OBA-007) · Kantamanto Market, Accra, Ghana
 **Industry:** fast-fashion "circular economy" certification fraud / waste colonialism (Loopwear LLC).
@@ -158,7 +174,7 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 - Retained for "digital healing ceremonies," Oblivia is handed the notebook and **reads it aloud for 40 minutes** to 612k. She doesn't grasp that Aminata's precise phrasing about the NDA blocking external psychological support **documents a workplace-safety-law violation**; an NDA-litigation attorney in the audience does.
 - A coalition complaint follows; the NDA clause is ruled **unenforceable** by the Dakar labor tribunal; parallel filings open in Kenya and the Philippines.
 
-**Satire level: ① Muted.** The subject's gravity overrides comedy; the irony is melancholy, not farcical.
+**Satire level: ③ High (was ① Muted — ↻ satire restored).** Satire now runs hard on Oblivia ("the original digital village," "ancestral bandwidth," moderators as "digital griots" undergoing "a sacred download"), on Aperture AI's euphemisms ("Responsible-AI Workforce Wellbeing," "closing the global talent gap," the branded tote), and on the press (a "The Future Is African" magazine that profiles *her* and omits Fatou). **Aminata, Fatou, and the moderators stay fully grave — no joke lands on them.**
 
 **Originality notes:** The most **thematically distant** story from the eco-template — no extraction site, no chemical plume; the evidence is *literature* and the crime is contractual. Highly distinctive, though it shares the "reads-aloud → journalists/lawyers act" mechanism with `the-loop`.
 
@@ -190,7 +206,7 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 
 ---
 
-# Part II — Domestic cases (OBA-A → OBA-F)
+# Part II — Domestic cases (OBA-A → OBA-E)
 
 ## 12. Threshold / Photonic Border Tuning — `threshold-border.ts` (OBA-A) · Rio Grande Valley, Texas
 **Industry:** a "non-lethal" infrasonic deterrence weapon tested next to civilians (Border-Sec Tech, under a DHS evaluation contract).
@@ -203,9 +219,9 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 
 **Satire level: ② Moderate.** The weapon's horror mutes the comedy; irony sits mostly in the ceremony-becomes-affidavit turn.
 
-**Originality notes:** Powerful subject, but **doubly derivative within the set**: the "EM-meter livestream → engineer-in-audience tweets the frequency" reveal is shared almost beat-for-beat with `frequency-falling`, and the "doctor with numbered clinical intake forms" device is shared with `fields-central-valley`.
+**Originality notes (post-rewrite):** With its EM-meter twin (`frequency-falling`) deleted, the reveal is no longer duplicated — but Threshold is now the most formula-bound story remaining: a metadata/geotag reveal plus a numbered-clinical-forms motif that still rhymes with `fields-central-valley`. It is the natural next rewrite target (move the reveal toward family (3)/(4)).
 
-## 13. Interior / Privatized Flow — `interior-angola.ts` (OBA-B) · Larkin, Iowa
+## 13. Interior / Privatized Flow — `interior-iowa.ts` (OBA-B) · Larkin, Iowa
 **Industry:** private-equity water-utility takeover with meter fraud (ClearFlow / Venture-Capital Spirits LP / Meridian domestic infrastructure fund).
 
 **Main plot points**
@@ -226,7 +242,7 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 - **Formula break:** Esperanza wants "a civilian witness with a phone at a specific time and place." On a "farm-to-chakra" shoot, Oblivia sees applicator **Miguel Ramos** collapse with fasciculations and **calls 911** — and in genuine fright reads the tank label and gives a precise location/time/employer. This produces **Case 42**, the first sample from a known active-exposure moment.
 - UC Davis confirms the compound; the exemption officer resigns; Agro-Global's organic cert is revoked; class action with Miguel as lead plaintiff.
 
-**Satire level: ① Muted.** The most **earnest** story — Oblivia briefly drops the performance ("the crack between her performed self and her actual self"). A. Harris: "This is the most useful thing she has ever done, and she did it without thinking about it."
+**Satire level: ③ High (was ① Muted — ↻ satire restored).** The four instruments are now in play: a "Farm-to-Chakra Regenerative Storytelling Residency" engagement document, peak-oblivious misreadings just before the collapse (chlorpyrifos drift as "the valley's mineral perfume"), A. Harris barbs and a parody *Vogue* headline. **The 911 call and Miguel's collapse are deliberately left un-satirized** — the earnest crack in Oblivia's performance remains the story's still center, with the satire built around it.
 
 **Originality notes:** A real **character beat** — Oblivia acts rather than obliviously documents — sets it apart. Offsetting that, the "doctor + numbered intake forms" device duplicates `threshold-border`.
 
@@ -243,19 +259,13 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 
 **Originality notes:** The most **emotionally and mechanically distinct** reveal — the evidence is a literal Morse message from the victim, surfaced via acoustic forensics rather than image metadata. Indigenous water-protector politics deepen it.
 
-## 16. Frequency of Falling — `frequency-falling.ts` (OBA-E) · Sedona, Arizona
-**Industry:** sub-surface vibroseis seismic testing for rare-earth prospecting, destabilizing sandstone, fronted as wellness (Horizon Survey Solutions / Orbital-Lithos Corp).
+## ~~16. Frequency of Falling — `frequency-falling.ts` (Sedona, Arizona)~~ — DELETED
+**Removed** as the redundant half of the EM-meter twin pair (its Sedona vibroseis reveal duplicated
+`threshold-border`'s infrasonic-meter reveal beat-for-beat). Its slot, OBA-E, is now held by
+Photonic Purge. The Sedona-as-Oblivia's-home-turf character note and crystal-dealer Dove are the
+only elements worth salvaging if the locale is ever reused.
 
-**Main plot points**
-- A rare-earth prospecting license was slipped through via a quiet land-reclassification filed during a public-health emergency. Vibroseis testing fractures the Bell Rock plateau; crystal-dealer **Dove's** mineral supply arrives more friable. "Vortex Oracle" guide **Derek Poole** noticed a quartz outcrop shift and a changed subsurface hum, went to investigate, and fell to his death — ruled accidental.
-- **Sedona is Oblivia's home turf** (she's come since age 23), so she's *angry*, not awed. She sets up an EM meter + bowls and **livestreams** a sustained 8–14Hz signal plus a 40-second pulse, narrating "the wounded vortex's heartbeat."
-- Yavapai-Apache geologist **Paul** and coordinator **Kaya Runningwater**, watching, identify the 8–14Hz as the vibroseis frequency and the pulse as its sweep interval — i.e., **active testing, geotagged, with zero of the legally required 72-hour cultural-site notifications**. Kaya files; the license renewal is **denied** under the NHPA; a wrongful-death claim opens.
-
-**Satire level: ② Moderate.** Gentle, with a nice character note (the territorial crystal-dealer subculture).
-
-**Originality notes:** The Sedona-as-home angle is a welcome character touch, but the **reveal mechanism is the near-twin of `threshold-border`** (EM-meter livestream → expert-in-audience IDs an infrasonic/seismic signal → geotagged permit violation → "fall" victim). Its lowest-distinctiveness factor.
-
-## 17. Photonic Purge — `photonic-purge.ts` (OBA-F) · Lahaina, Maui, Hawai'i
+## 16. Photonic Purge — `photonic-purge.ts` (OBA-E) · Lahaina, Maui, Hawai'i
 **Industry:** an orbital directed-energy weapon used to clear a land holdout for luxury development (Apex-Stratum Logistics defense contractor + Kupuna-Forward Eco-Ventures).
 
 **Main plot points**
@@ -270,11 +280,11 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 
 ---
 
-# Part III — Comparative originality ranking (all 17 against each other)
+# Part III — Comparative originality ranking (all 16, post-rewrite)
 
-**What's being measured:** distinctiveness *within this collection* — locale, the crime/mystery mechanism, supporting cast, how far the plot breaks the house formula, and satirical freshness. **This is not a quality ranking** — prose quality is high and remarkably consistent across all 17. A story can be excellent and still score low here because it leans hardest on the shared template.
+**What's being measured:** distinctiveness *within this collection* — locale, the crime/mystery mechanism, supporting cast, how far the plot breaks the house formula, and satirical freshness. **This is not a quality ranking** — prose quality is high and remarkably consistent across the set. A story can be excellent and still score low here because it leans hardest on the shared template.
 
-**Scoring:** each axis 1–5 (5 = most distinctive in the set). Composite out of 25.
+**Scoring:** each axis 1–5 (5 = most distinctive in the set). Composite out of 25. **↑ marks a story moved by the rewrites; the deleted `frequency-falling` is gone.**
 
 | # | Story | Locale | Mystery/Crime mech. | Supporting cast | Formula break | Satire freshness | **Total /25** |
 |---|-------|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -282,36 +292,43 @@ A recurring conspiratorial thread ties many cases together: **Meridian Impact Pa
 | 2 | **Photonic Purge** (Hawai'i) | 5 | 5 | 4 | 4 | 3 | **21** |
 | 3 | **Saffron Mask / Gilded Absence** (Nepal) | 4 | 5 | 4 | 4 | 3 | **20** |
 | 4 | **Gilded Conduit** (Standing Rock) | 4 | 5 | 4 | 4 | 3 | **20** |
-| 5 | **The Loop** (Ghana) | 4 | 4 | 4 | 3 | 4 | **19** |
-| 6 | **Digital Skills Pipeline** (Senegal) | 4 | 4 | 4 | 4 | 3 | **19** |
+| 5 | **Digital Skills Pipeline** (Senegal) ↑ | 4 | 4 | 4 | 4 | 4 | **20** |
+| 6 | **The Loop** (Ghana) | 4 | 4 | 4 | 3 | 4 | **19** |
 | 7 | **The Rosewood** (Honduras) | 3 | 4 | 5 | 4 | 3 | **19** |
-| 8 | **Mayan Fury** (Guatemala) | 3 | 3 | 3 | 3 | 5 | **17** |
-| 9 | **Ocean Witness** (Philippines) | 4 | 4 | 3 | 3 | 3 | **17** |
-| 10 | **Rift Silence** (Kenya) | 4 | 3 | 3 | 2 | 4 | **16** |
-| 11 | **Sacred Water** (South Africa) | 3 | 3 | 3 | 3 | 4 | **16** |
-| 12 | **Interior / Privatized Flow** (Iowa) | 3 | 2 | 3 | 2 | 5 | **15** |
-| 13 | **Fields / Forty-Second Witness** (California) | 3 | 2 | 3 | 4 | 3 | **15** |
-| 14 | **Frequency of Falling** (Sedona) | 4 | 2 | 3 | 2 | 3 | **14** |
-| 15 | **Poisoned Healing** (New Zealand) | 4 | 2 | 3 | 2 | 3 | **14** |
-| 16 | **Threshold / Border Tuning** (Texas) | 3 | 2 | 3 | 2 | 3 | **13** |
+| 8 | **Poisoned Healing** (New Zealand) ↑ | 4 | 4 | 4 | 3 | 3 | **18** |
+| 9 | **Mayan Fury** (Guatemala) | 3 | 3 | 3 | 3 | 5 | **17** |
+| 10 | **Ocean Witness** (Philippines) | 4 | 4 | 3 | 3 | 3 | **17** |
+| 11 | **Certified Forest** (Borneo) ↑ | 4 | 4 | 3 | 3 | 3 | **17** |
+| 12 | **Rift Silence** (Kenya) | 4 | 3 | 3 | 2 | 4 | **16** |
+| 13 | **Sacred Water** (South Africa) | 3 | 3 | 3 | 3 | 4 | **16** |
+| 14 | **Fields / Forty-Second Witness** (California) ↑ | 3 | 2 | 3 | 4 | 4 | **16** |
+| 15 | **Interior / Privatized Flow** (Iowa) | 3 | 2 | 3 | 2 | 5 | **15** |
+| 16 | **Threshold / Border Tuning** (Texas) | 3 | 3 | 3 | 2 | 3 | **14** |
+
+**What moved and why:** *Poisoned Healing* (14 → 18) left the chemical-stain trio for a
+mātauranga-Māori bioindicator reveal. *Certified Forest* (12 → 17) traded the template livestream
+for a physical-device-rescue beat. *The Pipeline* (19 → 20) and *The Fields* (15 → 16) gained on
+satire freshness. *Threshold* (13 → 14) ticks up only because its EM-meter twin was deleted, so
+its reveal is no longer duplicated. *Certified Forest* is no longer the floor — *Threshold* now
+sits lowest, mainly on formula-break, and is the natural next target if the pass continues.
 | 17 | **Certified Forest** (Borneo) | 4 | 3 | 2 | 1 | 2 | **12** |
 
 ### Reading the ranking
 
-- **Top tier (most original): Salt-Crust, Photonic Purge, Nepal, Gilded Conduit.** Each *breaks* the formula. Salt-Crust changes the prose register to outright farce and has Oblivia physically (if accidentally) stop the crime. Photonic Purge and Nepal change the *genre* (orbital-weapon sci-fi; art-heist/toxicology). Gilded Conduit changes the *evidence* into a dead man's SOS recovered by acoustic forensics.
-- **Strong middle: Ghana, Senegal, Honduras.** Distinct industries (waste colonialism, digital-labor trauma, CITES timber) and standout supporting casts (Abena, Fatou/Aminata, Don Aurelio). They cluster because two of them share the "Oblivia reads the victim's writing aloud → professionals act" device.
-- **The two notable similarity clusters drag the bottom:**
-  - **The chemical-stain trio** — `rift-silence`, `sacred-water`, `poisoned-healing` — all run "a substance marks the body/fabric on camera → a remote expert (chemist or clinician) broadcasts the diagnosis." Kenya invented it and South Africa twisted it best (Oblivia is the patient), so New Zealand, arriving third, pays the originality tax.
-  - **The EM-meter pair** — `threshold-border` and `frequency-falling` — share their reveal almost beat-for-beat (vortex EM meter livestreams an infrasonic/seismic signal → engineer-in-audience tweets/IDs it → geotagged permit violation → a "fall"/hemorrhage victim). `threshold-border` is dragged further down because its "doctor with numbered intake forms" device *also* recurs in `fields-central-valley`.
-- **Lowest distinctiveness: Certified Forest.** Not a weak story — it's the **archetype**: retreat → dead ranger → oblivious geotagged livestream → expert in the audience → corporate collapse. Because it's the cleanest expression of the house formula, it has the least to distinguish it from its siblings.
+- **Top tier (most original): Salt-Crust, Photonic Purge, Nepal, Gilded Conduit, Pipeline.** Each *breaks* the formula. Salt-Crust changes the prose register to outright farce and has Oblivia physically (if accidentally) stop the crime. Photonic Purge and Nepal change the *genre* (orbital-weapon sci-fi; art-heist/toxicology). Gilded Conduit changes the *evidence* into a dead man's SOS. The Pipeline (Senegal) joins the top after its satire restoration, on a non-extractive industry and a literature-as-evidence reveal.
+- **The rewrites cleared the old similarity clusters:**
+  - **The chemical-stain trio is now a pair.** With Poisoned Healing moved to a mātauranga-Māori bioindicator reveal, only `rift-silence` (Kenya) and `sacred-water` (South Africa) remain on the "substance marks the body → remote expert diagnoses" mechanism — a deliberate two-instance motif rather than a rut.
+  - **The EM-meter pair is now a single.** `frequency-falling` was deleted; `threshold-border` is the lone infrasonic-meter story, so its reveal is no longer duplicated.
+  - **Certified Forest is no longer the archetype floor.** Its template livestream was replaced with the physical-device-rescue beat (Oblivia steals the perpetrators' own spoofer believing she's healing the forest).
+- **New lowest distinctiveness: Threshold (Texas).** Still a strong, important story, but now the most formula-bound — a metadata/geotag reveal and a numbered-clinical-forms motif that rhymes with Fields. It's the natural next rewrite target if the pass continues (e.g., move its reveal toward family (3)/(4)).
 
 ### Cross-cutting observations on originality
 
-- **Recurring archetype tax:** the "competent local woman who has been correct for a long time" appears in *every* story (Akinyi, Dina, Ixchel, Tama, Abena, Elena, Fatou, Devi, Doña Carmen, Rosa, Carmen, Esperanza, Mina, Kaya, Leilani). It's a strength of the world but flattens inter-story variety; the ones that vary it (a 73-year-old luthier; a SoulCycle culprit; an Indigenous-engineer duo) score higher.
-- **Reveal-mechanism families:** (1) *metadata/geotag of a livestream or photo* (the majority — Borneo, Guatemala, Honduras, Iowa, Sedona, Texas, Bolivia, Hawai'i); (2) *body-as-chemical-test-strip* (Kenya, South Africa, New Zealand); (3) *hidden physical document/message* (Ghana, Nepal, Standing Rock); (4) *Oblivia directly acts as a witness/agent* (California's 911 call; Bolivia's accidental shutoff). Family (4) is the rarest and reliably the most original.
-- **Tone variance is narrow:** most stories sit at satire level ②–③. Only **Salt-Crust Protocol** reaches ④ farce; only **Fields** and **Gilded Conduit** drop to ① earnest. Widening this tonal range is where the collection has the most untapped originality.
+- **Recurring archetype tax:** the "competent local woman who has been correct for a long time" appears in *every* story (Akinyi, Dina, Ixchel, Tama, Abena, Elena, Fatou, Devi, Doña Carmen, Rosa, Carmen, Esperanza, Mina, Leilani, and now Tama + Dr. Petera). It's a strength of the world but flattens inter-story variety; the ones that vary it (a 73-year-old luthier; a SoulCycle culprit; an Indigenous-engineer duo) score higher.
+- **Reveal-mechanism families (post-rewrite):** (1) *metadata/geotag of a livestream or photo* (still the majority — Guatemala, Honduras, Iowa, Texas, Bolivia, Hawai'i); (2) *body-as-chemical-test-strip* (now just Kenya, South Africa); (3) *hidden/physical document or object* (Ghana, Nepal, Standing Rock, **and now Borneo** — the rescued spoofer); (3b) *ecological/customary-knowledge evidence* (**New Zealand**, the eel die-off read via mātauranga — a new family the rewrites introduced); (4) *Oblivia directly acts as agent* (California's 911 call; Bolivia's accidental shutoff). Families (3b) and (4) are the rarest and most original.
+- **Tone variance is still narrow but improving:** most stories sit at ②–③. **Salt-Crust** alone reaches ④ farce; after the satire pass, only **Gilded Conduit** remains at ①–② elegiac (Fields and the Pipeline were lifted to ③). Pushing one more story to ④, or deliberately holding Gilded Conduit at its elegiac register as a counterweight, is where the tonal range still has room.
 - **Satire high-water marks** (sharpest, regardless of ranking): **Salt-Crust** (the New Yorker parody, "solved the case stupidly"), **Mayan Fury** (*Narrative Resource Group* — a firm that does professionally what Oblivia does by accident), and **Interior/Iowa** (the 0000 lock and the unseated $12 bolt as a portrait of extractive incompetence).
 
 ---
 
-*Total corpus: 17 stories, ~30,000 narrative words. Generated from a full read of each `src/content/stories/*.ts` module, cross-referenced against `STORY_OUTLINE.md`.*
+*Total corpus (post-rewrite): 16 stories. Generated from a full read of each `src/content/stories/*.ts` module, cross-referenced against `STORY_OUTLINE.md`, and updated to reflect the deletion of `frequency-falling` and the rewrites of Poisoned Healing, Certified Forest, The Fields, and The Pipeline (see `STORY_REWRITE_PLAN.md`).*

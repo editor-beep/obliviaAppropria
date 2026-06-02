@@ -17,16 +17,38 @@ entirely. The goal of this plan is to **increase inter-story variety** (without 
 shared world) and to **restore satire** to the two earnest outliers — while protecting the rule
 that the satire targets Oblivia and the perpetrators, never the victims.
 
-## Already done (committed with this plan)
-- **Deleted the near-duplicate:** `src/content/stories/frequency-falling.ts` (Sedona) — the
-  redundant half of the EM-meter twin pair (it shared `threshold-border`'s reveal beat-for-beat:
-  vortex EM meter livestreams an infra/seismic signal → expert-in-audience IDs it → geotagged
-  permit violation → "fall" victim). It had **no** `connections` or `entities.ts` references, so
-  removal was clean. The `import.meta.glob` loader in `src/routes/stories.$slug.tsx` drops it
-  automatically.
-- **Renumbered** `photonic-purge` OBA-F → OBA-E so the domestic manifest stays contiguous
-  (A–E). Updated `src/content/stories/index.ts` and `STORY_OUTLINE.md` to match.
-- Result: **16 stories**, no dangling references.
+## Execution status — COMPLETE
+
+All workstreams below have been executed. Summary of what shipped:
+
+- **Deleted the near-duplicate** `frequency-falling.ts` (Sedona) and **renumbered** `photonic-purge`
+  OBA-F → OBA-E for a contiguous domestic manifest (A–E). 16 stories, no dangling references.
+- **A1 Poisoned Healing** — reveal moved off the chemical-stain mechanism onto a **taonga eel
+  die-off read via mātauranga Māori** (Tama Whitiora's six-generation catch log + iwi freshwater
+  ecologist Dr. Petera). Status flipped `concept → complete` so it renders. Metadata synced.
+- **A2 Certified Forest** — reveal moved off the template livestream onto a **physical-evidence**
+  beat: Oblivia "rescues" a GPS-spoofer as a sacred implant and hand-carries the powered device
+  (offset log intact) into evidence. Locale locked to Danum Valley; key image synced.
+- **A3 Threshold** — light pass: metadata cast fleshed out (Dr. Reyes, Rosa Villanueva, named
+  families). Its EM-meter twin is gone, so the reveal is no longer duplicated.
+- **A4 Interior** — slug/file renamed `interior-angola → interior-iowa` (misnomer fixed);
+  connections + outline + location/cast metadata updated.
+- **B1 The Fields** — satire restored (engagement document, peak-oblivious misreadings, A. Harris
+  barbs, parody Vogue headline) **while keeping the 911 beat and Miguel's collapse free of mockery.**
+- **B2 The Pipeline (Senegal)** — satire restored around Oblivia, Aperture AI, and the credulous
+  press (sharpened retainer doc, "digital griot/ancestral bandwidth" misreadings, a scene that
+  earns the parody profile) **with Aminata, Fatou, and the moderators kept fully grave.**
+
+**One deviation from the draft plan:** the draft proposed changing *Fields'* clinical device and
+keeping numbered forms as *Threshold's* signature. Instead I **kept Fields' "Case 42 / forty-second
+witness"** (it's the title and emotional core) and resolved the overlap by deleting the EM-meter
+twin and re-weighting Threshold's cast — a cleaner outcome that doesn't gut Fields' identity. The
+two numbered-count motifs now rhyme rather than duplicate (like the deliberate two-instance
+chemical-stain motif in Kenya/South Africa).
+
+---
+
+## (Original plan retained below for reference)
 
 ---
 
