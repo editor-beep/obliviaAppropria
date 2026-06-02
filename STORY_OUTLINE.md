@@ -136,16 +136,7 @@
 - **Local help:** Tribal community + engineers who reviewed the report.
 - **Arc role:** Infrastructure crime escalates to state-linked suppression/homicide framing.
 
-## 16) OBA-E — Frequency of Falling (`frequency-falling`)
-- **Setting / route:** BIS → PHX, Sedona Aether-Cloud.
-- **Surface case:** Vortex guru vanishes from levitating pod.
-- **Underlying crime:** Illegal sub-sonic seismic testing for rare-earth prospecting.
-- **Corporate actor(s):** Orbital-Lithos Corp.
-- **Cover-up narrative:** Vortex/trauma-release cosmology.
-- **Local help:** Sheriff + geologists + environmental coalition using FAA pathway.
-- **Arc role:** Wellness venue as acoustic camouflage for resource intelligence operations.
-
-## 17) OBA-F — Photonic Purge (`photonic-purge`)
+## 16) OBA-E — Photonic Purge (`photonic-purge`)
 - **Setting / route:** BIS → OGG, Lahaina tech-commune context.
 - **Surface case:** Cultural center destroyed by “blue pillar of light”; elder disappears.
 - **Underlying crime:** Directed-energy contractor operation tied to land-dispossession pipeline.

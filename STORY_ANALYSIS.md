@@ -1,7 +1,13 @@
 # Oblivia Appropria — Story Analysis & Originality Comparison
 
-*An analytical read of the 17 narrative modules in `src/content/stories/*.ts`.*
-*Covers, per story: main plot points, sarcasm/satire level, and originality notes — followed by a comparative originality ranking of all 17 against one another.*
+*An analytical read of the narrative modules in `src/content/stories/*.ts`.*
+*Covers, per story: main plot points, sarcasm/satire level, and originality notes — followed by a comparative originality ranking against one another.*
+
+> **Update (acted on this analysis):** `frequency-falling` (Sedona, formerly OBA-E) has been
+> **deleted** as the redundant half of the EM-meter twin pair, and `photonic-purge` renumbered
+> OBA-F → OBA-E. The collection is now **16 stories**. Per-story sections for the EM-meter pair
+> and the rewrite targets below are superseded by **`STORY_REWRITE_PLAN.md`**, which directs the
+> originality rewrites and the satire injection for `fields-central-valley` and `tech-tbd`.
 
 ---
 
