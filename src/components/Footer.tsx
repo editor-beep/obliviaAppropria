@@ -6,10 +6,6 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground sm:grid-cols-3">
         <div>
           <div className="boeing-wordmark mb-3 text-lg text-signal-glow">Privileged Eye</div>
-          <p className="font-sans text-xs normal-case tracking-normal text-muted-foreground/90">
-            A short story collection following Detective Oblivia Appropria across twelve flights,
-            twelve cover stories, and one system she will not see.
-          </p>
         </div>
         <nav className="flex flex-col gap-2">
           <Link to="/cabin" className="transition-colors hover:text-signal-glow text-foreground/80">
